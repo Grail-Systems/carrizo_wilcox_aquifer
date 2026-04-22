@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carrizo-Wilcox 3D Tracker</title>
+    <script src="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js"></script>
+    <link href="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css" rel="stylesheet" />
+    <script src="https://unpkg.com/deck.gl@latest/dist.min.js"></script>
+    <style>
+        body { margin: 0; padding: 0; background-color: #111; font-family: sans-serif; }
+        #map { width: 100vw; height: 100vh; position: absolute; top: 0; left: 0; }
+        #ui-panel {
+            position: absolute; top: 20px; left: 20px; z-index: 10;
+            background: rgba(15, 15, 15, 0.9); border: 1px solid #333;
+            color: white; padding: 20px; border-radius: 8px; width: 300px;
+        }
+        h1 { font-size: 1.2rem; color: #4CAF50; margin-top: 0; }
+        .legend-item { display: flex; align-items: center; margin-top: 10px; font-size: 0.9rem; }
+        .color-box { width: 15px; height: 15px; margin-right: 10px; }
+        /* The custom tooltip box */
+        .deck-tooltip {
+            font-family: monospace;
+            font-size: 0.85rem !important;
+            background: rgba(0, 0, 0, 0.9) !important;
+            border: 1px solid #ff3232 !important;
+            border-radius: 4px !important;
+            color: #fff !important;
+            padding: 10px !important;
+            pointer-events: none;
+        }
+        .highlight { color: #ffaa00; }
+    </style>
+</head>
+<body>
+    <div id="ui-panel">
+        <h1>Aquifer Defense Grid</h1>
+        <p style="font-size: 0.9rem; color: #ccc;">Live 3D view of the Carrizo-Wilcox water table and active high-volume draws.</p>
+        <div class="legend-item">
+            <div class="color-box" style="background: rgba(0, 150, 255, 0.3);"></div> Carrizo-Wilcox Boundary
+        </div>
+        <div class="legend-item">
+            <div class="color-box" style="background: rgba(255, 50, 50, 0.9); border-radius: 50%;"></div> High-Volume Threat
+        </div>
+        <p style="font-size: 0.8rem; color: #888; margin-top: 20px;">Hold SHIFT + Click & Drag to tilt.<br>Hover over a red marker to identify.</p>
+    </div>
+    
+    <div id="map"></div>
+
+    <script>
+        const { DeckGL, GeoJsonLayer } = deck;
+
+        new DeckGL({
+            container: 'map',
+            initialViewState: {
+                longitude: -94.730,
+                latitude: 31.338,
+                zoom: 7.5,
+                pitch: 45, 
+                bearing: 10 
+            },
+            controller: true,
+            mapStyle: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
+            
+            // The Tooltip Interrogator
+            getTooltip: ({object}) => object && {
+                html: `
+                    <strong style="color: #ff3232;">THREAT DETECTED</strong><br/>
+                    -------------------------<br/>
+                    <span class="highlight">Owner:</span> ${object.properties.OwnerName || 'REDACTED'}<br/>
+                    <span class="highlight">Usage:</span> ${object.properties.PrimaryWat || 'UNKNOWN'}<br/>
+                    <span class="highlight">Depth:</span> ${object.properties.WellDepth ? object.properties.WellDepth + ' ft' : 'UNKNOWN'}
+                `
+            },
+
+            layers: [
+                new GeoJsonLayer({
+                    id: 'aquifer-layer',
+                    data: 'wilcox_aquifer.json',
+                    filled: true,
+                    extruded: false, 
+                    getFillColor: [0, 150, 255, 60], 
+                    pickable: false // Turn off hover for the blue floor so it doesn't block the dots
+                }),
+                new GeoJsonLayer({
+                    id: 'threat-wells-layer',
+                    data: 'threat_wells.json',
+                    pointType: 'circle',
+                    getFillColor: [255, 50, 50, 255], 
+                    getPointRadius: 1500, 
+                    pickable: true,
+                    autoHighlight: true, // Flash when hovered
+                    highlightColor: [255, 255, 0, 255] // Neon Yellow flash
+                })
+            ]
+        });
+    </script>
+</body>
+</html>
