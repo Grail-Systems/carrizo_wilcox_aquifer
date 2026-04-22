@@ -1,0 +1,9 @@
+raw-data/
+*.shp
+*.shx
+*.dbf
+*.prj
+*.zip
+__pycache__/
+*.pyc
+node_modules/
