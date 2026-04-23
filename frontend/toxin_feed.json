@@ -1,222 +1,1949 @@
 [
     {
         "facility": "  City Of Port Arthur Main Wwtp",
-        "chemical": "EPA Major Water Facility",
-        "status": "LIVE TARGET",
+        "chemical": "EPA Major Water Target",
+        "status": "STATEWIDE WATCH",
         "coordinates": [
             -93.883867,
             29.925242
         ],
-        "impact_radius": 4500,
-        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED:   City Of Port Arthur Main Wwtp in Port Arthur is an active Major Facility flagged in the federal Clean Water Act database."
+        "impact_radius": 5000,
+        "bottom_line": "\u2623\ufe0f STATEWIDE TARGET:   City Of Port Arthur Main Wwtp in Port Arthur is an active Major Facility under the Clean Water Act. Monitored for groundwater impact."
     },
     {
         "facility": " San Marcos Wwtp",
-        "chemical": "EPA Major Water Facility",
-        "status": "LIVE TARGET",
+        "chemical": "EPA Major Water Target",
+        "status": "STATEWIDE WATCH",
         "coordinates": [
             -97.925294,
             29.86615
         ],
-        "impact_radius": 4500,
-        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED:  San Marcos Wwtp in San Marcos is an active Major Facility flagged in the federal Clean Water Act database."
+        "impact_radius": 5000,
+        "bottom_line": "\u2623\ufe0f STATEWIDE TARGET:  San Marcos Wwtp in San Marcos is an active Major Facility under the Clean Water Act. Monitored for groundwater impact."
     },
     {
         "facility": "40 Acre Facility",
-        "chemical": "EPA Major Water Facility",
-        "status": "LIVE TARGET",
+        "chemical": "EPA Major Water Target",
+        "status": "STATEWIDE WATCH",
         "coordinates": [
             -94.913278,
             29.353866
         ],
-        "impact_radius": 4500,
-        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: 40 Acre Facility in Galveston County is an active Major Facility flagged in the federal Clean Water Act database."
+        "impact_radius": 5000,
+        "bottom_line": "\u2623\ufe0f STATEWIDE TARGET: 40 Acre Facility in Galveston County is an active Major Facility under the Clean Water Act. Monitored for groundwater impact."
     },
     {
         "facility": "69Th St Wwtp",
-        "chemical": "EPA Major Water Facility",
-        "status": "LIVE TARGET",
+        "chemical": "EPA Major Water Target",
+        "status": "STATEWIDE WATCH",
         "coordinates": [
             -95.29791,
             29.75579
         ],
-        "impact_radius": 4500,
-        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: 69Th St Wwtp in Houston is an active Major Facility flagged in the federal Clean Water Act database."
+        "impact_radius": 5000,
+        "bottom_line": "\u2623\ufe0f STATEWIDE TARGET: 69Th St Wwtp in Houston is an active Major Facility under the Clean Water Act. Monitored for groundwater impact."
     },
     {
         "facility": "Airport Wwtp",
-        "chemical": "EPA Major Water Facility",
-        "status": "LIVE TARGET",
+        "chemical": "EPA Major Water Target",
+        "status": "STATEWIDE WATCH",
         "coordinates": [
             -94.848276,
             29.270535
         ],
-        "impact_radius": 4500,
-        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Airport Wwtp in Galveston is an active Major Facility flagged in the federal Clean Water Act database."
+        "impact_radius": 5000,
+        "bottom_line": "\u2623\ufe0f STATEWIDE TARGET: Airport Wwtp in Galveston is an active Major Facility under the Clean Water Act. Monitored for groundwater impact."
     },
     {
         "facility": "Aj Brown Parker Creek Wwtf",
-        "chemical": "EPA Major Water Facility",
-        "status": "LIVE TARGET",
+        "chemical": "EPA Major Water Target",
+        "status": "STATEWIDE WATCH",
         "coordinates": [
             -95.512744,
             30.772434
         ],
-        "impact_radius": 4500,
-        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Aj Brown Parker Creek Wwtf in Huntsville is an active Major Facility flagged in the federal Clean Water Act database."
+        "impact_radius": 5000,
+        "bottom_line": "\u2623\ufe0f STATEWIDE TARGET: Aj Brown Parker Creek Wwtf in Huntsville is an active Major Facility under the Clean Water Act. Monitored for groundwater impact."
     },
     {
         "facility": "Albemarle Pasadena Plant",
-        "chemical": "EPA Major Water Facility",
-        "status": "LIVE TARGET",
+        "chemical": "EPA Major Water Target",
+        "status": "STATEWIDE WATCH",
         "coordinates": [
             -95.165513,
             29.742498
         ],
-        "impact_radius": 4500,
-        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Albemarle Pasadena Plant in Pasadena is an active Major Facility flagged in the federal Clean Water Act database."
+        "impact_radius": 5000,
+        "bottom_line": "\u2623\ufe0f STATEWIDE TARGET: Albemarle Pasadena Plant in Pasadena is an active Major Facility under the Clean Water Act. Monitored for groundwater impact."
     },
     {
         "facility": "Alcoa Point Comfort Operations",
-        "chemical": "EPA Major Water Facility",
-        "status": "LIVE TARGET",
+        "chemical": "EPA Major Water Target",
+        "status": "STATEWIDE WATCH",
         "coordinates": [
             -96.557649,
             28.652039
         ],
-        "impact_radius": 4500,
-        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Alcoa Point Comfort Operations in Point Comfort is an active Major Facility flagged in the federal Clean Water Act database."
+        "impact_radius": 5000,
+        "bottom_line": "\u2623\ufe0f STATEWIDE TARGET: Alcoa Point Comfort Operations in Point Comfort is an active Major Facility under the Clean Water Act. Monitored for groundwater impact."
     },
     {
         "facility": "Alcoa-Rockdale Operations",
-        "chemical": "EPA Major Water Facility",
-        "status": "LIVE TARGET",
+        "chemical": "EPA Major Water Target",
+        "status": "STATEWIDE WATCH",
         "coordinates": [
             -97.049361,
             30.574194
         ],
-        "impact_radius": 4500,
-        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Alcoa-Rockdale Operations in Rockdale is an active Major Facility flagged in the federal Clean Water Act database."
+        "impact_radius": 5000,
+        "bottom_line": "\u2623\ufe0f STATEWIDE TARGET: Alcoa-Rockdale Operations in Rockdale is an active Major Facility under the Clean Water Act. Monitored for groundwater impact."
     },
     {
         "facility": "Aledo Wwtp",
-        "chemical": "EPA Major Water Facility",
-        "status": "LIVE TARGET",
+        "chemical": "EPA Major Water Target",
+        "status": "STATEWIDE WATCH",
         "coordinates": [
             -97.60905,
             32.68563
         ],
-        "impact_radius": 4500,
-        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Aledo Wwtp in Aledo is an active Major Facility flagged in the federal Clean Water Act database."
+        "impact_radius": 5000,
+        "bottom_line": "\u2623\ufe0f STATEWIDE TARGET: Aledo Wwtp in Aledo is an active Major Facility under the Clean Water Act. Monitored for groundwater impact."
     },
     {
         "facility": "Allens Creek Wwtp",
-        "chemical": "EPA Major Water Facility",
-        "status": "LIVE TARGET",
+        "chemical": "EPA Major Water Target",
+        "status": "STATEWIDE WATCH",
         "coordinates": [
             -96.148036,
             29.757462
         ],
-        "impact_radius": 4500,
-        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Allens Creek Wwtp in Sealy is an active Major Facility flagged in the federal Clean Water Act database."
+        "impact_radius": 5000,
+        "bottom_line": "\u2623\ufe0f STATEWIDE TARGET: Allens Creek Wwtp in Sealy is an active Major Facility under the Clean Water Act. Monitored for groundwater impact."
     },
     {
         "facility": "Allison Wwtp",
-        "chemical": "EPA Major Water Facility",
-        "status": "LIVE TARGET",
+        "chemical": "EPA Major Water Target",
+        "status": "STATEWIDE WATCH",
         "coordinates": [
             -97.40411,
             27.79642
         ],
-        "impact_radius": 4500,
-        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Allison Wwtp in Corpus Christi is an active Major Facility flagged in the federal Clean Water Act database."
+        "impact_radius": 5000,
+        "bottom_line": "\u2623\ufe0f STATEWIDE TARGET: Allison Wwtp in Corpus Christi is an active Major Facility under the Clean Water Act. Monitored for groundwater impact."
     },
     {
         "facility": "Almeda Sims Wwtp",
-        "chemical": "EPA Major Water Facility",
-        "status": "LIVE TARGET",
+        "chemical": "EPA Major Water Target",
+        "status": "STATEWIDE WATCH",
         "coordinates": [
             -95.409126,
             29.629134
         ],
-        "impact_radius": 4500,
-        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Almeda Sims Wwtp in Houston is an active Major Facility flagged in the federal Clean Water Act database."
+        "impact_radius": 5000,
+        "bottom_line": "\u2623\ufe0f STATEWIDE TARGET: Almeda Sims Wwtp in Houston is an active Major Facility under the Clean Water Act. Monitored for groundwater impact."
     },
     {
         "facility": "Alvin 2900 Acre Tract Wwtp",
-        "chemical": "EPA Major Water Facility",
-        "status": "LIVE TARGET",
+        "chemical": "EPA Major Water Target",
+        "status": "STATEWIDE WATCH",
         "coordinates": [
             -95.419722,
             29.335555
         ],
-        "impact_radius": 4500,
-        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Alvin 2900 Acre Tract Wwtp in Alvin is an active Major Facility flagged in the federal Clean Water Act database."
+        "impact_radius": 5000,
+        "bottom_line": "\u2623\ufe0f STATEWIDE TARGET: Alvin 2900 Acre Tract Wwtp in Alvin is an active Major Facility under the Clean Water Act. Monitored for groundwater impact."
     },
     {
         "facility": "American Chrome & Chemicals",
-        "chemical": "EPA Major Water Facility",
-        "status": "LIVE TARGET",
+        "chemical": "EPA Major Water Target",
+        "status": "STATEWIDE WATCH",
         "coordinates": [
             -97.433333,
             27.814167
         ],
-        "impact_radius": 4500,
-        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: American Chrome & Chemicals in Corpus Christi is an active Major Facility flagged in the federal Clean Water Act database."
+        "impact_radius": 5000,
+        "bottom_line": "\u2623\ufe0f STATEWIDE TARGET: American Chrome & Chemicals in Corpus Christi is an active Major Facility under the Clean Water Act. Monitored for groundwater impact."
     },
     {
-        "facility": "Andy Bowie Wwtp",
-        "chemical": "EPA Major Water Facility",
-        "status": "LIVE TARGET",
+        "facility": "103 West Dirt Pit",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
         "coordinates": [
-            -97.175028,
-            26.137972
+            -94.8603,
+            31.3821
         ],
-        "impact_radius": 4500,
-        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Andy Bowie Wwtp in Port Isabel is an active Major Facility flagged in the federal Clean Water Act database."
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: 103 West Dirt Pit in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
     },
     {
-        "facility": "Angleton Wwtp",
-        "chemical": "EPA Major Water Facility",
-        "status": "LIVE TARGET",
+        "facility": "Allen Loggins And Sons - Loop 287 Dirt Pit",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
         "coordinates": [
-            -95.460238,
-            29.157204
+            -94.743301,
+            31.371876
         ],
-        "impact_radius": 4500,
-        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Angleton Wwtp in Angleton is an active Major Facility flagged in the federal Clean Water Act database."
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Allen Loggins And Sons - Loop 287 Dirt Pit in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
     },
     {
-        "facility": "Aransas Pass Wwtp",
-        "chemical": "EPA Major Water Facility",
-        "status": "LIVE TARGET",
+        "facility": "American Echem",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
         "coordinates": [
-            -97.14881,
-            27.887586
+            -94.74312,
+            31.36462
         ],
-        "impact_radius": 4500,
-        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Aransas Pass Wwtp in Aransas Pass is an active Major Facility flagged in the federal Clean Water Act database."
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: American Echem in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
     },
     {
-        "facility": "Arkema Houston Chemical Plant",
-        "chemical": "EPA Major Water Facility",
-        "status": "LIVE TARGET",
+        "facility": "American Oil Recovery",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
         "coordinates": [
-            -95.171863,
-            29.760597
+            -94.677632,
+            31.354806
         ],
-        "impact_radius": 4500,
-        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Arkema Houston Chemical Plant in Houston is an active Major Facility flagged in the federal Clean Water Act database."
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: American Oil Recovery in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
     },
     {
-        "facility": "Arlanxeo Orange Site",
-        "chemical": "EPA Major Water Facility",
-        "status": "LIVE TARGET",
+        "facility": "Angelina & Neches River Rr",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
         "coordinates": [
-            -93.771806,
-            30.047556
+            -94.71736,
+            31.36808
         ],
-        "impact_radius": 4500,
-        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Arlanxeo Orange Site in Orange is an active Major Facility flagged in the federal Clean Water Act database."
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Angelina & Neches River Rr in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Angelina County Fwsd No 1 Wwtp",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.6501,
+            31.43884
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Angelina County Fwsd No 1 Wwtp in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Angelina County Waste Management Center",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.695,
+            31.2525
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Angelina County Waste Management Center in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Angelina Excavating Sand Pit",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.84778,
+            31.3838
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Angelina Excavating Sand Pit in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Angelina Forest Products",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.73179,
+            31.33294
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Angelina Forest Products in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Angelina Forest Products Sawmill",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.62726,
+            31.291969
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Angelina Forest Products Sawmill in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Angelina Hardwood Sales Or Angelina Hardwood",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.74037,
+            31.35466
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Angelina Hardwood Sales Or Angelina Hardwood in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Aspen Power Lufkin Generating Plant",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.74555,
+            31.36603
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Aspen Power Lufkin Generating Plant in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Atkinson Candy",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.75293,
+            31.33391
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Atkinson Candy in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Azalea Springs Solar-Substation",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.874163,
+            31.386194
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Azalea Springs Solar-Substation in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Brookshire Brothers",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.723792,
+            31.369074
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Brookshire Brothers in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Brookshire Brothers 118",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.7299,
+            31.304164
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Brookshire Brothers 118 in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Brookshire Brothers Lufkin",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.7245,
+            31.3706
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Brookshire Brothers Lufkin in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Cedar Creek Estates",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.7508,
+            31.3234
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Cedar Creek Estates in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Cherokee Industrial Fabircators",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.64607,
+            31.3493
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Cherokee Industrial Fabircators in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "City Of Lufkin - Morris Frank Park Building C",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.74871,
+            31.35101
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: City Of Lufkin - Morris Frank Park Building C in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Commercial Metals",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.711869,
+            31.384252
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Commercial Metals in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Contractors Supplies",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.72629,
+            31.347944
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Contractors Supplies in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Contractors Supplies Lufkin Plant",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.75564,
+            31.33574
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Contractors Supplies Lufkin Plant in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Cooper Power Systems",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.747813,
+            31.3356
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Cooper Power Systems in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Cybershield Of Texas",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.71638,
+            31.37305
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Cybershield Of Texas in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Darling - Lufkin",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.647802,
+            31.294104
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Darling - Lufkin in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Davis Construction Dirt Pit",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.865556,
+            31.384444
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Davis Construction Dirt Pit in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Doggett John Deere Lufkin",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.742232,
+            31.372062
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Doggett John Deere Lufkin in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Dream Homes & Drafting",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.7552,
+            31.3214
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Dream Homes & Drafting in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Durrett Ready Mix",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.6544,
+            31.2961
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Durrett Ready Mix in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "East Texas Asphalt Lufkin",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.71647,
+            31.37106
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: East Texas Asphalt Lufkin in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Faci Usa",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.743115,
+            31.36485
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Faci Usa in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Federal Express Corp-Zluf",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.745499,
+            31.37067
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Federal Express Corp-Zluf in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Fedex Freight East Lfk",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.71795,
+            31.36601
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Fedex Freight East Lfk in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Full Throttle Auto Parts",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.728,
+            31.4385
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Full Throttle Auto Parts in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Fullthrottle Autoparts",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.728,
+            31.4385
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Fullthrottle Autoparts in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Holmes Smokehouse",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.717778,
+            31.373056
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Holmes Smokehouse in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Home 2 Suites Lufkin Tx",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.7138,
+            31.3135
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Home 2 Suites Lufkin Tx in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Hurricane Creek Wastewater Treatment Facility",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.748771,
+            31.285904
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Hurricane Creek Wastewater Treatment Facility in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Hurricane Creek Wwtp",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.749667,
+            31.287699
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Hurricane Creek Wwtp in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Jefferson Enterprise Energy",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.749965,
+            31.364432
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Jefferson Enterprise Energy in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Jewell Hudgens Machine Plant B",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.73953,
+            31.34817
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Jewell Hudgens Machine Plant B in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Jimmy Horton - Loop 287 North Site",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.701705,
+            31.363208
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Jimmy Horton - Loop 287 North Site in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Leal Stone Yard",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.7047,
+            31.3169
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Leal Stone Yard in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Lockheed Martin",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.76338,
+            31.34232
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Lockheed Martin in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Longleaf Generating",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.660555,
+            31.413611
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Longleaf Generating in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Lufkin Armed Forces Reserve Center",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.70875,
+            31.36816
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Lufkin Armed Forces Reserve Center in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Lufkin Facility",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.677443,
+            31.361863
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Lufkin Facility in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Lufkin High School Athletic Complex",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.689895,
+            31.33505
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Lufkin High School Athletic Complex in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Lufkin Industries-Power Transmission",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.732829,
+            31.335988
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Lufkin Industries-Power Transmission in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Lufkin Maintenance Center",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.72157,
+            31.41605
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Lufkin Maintenance Center in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Lufkin Mill",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.68265,
+            31.35615
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Lufkin Mill in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Lufkin Plant",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.71059,
+            31.3366
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Lufkin Plant in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Lufkin Shop",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.640836,
+            31.253993
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Lufkin Shop in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Lufkin Switch - Redland Herty North 345 Kv Line",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.737636,
+            31.413889
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Lufkin Switch - Redland Herty North 345 Kv Line in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Mccarty Road",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.83794,
+            31.37259
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Mccarty Road in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Moffett Twin Oaks Mhp",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.661749,
+            31.376724
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Moffett Twin Oaks Mhp in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "North Angelina County Regional Wwf",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.762702,
+            31.389898
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: North Angelina County Regional Wwf in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Northeast Loop 287 Utility Relocation",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.697437,
+            31.352315
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Northeast Loop 287 Utility Relocation in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Old Dominion Freight Line Inc - Lkt",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.765088,
+            31.33039
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Old Dominion Freight Line Inc - Lkt in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Overseas Hardwood",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.648476,
+            31.349604
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Overseas Hardwood in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Pb & Js Llc Loop 287 Site",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.695447,
+            31.323833
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Pb & Js Llc Loop 287 Site in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Pilgrims Pride",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.754414,
+            31.334656
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Pilgrims Pride in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Pilgrims Pride Lufkin Processing Plant",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.75392,
+            31.33366
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Pilgrims Pride Lufkin Processing Plant in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Pilgrims Pride Lufkin Shop And Staging Area",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.759848,
+            31.34441
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Pilgrims Pride Lufkin Shop And Staging Area in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Prince Energy - Lufkin Plant",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.75596,
+            31.33646
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Prince Energy - Lufkin Plant in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Qg Printing Ii",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.686918,
+            31.356129
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Qg Printing Ii in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Racetrac Lufkin",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.732011,
+            31.282198
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Racetrac Lufkin in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Redland Borrow Pit",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.71744,
+            31.395293
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Redland Borrow Pit in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Reserve At Mott",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.737,
+            31.312
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Reserve At Mott in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Rms Lufkin Llc - 69 South Site",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.687418,
+            31.31269
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Rms Lufkin Llc - 69 South Site in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Shieldcoat Technologies",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.71638,
+            31.37305
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Shieldcoat Technologies in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Shirey Forest",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.737366,
+            31.276718
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Shirey Forest in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Shirey Forest Branches",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.73744,
+            31.276814
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Shirey Forest Branches in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Star Manufacturing - Lufkin",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.757272,
+            31.339039
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Star Manufacturing - Lufkin in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Stella-Jones",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.64695,
+            31.293701
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Stella-Jones in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Sterling Site Access Solutions",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.622857,
+            31.288964
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Sterling Site Access Solutions in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Stonebridge Apartments",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.7255,
+            31.2877
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Stonebridge Apartments in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Strickland Septic",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.670067,
+            31.352726
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Strickland Septic in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Sun Coast Resources",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.76659,
+            31.33209
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Sun Coast Resources in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Texas Metal Casting",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.768079,
+            31.350798
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Texas Metal Casting in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "The Lufkin Daily News",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.73119,
+            31.3389
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: The Lufkin Daily News in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Trailwood Storage South",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.7474,
+            31.31
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Trailwood Storage South in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Twin Disc",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.69,
+            31.35517
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Twin Disc in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Txdot - Lfk - 2553-01-115",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.700196,
+            31.362752
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Txdot - Lfk - 2553-01-115 in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Txdot- Lfk- 1157-01-018",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.690646,
+            31.329281
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Txdot- Lfk- 1157-01-018 in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Txdot-Lfk-0176-02-118",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.72046,
+            31.410295
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Txdot-Lfk-0176-02-118 in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Txdot-Lfk-0176-08-026",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.752379,
+            31.28681
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Txdot-Lfk-0176-08-026 in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Txdot-Lfk-033603072",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.95861,
+            31.398534
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Txdot-Lfk-033603072 in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Txdot-Lfk-0576-02-068",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.664961,
+            31.246858
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Txdot-Lfk-0576-02-068 in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Txdot-Lfk-2553-01-116",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.751485,
+            31.309672
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Txdot-Lfk-2553-01-116 in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Txdot-Lfk-2750-01-005",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.755331,
+            31.385288
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Txdot-Lfk-2750-01-005 in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Upci - Texas Division",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.73379,
+            31.27975
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Upci - Texas Division in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Ups Lufkin",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.72881,
+            31.29307
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Ups Lufkin in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Vibrantz Energy",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.75596,
+            31.33646
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Vibrantz Energy in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Water Plant 4",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.636861,
+            31.264333
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Water Plant 4 in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "West Fraser Angelina",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.62726,
+            31.291969
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: West Fraser Angelina in Lufkin is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "2999 Fm 2864",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.6406,
+            31.74842
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: 2999 Fm 2864 in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "A L Mangham Jr Regional Airport",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.698573,
+            31.578548
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: A L Mangham Jr Regional Airport in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "A1 Recycling & Disposal",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.649607,
+            31.579068
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: A1 Recycling & Disposal in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Amazoncom Services Llc - Wng1",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.6721,
+            31.6689
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Amazoncom Services Llc - Wng1 in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "American Auto Salvage",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.687771,
+            31.548578
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: American Auto Salvage in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Angelina Excavating Nacogdoches Dirt Pit",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.711191,
+            31.648205
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Angelina Excavating Nacogdoches Dirt Pit in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Animal Science Products",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.644609,
+            31.576738
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Animal Science Products in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Austin White Poultry Farm",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.614453,
+            31.814154
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Austin White Poultry Farm in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Bailey Bark Materials Facility",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.61989,
+            31.56576
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Bailey Bark Materials Facility in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Banita Creek Solar",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.763453,
+            31.585068
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Banita Creek Solar in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Bennett Clark Road Development",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.65003,
+            31.5837
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Bennett Clark Road Development in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Bright Coop",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.67348,
+            31.59499
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Bright Coop in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Cab Worldwide",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.64298,
+            31.58118
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Cab Worldwide in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Cal-Tex Lumber",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.643701,
+            31.57764
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Cal-Tex Lumber in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Cal-Tex Lumber ",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.643701,
+            31.57764
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Cal-Tex Lumber  in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Chireno Isd Wwtf",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.348055,
+            31.493611
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Chireno Isd Wwtf in Nacogdoches County is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "City Of Nacogdoches",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.675,
+            31.64666
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: City Of Nacogdoches in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "City Of Nacogdoches Wastewater Treatment Plant",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.643835,
+            31.577475
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: City Of Nacogdoches Wastewater Treatment Plant in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Dcci Laydown Yard",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.657625,
+            31.570462
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Dcci Laydown Yard in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Eaton",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.6495,
+            31.582
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Eaton in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Elliott Electric Store And Data Center",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.67715,
+            31.65253
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Elliott Electric Store And Data Center in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Endura Products",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.65121,
+            31.58382
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Endura Products in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Endura Products Woodworking Plant",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.65121,
+            31.58382
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Endura Products Woodworking Plant in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Foretravel",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.68379,
+            31.616
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Foretravel in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "G & S Lumber",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.6520458,
+            31.6123641
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: G & S Lumber in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Kolb Excavation",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.68274,
+            31.59734
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Kolb Excavation in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Lee Container",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.646509,
+            31.585487
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Lee Container in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Longview Asphalt",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.646927,
+            31.58607
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Longview Asphalt in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Majestic Oaks Subdivision",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.67363,
+            31.69637
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Majestic Oaks Subdivision in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Martinsville Isd Wwtp",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.416861,
+            31.640722
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Martinsville Isd Wwtp in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Nacogdoches Dirt Pit",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.61949,
+            31.58135
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Nacogdoches Dirt Pit in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Nacogdoches Distribution Center",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.68439,
+            31.63433
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Nacogdoches Distribution Center in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Nacogdoches Metal Recycling",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.634327,
+            31.580982
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Nacogdoches Metal Recycling in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Nacogdoches Plant 2A Wwtp",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.645012,
+            31.576391
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Nacogdoches Plant 2A Wwtp in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Nacogdoches Recycling Center",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.634327,
+            31.580982
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Nacogdoches Recycling Center in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Nacogdoches Yard",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.658816,
+            31.60387
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Nacogdoches Yard in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Neches Lumber Co",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.718161,
+            31.488975
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Neches Lumber Co in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Nibco Nacogdoches Plant",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.655975,
+            31.596074
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Nibco Nacogdoches Plant in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Norbord Texas Nacogdoches",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.65215,
+            31.57819
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Norbord Texas Nacogdoches in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Parker Hannifin Engineered Polymer Systems Division",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.66343,
+            31.66586
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Parker Hannifin Engineered Polymer Systems Division in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Patterson Wood Products",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.68352,
+            31.61987
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Patterson Wood Products in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Phou Enterprise",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.687771,
+            31.548578
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Phou Enterprise in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Pilgrims Pride Nacogdoches",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.645776,
+            31.570441
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Pilgrims Pride Nacogdoches in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Project Dragon Wng1",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.671078,
+            31.669006
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Project Dragon Wng1 in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Randy Bass Sand Pit",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.70556,
+            31.62223
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Randy Bass Sand Pit in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Rr Donnelley",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.65853,
+            31.66001
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Rr Donnelley in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Sages Vintage",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.728247,
+            31.777335
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Sages Vintage in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Sfa Forestry & Ag Building",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.647144,
+            31.623418
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Sfa Forestry & Ag Building in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Stryker - Lufkin - Nacogdoches Lake Crossing",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.834007,
+            31.640652
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Stryker - Lufkin - Nacogdoches Lake Crossing in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Texas Farm Products",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.658875,
+            31.595805
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Texas Farm Products in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Texas Materials Dba Few Ready Mix - Nacogdoches Plant",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.648333,
+            31.58484
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Texas Materials Dba Few Ready Mix - Nacogdoches Plant in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Tractor Supply Co",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.674617,
+            31.652176
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Tractor Supply Co in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Txdot - Lfk - 0118-08-075",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.567933,
+            31.57263
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Txdot - Lfk - 0118-08-075 in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Txdot - Lfk- 0176-01-081",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.5906,
+            31.74572
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Txdot - Lfk- 0176-01-081 in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Txdot- Lfk-0118-08-076",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.518644,
+            31.5679
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Txdot- Lfk-0118-08-076 in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Txdot- Lfk-0911-00-109 Fm 1878 Ref 4",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.634986,
+            31.611876
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Txdot- Lfk-0911-00-109 Fm 1878 Ref 4 in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Txdot-Lfk-0118-08-076",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.518644,
+            31.5679
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Txdot-Lfk-0118-08-076 in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Txdot-Lfk-0553-03-034",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.732635,
+            31.546879
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Txdot-Lfk-0553-03-034 in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Txdot-Lfk-0911-00-105-Loc-A",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.689828,
+            31.554241
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Txdot-Lfk-0911-00-105-Loc-A in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Txdot-Lfk-1810-01-036",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.523055,
+            31.679025
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Txdot-Lfk-1810-01-036 in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Tyson Feed Mill",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.65157,
+            31.57839
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Tyson Feed Mill in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "West Fraser Us Ewp - Nacogdoches",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.65215,
+            31.57819
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: West Fraser Us Ewp - Nacogdoches in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Western Pines Rv Park",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.67921,
+            31.65695
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Western Pines Rv Park in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Westward Drive Developement",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.682928,
+            31.653211
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Westward Drive Developement in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
+    },
+    {
+        "facility": "Zahra Square Townhomes Construction Site",
+        "chemical": "Local Industrial Monitor",
+        "status": "LOCAL WATCH",
+        "coordinates": [
+            -94.656356,
+            31.631017
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\ud83d\udd0d LOCAL WATCH: Zahra Square Townhomes Construction Site in Nacogdoches is actively permitted by the EPA. Tracking local industrial activity over the aquifer."
     }
 ]
