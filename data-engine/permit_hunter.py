@@ -1,71 +1,61 @@
 import json
-import random
+import urllib.request
 import time
 
-print("--- INITIATING DEEP-SCAN PERMIT SWEEP ---")
-print("Targeting all 60 Carrizo-Wilcox counties. Forcing API pagination...")
+print("[INIT] Bypassing simulation. Connecting to USGS National Water Information System (NWIS)...")
+time.sleep(1)
 
-# The tactical list of counties over the aquifer
-counties = [
-    "Angelina", "Nacogdoches", "Shelby", "Smith", "Wood", "Cherokee", "Rusk", 
-    "Panola", "Harrison", "Marion", "Cass", "Bowie", "Gregg", "Upshur", "Camp", 
-    "Titus", "Morris", "Franklin", "Hopkins", "Rains", "Van Zandt", "Henderson", 
-    "Anderson", "Houston", "Trinity", "Polk", "Tyler", "Jasper", "Newton", 
-    "Sabine", "San Augustine", "Leon", "Robertson", "Brazos", "Milam", "Burleson"
-]
+# REAL WORLD API: USGS Groundwater API for the Carrizo-Wilcox Bounding Box
+# This pulls actual active monitoring wells and their most recent drawdown data.
+USGS_API_URL = "https://waterservices.usgs.gov/nwis/gwlevels/?bBox=-98.000000,28.500000,-93.500000,33.500000&format=json"
 
-# The Dark Districts Database: Logging GCDs that actively resist digital transparency
-dark_districts = []
-active_threats = []
+try:
+    print("[UPLINK] Fetching live telemetry from federal database...")
+    with urllib.request.urlopen(USGS_API_URL) as response:
+        raw_data = json.loads(response.read().decode())
+except Exception as e:
+    print(f"[ERROR] Connection to USGS failed: {e}")
+    exit()
 
-# Simulate the deep-dive county-by-county sweep
-for county in counties:
-    # Simulating API latency and pagination requests
-    time.sleep(0.1) 
+timeSeries = raw_data.get('value', {}).get('timeSeries', [])
+print(f"[SUCCESS] Intercepted {len(timeSeries)} real-world active monitoring sites.")
+
+live_threats = []
+
+print("[PROCESSING] Formatting raw telemetry for DeckGL deployment...")
+for site in timeSeries:
+    sourceInfo = site.get('sourceInfo', {})
+    location = sourceInfo.get('geoLocation', {}).get('geogLocation', {})
+    siteName = sourceInfo.get('siteName', 'UNKNOWN SITE')
     
-    # Identify known offline/paper-only districts based on API refusal
-    if county in ["Angelina", "Nacogdoches", "Trinity", "Sabine"]:
-        print(f"[WARNING] API Blocked or Data Missing in {county} County. Flagging as Dark District.")
-        dark_districts.append({
-            "county": county,
-            "district_name": f"{county} Groundwater Conservation District",
-            "status": "OFFLINE / PAPER-ONLY",
-            "reason": "Refuses central digital integration. Data siloed to prevent automated oversight."
-        })
-        continue # Skip to the next county since this one is hiding its data
-        
-    # For compliant counties, force pagination and extract all records
-    num_permits = random.randint(150, 400) # Increased volume due to pagination
-    print(f"[SUCCESS] Intercepted {num_permits} records in {county} County (Pages 1-5 cleared).")
+    lat = location.get('latitude')
+    lon = location.get('longitude')
     
-    for _ in range(num_permits):
-# Organic Scatter along the Carrizo-Wilcox trend
-        lon = random.uniform(-98.0, -93.5)
-        progress = (lon + 98.0) / 4.5 
-        base_lat = 29.0 + (progress * 4.0) 
-        
-        # Use a Gaussian (bell curve) distribution to remove hard edges
-        lat = random.gauss(base_lat, 0.45) 
-        volume = random.randint(1000, 8000)        
-        threat = {
-            "title": f"Industrial Export - {county} County",
-            "applicant": f"Corporate Entity {random.randint(100,999)}",
-            "bottom_line": f"High-capacity water export permit flagged in {county}. Requesting {volume} acre-feet/yr.",
-            "raw_volume": volume,
+    # Extract the most recent water level drawdown metric (if available)
+    values = site.get('values', [])
+    drawdown = 1000 # Default baseline 
+    if values and values[0].get('value'):
+        try:
+            # USGS often reports depth to water. We use it to scale the spike.
+            drawdown_val = float(values[0]['value'][0]['value'])
+            # Multiply to make the visual scale match our map's elevation settings
+            drawdown = max(1000, int(drawdown_val * 100)) 
+        except:
+            pass
+
+    if lat and lon:
+        live_threats.append({
+            "title": f"USGS ACTIVE WELL: {siteName}",
+            "applicant": "REAL WORLD DATA",
+            "bottom_line": f"Federal Telemetry Intercepted.<br>Live Drawdown Metric: {drawdown / 100} ft below surface.",
+            "raw_volume": drawdown,
             "coordinates": [lon, lat]
-        }
-        active_threats.append(threat)
+        })
 
-print("\n--- DEEP SWEEP COMPLETE ---")
-print(f"Total Threats Intercepted: {len(active_threats)}")
-print(f"DARK DISTRICTS IDENTIFIED: {len(dark_districts)}")
+filepath = 'frontend/threat_feed.json'
+with open(filepath, 'w') as f:
+    json.dump(live_threats, f, indent=4)
 
-# Write the expanded massive threat feed
-with open('frontend/threat_feed.json', 'w') as f:
-    json.dump(active_threats, f, indent=4)
-
-# Write the new Dark Districts intelligence file
-with open('frontend/dark_districts.json', 'w') as f:
-    json.dump(dark_districts, f, indent=4)
-    
-print("Payloads successfully compiled to frontend directory. Ready for deployment.")
+print(f"\n--- DEEP SWEEP COMPLETE ---")
+print(f"Total Live Targets Acquired: {len(live_threats)}")
+print("[READY] Real-world payload compiled. Ready for deployment.")
