@@ -70,6 +70,18 @@
         <div class="legend-item"><div class="color-box" style="background: rgba(57, 255, 20, 0.4); border: 2px solid #39FF14; border-radius: 50%;"></div> Toxic Spill / Discharge</div>
         
         <div style="margin-top: 15px; border-top: 1px solid #444; padding-top: 15px;">
+            <strong style="color: #fff; font-size: 0.95rem;">RENDER MODE</strong><br>
+            <div style="display: flex; gap: 10px; margin-top: 8px;">
+                <label style="font-size: 0.8rem; cursor: pointer; color: #ddd;">
+                    <input type="radio" name="render-mode" id="mode-density" checked onchange="updateGrid()"> 🛑 Threat Density
+                </label>
+                <label style="font-size: 0.8rem; cursor: pointer; color: #ddd;">
+                    <input type="radio" name="render-mode" id="mode-spikes" onchange="updateGrid()"> 📍 Raw Spikes
+                </label>
+            </div>
+        </div>
+
+        <div style="margin-top: 15px; border-top: 1px solid #444; padding-top: 15px;">
             <strong style="color: #fff; font-size: 0.95rem;">TACTICAL FILTERS</strong><br>
             
             <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;">
@@ -127,7 +139,8 @@
     <div id="map"></div>
 
     <script>
-        const { DeckGL, GeoJsonLayer, ColumnLayer, ScatterplotLayer } = deck;
+        // IMPORTING HEXAGON LAYER
+        const { DeckGL, GeoJsonLayer, ColumnLayer, ScatterplotLayer, HexagonLayer } = deck;
 
         let globalPermits = [];
         let globalToxins = [];
@@ -200,6 +213,12 @@
             },
             getTooltip: ({object}) => {
                 if (!object) return null;
+                // NEW: Hexagon Tooltip Support
+                if (object.points) {
+                    let totalVol = 0;
+                    object.points.forEach(p => { totalVol += (p.source ? p.source.raw_volume : p.raw_volume) || 1000; });
+                    return { html: `<strong style="color: #ffaa00;">CRITICAL DENSITY ZONE</strong><br/>-------------------------<br/>Permits in sector: ${object.points.length}<br/>Combined Volume: ${totalVol.toLocaleString()} acre-ft/yr` };
+                }
                 if (object.properties && object.properties.OwnerName) {
                     return { html: `<strong style="color: #ff3232;">INDUSTRIAL INFRASTRUCTURE</strong><br/>-------------------------<br/><span class="highlight">Owner:</span> ${object.properties.OwnerName || 'REDACTED'}<br/><span class="highlight">Usage:</span> ${object.properties.PrimaryWat || 'UNKNOWN'}<br/><span class="highlight">Depth:</span> ${object.properties.WellDepth ? object.properties.WellDepth + ' ft' : 'UNKNOWN'}` };
                 }
@@ -221,13 +240,13 @@
             const severeDraws = document.getElementById('toggle-severe-draws').checked;
             const showToxins = document.getElementById('toggle-toxins').checked;
             const severeToxins = document.getElementById('toggle-severe-toxins').checked;
+            const renderModeSpikes = document.getElementById('mode-spikes').checked;
 
             let activePermits = showDraws ? globalPermits : [];
             let activeToxins = showToxins ? globalToxins : [];
             let activeWells = showExisting ? globalWells : [];
 
             if (severeDraws) {
-                // INCREASED AGGRESSION: Now strictly isolates volumes 7000 and above to clear the board
                 activePermits = activePermits.filter(p => p.raw_volume && p.raw_volume >= 7000);
             }
             
@@ -318,20 +337,44 @@
                 const mappedPermits = activePermits.map((threat) => ({
                     ...threat, position: threat.coordinates
                 }));
-                activeLayers.push(new ColumnLayer({
-                    id: 'threat-spikes',
-                    data: mappedPermits,
-                    diskResolution: 36,
-                    coverage: 0.9,
-                    radius: 400, // TACTICAL NEEDLE ADJUSTMENT: Shrunk from 2500m to 400m
-                    extruded: true,
-                    pickable: true,
-                    elevationScale: 15,
-                    getPosition: d => d.position,
-                    getFillColor: [255, 0, 0, 255],
-                    getElevation: d => d.raw_volume || 1000,
-                    material: { ambient: 0.5, diffuse: 0.8, shininess: 32, specularColor: [255, 255, 255] }
-                }));
+
+                if (renderModeSpikes) {
+                    activeLayers.push(new ColumnLayer({
+                        id: 'threat-spikes',
+                        data: mappedPermits,
+                        diskResolution: 36,
+                        coverage: 0.9,
+                        radius: 400,
+                        extruded: true,
+                        pickable: true,
+                        elevationScale: 15,
+                        getPosition: d => d.position,
+                        getFillColor: [255, 0, 0, 255],
+                        getElevation: d => d.raw_volume || 1000,
+                        material: { ambient: 0.5, diffuse: 0.8, shininess: 32, specularColor: [255, 255, 255] }
+                    }));
+                } else {
+                    // NEW DENSITY LAYER
+                    activeLayers.push(new HexagonLayer({
+                        id: 'threat-density-hex',
+                        data: mappedPermits,
+                        pickable: true,
+                        extruded: true,
+                        radius: 5000, // 5km hex bins
+                        elevationScale: 30,
+                        getPosition: d => d.position,
+                        getElevationWeight: d => d.raw_volume || 1000,
+                        elevationAggregation: 'SUM',
+                        colorRange: [
+                            [255, 255, 178],
+                            [254, 204, 92],
+                            [253, 141, 60],
+                            [240, 59, 32],
+                            [189, 0, 38] // Darkest red = most severe combined threat
+                        ],
+                        material: { ambient: 0.5, diffuse: 0.8, shininess: 32, specularColor: [255, 255, 255] }
+                    }));
+                }
             }
 
             if (showToxins) {
