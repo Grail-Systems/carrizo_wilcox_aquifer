@@ -2,19 +2,28 @@ import json
 import urllib.request
 import time
 
-print("[INIT] Initiating live-fire sequence. Connecting to USGS National Water Information System (NWIS)...")
+print("[INIT] Initiating live-fire sequence. Connecting to USGS NWIS...")
 time.sleep(1)
 
-# Real-world USGS Groundwater API for the Carrizo-Wilcox Bounding Box
-USGS_API_URL = "https://waterservices.usgs.gov/nwis/gwlevels/?bBox=-98.000000,28.500000,-93.500000,33.500000&format=json"
+# Switching to the 'iv' (Instantaneous Values) endpoint for active Groundwater (GW) sites
+# This pulls true live telemetry in the exact Carrizo-Wilcox bounding box.
+USGS_API_URL = "https://waterservices.usgs.gov/nwis/iv/?format=json&bBox=-98.000000,28.500000,-93.500000,33.500000&siteType=GW&siteStatus=active"
 
 try:
     print("[UPLINK] Fetching live telemetry from federal database...")
     req = urllib.request.Request(USGS_API_URL, headers={'User-Agent': 'Mozilla/5.0'})
     with urllib.request.urlopen(req) as response:
-        raw_data = json.loads(response.read().decode())
+        raw_response = response.read().decode('utf-8')
+        
+        # Bulletproof check: Did the feds send back text instead of JSON?
+        if "No sites" in raw_response or not raw_response.strip():
+            print("[WARNING] Federal database returned 0 active sites for this query. Grid blindspot detected.")
+            raw_data = {}
+        else:
+            raw_data = json.loads(raw_response)
+            
 except Exception as e:
-    print(f"[ERROR] Connection to USGS failed: {e}")
+    print(f"[ERROR] Connection failed: {e}")
     exit()
 
 timeSeries = raw_data.get('value', {}).get('timeSeries', [])
@@ -38,7 +47,7 @@ for site in timeSeries:
     if values and values[0].get('value'):
         try:
             drawdown_val = float(values[0]['value'][0]['value'])
-            # Scale to fit the 1000-8000 volume slider visually
+            # Scale the raw water level so it renders visibly on our 3D UI
             drawdown = max(1000, int(drawdown_val * 75)) 
             drawdown_text = f"{drawdown_val} ft below surface."
         except:
@@ -53,6 +62,7 @@ for site in timeSeries:
             "coordinates": [lon, lat]
         })
 
+# OVERWRITE THE FAKE JSON WITH REAL DATA
 filepath = 'frontend/threat_feed.json'
 with open(filepath, 'w') as f:
     json.dump(live_threats, f, indent=4)
