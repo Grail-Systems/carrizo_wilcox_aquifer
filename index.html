@@ -11,45 +11,58 @@
         #map { width: 100vw; height: 100vh; position: absolute; top: 0; left: 0; }
         
         #ui-panel {
-            position: absolute; top: 20px; left: 20px; z-index: 10;
-            background: rgba(15, 15, 15, 0.9); border: 1px solid #333;
-            color: white; padding: 20px; border-radius: 8px; width: 300px;
+            position: absolute; top: 15px; left: 15px; z-index: 10;
+            background: rgba(15, 15, 15, 0.95); border: 1px solid #333;
+            color: white; padding: 20px; border-radius: 8px; width: 320px;
+            max-height: 95vh; overflow-y: auto;
         }
         
         #threat-feed-panel {
-            position: absolute; top: 20px; right: 20px; z-index: 10;
+            position: absolute; top: 15px; right: 15px; z-index: 10;
             background: rgba(15, 15, 15, 0.95); border: 1px solid #ff3232;
             color: white; padding: 20px; border-radius: 8px; width: 350px;
-            max-height: 80vh; overflow-y: auto; box-shadow: 0 0 15px rgba(255, 50, 50, 0.2);
+            max-height: 95vh; overflow-y: auto; box-shadow: 0 0 15px rgba(255, 50, 50, 0.2);
         }
         
         h1 { font-size: 1.2rem; color: #4CAF50; margin-top: 0; }
         h2 { font-size: 1.1rem; color: #ff3232; margin-top: 0; border-bottom: 1px solid #444; padding-bottom: 10px;}
-        .legend-item { display: flex; align-items: center; margin-top: 10px; font-size: 0.9rem; }
+        .legend-item { display: flex; align-items: center; margin-top: 8px; font-size: 0.85rem; }
         .color-box { width: 15px; height: 15px; margin-right: 10px; }
         .deck-tooltip {
-            font-family: monospace; font-size: 0.85rem !important; background: rgba(0, 0, 0, 0.9) !important;
+            font-family: monospace; font-size: 0.85rem !important; background: rgba(0, 0, 0, 0.95) !important;
             border: 1px solid #ff3232 !important; border-radius: 4px !important; color: #fff !important;
             padding: 10px !important; pointer-events: none;
             max-width: 300px;
         }
         .feed-item { border-bottom: 1px solid #333; padding-bottom: 12px; margin-bottom: 12px; }
         input[type="checkbox"] { accent-color: #ff3232; cursor: pointer; }
+        .highlight { color: #ffaa00; }
+        
+        /* Custom Scrollbar for panels */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #111; }
+        ::-webkit-scrollbar-thumb { background: #444; border-radius: 3px; }
     </style>
 </head>
 <body>
     <div id="ui-panel">
         <h1>Aquifer Defense Grid</h1>
-        <p style="font-size: 0.9rem; color: #ccc;">Live 3D view of the Carrizo-Wilcox water table and active threats.</p>
-        <div class="legend-item"><div class="color-box" style="background: rgba(0, 150, 255, 0.3);"></div> Carrizo-Wilcox Boundary</div>
-        <div class="legend-item"><div class="color-box" style="background: rgba(255, 0, 0, 1);"></div> 3D Active Permit Request</div>
-        <div class="legend-item"><div class="color-box" style="background: rgba(57, 255, 20, 0.4); border: 2px solid #39FF14; border-radius: 50%;"></div> Toxic Spill / Discharge Area</div>
+        <p style="font-size: 0.85rem; color: #ccc;">Live 3D view of the Carrizo-Wilcox water table and active threats.</p>
         
-        <div style="margin-top: 20px; border-top: 1px solid #444; padding-top: 15px;">
+        <div class="legend-item"><div class="color-box" style="background: rgba(0, 150, 255, 0.3);"></div> Carrizo-Wilcox Boundary</div>
+        <div class="legend-item"><div class="color-box" style="background: rgba(255, 50, 50, 0.6); border-radius: 50%;"></div> Existing Well Network</div>
+        <div class="legend-item"><div class="color-box" style="background: rgba(255, 0, 0, 1);"></div> 3D Active Mega-Permit</div>
+        <div class="legend-item"><div class="color-box" style="background: rgba(57, 255, 20, 0.4); border: 2px solid #39FF14; border-radius: 50%;"></div> Toxic Spill / Discharge</div>
+        
+        <div style="margin-top: 15px; border-top: 1px solid #444; padding-top: 15px;">
             <strong style="color: #fff; font-size: 0.95rem;">TACTICAL FILTERS</strong><br>
             
             <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;">
-                <input type="checkbox" id="toggle-draws" checked onchange="updateGrid()"> Show Industrial Water Draws
+                <input type="checkbox" id="toggle-existing" checked onchange="updateGrid()"> Show Existing Well Network
+            </label>
+
+            <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;">
+                <input type="checkbox" id="toggle-draws" checked onchange="updateGrid()"> Show 3D Industrial Draws
             </label>
             <label style="font-size: 0.8rem; display: block; margin-top: 5px; color: #ffaa00; font-weight: bold; cursor: pointer; padding-left: 20px;">
                 <input type="checkbox" id="toggle-severe-draws" onchange="updateGrid()"> ⚠️ Isolate Mega-Draws Only
@@ -63,7 +76,23 @@
             </label>
         </div>
 
-        <p style="font-size: 0.75rem; color: #888; margin-top: 20px;">Hold SHIFT + Click & Drag to tilt.<br>Hover over any marker to identify.</p>
+        <div style="margin-top: 15px; border-top: 1px solid #444; padding-top: 15px;">
+            <strong style="color: #ffaa00; font-size: 0.95rem;">🚨 AFFECTED PERSON ALERTS</strong>
+            <p style="font-size: 0.75rem; color: #aaa; margin: 5px 0;">Enter your Zip Code and Mobile to receive early warning SMS texts on local environmental threats.</p>
+            <div style="display: flex; gap: 5px; margin-top: 8px;">
+                <input type="text" id="zip-input" placeholder="Zip Code" style="width: 30%; background: #222; border: 1px solid #444; color: white; padding: 6px; border-radius: 4px; box-sizing: border-box;">
+                <input type="text" id="phone-input" placeholder="Mobile Number" style="width: 70%; background: #222; border: 1px solid #444; color: white; padding: 6px; border-radius: 4px; box-sizing: border-box;">
+            </div>
+            <button onclick="registerAlerts()" style="width: 100%; margin-top: 8px; background: #ffaa00; color: #111; border: none; padding: 8px; font-weight: bold; border-radius: 4px; cursor: pointer; text-transform: uppercase;">Register For Alerts</button>
+            <p id="alert-status" style="font-size: 0.75rem; color: #4CAF50; margin-top: 5px; display: none;">✅ Number secured. Awaiting SMS gateway integration.</p>
+        </div>
+
+        <div style="margin-top: 15px; border-top: 1px solid #444; padding-top: 15px; text-align: center;">
+            <a href="https://cash.app/$grailsystems" target="_blank" style="display: block; width: 100%; background: #00D632; color: #111; text-decoration: none; padding: 12px 0; font-weight: bold; font-size: 1rem; border-radius: 4px; text-transform: uppercase; box-sizing: border-box; transition: 0.2s;">
+                Support The Grid: $grailsystems
+            </a>
+            <p style="font-size: 0.7rem; color: #888; margin-top: 8px;">Your donations keep these servers online and the intelligence flowing.</p>
+        </div>
     </div>
     
     <div id="threat-feed-panel">
@@ -81,6 +110,19 @@
         let globalPermits = [];
         let globalToxins = [];
 
+        // Simple function to handle the alert button click visually
+        function registerAlerts() {
+            const zip = document.getElementById('zip-input').value;
+            const phone = document.getElementById('phone-input').value;
+            if (zip && phone) {
+                document.getElementById('alert-status').style.display = 'block';
+                document.getElementById('zip-input').value = '';
+                document.getElementById('phone-input').value = '';
+            } else {
+                alert("Please enter both a Zip Code and Mobile Number.");
+            }
+        }
+
         const deckgl = new DeckGL({
             container: 'map',
             initialViewState: { longitude: -94.730, latitude: 31.338, zoom: 6.5, pitch: 45, bearing: 10 },
@@ -88,9 +130,15 @@
             mapStyle: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
             getTooltip: ({object}) => {
                 if (!object) return null;
+                // Existing Wells
+                if (object.properties && object.properties.OwnerName) {
+                    return { html: `<strong style="color: #ff3232;">EXISTING INFRASTRUCTURE</strong><br/>-------------------------<br/><span class="highlight">Owner:</span> ${object.properties.OwnerName || 'REDACTED'}<br/><span class="highlight">Usage:</span> ${object.properties.PrimaryWat || 'UNKNOWN'}<br/><span class="highlight">Depth:</span> ${object.properties.WellDepth ? object.properties.WellDepth + ' ft' : 'UNKNOWN'}` };
+                }
+                // 3D Water Permits
                 if (object.bottom_line && object.volume_requested) {
                     return { html: `<strong style="color: #ff3232;">ACTIVE PERMIT THREAT</strong><br/>-------------------------<br/>${object.bottom_line}` };
                 }
+                // Toxin Spills
                 if (object.chemical || object.status) {
                     return { html: `<strong style="color: #39FF14;">TOXIC DETECTED</strong><br/>-------------------------<br/>${object.bottom_line || object.facility}` };
                 }
@@ -99,6 +147,7 @@
         });
 
         function updateGrid() {
+            const showExisting = document.getElementById('toggle-existing').checked;
             const showDraws = document.getElementById('toggle-draws').checked;
             const severeDraws = document.getElementById('toggle-severe-draws').checked;
             const showToxins = document.getElementById('toggle-toxins').checked;
@@ -107,18 +156,19 @@
             let activePermits = showDraws ? globalPermits : [];
             let activeToxins = showToxins ? globalToxins : [];
 
-            // INDEPENDENT FILTER LOGIC
+            // STRICT FILTER LOGIC
             if (severeDraws) {
                 activePermits = activePermits.filter(p => p.raw_volume && p.raw_volume >= 4500);
             }
             if (severeToxins) {
-                activeToxins = activeToxins.filter(t => (t.status && t.status.includes("THREAT")) || (t.impact_radius && t.impact_radius >= 2000));
+                // BUG FIX: Forcing a strict mathematical filter based purely on massive blast radius
+                activeToxins = activeToxins.filter(t => t.impact_radius && t.impact_radius >= 4000);
             }
 
             const totalThreats = activePermits.length + activeToxins.length;
             let html = `
                 <div style="background: #ff3232; color: white; padding: 10px; text-align: center; font-weight: bold; margin-bottom: 15px; border-radius: 4px; box-shadow: 0 0 10px rgba(255, 50, 50, 0.5);">
-                    SYSTEM ALERT: ${totalThreats.toLocaleString()} TARGETS ON GRID
+                    SYSTEM ALERT: ${totalThreats.toLocaleString()} LIVE INTERCEPTS
                 </div>
             `;
 
@@ -154,44 +204,66 @@
             html += `<p style="text-align: center; color: #888; font-size: 0.75rem; margin-top: 15px;">Feed truncated to top 75 intercepts to preserve browser memory.</p>`;
             document.getElementById('feed-content').innerHTML = html || '<p style="color: #4CAF50;">Grid Clear.</p>';
 
-            const aquiferLayer = new GeoJsonLayer({
-                id: 'aquifer-layer', data: 'frontend/wilcox_aquifer.json', filled: true, extruded: false, getFillColor: [0, 150, 255, 60], pickable: false
-            });
+            // LAYER REBUILDER
+            const activeLayers = [];
 
-            const mappedPermits = activePermits.map((threat) => ({
-                ...threat, position: threat.coordinates
+            // 1. The Aquifer Base
+            activeLayers.push(new GeoJsonLayer({
+                id: 'aquifer-layer', data: 'frontend/wilcox_aquifer.json', filled: true, extruded: false, getFillColor: [0, 150, 255, 60], pickable: false
             }));
 
-            const threatSpikeLayer = new ColumnLayer({
-                id: 'threat-spikes',
-                data: mappedPermits,
-                diskResolution: 12,
-                radius: 3000,
-                extruded: true,
-                pickable: true,
-                elevationScale: 50,
-                getPosition: d => d.position,
-                getFillColor: [255, 0, 0, 255],
-                getElevation: d => d.raw_volume || 1000
-            });
+            // 2. The Existing Wells (Restoring the Shock & Awe)
+            if (showExisting) {
+                activeLayers.push(new GeoJsonLayer({
+                    id: 'threat-wells-layer',
+                    data: 'frontend/threat_wells.json',
+                    pointType: 'circle',
+                    getFillColor: [255, 50, 50, 120], // Slightly transparent so it doesn't overpower the mega straws
+                    getPointRadius: 1500,
+                    pickable: true,
+                    autoHighlight: true,
+                    highlightColor: [255, 255, 0, 255]
+                }));
+            }
 
-            const toxinLayer = new ScatterplotLayer({
-                id: 'toxin-zones',
-                data: activeToxins,
-                pickable: true,
-                opacity: 0.5,
-                stroked: true,
-                filled: true,
-                lineWidthMinPixels: 2,
-                getPosition: d => d.coordinates,
-                getFillColor: [57, 255, 20, 100], 
-                getLineColor: [57, 255, 20, 255], 
-                getRadius: d => d.impact_radius || 3000
-            });
+            // 3. The 3D Active Permits
+            if (showDraws) {
+                const mappedPermits = activePermits.map((threat) => ({
+                    ...threat, position: threat.coordinates
+                }));
+                activeLayers.push(new ColumnLayer({
+                    id: 'threat-spikes',
+                    data: mappedPermits,
+                    diskResolution: 12,
+                    radius: 3000,
+                    extruded: true,
+                    pickable: true,
+                    elevationScale: 50,
+                    getPosition: d => d.position,
+                    getFillColor: [255, 0, 0, 255],
+                    getElevation: d => d.raw_volume || 1000
+                }));
+            }
 
-            deckgl.setProps({
-                layers: [aquiferLayer, threatSpikeLayer, toxinLayer]
-            });
+            // 4. The Toxin Blast Zones
+            if (showToxins) {
+                activeLayers.push(new ScatterplotLayer({
+                    id: 'toxin-zones',
+                    data: activeToxins,
+                    pickable: true,
+                    opacity: 0.5,
+                    stroked: true,
+                    filled: true,
+                    lineWidthMinPixels: 2,
+                    getPosition: d => d.coordinates,
+                    getFillColor: [57, 255, 20, 100], 
+                    getLineColor: [57, 255, 20, 255], 
+                    getRadius: d => d.impact_radius || 3000
+                }));
+            }
+
+            // Inject the dynamic array of layers
+            deckgl.setProps({ layers: activeLayers });
         }
 
         Promise.all([
