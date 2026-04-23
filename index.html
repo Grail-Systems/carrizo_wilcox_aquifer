@@ -173,13 +173,11 @@
                 activePermits = activePermits.filter(p => p.raw_volume && p.raw_volume >= 4500);
             }
             
-            // THE INTELLIGENCE TEXT FILTER
             if (severeToxins) {
                 const heavyIndustry = ['PLANT', 'CHEMICAL', 'MILL', 'REFINERY', 'ENERGY', 'POWER', 'MANUFACTURING', 'LUMBER', 'OIL', 'GAS', 'PIPELINE', 'INC', 'LLC', 'CORP', 'TIMBER'];
                 activeToxins = activeToxins.filter(t => {
                     if (!t.facility) return false;
                     const facName = t.facility.toUpperCase();
-                    // Keep the spill ONLY if the facility name contains one of the heavy industry keywords
                     return heavyIndustry.some(keyword => facName.includes(keyword));
                 });
             }
@@ -257,7 +255,7 @@
                     getPosition: d => d.position,
                     getFillColor: [255, 0, 0, 255],
                     getElevation: d => d.raw_volume || 1000
-nano index.html                }));
+                }));
             }
 
             if (showToxins) {
@@ -272,7 +270,6 @@ nano index.html                }));
                     getPosition: d => d.coordinates,
                     getFillColor: [57, 255, 20, 100], 
                     getLineColor: [57, 255, 20, 255], 
-                    // Emphasize the radius if isolated
                     getRadius: d => severeToxins ? (d.impact_radius || 3000) * 1.5 : (d.impact_radius || 3000)
                 }));
             }
