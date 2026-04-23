@@ -1,0 +1,38 @@
+name: Aquifer Intel Daily Sweep
+
+on:
+  schedule:
+    - cron: '0 8 * * *' # Runs daily at 3:00 AM CDT
+  workflow_dispatch: # Gives you a manual 'Run' button on the GitHub website
+
+jobs:
+  run-sweeps:
+    runs-on: ubuntu-latest # GitHub spins up a free Linux server
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Data Engines
+        run: |
+          pip install requests beautifulsoup4
+
+      - name: Execute EPA Toxin Sweep
+        run: python data-engine/toxin_hunter.py
+
+      - name: Execute TWDB/GCD Permit Sweep
+        run: python data-engine/permit_hunter.py
+
+      - name: Commit and Push Live Data
+        run: |
+          git config --global user.name 'Grail-Systems-Cloud-Bot'
+          git config --global user.email 'cloudbot@grailsystems.io'
+          git add frontend/toxin_feed.json frontend/threat_feed.json
+          # The '|| exit 0' prevents the server from crashing if no new threats are found
+          git commit -m "Automated Cloud Intel Update: $(date +'%Y-%m-%d')" || exit 0
+          git push
