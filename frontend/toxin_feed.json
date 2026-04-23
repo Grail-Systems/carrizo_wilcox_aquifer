@@ -1,0 +1,26 @@
+[
+    {
+        "facility": "Nacogdoches Industrial Processing",
+        "chemical": "Benzene (Carcinogen)",
+        "volume_released": "1,200 lbs",
+        "status": "ACTIVE LEAK",
+        "coordinates": [
+            -94.65,
+            31.6
+        ],
+        "impact_radius": 4000,
+        "bottom_line": "\u2623\ufe0f TOXIN ALERT: Nacogdoches Industrial Processing has reported a 1,200 lb release of Benzene into the local groundwater zone."
+    },
+    {
+        "facility": "Lufkin Petro-Chemical",
+        "chemical": "Arsenic",
+        "volume_released": "450 lbs",
+        "status": "CONTAINED",
+        "coordinates": [
+            -94.73,
+            31.338
+        ],
+        "impact_radius": 2500,
+        "bottom_line": "\u2623\ufe0f TOXIN ALERT: Lufkin Petro-Chemical recorded a 450 lb Arsenic discharge. Status currently marked as contained by TCEQ."
+    }
+]
