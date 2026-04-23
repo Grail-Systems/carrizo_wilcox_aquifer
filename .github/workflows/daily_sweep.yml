@@ -3,7 +3,7 @@ name: Aquifer Intel Daily Sweep
 on:
   schedule:
     - cron: '0 8 * * *' # Runs daily at 3:00 AM CDT
-  workflow_dispatch: # Gives you a manual 'Run' button on the GitHub website
+  workflow_dispatch: # Gives you a manual 'Run' button
 
 jobs:
   run-sweeps:
@@ -33,6 +33,5 @@ jobs:
           git config --global user.name 'Grail-Systems-Cloud-Bot'
           git config --global user.email 'cloudbot@grailsystems.io'
           git add frontend/toxin_feed.json frontend/threat_feed.json
-          # The '|| exit 0' prevents the server from crashing if no new threats are found
           git commit -m "Automated Cloud Intel Update: $(date +'%Y-%m-%d')" || exit 0
           git push
