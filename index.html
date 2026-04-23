@@ -43,6 +43,21 @@
         ::-webkit-scrollbar { width: 6px; }
         ::-webkit-scrollbar-track { background: #111; }
         ::-webkit-scrollbar-thumb { background: #444; border-radius: 3px; }
+
+        /* Flashing animation for the Wall of Shame */
+        @keyframes pulse-border {
+            0% { border-color: rgba(255, 50, 50, 1); box-shadow: 0 0 5px rgba(255,50,50,0.2); }
+            50% { border-color: rgba(255, 50, 50, 0.3); box-shadow: 0 0 15px rgba(255,50,50,0.6); }
+            100% { border-color: rgba(255, 50, 50, 1); box-shadow: 0 0 5px rgba(255,50,50,0.2); }
+        }
+        .dark-district-box {
+            background: rgba(255, 50, 50, 0.05); 
+            border: 1px solid #ff3232; 
+            padding: 10px; 
+            margin-top: 15px; 
+            border-radius: 4px;
+            animation: pulse-border 2s infinite;
+        }
     </style>
 </head>
 <body>
@@ -75,6 +90,13 @@
             <label style="font-size: 0.8rem; display: block; margin-top: 5px; color: #39FF14; font-weight: bold; cursor: pointer; padding-left: 20px;">
                 <input type="checkbox" id="toggle-severe-toxins" onchange="updateGrid()"> ☢️ Isolate Major Polluters Only
             </label>
+        </div>
+
+        <div id="dark-districts-panel" class="dark-district-box" style="display: none;">
+            <strong style="color: #ff3232; font-size: 0.95rem; text-transform: uppercase;">⚠️ Dark Districts Detected</strong>
+            <p style="font-size: 0.75rem; color: #ccc; margin: 5px 0;">The following local water boards are actively operating offline to shield their mega-permits from public oversight:</p>
+            <div id="dark-districts-list" style="margin-top: 8px;">
+                </div>
         </div>
 
         <div style="margin-top: 15px; border-top: 1px solid #444; padding-top: 15px;">
@@ -111,18 +133,13 @@
 
         let globalPermits = [];
         let globalToxins = [];
-        let globalWells = []; // Need to cache the existing wells for filtering
+        let globalWells = []; 
 
         const darkMapStyle = 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json';
         const satelliteMapStyle = {
             "version": 8,
             "sources": {
-                "esri": {
-                    "type": "raster",
-                    "tiles": ["https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"],
-                    "tileSize": 256,
-                    "attribution": "Esri World Imagery"
-                }
+                "esri": { "type": "raster", "tiles": ["https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"], "tileSize": 256, "attribution": "Esri World Imagery" }
             },
             "layers": [{ "id": "esri-satellite", "type": "raster", "source": "esri", "minzoom": 0, "maxzoom": 22 }]
         };
@@ -156,6 +173,21 @@
             }
         }
 
+        function populateDarkDistricts(darkData) {
+            if (!darkData || darkData.length === 0) return;
+            document.getElementById('dark-districts-panel').style.display = 'block';
+            let html = '';
+            darkData.forEach(d => {
+                html += `
+                    <div style="background: rgba(255, 50, 50, 0.1); border-left: 3px solid #ff3232; padding: 6px; margin-bottom: 5px;">
+                        <strong style="color: #ff3232; font-size: 0.8rem;">${d.county} County</strong>
+                        <p style="font-size: 0.7rem; color: #aaa; margin: 3px 0 0 0;">STATUS: ${d.status}</p>
+                    </div>
+                `;
+            });
+            document.getElementById('dark-districts-list').innerHTML = html;
+        }
+
         const deckgl = new DeckGL({
             container: 'map',
             initialViewState: { longitude: -94.730, latitude: 31.338, zoom: 6.5, pitch: 45, bearing: 10 },
@@ -183,7 +215,6 @@
             layers: []
         });
 
-        // THE AGGRESSIVE EXCLUSION FILTER: Kills public utilities from the threat board
         const safeWords = ['CITY', 'MUNICIPAL', 'PUBLIC SUPPLY', 'WATER PLANT', 'UTILITY', 'ISD', 'SCHOOL', 'COUNTY'];
 
         function updateGrid() {
@@ -197,17 +228,14 @@
             let activeToxins = showToxins ? globalToxins : [];
             let activeWells = showExisting ? globalWells : [];
 
-            // FILTER: Mega Draws
             if (severeDraws) {
                 activePermits = activePermits.filter(p => p.raw_volume && p.raw_volume >= 4500);
             }
             
-            // FILTER: Toxin Cleanup (Excludes city water plants, keeps actual industry)
             if (showToxins) {
                 activeToxins = activeToxins.filter(t => {
                     if (!t.facility) return false;
                     const facName = t.facility.toUpperCase();
-                    // Drop it immediately if it's a city utility
                     if (safeWords.some(word => facName.includes(word))) return false;
                     
                     if (severeToxins) {
@@ -218,7 +246,6 @@
                 });
             }
 
-            // FILTER: Well Cleanup (Excludes city water supplies from existing infrastructure)
             if (showExisting) {
                 activeWells = activeWells.filter(w => {
                     if (!w.properties || !w.properties.OwnerName) return true;
@@ -274,7 +301,6 @@
                 id: 'aquifer-layer', data: 'frontend/wilcox_aquifer.json', filled: true, extruded: false, getFillColor: [0, 150, 255, 60], pickable: false
             }));
 
-            // FIXED RENDERING: Wells now scale purely by screen pixels, remaining sharp and precise when zoomed in
             if (showExisting && activeWells.length > 0) {
                 activeLayers.push(new ScatterplotLayer({
                     id: 'threat-wells-layer',
@@ -282,7 +308,7 @@
                     getPosition: d => d.geometry.coordinates,
                     getFillColor: [255, 50, 50, 180],
                     radiusUnits: 'pixels',
-                    getRadius: 6, // Locks the size to the screen, not the ground
+                    getRadius: 6, 
                     pickable: true,
                     autoHighlight: true,
                     highlightColor: [255, 255, 0, 255]
@@ -309,7 +335,6 @@
                 }));
             }
 
-            // FIXED RENDERING: Toxins now scale purely by screen pixels, remaining sharp and precise when zoomed in
             if (showToxins) {
                 activeLayers.push(new ScatterplotLayer({
                     id: 'toxin-zones',
@@ -323,22 +348,24 @@
                     getPosition: d => d.coordinates,
                     getFillColor: [57, 255, 20, 150], 
                     getLineColor: [57, 255, 20, 255], 
-                    getRadius: d => severeToxins ? 12 : 8 // Locks the size to the screen
+                    getRadius: d => severeToxins ? 12 : 8 
                 }));
             }
 
             deckgl.setProps({ layers: activeLayers });
         }
 
-        // LOAD EVERYTHING
+        // LOAD EVERYTHING IN INCLUDING DARK DISTRICTS
         Promise.all([
             fetch('frontend/threat_feed.json').then(res => res.json()).catch(() => []),
             fetch('frontend/toxin_feed.json').then(res => res.json()).catch(() => []),
-            fetch('frontend/threat_wells.json').then(res => res.json()).then(data => data.features || []).catch(() => [])
-        ]).then(([permitData, toxinData, wellData]) => {
+            fetch('frontend/threat_wells.json').then(res => res.json()).then(data => data.features || []).catch(() => []),
+            fetch('frontend/dark_districts.json').then(res => res.json()).catch(() => [])
+        ]).then(([permitData, toxinData, wellData, darkData]) => {
             globalPermits = permitData;
             globalToxins = toxinData;
             globalWells = wellData;
+            populateDarkDistricts(darkData);
             updateGrid(); 
         });
     </script>
