@@ -7,6 +7,44 @@
     <link href="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css" rel="stylesheet" />
     <script src="https://unpkg.com/deck.gl@latest/dist.min.js"></script>
     <style>
+// 1. Fetch the Threat Intelligence Feed
+fetch('./threat_feed.json')
+  .then(response => response.json())
+  .then(data => {
+      
+      // Injecting target coordinates over the Carrizo-Wilcox for our mock data
+      const mappedThreats = data.map((threat, index) => ({
+          ...threat,
+          // Staggering the mock coordinates slightly so they don't overlap
+          position: [-94.73 - (index * 0.1), 31.60 + (index * 0.1)] 
+      })).filter(t => t.status === "HIGH THREAT"); // Only map the threats
+
+      // 2. Build the 3D Holographic Spikes
+      const threatLayer = new deck.ColumnLayer({
+          id: 'threat-spikes',
+          data: mappedThreats,
+          diskResolution: 12,
+          radius: 2500, // Width of the column (meters)
+          extruded: true,
+          pickable: true,
+          elevationScale: 10, // Multiplier for the height
+          getPosition: d => d.position,
+          getFillColor: [255, 0, 0, 200], // Aggressive Red
+          getElevation: d => d.raw_volume || 100, // Height based on gallons requested!
+          
+          // 3. The Plain English Click UI
+          onClick: ({object}) => {
+              if (object) {
+                  alert(object.bottom_line); // Pops up the 6th-grade English sentence!
+              }
+          }
+      });
+
+      // Add this layer to your existing map
+      deckgl.setProps({
+          layers: [...deckgl.props.layers, threatLayer]
+      });
+  });
         body { margin: 0; padding: 0; background-color: #111; font-family: sans-serif; overflow: hidden; }
         #map { width: 100vw; height: 100vh; position: absolute; top: 0; left: 0; }
         
