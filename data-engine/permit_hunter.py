@@ -40,8 +40,13 @@ for county in counties:
     
     for _ in range(num_permits):
         # Generate geographic coordinates roughly over the aquifer spine
-        lat = random.uniform(30.0, 33.5)
-        lon = random.uniform(-96.5, -93.5)
+# Geographically target the Carrizo-Wilcox diagonal spine
+        lon = random.uniform(-97.0, -93.5)
+        # Calculate base latitude following the SW-to-NE geological trend
+        progress = (lon + 97.0) / 3.5 
+        base_lat = 30.5 + (progress * 3.0) 
+        # Add a tight 0.25-degree variance so it stays cleanly inside the blue boundary
+        lat = base_lat + random.uniform(-0.25, 0.25)       
         volume = random.randint(1000, 8000)
         
         threat = {
