@@ -99,10 +99,16 @@
             fetch('toxin_feed.json').then(res => res.json()).catch(() => [])
         ]).then(([permitData, toxinData]) => {
             
-            let html = '';
+            // Calculate total threat volume
+            const totalThreats = permitData.length + toxinData.length;
+            let html = `
+                <div style="background: #ff3232; color: white; padding: 10px; text-align: center; font-weight: bold; margin-bottom: 15px; border-radius: 4px; box-shadow: 0 0 10px rgba(255, 50, 50, 0.5);">
+                    SYSTEM ALERT: ${totalThreats.toLocaleString()} ACTIVE THREATS ON GRID
+                </div>
+            `;
 
-           // 1. Process Water Permits into UI
-            permitData.forEach(item => {
+            // 1. Process Water Permits into UI (Capped at 25 for memory)
+            permitData.slice(0, 25).forEach(item => {
                 let color = item.status === 'HIGH THREAT' ? '#ff3232' : '#4CAF50';
                 
                 // The automated email generator button
@@ -123,8 +129,8 @@
                 `;
             });
 
-            // 2. Process Toxins into UI
-            toxinData.forEach(item => {
+            // 2. Process Toxins into UI (Capped at top 50 for memory)
+            toxinData.slice(0, 50).forEach(item => {
                 let emailSubject = `URGENT: Toxic Discharge Inquiry - ${item.facility}`;
                 let emailBody = `To whom it may concern,%0D%0A%0D%0AAs a resident, I am demanding immediate transparency and state intervention regarding the recent toxic discharge reported at ${item.facility}.%0D%0A%0D%0AWe require an immediate public status update on the containment and groundwater impact.%0D%0A%0D%0ASincerely,%0D%0A[Your Name]`;
                 
@@ -137,6 +143,8 @@
                     </div>
                 `;
             });
+            
+            html += `<p style="text-align: center; color: #888; font-size: 0.75rem; margin-top: 15px;">Feed truncated to top 75 intercepts to preserve system memory. All ${totalThreats.toLocaleString()} threats are actively rendered on the 3D grid.</p>`;
 
             document.getElementById('feed-content').innerHTML = html || '<p style="color: #4CAF50;">Grid Clear.</p>';
 
