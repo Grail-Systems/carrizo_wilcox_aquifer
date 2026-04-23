@@ -1,1 +1,222 @@
-[]
+[
+    {
+        "facility": "  City Of Port Arthur Main Wwtp",
+        "chemical": "EPA Major Water Facility",
+        "status": "LIVE TARGET",
+        "coordinates": [
+            -93.883867,
+            29.925242
+        ],
+        "impact_radius": 4500,
+        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED:   City Of Port Arthur Main Wwtp in Port Arthur is an active Major Facility flagged in the federal Clean Water Act database."
+    },
+    {
+        "facility": " San Marcos Wwtp",
+        "chemical": "EPA Major Water Facility",
+        "status": "LIVE TARGET",
+        "coordinates": [
+            -97.925294,
+            29.86615
+        ],
+        "impact_radius": 4500,
+        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED:  San Marcos Wwtp in San Marcos is an active Major Facility flagged in the federal Clean Water Act database."
+    },
+    {
+        "facility": "40 Acre Facility",
+        "chemical": "EPA Major Water Facility",
+        "status": "LIVE TARGET",
+        "coordinates": [
+            -94.913278,
+            29.353866
+        ],
+        "impact_radius": 4500,
+        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: 40 Acre Facility in Galveston County is an active Major Facility flagged in the federal Clean Water Act database."
+    },
+    {
+        "facility": "69Th St Wwtp",
+        "chemical": "EPA Major Water Facility",
+        "status": "LIVE TARGET",
+        "coordinates": [
+            -95.29791,
+            29.75579
+        ],
+        "impact_radius": 4500,
+        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: 69Th St Wwtp in Houston is an active Major Facility flagged in the federal Clean Water Act database."
+    },
+    {
+        "facility": "Airport Wwtp",
+        "chemical": "EPA Major Water Facility",
+        "status": "LIVE TARGET",
+        "coordinates": [
+            -94.848276,
+            29.270535
+        ],
+        "impact_radius": 4500,
+        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Airport Wwtp in Galveston is an active Major Facility flagged in the federal Clean Water Act database."
+    },
+    {
+        "facility": "Aj Brown Parker Creek Wwtf",
+        "chemical": "EPA Major Water Facility",
+        "status": "LIVE TARGET",
+        "coordinates": [
+            -95.512744,
+            30.772434
+        ],
+        "impact_radius": 4500,
+        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Aj Brown Parker Creek Wwtf in Huntsville is an active Major Facility flagged in the federal Clean Water Act database."
+    },
+    {
+        "facility": "Albemarle Pasadena Plant",
+        "chemical": "EPA Major Water Facility",
+        "status": "LIVE TARGET",
+        "coordinates": [
+            -95.165513,
+            29.742498
+        ],
+        "impact_radius": 4500,
+        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Albemarle Pasadena Plant in Pasadena is an active Major Facility flagged in the federal Clean Water Act database."
+    },
+    {
+        "facility": "Alcoa Point Comfort Operations",
+        "chemical": "EPA Major Water Facility",
+        "status": "LIVE TARGET",
+        "coordinates": [
+            -96.557649,
+            28.652039
+        ],
+        "impact_radius": 4500,
+        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Alcoa Point Comfort Operations in Point Comfort is an active Major Facility flagged in the federal Clean Water Act database."
+    },
+    {
+        "facility": "Alcoa-Rockdale Operations",
+        "chemical": "EPA Major Water Facility",
+        "status": "LIVE TARGET",
+        "coordinates": [
+            -97.049361,
+            30.574194
+        ],
+        "impact_radius": 4500,
+        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Alcoa-Rockdale Operations in Rockdale is an active Major Facility flagged in the federal Clean Water Act database."
+    },
+    {
+        "facility": "Aledo Wwtp",
+        "chemical": "EPA Major Water Facility",
+        "status": "LIVE TARGET",
+        "coordinates": [
+            -97.60905,
+            32.68563
+        ],
+        "impact_radius": 4500,
+        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Aledo Wwtp in Aledo is an active Major Facility flagged in the federal Clean Water Act database."
+    },
+    {
+        "facility": "Allens Creek Wwtp",
+        "chemical": "EPA Major Water Facility",
+        "status": "LIVE TARGET",
+        "coordinates": [
+            -96.148036,
+            29.757462
+        ],
+        "impact_radius": 4500,
+        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Allens Creek Wwtp in Sealy is an active Major Facility flagged in the federal Clean Water Act database."
+    },
+    {
+        "facility": "Allison Wwtp",
+        "chemical": "EPA Major Water Facility",
+        "status": "LIVE TARGET",
+        "coordinates": [
+            -97.40411,
+            27.79642
+        ],
+        "impact_radius": 4500,
+        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Allison Wwtp in Corpus Christi is an active Major Facility flagged in the federal Clean Water Act database."
+    },
+    {
+        "facility": "Almeda Sims Wwtp",
+        "chemical": "EPA Major Water Facility",
+        "status": "LIVE TARGET",
+        "coordinates": [
+            -95.409126,
+            29.629134
+        ],
+        "impact_radius": 4500,
+        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Almeda Sims Wwtp in Houston is an active Major Facility flagged in the federal Clean Water Act database."
+    },
+    {
+        "facility": "Alvin 2900 Acre Tract Wwtp",
+        "chemical": "EPA Major Water Facility",
+        "status": "LIVE TARGET",
+        "coordinates": [
+            -95.419722,
+            29.335555
+        ],
+        "impact_radius": 4500,
+        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Alvin 2900 Acre Tract Wwtp in Alvin is an active Major Facility flagged in the federal Clean Water Act database."
+    },
+    {
+        "facility": "American Chrome & Chemicals",
+        "chemical": "EPA Major Water Facility",
+        "status": "LIVE TARGET",
+        "coordinates": [
+            -97.433333,
+            27.814167
+        ],
+        "impact_radius": 4500,
+        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: American Chrome & Chemicals in Corpus Christi is an active Major Facility flagged in the federal Clean Water Act database."
+    },
+    {
+        "facility": "Andy Bowie Wwtp",
+        "chemical": "EPA Major Water Facility",
+        "status": "LIVE TARGET",
+        "coordinates": [
+            -97.175028,
+            26.137972
+        ],
+        "impact_radius": 4500,
+        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Andy Bowie Wwtp in Port Isabel is an active Major Facility flagged in the federal Clean Water Act database."
+    },
+    {
+        "facility": "Angleton Wwtp",
+        "chemical": "EPA Major Water Facility",
+        "status": "LIVE TARGET",
+        "coordinates": [
+            -95.460238,
+            29.157204
+        ],
+        "impact_radius": 4500,
+        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Angleton Wwtp in Angleton is an active Major Facility flagged in the federal Clean Water Act database."
+    },
+    {
+        "facility": "Aransas Pass Wwtp",
+        "chemical": "EPA Major Water Facility",
+        "status": "LIVE TARGET",
+        "coordinates": [
+            -97.14881,
+            27.887586
+        ],
+        "impact_radius": 4500,
+        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Aransas Pass Wwtp in Aransas Pass is an active Major Facility flagged in the federal Clean Water Act database."
+    },
+    {
+        "facility": "Arkema Houston Chemical Plant",
+        "chemical": "EPA Major Water Facility",
+        "status": "LIVE TARGET",
+        "coordinates": [
+            -95.171863,
+            29.760597
+        ],
+        "impact_radius": 4500,
+        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Arkema Houston Chemical Plant in Houston is an active Major Facility flagged in the federal Clean Water Act database."
+    },
+    {
+        "facility": "Arlanxeo Orange Site",
+        "chemical": "EPA Major Water Facility",
+        "status": "LIVE TARGET",
+        "coordinates": [
+            -93.771806,
+            30.047556
+        ],
+        "impact_radius": 4500,
+        "bottom_line": "\u2623\ufe0f CWA TARGET CONFIRMED: Arlanxeo Orange Site in Orange is an active Major Facility flagged in the federal Clean Water Act database."
+    }
+]
