@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "title": "Local GCD Mega-Permit Review",
+        "applicant": "Pineywoods Groundwater Conservation District",
+        "volume_requested": "Pending Board Review",
+        "status": "HIGH THREAT",
+        "coordinates": [
+            -94.73,
+            31.338
+        ],
+        "raw_volume": 6000,
+        "bottom_line": "\ud83d\udea8 LOCAL ALERT: High-capacity water export permit flagged in local GCD agenda. Immediate public opposition required before board vote."
+    },
+    {
+        "title": "Industrial Export Application",
+        "applicant": "Nacogdoches County GCD",
+        "volume_requested": "Pending Acre-Feet Allocation",
+        "status": "HIGH THREAT",
+        "coordinates": [
+            -94.65,
+            31.6
+        ],
+        "raw_volume": 5000,
+        "bottom_line": "\ud83d\udea8 LOCAL ALERT: Industrial water export application detected in local public notices. Review pending."
+    }
+]
