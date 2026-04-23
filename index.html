@@ -145,8 +145,9 @@
             html += `<p style="text-align: center; color: #888; font-size: 0.75rem; margin-top: 15px;">Feed truncated to top 75 intercepts to preserve browser memory.</p>`;
             document.getElementById('feed-content').innerHTML = html || '<p style="color: #4CAF50;">Grid Clear.</p>';
 
+            // ROUTING FIX: Pulling the map bounds from the frontend folder
             const aquiferLayer = new GeoJsonLayer({
-                id: 'aquifer-layer', data: 'wilcox_aquifer.json', filled: true, extruded: false, getFillColor: [0, 150, 255, 60], pickable: false
+                id: 'aquifer-layer', data: 'frontend/wilcox_aquifer.json', filled: true, extruded: false, getFillColor: [0, 150, 255, 60], pickable: false
             });
 
             const mappedPermits = activePermits.map((threat) => ({
@@ -185,9 +186,10 @@
             });
         }
 
+        // ROUTING FIX: Pulling the daily feeds from the frontend folder
         Promise.all([
-            fetch('threat_feed.json').then(res => res.json()).catch(() => []),
-            fetch('toxin_feed.json').then(res => res.json()).catch(() => [])
+            fetch('frontend/threat_feed.json').then(res => res.json()).catch(() => []),
+            fetch('frontend/toxin_feed.json').then(res => res.json()).catch(() => [])
         ]).then(([permitData, toxinData]) => {
             globalPermits = permitData;
             globalToxins = toxinData;
