@@ -1,85 +1,64 @@
-import requests
-from bs4 import BeautifulSoup
-import PyPDF2
-import io
+import os
 import json
+import re
+from datetime import datetime
 
-print("Spinning up the Grail Systems Autonomous Hunter...")
-target_url = "https://www.pgcd.org/agendas"
-headers = {"User-Agent": "Mozilla/5.0"}
-threat_keywords = ['permit', 'gallons', 'industrial', 'application', 'amendment', 'hearing']
-
-try:
-    print("Breaching the server and locating recent PDF documents...")
-    response = requests.get(target_url, headers=headers, timeout=10)
+def analyze_text(text, doc_title):
+    text = text.lower()
     
-    if response.status_code == 200:
-        soup = BeautifulSoup(response.text, 'html.parser')
-        links = soup.find_all('a')
-        
-        intel_feed = []
-        found_hrefs = []
+    # 1. The Threat Matrix (Keywords)
+    threat_keywords = ['permit', 'amendment', 'hearing', 'drilling', 'export']
+    found_threats = [word for word in threat_keywords if word in text]
+    
+    # 2. The Extraction Engine (Hunting for numbers and names)
+    # Looks for numbers followed by gallons, acre-feet, or ac-ft
+    volume_match = re.search(r'([\d,.]+)\s*(acre-feet|gallons|ac-ft|gpm)', text)
+    volume = volume_match.group(0) if volume_match else "an undisclosed amount"
+    
+    # Looks for words after "application of" or "received from"
+    name_match = re.search(r'(?:application of|received from|by)\s+([a-z0-9\s.,]+?)(?:\sfor|\sto|\n|,)', text)
+    applicant = name_match.group(1).strip().title() if name_match else "An unknown corporation or entity"
 
-        for link in links:
-            href = link.get('href')
-            text = link.get_text().strip()
-            
-            if href and '.pdf' in href.lower() and href not in found_hrefs:
-                found_hrefs.append(href)
-                if href.startswith('/'):
-                    href = "https://www.pgcd.org" + href
-                
-                # --- THE SMART NAMING FIX ---
-                # If the text is lazy, extract the real name from the URL
-                lazy_words = ['download', 'view', 'link', 'click here']
-                if not text or text.lower() in lazy_words or len(text) < 4:
-                    raw_name = href.split('/')[-1] # Grabs the last part of the URL
-                    # Strip out the .pdf and dashes to make it readable
-                    doc_name = raw_name.replace('.pdf', '').replace('.PDF', '').replace('-', ' ')
-                else:
-                    doc_name = text
-                
-                # Limit to the 3 most recent documents
-                if len(intel_feed) >= 3:
-                    break
-                    
-                print(f"\n[SCANNING] {doc_name}...")
-                
-                try:
-                    pdf_response = requests.get(href, headers=headers, timeout=10)
-                    pdf_file = io.BytesIO(pdf_response.content)
-                    reader = PyPDF2.PdfReader(pdf_file)
-                    
-                    pdf_text = ""
-                    for page_num in range(min(3, len(reader.pages))):
-                        pdf_text += reader.pages[page_num].extract_text().lower()
-                        
-                    hits = [kw for kw in threat_keywords if kw in pdf_text]
-                    status = "HIGH THREAT" if hits else "CLEAR"
-                    
-                    intel_feed.append({
-                        "title": doc_name,
-                        "link": href,
-                        "status": status,
-                        "hits": hits
-                    })
-                    print(f" -> Status: {status} | Keywords Found: {hits}")
-                    
-                except Exception as e:
-                    print(" -> [WARNING] Could not read text. PDF might be a scanned image.")
-                    intel_feed.append({
-                        "title": doc_name,
-                        "link": href,
-                        "status": "MANUAL REVIEW REQ",
-                        "hits": []
-                    })
-                    
-        with open('frontend/threat_feed.json', 'w') as f:
-            json.dump(intel_feed, f)
-        print("\n[SUCCESS] Threat feed compiled with clean titles.")
-        
+    # 3. The 6th-Grade Translator
+    if found_threats:
+        status = "HIGH THREAT"
+        bottom_line = f"⚠️ ALERT: {applicant} is asking the government for permission to pump {volume} of water out of the aquifer. The community needs to review this immediately."
+        # For the map spikes later, we need a raw number
+        raw_volume = float(re.sub(r'[^\d.]', '', volume_match.group(1))) if volume_match else 1000
     else:
-        print(f"Connection blocked. Status: {response.status_code}")
+        status = "CLEAR"
+        bottom_line = "No major pumping requests or threats detected in this document."
+        raw_volume = 0
+        applicant = "None"
 
-except Exception as e:
-    print(f"System Error: {e}")
+    return {
+        "title": doc_title,
+        "status": status,
+        "applicant": applicant,
+        "volume_requested": volume,
+        "raw_volume": raw_volume,
+        "bottom_line": bottom_line,
+        "keywords_found": found_threats,
+        "date_scanned": datetime.now().strftime("%Y-%m-%d")
+    }
+
+def generate_mock_feed():
+    # Since the real government site only updates once a month, 
+    # we are injecting a live test-threat so we can build the 3D map spikes.
+    print("Compiling Intelligence Feed...")
+    
+    intel_feed = [
+        analyze_text("application of MegaCorp Water Supply LLC for 5,000,000 gallons per year permit amendment hearing", "Upcoming GCD Hearing - Target A"),
+        analyze_text("routine meeting minutes no new permits", "Last Month's Minutes"),
+        analyze_text("received from Texas Fracking Partners a request to export 25000 acre-feet", "Emergency Export Request - Target B")
+    ]
+    
+    # Save the data to the frontend folder so the map can see it
+    os.makedirs('frontend', exist_ok=True)
+    with open('frontend/threat_feed.json', 'w') as f:
+        json.dump(intel_feed, f, indent=4)
+    
+    print("[SUCCESS] Threat feed translated to plain English and saved.")
+
+if __name__ == "__main__":
+    generate_mock_feed()
