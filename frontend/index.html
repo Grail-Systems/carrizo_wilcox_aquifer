@@ -33,6 +33,7 @@
             font-family: monospace; font-size: 0.85rem !important; background: rgba(0, 0, 0, 0.9) !important;
             border: 1px solid #ff3232 !important; border-radius: 4px !important; color: #fff !important;
             padding: 10px !important; pointer-events: none;
+            max-width: 300px;
         }
         .highlight { color: #ffaa00; }
         .feed-item { border-bottom: 1px solid #333; padding-bottom: 12px; margin-bottom: 12px; }
@@ -41,15 +42,16 @@
 <body>
     <div id="ui-panel">
         <h1>Aquifer Defense Grid</h1>
-        <p style="font-size: 0.9rem; color: #ccc;">Live 3D view of the Carrizo-Wilcox water table and active high-volume draws.</p>
+        <p style="font-size: 0.9rem; color: #ccc;">Live 3D view of the Carrizo-Wilcox water table and active threats.</p>
         <div class="legend-item"><div class="color-box" style="background: rgba(0, 150, 255, 0.3);"></div> Carrizo-Wilcox Boundary</div>
-        <div class="legend-item"><div class="color-box" style="background: rgba(255, 50, 50, 0.9); border-radius: 50%;"></div> High-Volume Threat</div>
+        <div class="legend-item"><div class="color-box" style="background: rgba(255, 50, 50, 0.9); border-radius: 50%;"></div> High-Volume Draw</div>
         <div class="legend-item"><div class="color-box" style="background: rgba(255, 0, 0, 1);"></div> 3D Active Permit Request</div>
-        <p style="font-size: 0.8rem; color: #888; margin-top: 20px;">Hold SHIFT + Click & Drag to tilt.<br>Hover over a red marker to identify.</p>
+        <div class="legend-item"><div class="color-box" style="background: rgba(57, 255, 20, 0.4); border: 2px solid #39FF14; border-radius: 50%;"></div> Toxic Spill / Discharge Area</div>
+        <p style="font-size: 0.8rem; color: #888; margin-top: 20px;">Hold SHIFT + Click & Drag to tilt.<br>Hover over any marker to identify.</p>
     </div>
     
     <div id="threat-feed-panel">
-        <h2>Live Permit Intercepts</h2>
+        <h2>Live Intercepts</h2>
         <div id="feed-content">
             <p style="font-size: 0.8rem; color: #888;">Intercepting live feed...</p>
         </div>
@@ -58,9 +60,9 @@
     <div id="map"></div>
 
     <script>
-        const { DeckGL, GeoJsonLayer, ColumnLayer } = deck;
+        const { DeckGL, GeoJsonLayer, ColumnLayer, ScatterplotLayer } = deck;
 
-        // Initialize the Map with an automatic 3D Tilt
+        // Initialize the Map
         const deckgl = new DeckGL({
             container: 'map',
             initialViewState: { longitude: -94.730, latitude: 31.338, zoom: 7.5, pitch: 45, bearing: 10 },
@@ -68,13 +70,17 @@
             mapStyle: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
             getTooltip: ({object}) => {
                 if (!object) return null;
-                // Tooltip for existing wells
+                // Existing Wells
                 if (object.properties && object.properties.OwnerName) {
                     return { html: `<strong style="color: #ff3232;">EXISTING WELL</strong><br/>-------------------------<br/><span class="highlight">Owner:</span> ${object.properties.OwnerName || 'REDACTED'}<br/><span class="highlight">Usage:</span> ${object.properties.PrimaryWat || 'UNKNOWN'}<br/><span class="highlight">Depth:</span> ${object.properties.WellDepth ? object.properties.WellDepth + ' ft' : 'UNKNOWN'}` };
                 }
-                // Tooltip for 3D Spikes
-                if (object.bottom_line) {
+                // 3D Water Permits
+                if (object.bottom_line && object.volume_requested) {
                     return { html: `<strong style="color: #ff3232;">ACTIVE PERMIT THREAT</strong><br/>-------------------------<br/>${object.bottom_line}` };
+                }
+                // Toxin Spills
+                if (object.chemical) {
+                    return { html: `<strong style="color: #39FF14;">TOXIC DISCHARGE DETECTED</strong><br/>-------------------------<br/>${object.bottom_line}` };
                 }
             },
             layers: [
@@ -87,55 +93,92 @@
             ]
         });
 
-        // Fetch Intelligence Feed and Build UI + 3D Spikes
-        fetch('threat_feed.json')
-            .then(response => response.json())
-            .then(data => {
-                // 1. Build the Right-Hand UI Panel
-                let html = '';
-                data.forEach(item => {
-                    let color = item.status === 'HIGH THREAT' ? '#ff3232' : (item.status === 'CLEAR' ? '#4CAF50' : '#ffaa00');
-                    let keywords = item.keywords_found && item.keywords_found.length > 0 ? item.keywords_found.join(', ') : 'None';
-                    html += `
-                        <div class="feed-item">
-                            <strong style="color: ${color}; font-size: 0.85rem; letter-spacing: 1px;">[${item.status}]</strong><br/>
-                            <strong style="color: white; font-size: 0.9rem;">${item.title}</strong><br/>
-                            <p style="font-size: 0.85rem; line-height: 1.4; color: #ddd; margin: 5px 0;">${item.bottom_line}</p>
-                            <span style="font-size: 0.75rem; color: #888;">Keywords: ${keywords}</span>
-                        </div>
-                    `;
-                });
-                document.getElementById('feed-content').innerHTML = html;
+        // Fetch Both Feeds: Permits and Toxins
+        Promise.all([
+            fetch('threat_feed.json').then(res => res.json()).catch(() => []),
+            fetch('toxin_feed.json').then(res => res.json()).catch(() => [])
+        ]).then(([permitData, toxinData]) => {
+            
+            let html = '';
 
-                // 2. Build the 3D Holographic Spikes
-                const highThreats = data.filter(t => t.status === "HIGH THREAT");
-                const mappedThreats = highThreats.map((threat, index) => ({
-                    ...threat,
-                    position: [-94.73 - (index * 0.1), 31.60 + (index * 0.1)] // Mock coordinates
-                }));
+           // 1. Process Water Permits into UI
+            permitData.forEach(item => {
+                let color = item.status === 'HIGH THREAT' ? '#ff3232' : '#4CAF50';
+                
+                // The automated email generator button
+                let actionBtn = '';
+                if (item.status === 'HIGH THREAT') {
+                    let emailSubject = `URGENT: Public Opposition to Water Permit - ${item.applicant}`;
+                    let emailBody = `To whom it may concern,%0D%0A%0D%0AAs a resident, I am writing to formally oppose the active permit request by ${item.applicant} to draw high-volume water from our local aquifer.%0D%0A%0D%0AThis poses a direct threat to our community's water security. I expect my representatives to intervene immediately.%0D%0A%0D%0ASincerely,%0D%0A[Your Name]`;
+                    actionBtn = `<a href="mailto:?subject=${emailSubject}&body=${emailBody}" style="display: inline-block; margin-top: 8px; padding: 6px 12px; background: #ff3232; color: white; text-decoration: none; font-size: 0.8rem; font-weight: bold; border-radius: 4px; text-transform: uppercase;">Take Action: Send Email</a>`;
+                }
 
-                const threatSpikeLayer = new ColumnLayer({
-                    id: 'threat-spikes',
-                    data: mappedThreats,
-                    diskResolution: 12,
-                    radius: 3000,
-                    extruded: true,
-                    pickable: true,
-                    elevationScale: 50, // Multiplier for height
-                    getPosition: d => d.position,
-                    getFillColor: [255, 0, 0, 255],
-                    getElevation: d => d.raw_volume || 1000
-                });
-
-                // Add 3D Spikes to the map without erasing existing layers
-                deckgl.setProps({
-                    layers: [...deckgl.props.layers, threatSpikeLayer]
-                });
-            })
-            .catch(error => {
-                console.error("Data pipeline error:", error);
-                document.getElementById('feed-content').innerHTML = '<p style="color: #ff3232;">Error: Grid offline. Threat feed unavailable.</p>';
+                html += `
+                    <div class="feed-item">
+                        <strong style="color: ${color}; font-size: 0.85rem;">[WATER THREAT]</strong><br/>
+                        <strong style="color: white; font-size: 0.9rem;">${item.title}</strong><br/>
+                        <p style="font-size: 0.85rem; line-height: 1.4; color: #ddd; margin: 5px 0;">${item.bottom_line}</p>
+                        ${actionBtn}
+                    </div>
+                `;
             });
+
+            // 2. Process Toxins into UI
+            toxinData.forEach(item => {
+                let emailSubject = `URGENT: Toxic Discharge Inquiry - ${item.facility}`;
+                let emailBody = `To whom it may concern,%0D%0A%0D%0AAs a resident, I am demanding immediate transparency and state intervention regarding the recent toxic discharge reported at ${item.facility}.%0D%0A%0D%0AWe require an immediate public status update on the containment and groundwater impact.%0D%0A%0D%0ASincerely,%0D%0A[Your Name]`;
+                
+                html += `
+                    <div class="feed-item">
+                        <strong style="color: #39FF14; font-size: 0.85rem;">[${item.status}]</strong><br/>
+                        <strong style="color: white; font-size: 0.9rem;">${item.facility}</strong><br/>
+                        <p style="font-size: 0.85rem; line-height: 1.4; color: #ddd; margin: 5px 0;">${item.bottom_line}</p>
+                        <a href="mailto:?subject=${emailSubject}&body=${emailBody}" style="display: inline-block; margin-top: 8px; padding: 6px 12px; background: transparent; border: 2px solid #39FF14; color: #39FF14; text-decoration: none; font-size: 0.8rem; font-weight: bold; border-radius: 4px; text-transform: uppercase;">Demand Investigation</a>
+                    </div>
+                `;
+            });
+
+            document.getElementById('feed-content').innerHTML = html || '<p style="color: #4CAF50;">Grid Clear.</p>';
+
+            // 3. Build the 3D Red Permit Spikes
+            const highThreats = permitData.filter(t => t.status === "HIGH THREAT");
+            const mappedThreats = highThreats.map((threat, index) => ({
+                ...threat, position: [-94.73 - (index * 0.1), 31.60 + (index * 0.1)] 
+            }));
+
+            const threatSpikeLayer = new ColumnLayer({
+                id: 'threat-spikes',
+                data: mappedThreats,
+                diskResolution: 12,
+                radius: 3000,
+                extruded: true,
+                pickable: true,
+                elevationScale: 50,
+                getPosition: d => d.position,
+                getFillColor: [255, 0, 0, 255],
+                getElevation: d => d.raw_volume || 1000
+            });
+
+            // 4. Build the Neon Green Toxin Zones
+            const toxinLayer = new ScatterplotLayer({
+                id: 'toxin-zones',
+                data: toxinData,
+                pickable: true,
+                opacity: 0.5,
+                stroked: true,
+                filled: true,
+                lineWidthMinPixels: 2,
+                getPosition: d => d.coordinates,
+                getFillColor: [57, 255, 20, 100], // Transparent Neon Green
+                getLineColor: [57, 255, 20, 255], // Solid Neon Green outline
+                getRadius: d => d.impact_radius || 3000
+            });
+
+            // Inject both new layers into the map
+            deckgl.setProps({
+                layers: [...deckgl.props.layers, threatSpikeLayer, toxinLayer]
+            });
+        });
     </script>
 </body>
 </html>
