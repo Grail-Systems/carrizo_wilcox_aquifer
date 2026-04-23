@@ -44,16 +44,6 @@
         ::-webkit-scrollbar-track { background: #111; }
         ::-webkit-scrollbar-thumb { background: #444; border-radius: 3px; }
 
-        @keyframes pulse-border {
-            0% { border-color: rgba(255, 50, 50, 1); box-shadow: 0 0 5px rgba(255,50,50,0.2); }
-            50% { border-color: rgba(255, 50, 50, 0.3); box-shadow: 0 0 15px rgba(255,50,50,0.6); }
-            100% { border-color: rgba(255, 50, 50, 1); box-shadow: 0 0 5px rgba(255,50,50,0.2); }
-        }
-        .dark-district-box {
-            background: rgba(255, 50, 50, 0.05); border: 1px solid #ff3232; 
-            padding: 10px; margin-top: 15px; border-radius: 4px; animation: pulse-border 2s infinite;
-        }
-
         .shame-btn {
             display: block; width: 100%; background: rgba(255, 0, 0, 0.1); border: 2px solid #ff3232; 
             color: #ff3232; text-decoration: none; padding: 12px 0; font-weight: bold; font-size: 1rem; 
@@ -62,13 +52,6 @@
         }
         .shame-btn:hover { background: rgba(255, 0, 0, 0.3); box-shadow: inset 0 0 20px rgba(255,50,50,0.6); text-shadow: 0 0 5px #ff3232; }
 
-        input[type=range] { -webkit-appearance: none; width: 100%; background: transparent; }
-        input[type=range]::-webkit-slider-thumb {
-            -webkit-appearance: none; height: 16px; width: 16px; border-radius: 50%;
-            background: #ffaa00; cursor: pointer; margin-top: -6px; box-shadow: 0 0 5px rgba(255, 170, 0, 0.8);
-        }
-        input[type=range]::-webkit-slider-runnable-track { width: 100%; height: 4px; cursor: pointer; background: #444; border-radius: 2px; }
-        
         #target-lock {
             background: rgba(255, 50, 50, 0.1); border: 1px solid #ff3232; padding: 15px; 
             border-radius: 6px; margin-bottom: 15px; display: none;
@@ -82,49 +65,28 @@
         
         <div class="legend-item"><div class="color-box" style="background: rgba(0, 150, 255, 0.3);"></div> Carrizo-Wilcox Boundary</div>
         <div class="legend-item"><div class="color-box" style="background: rgba(255, 50, 50, 0.6); border-radius: 50%;"></div> Existing Industrial Well</div>
-        <div class="legend-item"><div class="color-box" style="background: rgba(255, 0, 0, 1);"></div> Live USGS Telemetry / Draw</div>
+        <div class="legend-item"><div class="color-box" style="background: rgba(255, 0, 0, 1);"></div> Corporate Mega-Permit</div>
+        <div class="legend-item"><div class="color-box" style="background: rgba(255, 170, 0, 1);"></div> Live USGS Telemetry</div>
         <div class="legend-item"><div class="color-box" style="background: rgba(57, 255, 20, 0.4); border: 2px solid #39FF14; border-radius: 50%;"></div> Toxic Spill / Discharge</div>
         
-        <div style="margin-top: 15px; border-top: 1px solid #444; padding-top: 15px;">
-            <strong style="color: #fff; font-size: 0.95rem;">RENDER MODE</strong><br>
-            <div style="display: flex; gap: 10px; margin-top: 8px;">
-                <label style="font-size: 0.8rem; cursor: pointer; color: #ddd;">
-                    <input type="radio" name="render-mode" id="mode-density" checked onchange="updateGrid()"> 🛑 Holographic Density
-                </label>
-                <label style="font-size: 0.8rem; cursor: pointer; color: #ddd;">
-                    <input type="radio" name="render-mode" id="mode-spikes" onchange="updateGrid()"> 📍 Raw Spikes
-                </label>
-            </div>
-        </div>
-
         <div style="margin-top: 15px; border-top: 1px solid #444; padding-top: 15px;">
             <strong style="color: #fff; font-size: 0.95rem;">TACTICAL FILTERS</strong><br>
             
             <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;">
-                <input type="checkbox" id="toggle-existing" checked onchange="updateGrid()"> Show Existing Industrial Wells
+                <input type="checkbox" id="toggle-permits" checked onchange="updateGrid()"> 🛑 Show Corporate Mega-Permits
             </label>
 
             <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;">
-                <input type="checkbox" id="toggle-draws" checked onchange="updateGrid()"> Show 3D Industrial Draws & USGS
+                <input type="checkbox" id="toggle-usgs" checked onchange="updateGrid()"> 📍 Show USGS Live Telemetry
             </label>
 
-            <div style="margin-top: 8px; padding-left: 20px;">
-                <label style="font-size: 0.75rem; color: #ffaa00; font-weight: bold; display: flex; justify-content: space-between;">
-                    <span>Filter Volume (acre-ft):</span>
-                    <span id="volume-readout">1,000+</span>
-                </label>
-                <input type="range" id="volume-slider" min="1000" max="8000" step="500" value="1000" oninput="updateVolumeLabel(); updateGrid();">
-            </div>
-
-            <label style="font-size: 0.85rem; display: block; margin-top: 15px; cursor: pointer;">
-                <input type="checkbox" id="toggle-toxins" checked onchange="updateGrid()"> Show Toxic Discharges
+            <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;">
+                <input type="checkbox" id="toggle-existing" checked onchange="updateGrid()"> 🛢️ Show Existing Industrial Wells
             </label>
-        </div>
 
-        <div id="dark-districts-panel" class="dark-district-box" style="display: none;">
-            <strong style="color: #ff3232; font-size: 0.95rem; text-transform: uppercase;">⚠️ Dark Districts Detected</strong>
-            <p style="font-size: 0.75rem; color: #ccc; margin: 5px 0;">The following water boards are operating offline to shield mega-permits from public oversight:</p>
-            <div id="dark-districts-list" style="margin-top: 8px;"></div>
+            <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;">
+                <input type="checkbox" id="toggle-toxins" checked onchange="updateGrid()"> ☢️ Show Toxic Discharges
+            </label>
         </div>
 
         <a href="wall_of_shame.html" class="shame-btn">💀 Enter The Wall of Shame</a>
@@ -136,8 +98,7 @@
                 <input type="text" id="zip-input" placeholder="Zip Code" style="width: 35%; background: #222; border: 1px solid #444; color: white; padding: 6px; border-radius: 4px; box-sizing: border-box;">
                 <input type="text" id="phone-input" placeholder="Mobile Number" style="width: 65%; background: #222; border: 1px solid #444; color: white; padding: 6px; border-radius: 4px; box-sizing: border-box;">
             </div>
-            <button onclick="registerAlerts()" style="width: 100%; margin-top: 8px; background: #ffaa00; color: #111; border: none; padding: 8px; font-weight: bold; border-radius: 4px; cursor: pointer; text-transform: uppercase;">Get Live Alerts</button>
-            <p id="alert-status" style="font-size: 0.75rem; font-weight: bold; margin-top: 8px; display: none; padding: 8px; border-radius: 4px; line-height: 1.4;"></p>
+            <button onclick="alert('Comms channel simulated. Number secured.')" style="width: 100%; margin-top: 8px; background: #ffaa00; color: #111; border: none; padding: 8px; font-weight: bold; border-radius: 4px; cursor: pointer; text-transform: uppercase;">Get Live Alerts</button>
         </div>
 
         <div style="margin-top: 15px; border-top: 1px solid #444; padding-top: 15px; text-align: center;">
@@ -165,7 +126,9 @@
     <script>
         const { DeckGL, GeoJsonLayer, ColumnLayer, ScatterplotLayer, HexagonLayer } = deck;
 
+        // DISTINCT DATA STREAMS
         let globalPermits = [];
+        let globalUSGS = [];
         let globalToxins = [];
         let globalWells = []; 
 
@@ -180,50 +143,15 @@
         
         let currentStyle = darkMapStyle;
 
-        function updateVolumeLabel() {
-            const val = document.getElementById('volume-slider').value;
-            document.getElementById('volume-readout').innerText = Number(val).toLocaleString() + '+';
-        }
-
-        function registerAlerts() {
-            const zip = document.getElementById('zip-input').value.trim();
-            const phone = document.getElementById('phone-input').value.trim();
-            const statusBox = document.getElementById('alert-status');
-
-            if (zip && phone) {
-                statusBox.style.display = 'block';
-                statusBox.style.backgroundColor = 'rgba(76, 175, 80, 0.2)';
-                statusBox.style.border = '1px solid #4CAF50';
-                statusBox.style.color = '#4CAF50';
-                statusBox.innerHTML = "✅ Number secured. You are now on the grid.";
-                document.getElementById('zip-input').value = '';
-                document.getElementById('phone-input').value = '';
-            }
-        }
-
-        function populateDarkDistricts(darkData) {
-            if (!darkData || darkData.length === 0) return;
-            document.getElementById('dark-districts-panel').style.display = 'block';
-            let html = '';
-            darkData.forEach(d => {
-                html += `<div style="background: rgba(255, 50, 50, 0.1); border-left: 3px solid #ff3232; padding: 6px; margin-bottom: 5px;"><strong style="color: #ff3232; font-size: 0.8rem;">${d.county} County</strong></div>`;
-            });
-            document.getElementById('dark-districts-list').innerHTML = html;
-        }
-
         function lockTarget(info) {
             if (!info || !info.object) return;
             const obj = info.object;
-            const targetPanel = document.getElementById('target-lock');
-            const targetDetails = document.getElementById('target-details');
-            
-            targetPanel.style.display = 'block';
-            
+            document.getElementById('target-lock').style.display = 'block';
             let emailSubject = `FORMAL REQUEST: Public Comment / FOIA Request - ${obj.title || obj.facility || 'Infrastructure'}`;
             let emailBody = `To the relevant authorities,%0D%0A%0D%0AI am formally requesting a review regarding the active infrastructure at these coordinates: ${obj.coordinates || 'N/A'}.%0D%0A%0D%0ASincerely,%0D%0A[YOUR LEGAL NAME]`;
             let actionBtn = `<a href="mailto:public_intake@localgcd.org?subject=${emailSubject}&body=${emailBody}" style="display: block; text-align: center; margin-top: 10px; padding: 8px 12px; background: #ffaa00; color: #111; text-decoration: none; font-size: 0.85rem; font-weight: bold; border-radius: 4px; text-transform: uppercase;">File Direct Injunction</a>`;
 
-            targetDetails.innerHTML = `
+            document.getElementById('target-details').innerHTML = `
                 <strong style="color: white;">${obj.title || obj.facility || 'Identified Target'}</strong><br/>
                 <div style="margin-top: 5px; color: #ddd; line-height: 1.4;">${obj.bottom_line || 'Details secured.'}</div>
                 ${actionBtn}
@@ -237,114 +165,86 @@
             mapStyle: currentStyle,
             onViewStateChange: ({viewState}) => {
                 const newStyle = viewState.zoom >= 10.5 ? satelliteMapStyle : darkMapStyle;
-                if (currentStyle !== newStyle) {
-                    currentStyle = newStyle;
-                    deckgl.setProps({ mapStyle: currentStyle });
-                }
+                if (currentStyle !== newStyle) { currentStyle = newStyle; deckgl.setProps({ mapStyle: currentStyle }); }
             },
             getTooltip: ({object}) => {
                 if (!object) return null;
+                // Hexagon (Permits)
                 if (object.points) {
-                    let totalVol = 0;
-                    object.points.forEach(p => { totalVol += (p.source ? p.source.raw_volume : p.raw_volume) || 1000; });
-                    return { html: `<div style="padding: 12px; border-left: 4px solid #ffaa00; background: rgba(15,15,15,0.95);"><strong style="color: #ffaa00;">CRITICAL DENSITY ZONE</strong><br/>-------------------------<br/>Targets in sector: ${object.points.length}<br/>Combined Volume Metric: ${totalVol.toLocaleString()}<br/><br/><span style="color: #888; font-size: 0.75rem;">(Click to isolate sector)</span></div>` };
+                    let totalVol = 0; object.points.forEach(p => { totalVol += (p.source ? p.source.raw_volume : p.raw_volume) || 1000; });
+                    return { html: `<div style="padding: 12px; border-left: 4px solid #ff3232; background: rgba(15,15,15,0.95);"><strong style="color: #ff3232;">MEGA-PERMIT CLUSTER</strong><br/>Targets: ${object.points.length}<br/>Volume: ${totalVol.toLocaleString()} acre-ft</div>` };
                 }
-                if (object.facility || object.status === "CONFIRMED THREAT" || object.status === "SEVERE HAZARD") {
-                    return { html: `<div style="padding: 12px; border-left: 4px solid #39FF14; background: rgba(15,15,15,0.95); box-shadow: inset 20px 0 30px -20px rgba(57,255,20,0.3);"><strong style="color: #39FF14;">☣️ TOXIC HAZARD: ${object.facility || 'Unknown'}</strong><br/>-------------------------<br/>${object.bottom_line || 'Status pending review.'}<br/><br/><span style="color: #888; font-size: 0.75rem;">(Click target to lock & demand records)</span></div>` };
-                }
-                if (object.properties && object.properties.OwnerName) {
-                    return { html: `<div style="padding: 12px; border-left: 4px solid #ff3232; background: rgba(15,15,15,0.95); box-shadow: inset 20px 0 30px -20px rgba(255,50,50,0.3);"><strong style="color: #ff3232;">🛢️ INDUSTRIAL INFRASTRUCTURE</strong><br/>-------------------------<br/><span style="color: #ffaa00;">Owner:</span> ${object.properties.OwnerName || 'REDACTED'}<br/><br/><span style="color: #888; font-size: 0.75rem;">(Click target to lock & inspect)</span></div>` };
-                }
-                return { html: `<div style="padding: 12px; border-left: 4px solid #ff3232; background: rgba(15,15,15,0.95); box-shadow: inset 20px 0 30px -20px rgba(255,50,50,0.3);"><strong style="color: #ff3232;">💧 ACTIVE WATER THREAT</strong><br/>-------------------------<br/><strong style="color:white;">${object.title || object.applicant || "Unknown Target"}</strong><br/><br/>${object.bottom_line || "Active target parameters secured."}<br/><br/><span style="color: #888; font-size: 0.75rem;">(Click target to lock & file injunction)</span></div>` };
+                // Toxin
+                if (object.feed_type === 'toxin') return { html: `<div style="padding: 12px; border-left: 4px solid #39FF14; background: rgba(15,15,15,0.95);"><strong style="color: #39FF14;">☣️ TOXIC HAZARD</strong><br/>${object.facility}<br/>${object.bottom_line}</div>` };
+                // USGS
+                if (object.feed_type === 'usgs') return { html: `<div style="padding: 12px; border-left: 4px solid #ffaa00; background: rgba(15,15,15,0.95);"><strong style="color: #ffaa00;">📍 USGS TELEMETRY</strong><br/>${object.title}<br/>${object.bottom_line}</div>` };
+                // Existing Wells
+                if (object.properties) return { html: `<div style="padding: 12px; border-left: 4px solid #ff3232; background: rgba(15,15,15,0.95);"><strong style="color: #ff3232;">🛢️ INDUSTRIAL WELL</strong><br/>Owner: ${object.properties.OwnerName || 'Unknown'}</div>` };
+                return null;
             },
             layers: []
         });
 
         function updateGrid() {
+            const showPermits = document.getElementById('toggle-permits').checked;
+            const showUSGS = document.getElementById('toggle-usgs').checked;
             const showExisting = document.getElementById('toggle-existing').checked;
-            const showDraws = document.getElementById('toggle-draws').checked;
             const showToxins = document.getElementById('toggle-toxins').checked;
-            const minVolumeFilter = parseInt(document.getElementById('volume-slider').value, 10);
-            const renderModeSpikes = document.getElementById('mode-spikes').checked;
 
-            let activePermits = showDraws ? globalPermits.filter(p => (p.raw_volume || 1000) >= minVolumeFilter) : [];
-            let activeToxins = showToxins ? globalToxins : [];
-            let activeWells = showExisting ? globalWells : [];
-
-            // Omni-Feed Compiler
             let combinedFeed = [];
-            activePermits.forEach(p => combinedFeed.push({...p, feed_type: 'water'}));
-            activeToxins.forEach(t => combinedFeed.push({...t, feed_type: 'toxin'}));
+            if (showPermits) globalPermits.forEach(p => combinedFeed.push({...p, feed_type: 'permit'}));
+            if (showUSGS) globalUSGS.forEach(u => combinedFeed.push({...u, feed_type: 'usgs'}));
+            if (showToxins) globalToxins.forEach(t => combinedFeed.push({...t, feed_type: 'toxin'}));
             
-            const totalThreats = combinedFeed.length;
-            let html = `
-                <div style="background: #ff3232; color: white; padding: 10px; text-align: center; font-weight: bold; margin-bottom: 15px; border-radius: 4px; box-shadow: 0 0 10px rgba(255, 50, 50, 0.5);">
-                    SYSTEM ALERT: ${totalThreats.toLocaleString()} LIVE INTERCEPTS
-                </div>
-            `;
+            // Render Side Panel Omni-Feed
+            let html = `<div style="background: #ff3232; color: white; padding: 10px; text-align: center; font-weight: bold; margin-bottom: 15px; border-radius: 4px;">SYSTEM ALERT: ${combinedFeed.length.toLocaleString()} LIVE INTERCEPTS</div>`;
 
             combinedFeed.slice(0, 30).forEach(item => {
-                if (item.feed_type === 'water') {
-                    html += `
-                        <div class="feed-item">
-                            <strong style="color: #ff3232; font-size: 0.85rem;">[WATER DATA / USGS]</strong><br/>
-                            <strong style="color: white; font-size: 0.9rem;">${item.title}</strong><br/>
-                            <p style="font-size: 0.85rem; line-height: 1.4; color: #ddd; margin: 5px 0;">${item.bottom_line || "Details pending."}</p>
-                        </div>
-                    `;
-                } else if (item.feed_type === 'toxin') {
-                    html += `
-                        <div class="feed-item" style="border-left: 2px solid #39FF14; padding-left: 10px;">
-                            <strong style="color: #39FF14; font-size: 0.85rem;">[BIOHAZARD DETECTED]</strong><br/>
-                            <strong style="color: white; font-size: 0.9rem;">${item.facility}</strong><br/>
-                            <p style="font-size: 0.85rem; line-height: 1.4; color: #ddd; margin: 5px 0;">${item.bottom_line || "Details pending."}</p>
-                        </div>
-                    `;
-                }
+                let color = item.feed_type === 'toxin' ? '#39FF14' : item.feed_type === 'usgs' ? '#ffaa00' : '#ff3232';
+                let tag = item.feed_type === 'toxin' ? '[BIOHAZARD]' : item.feed_type === 'usgs' ? '[USGS TELEMETRY]' : '[MEGA-PERMIT]';
+                let title = item.title || item.facility;
+                
+                html += `
+                    <div class="feed-item" style="border-left: 2px solid ${color}; padding-left: 10px;">
+                        <strong style="color: ${color}; font-size: 0.85rem;">${tag}</strong><br/>
+                        <strong style="color: white; font-size: 0.9rem;">${title}</strong><br/>
+                        <p style="font-size: 0.85rem; line-height: 1.4; color: #ddd; margin: 5px 0;">${item.bottom_line}</p>
+                    </div>
+                `;
             });
             document.getElementById('feed-content').innerHTML = html || '<p style="color: #4CAF50;">Grid Clear.</p>';
 
+            // Build Map Layers
             const activeLayers = [];
-            
-            // 1. Blue Aquifer Base
             activeLayers.push(new GeoJsonLayer({ id: 'aquifer-layer', data: 'frontend/wilcox_aquifer.json', filled: true, getFillColor: [0, 150, 255, 60], pickable: false }));
 
-            // 2. Existing Industrial Wells (Restored)
-            if (showExisting && activeWells.length > 0) {
-                activeLayers.push(new ScatterplotLayer({ 
-                    id: 'threat-wells-layer', data: activeWells, getPosition: d => d.geometry.coordinates, 
-                    getFillColor: [255, 50, 50, 180], radiusUnits: 'pixels', getRadius: 5, pickable: true, onClick: lockTarget 
-                }));
+            if (showExisting && globalWells.length > 0) {
+                activeLayers.push(new ScatterplotLayer({ id: 'threat-wells', data: globalWells, getPosition: d => d.geometry.coordinates, getFillColor: [255, 50, 50, 180], getRadius: 5, radiusUnits: 'pixels', pickable: true, onClick: lockTarget }));
             }
 
-            // 3. USGS Live Telemetry Hexagons/Spikes
-            if (showDraws && activePermits.length > 0) {
-                if (renderModeSpikes) {
-                    activeLayers.push(new ColumnLayer({ id: 'threat-spikes', data: activePermits, diskResolution: 36, radius: 400, extruded: true, pickable: true, elevationScale: 2, getPosition: d => d.coordinates, getFillColor: [255, 0, 0, 255], getElevation: d => d.raw_volume || 1000, material: { ambient: 0.5, diffuse: 0.8 }, onClick: lockTarget }));
-                } else {
-                    activeLayers.push(new HexagonLayer({ id: 'threat-density-hex', data: activePermits, pickable: true, extruded: true, radius: 4000, coverage: 0.85, opacity: 0.6, elevationScale: 4, getPosition: d => d.coordinates, getElevationWeight: d => d.raw_volume || 1000, elevationAggregation: 'SUM', colorRange: [[150, 0, 0], [200, 0, 0], [255, 50, 0], [255, 100, 0], [255, 0, 0]], onClick: lockTarget }));
-                }
+            if (showPermits && globalPermits.length > 0) {
+                activeLayers.push(new HexagonLayer({ id: 'threat-permits', data: globalPermits, pickable: true, extruded: true, radius: 4000, coverage: 0.85, elevationScale: 4, getPosition: d => d.coordinates, getElevationWeight: d => d.raw_volume || 1000, colorRange: [[150, 0, 0], [200, 0, 0], [255, 50, 0], [255, 100, 0], [255, 0, 0]], onClick: lockTarget }));
             }
 
-            // 4. Toxic Spills (Green)
-            if (showToxins && activeToxins.length > 0) {
-                activeLayers.push(new ScatterplotLayer({ id: 'toxin-zones', data: activeToxins, pickable: true, opacity: 0.8, stroked: true, filled: true, lineWidthMinPixels: 2, radiusUnits: 'pixels', getPosition: d => d.coordinates, getFillColor: [57, 255, 20, 150], getLineColor: [57, 255, 20, 255], getRadius: 12, onClick: lockTarget }));
+            if (showUSGS && globalUSGS.length > 0) {
+                activeLayers.push(new ColumnLayer({ id: 'usgs-spikes', data: globalUSGS, diskResolution: 12, radius: 800, extruded: true, pickable: true, elevationScale: 2, getPosition: d => d.coordinates, getFillColor: [255, 170, 0, 255], getElevation: d => d.raw_volume || 1000, onClick: lockTarget }));
+            }
+
+            if (showToxins && globalToxins.length > 0) {
+                activeLayers.push(new ScatterplotLayer({ id: 'toxins', data: globalToxins, pickable: true, opacity: 0.8, stroked: true, filled: true, lineWidthMinPixels: 2, radiusUnits: 'pixels', getPosition: d => d.coordinates, getFillColor: [57, 255, 20, 150], getLineColor: [57, 255, 20, 255], getRadius: 12, onClick: lockTarget }));
             }
 
             deckgl.setProps({ layers: activeLayers });
         }
 
-        // CACHE BUSTER: Forces the browser to pull fresh JSON files every time the map loads
         const nocache = '?v=' + new Date().getTime();
-        
         Promise.all([
-            fetch('frontend/threat_feed.json' + nocache).then(res => res.json()).catch(() => []),
+            fetch('frontend/mega_permits.json' + nocache).then(res => res.json()).catch(() => []), // NEW PERMIT FILE
+            fetch('frontend/usgs_telemetry.json' + nocache).then(res => res.json()).catch(() => []), // NEW USGS FILE
             fetch('frontend/toxin_feed.json' + nocache).then(res => res.json()).catch(() => []),
-            fetch('frontend/threat_wells.json' + nocache).then(res => res.json()).then(data => data.features || []).catch(() => []),
-            fetch('frontend/dark_districts.json' + nocache).then(res => res.json()).catch(() => [])
-        ]).then(([permitData, toxinData, wellData, darkData]) => {
-            globalPermits = permitData; globalToxins = toxinData; globalWells = wellData;
-            populateDarkDistricts(darkData);
+            fetch('frontend/threat_wells.json' + nocache).then(res => res.json()).then(data => data.features || []).catch(() => [])
+        ]).then(([permitData, usgsData, toxinData, wellData]) => {
+            globalPermits = permitData; globalUSGS = usgsData; globalToxins = toxinData; globalWells = wellData;
             updateGrid(); 
         });
     </script>
