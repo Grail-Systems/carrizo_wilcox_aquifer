@@ -51,7 +51,7 @@
         <p style="font-size: 0.85rem; color: #ccc;">Live 3D view of the Carrizo-Wilcox water table and active threats.</p>
         
         <div class="legend-item"><div class="color-box" style="background: rgba(0, 150, 255, 0.3);"></div> Carrizo-Wilcox Boundary</div>
-        <div class="legend-item"><div class="color-box" style="background: rgba(255, 50, 50, 0.6); border-radius: 50%;"></div> Existing Well Network</div>
+        <div class="legend-item"><div class="color-box" style="background: rgba(255, 50, 50, 0.6); border-radius: 50%;"></div> Existing Industrial Well</div>
         <div class="legend-item"><div class="color-box" style="background: rgba(255, 0, 0, 1);"></div> 3D Active Mega-Permit</div>
         <div class="legend-item"><div class="color-box" style="background: rgba(57, 255, 20, 0.4); border: 2px solid #39FF14; border-radius: 50%;"></div> Toxic Spill / Discharge</div>
         
@@ -59,7 +59,7 @@
             <strong style="color: #fff; font-size: 0.95rem;">TACTICAL FILTERS</strong><br>
             
             <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;">
-                <input type="checkbox" id="toggle-existing" checked onchange="updateGrid()"> Show Existing Well Network
+                <input type="checkbox" id="toggle-existing" checked onchange="updateGrid()"> Show Existing Industrial Wells
             </label>
 
             <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;">
@@ -86,7 +86,6 @@
                 <input type="text" id="phone-input" placeholder="Mobile Number" style="width: 65%; background: #222; border: 1px solid #444; color: white; padding: 6px; border-radius: 4px; box-sizing: border-box;">
             </div>
             <button onclick="registerAlerts()" style="width: 100%; margin-top: 8px; background: #ffaa00; color: #111; border: none; padding: 8px; font-weight: bold; border-radius: 4px; cursor: pointer; text-transform: uppercase;">Get Live Alerts</button>
-            
             <p id="alert-status" style="font-size: 0.75rem; font-weight: bold; margin-top: 8px; display: none; padding: 8px; border-radius: 4px; line-height: 1.4;"></p>
         </div>
 
@@ -112,8 +111,8 @@
 
         let globalPermits = [];
         let globalToxins = [];
+        let globalWells = []; // Need to cache the existing wells for filtering
 
-        // DEFINE THE DYNAMIC MAP STYLES
         const darkMapStyle = 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json';
         const satelliteMapStyle = {
             "version": 8,
@@ -125,13 +124,7 @@
                     "attribution": "Esri World Imagery"
                 }
             },
-            "layers": [{
-                "id": "esri-satellite",
-                "type": "raster",
-                "source": "esri",
-                "minzoom": 0,
-                "maxzoom": 22
-            }]
+            "layers": [{ "id": "esri-satellite", "type": "raster", "source": "esri", "minzoom": 0, "maxzoom": 22 }]
         };
         
         let currentStyle = darkMapStyle;
@@ -168,8 +161,6 @@
             initialViewState: { longitude: -94.730, latitude: 31.338, zoom: 6.5, pitch: 45, bearing: 10 },
             controller: true,
             mapStyle: currentStyle,
-            
-            // DYNAMIC CAMERA SENSOR: Switches to satellite automatically when zooming in close
             onViewStateChange: ({viewState}) => {
                 const newStyle = viewState.zoom >= 10.5 ? satelliteMapStyle : darkMapStyle;
                 if (currentStyle !== newStyle) {
@@ -177,11 +168,10 @@
                     deckgl.setProps({ mapStyle: currentStyle });
                 }
             },
-
             getTooltip: ({object}) => {
                 if (!object) return null;
                 if (object.properties && object.properties.OwnerName) {
-                    return { html: `<strong style="color: #ff3232;">EXISTING INFRASTRUCTURE</strong><br/>-------------------------<br/><span class="highlight">Owner:</span> ${object.properties.OwnerName || 'REDACTED'}<br/><span class="highlight">Usage:</span> ${object.properties.PrimaryWat || 'UNKNOWN'}<br/><span class="highlight">Depth:</span> ${object.properties.WellDepth ? object.properties.WellDepth + ' ft' : 'UNKNOWN'}` };
+                    return { html: `<strong style="color: #ff3232;">INDUSTRIAL INFRASTRUCTURE</strong><br/>-------------------------<br/><span class="highlight">Owner:</span> ${object.properties.OwnerName || 'REDACTED'}<br/><span class="highlight">Usage:</span> ${object.properties.PrimaryWat || 'UNKNOWN'}<br/><span class="highlight">Depth:</span> ${object.properties.WellDepth ? object.properties.WellDepth + ' ft' : 'UNKNOWN'}` };
                 }
                 if (object.bottom_line && object.volume_requested) {
                     return { html: `<strong style="color: #ff3232;">ACTIVE PERMIT THREAT</strong><br/>-------------------------<br/>${object.bottom_line}` };
@@ -193,6 +183,9 @@
             layers: []
         });
 
+        // THE AGGRESSIVE EXCLUSION FILTER: Kills public utilities from the threat board
+        const safeWords = ['CITY', 'MUNICIPAL', 'PUBLIC SUPPLY', 'WATER PLANT', 'UTILITY', 'ISD', 'SCHOOL', 'COUNTY'];
+
         function updateGrid() {
             const showExisting = document.getElementById('toggle-existing').checked;
             const showDraws = document.getElementById('toggle-draws').checked;
@@ -202,16 +195,37 @@
 
             let activePermits = showDraws ? globalPermits : [];
             let activeToxins = showToxins ? globalToxins : [];
+            let activeWells = showExisting ? globalWells : [];
 
+            // FILTER: Mega Draws
             if (severeDraws) {
                 activePermits = activePermits.filter(p => p.raw_volume && p.raw_volume >= 4500);
             }
-            if (severeToxins) {
-                const heavyIndustry = ['PLANT', 'CHEMICAL', 'MILL', 'REFINERY', 'ENERGY', 'POWER', 'MANUFACTURING', 'LUMBER', 'OIL', 'GAS', 'PIPELINE', 'INC', 'LLC', 'CORP', 'TIMBER'];
+            
+            // FILTER: Toxin Cleanup (Excludes city water plants, keeps actual industry)
+            if (showToxins) {
                 activeToxins = activeToxins.filter(t => {
                     if (!t.facility) return false;
                     const facName = t.facility.toUpperCase();
-                    return heavyIndustry.some(keyword => facName.includes(keyword));
+                    // Drop it immediately if it's a city utility
+                    if (safeWords.some(word => facName.includes(word))) return false;
+                    
+                    if (severeToxins) {
+                        const heavyIndustry = ['PLANT', 'CHEMICAL', 'MILL', 'REFINERY', 'ENERGY', 'POWER', 'MANUFACTURING', 'LUMBER', 'OIL', 'GAS', 'PIPELINE', 'INC', 'LLC', 'CORP', 'TIMBER'];
+                        return heavyIndustry.some(keyword => facName.includes(keyword));
+                    }
+                    return true;
+                });
+            }
+
+            // FILTER: Well Cleanup (Excludes city water supplies from existing infrastructure)
+            if (showExisting) {
+                activeWells = activeWells.filter(w => {
+                    if (!w.properties || !w.properties.OwnerName) return true;
+                    const owner = w.properties.OwnerName.toUpperCase();
+                    const usage = w.properties.PrimaryWat ? w.properties.PrimaryWat.toUpperCase() : '';
+                    if (safeWords.some(word => owner.includes(word) || usage.includes(word))) return false;
+                    return true;
                 });
             }
 
@@ -260,13 +274,15 @@
                 id: 'aquifer-layer', data: 'frontend/wilcox_aquifer.json', filled: true, extruded: false, getFillColor: [0, 150, 255, 60], pickable: false
             }));
 
-            if (showExisting) {
-                activeLayers.push(new GeoJsonLayer({
+            // FIXED RENDERING: Wells now scale purely by screen pixels, remaining sharp and precise when zoomed in
+            if (showExisting && activeWells.length > 0) {
+                activeLayers.push(new ScatterplotLayer({
                     id: 'threat-wells-layer',
-                    data: 'frontend/threat_wells.json',
-                    pointType: 'circle',
-                    getFillColor: [255, 50, 50, 120],
-                    getPointRadius: 1500,
+                    data: activeWells,
+                    getPosition: d => d.geometry.coordinates,
+                    getFillColor: [255, 50, 50, 180],
+                    radiusUnits: 'pixels',
+                    getRadius: 6, // Locks the size to the screen, not the ground
                     pickable: true,
                     autoHighlight: true,
                     highlightColor: [255, 255, 0, 255]
@@ -280,7 +296,7 @@
                 activeLayers.push(new ColumnLayer({
                     id: 'threat-spikes',
                     data: mappedPermits,
-                    diskResolution: 36, // HIGH INTEGRITY: Perfect smooth cylinders
+                    diskResolution: 36,
                     coverage: 0.9,
                     radius: 2500,
                     extruded: true,
@@ -289,36 +305,40 @@
                     getPosition: d => d.position,
                     getFillColor: [255, 0, 0, 255],
                     getElevation: d => d.raw_volume || 1000,
-                    // PHYSICS ENGINE: Adding real light reflection to make them look solid
                     material: { ambient: 0.5, diffuse: 0.8, shininess: 32, specularColor: [255, 255, 255] }
                 }));
             }
 
+            // FIXED RENDERING: Toxins now scale purely by screen pixels, remaining sharp and precise when zoomed in
             if (showToxins) {
                 activeLayers.push(new ScatterplotLayer({
                     id: 'toxin-zones',
                     data: activeToxins,
                     pickable: true,
-                    opacity: 0.6,
+                    opacity: 0.8,
                     stroked: true,
                     filled: true,
-                    lineWidthMinPixels: 4, // HIGH INTEGRITY: Thick, glowing radioactive border
+                    lineWidthMinPixels: 2,
+                    radiusUnits: 'pixels',
                     getPosition: d => d.coordinates,
-                    getFillColor: [57, 255, 20, 90], 
+                    getFillColor: [57, 255, 20, 150], 
                     getLineColor: [57, 255, 20, 255], 
-                    getRadius: d => severeToxins ? (d.impact_radius || 3000) * 1.5 : (d.impact_radius || 3000)
+                    getRadius: d => severeToxins ? 12 : 8 // Locks the size to the screen
                 }));
             }
 
             deckgl.setProps({ layers: activeLayers });
         }
 
+        // LOAD EVERYTHING
         Promise.all([
             fetch('frontend/threat_feed.json').then(res => res.json()).catch(() => []),
-            fetch('frontend/toxin_feed.json').then(res => res.json()).catch(() => [])
-        ]).then(([permitData, toxinData]) => {
+            fetch('frontend/toxin_feed.json').then(res => res.json()).catch(() => []),
+            fetch('frontend/threat_wells.json').then(res => res.json()).then(data => data.features || []).catch(() => [])
+        ]).then(([permitData, toxinData, wellData]) => {
             globalPermits = permitData;
             globalToxins = toxinData;
+            globalWells = wellData;
             updateGrid(); 
         });
     </script>
