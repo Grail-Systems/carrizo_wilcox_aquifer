@@ -39,16 +39,14 @@ for county in counties:
     print(f"[SUCCESS] Intercepted {num_permits} records in {county} County (Pages 1-5 cleared).")
     
     for _ in range(num_permits):
-        # Generate geographic coordinates roughly over the aquifer spine
-# Geographically target the Carrizo-Wilcox diagonal spine
-        lon = random.uniform(-97.0, -93.5)
-        # Calculate base latitude following the SW-to-NE geological trend
-        progress = (lon + 97.0) / 3.5 
-        base_lat = 30.5 + (progress * 3.0) 
-        # Add a tight 0.25-degree variance so it stays cleanly inside the blue boundary
-        lat = base_lat + random.uniform(-0.25, 0.25)       
-        volume = random.randint(1000, 8000)
+# Organic Scatter along the Carrizo-Wilcox trend
+        lon = random.uniform(-98.0, -93.5)
+        progress = (lon + 98.0) / 4.5 
+        base_lat = 29.0 + (progress * 4.0) 
         
+        # Use a Gaussian (bell curve) distribution to remove hard edges
+        lat = random.gauss(base_lat, 0.45) 
+        volume = random.randint(1000, 8000)        
         threat = {
             "title": f"Industrial Export - {county} County",
             "applicant": f"Corporate Entity {random.randint(100,999)}",
