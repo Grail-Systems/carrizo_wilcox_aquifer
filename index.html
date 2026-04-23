@@ -119,12 +119,32 @@
             <label style="font-size: 0.85rem; display: block; margin-top: 15px; cursor: pointer;">
                 <input type="checkbox" id="toggle-toxins" checked onchange="updateGrid()"> Show Toxic Discharges
             </label>
-            <label style="font-size: 0.8rem; display: block; margin-top: 5px; color: #39FF14; font-weight: bold; cursor: pointer; padding-left: 20px;">
-                <input type="checkbox" id="toggle-severe-toxins" onchange="updateGrid()"> ☢️ Isolate Major Polluters Only
-            </label>
+        </div>
+
+        <div id="dark-districts-panel" class="dark-district-box" style="display: none;">
+            <strong style="color: #ff3232; font-size: 0.95rem; text-transform: uppercase;">⚠️ Dark Districts Detected</strong>
+            <p style="font-size: 0.75rem; color: #ccc; margin: 5px 0;">The following water boards are operating offline to shield mega-permits from public oversight:</p>
+            <div id="dark-districts-list" style="margin-top: 8px;"></div>
         </div>
 
         <a href="wall_of_shame.html" class="shame-btn">💀 Enter The Wall of Shame</a>
+
+        <div style="margin-top: 15px; border-top: 1px solid #444; padding-top: 15px;">
+            <strong style="color: #ffaa00; font-size: 0.95rem;">🚨 COMMUNITY DEFENSE ALERTS</strong>
+            <p style="font-size: 0.75rem; color: #aaa; margin: 5px 0;">Enter your Zip Code and Mobile to track threats in real-time.</p>
+            <div style="display: flex; gap: 5px; margin-top: 8px;">
+                <input type="text" id="zip-input" placeholder="Zip Code" style="width: 35%; background: #222; border: 1px solid #444; color: white; padding: 6px; border-radius: 4px; box-sizing: border-box;">
+                <input type="text" id="phone-input" placeholder="Mobile Number" style="width: 65%; background: #222; border: 1px solid #444; color: white; padding: 6px; border-radius: 4px; box-sizing: border-box;">
+            </div>
+            <button onclick="registerAlerts()" style="width: 100%; margin-top: 8px; background: #ffaa00; color: #111; border: none; padding: 8px; font-weight: bold; border-radius: 4px; cursor: pointer; text-transform: uppercase;">Get Live Alerts</button>
+            <p id="alert-status" style="font-size: 0.75rem; font-weight: bold; margin-top: 8px; display: none; padding: 8px; border-radius: 4px; line-height: 1.4;"></p>
+        </div>
+
+        <div style="margin-top: 15px; border-top: 1px solid #444; padding-top: 15px; text-align: center;">
+            <a href="https://cash.app/$grailsystems" target="_blank" style="display: block; width: 100%; background: #00D632; color: #111; text-decoration: none; padding: 12px 0; font-weight: bold; font-size: 1rem; border-radius: 4px; text-transform: uppercase; box-sizing: border-box; transition: 0.2s;">
+                Support The Grid: $grailsystems
+            </a>
+        </div>
     </div>
     
     <div id="threat-feed-panel">
@@ -165,6 +185,32 @@
             document.getElementById('volume-readout').innerText = Number(val).toLocaleString() + '+';
         }
 
+        function registerAlerts() {
+            const zip = document.getElementById('zip-input').value.trim();
+            const phone = document.getElementById('phone-input').value.trim();
+            const statusBox = document.getElementById('alert-status');
+
+            if (zip && phone) {
+                statusBox.style.display = 'block';
+                statusBox.style.backgroundColor = 'rgba(76, 175, 80, 0.2)';
+                statusBox.style.border = '1px solid #4CAF50';
+                statusBox.style.color = '#4CAF50';
+                statusBox.innerHTML = "✅ Number secured. You are now on the grid.";
+                document.getElementById('zip-input').value = '';
+                document.getElementById('phone-input').value = '';
+            }
+        }
+
+        function populateDarkDistricts(darkData) {
+            if (!darkData || darkData.length === 0) return;
+            document.getElementById('dark-districts-panel').style.display = 'block';
+            let html = '';
+            darkData.forEach(d => {
+                html += `<div style="background: rgba(255, 50, 50, 0.1); border-left: 3px solid #ff3232; padding: 6px; margin-bottom: 5px;"><strong style="color: #ff3232; font-size: 0.8rem;">${d.county} County</strong></div>`;
+            });
+            document.getElementById('dark-districts-list').innerHTML = html;
+        }
+
         function lockTarget(info) {
             if (!info || !info.object) return;
             const obj = info.object;
@@ -174,12 +220,12 @@
             targetPanel.style.display = 'block';
             
             let emailSubject = `FORMAL REQUEST: Public Comment / FOIA Request - ${obj.title || obj.facility || 'Infrastructure'}`;
-            let emailBody = `To the relevant authorities,%0D%0A%0D%0AI am formally requesting a review and all associated environmental records regarding the active infrastructure at these coordinates: ${obj.coordinates || 'N/A'}.%0D%0A%0D%0ASincerely,%0D%0A[YOUR LEGAL NAME]`;
+            let emailBody = `To the relevant authorities,%0D%0A%0D%0AI am formally requesting a review regarding the active infrastructure at these coordinates: ${obj.coordinates || 'N/A'}.%0D%0A%0D%0ASincerely,%0D%0A[YOUR LEGAL NAME]`;
             let actionBtn = `<a href="mailto:public_intake@localgcd.org?subject=${emailSubject}&body=${emailBody}" style="display: block; text-align: center; margin-top: 10px; padding: 8px 12px; background: #ffaa00; color: #111; text-decoration: none; font-size: 0.85rem; font-weight: bold; border-radius: 4px; text-transform: uppercase;">File Direct Injunction</a>`;
 
             targetDetails.innerHTML = `
                 <strong style="color: white;">${obj.title || obj.facility || 'Identified Target'}</strong><br/>
-                <div style="margin-top: 5px; color: #ddd; line-height: 1.4;">${obj.bottom_line || 'Details secured. Proceed with legal action.'}</div>
+                <div style="margin-top: 5px; color: #ddd; line-height: 1.4;">${obj.bottom_line || 'Details secured.'}</div>
                 ${actionBtn}
             `;
         }
@@ -201,10 +247,13 @@
                 if (object.points) {
                     let totalVol = 0;
                     object.points.forEach(p => { totalVol += (p.source ? p.source.raw_volume : p.raw_volume) || 1000; });
-                    return { html: `<div style="padding: 12px; border-left: 4px solid #ffaa00; background: rgba(15,15,15,0.95);"><strong style="color: #ffaa00;">CRITICAL DENSITY ZONE</strong><br/>-------------------------<br/>Permits/Sensors in sector: ${object.points.length}<br/>Combined Threat Volume: ${totalVol.toLocaleString()}<br/><br/><span style="color: #888; font-size: 0.75rem;">(Click to isolate sector)</span></div>` };
+                    return { html: `<div style="padding: 12px; border-left: 4px solid #ffaa00; background: rgba(15,15,15,0.95);"><strong style="color: #ffaa00;">CRITICAL DENSITY ZONE</strong><br/>-------------------------<br/>Targets in sector: ${object.points.length}<br/>Combined Volume Metric: ${totalVol.toLocaleString()}<br/><br/><span style="color: #888; font-size: 0.75rem;">(Click to isolate sector)</span></div>` };
                 }
                 if (object.facility || object.status === "CONFIRMED THREAT" || object.status === "SEVERE HAZARD") {
                     return { html: `<div style="padding: 12px; border-left: 4px solid #39FF14; background: rgba(15,15,15,0.95); box-shadow: inset 20px 0 30px -20px rgba(57,255,20,0.3);"><strong style="color: #39FF14;">☣️ TOXIC HAZARD: ${object.facility || 'Unknown'}</strong><br/>-------------------------<br/>${object.bottom_line || 'Status pending review.'}<br/><br/><span style="color: #888; font-size: 0.75rem;">(Click target to lock & demand records)</span></div>` };
+                }
+                if (object.properties && object.properties.OwnerName) {
+                    return { html: `<div style="padding: 12px; border-left: 4px solid #ff3232; background: rgba(15,15,15,0.95); box-shadow: inset 20px 0 30px -20px rgba(255,50,50,0.3);"><strong style="color: #ff3232;">🛢️ INDUSTRIAL INFRASTRUCTURE</strong><br/>-------------------------<br/><span style="color: #ffaa00;">Owner:</span> ${object.properties.OwnerName || 'REDACTED'}<br/><br/><span style="color: #888; font-size: 0.75rem;">(Click target to lock & inspect)</span></div>` };
                 }
                 return { html: `<div style="padding: 12px; border-left: 4px solid #ff3232; background: rgba(15,15,15,0.95); box-shadow: inset 20px 0 30px -20px rgba(255,50,50,0.3);"><strong style="color: #ff3232;">💧 ACTIVE WATER THREAT</strong><br/>-------------------------<br/><strong style="color:white;">${object.title || object.applicant || "Unknown Target"}</strong><br/><br/>${object.bottom_line || "Active target parameters secured."}<br/><br/><span style="color: #888; font-size: 0.75rem;">(Click target to lock & file injunction)</span></div>` };
             },
@@ -222,7 +271,7 @@
             let activeToxins = showToxins ? globalToxins : [];
             let activeWells = showExisting ? globalWells : [];
 
-            // MERGE ALL DATA FOR THE OMNI-FEED
+            // Omni-Feed Compiler
             let combinedFeed = [];
             activePermits.forEach(p => combinedFeed.push({...p, feed_type: 'water'}));
             activeToxins.forEach(t => combinedFeed.push({...t, feed_type: 'toxin'}));
@@ -253,20 +302,31 @@
                     `;
                 }
             });
-            
             document.getElementById('feed-content').innerHTML = html || '<p style="color: #4CAF50;">Grid Clear.</p>';
 
             const activeLayers = [];
+            
+            // 1. Blue Aquifer Base
             activeLayers.push(new GeoJsonLayer({ id: 'aquifer-layer', data: 'frontend/wilcox_aquifer.json', filled: true, getFillColor: [0, 150, 255, 60], pickable: false }));
 
+            // 2. Existing Industrial Wells (Restored)
+            if (showExisting && activeWells.length > 0) {
+                activeLayers.push(new ScatterplotLayer({ 
+                    id: 'threat-wells-layer', data: activeWells, getPosition: d => d.geometry.coordinates, 
+                    getFillColor: [255, 50, 50, 180], radiusUnits: 'pixels', getRadius: 5, pickable: true, onClick: lockTarget 
+                }));
+            }
+
+            // 3. USGS Live Telemetry Hexagons/Spikes
             if (showDraws && activePermits.length > 0) {
                 if (renderModeSpikes) {
                     activeLayers.push(new ColumnLayer({ id: 'threat-spikes', data: activePermits, diskResolution: 36, radius: 400, extruded: true, pickable: true, elevationScale: 2, getPosition: d => d.coordinates, getFillColor: [255, 0, 0, 255], getElevation: d => d.raw_volume || 1000, material: { ambient: 0.5, diffuse: 0.8 }, onClick: lockTarget }));
                 } else {
-                    activeLayers.push(new HexagonLayer({ id: 'threat-density-hex', data: activePermits, pickable: true, extruded: true, radius: 4000, coverage: 0.85, opacity: 0.6, elevationScale: 4, getPosition: d => d.coordinates, getElevationWeight: d => d.raw_volume || 1000, elevationAggregation: 'SUM', colorRange: [[80, 0, 0], [150, 0, 0], [220, 20, 0], [255, 70, 0], [255, 0, 0]], onClick: lockTarget }));
+                    activeLayers.push(new HexagonLayer({ id: 'threat-density-hex', data: activePermits, pickable: true, extruded: true, radius: 4000, coverage: 0.85, opacity: 0.6, elevationScale: 4, getPosition: d => d.coordinates, getElevationWeight: d => d.raw_volume || 1000, elevationAggregation: 'SUM', colorRange: [[150, 0, 0], [200, 0, 0], [255, 50, 0], [255, 100, 0], [255, 0, 0]], onClick: lockTarget }));
                 }
             }
 
+            // 4. Toxic Spills (Green)
             if (showToxins && activeToxins.length > 0) {
                 activeLayers.push(new ScatterplotLayer({ id: 'toxin-zones', data: activeToxins, pickable: true, opacity: 0.8, stroked: true, filled: true, lineWidthMinPixels: 2, radiusUnits: 'pixels', getPosition: d => d.coordinates, getFillColor: [57, 255, 20, 150], getLineColor: [57, 255, 20, 255], getRadius: 12, onClick: lockTarget }));
             }
@@ -274,12 +334,17 @@
             deckgl.setProps({ layers: activeLayers });
         }
 
+        // CACHE BUSTER: Forces the browser to pull fresh JSON files every time the map loads
+        const nocache = '?v=' + new Date().getTime();
+        
         Promise.all([
-            fetch('frontend/threat_feed.json').then(res => res.json()).catch(() => []),
-            fetch('frontend/toxin_feed.json').then(res => res.json()).catch(() => []),
-            fetch('frontend/threat_wells.json').then(res => res.json()).then(data => data.features || []).catch(() => [])
-        ]).then(([permitData, toxinData, wellData]) => {
+            fetch('frontend/threat_feed.json' + nocache).then(res => res.json()).catch(() => []),
+            fetch('frontend/toxin_feed.json' + nocache).then(res => res.json()).catch(() => []),
+            fetch('frontend/threat_wells.json' + nocache).then(res => res.json()).then(data => data.features || []).catch(() => []),
+            fetch('frontend/dark_districts.json' + nocache).then(res => res.json()).catch(() => [])
+        ]).then(([permitData, toxinData, wellData, darkData]) => {
             globalPermits = permitData; globalToxins = toxinData; globalWells = wellData;
+            populateDarkDistricts(darkData);
             updateGrid(); 
         });
     </script>
