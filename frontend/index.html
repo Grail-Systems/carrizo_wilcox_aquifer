@@ -7,44 +7,6 @@
     <link href="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css" rel="stylesheet" />
     <script src="https://unpkg.com/deck.gl@latest/dist.min.js"></script>
     <style>
-// 1. Fetch the Threat Intelligence Feed
-fetch('./threat_feed.json')
-  .then(response => response.json())
-  .then(data => {
-      
-      // Injecting target coordinates over the Carrizo-Wilcox for our mock data
-      const mappedThreats = data.map((threat, index) => ({
-          ...threat,
-          // Staggering the mock coordinates slightly so they don't overlap
-          position: [-94.73 - (index * 0.1), 31.60 + (index * 0.1)] 
-      })).filter(t => t.status === "HIGH THREAT"); // Only map the threats
-
-      // 2. Build the 3D Holographic Spikes
-      const threatLayer = new deck.ColumnLayer({
-          id: 'threat-spikes',
-          data: mappedThreats,
-          diskResolution: 12,
-          radius: 2500, // Width of the column (meters)
-          extruded: true,
-          pickable: true,
-          elevationScale: 10, // Multiplier for the height
-          getPosition: d => d.position,
-          getFillColor: [255, 0, 0, 200], // Aggressive Red
-          getElevation: d => d.raw_volume || 100, // Height based on gallons requested!
-          
-          // 3. The Plain English Click UI
-          onClick: ({object}) => {
-              if (object) {
-                  alert(object.bottom_line); // Pops up the 6th-grade English sentence!
-              }
-          }
-      });
-
-      // Add this layer to your existing map
-      deckgl.setProps({
-          layers: [...deckgl.props.layers, threatLayer]
-      });
-  });
         body { margin: 0; padding: 0; background-color: #111; font-family: sans-serif; overflow: hidden; }
         #map { width: 100vw; height: 100vh; position: absolute; top: 0; left: 0; }
         
@@ -74,8 +36,6 @@ fetch('./threat_feed.json')
         }
         .highlight { color: #ffaa00; }
         .feed-item { border-bottom: 1px solid #333; padding-bottom: 12px; margin-bottom: 12px; }
-        .feed-link { color: #0096ff; text-decoration: none; font-size: 0.9rem; font-weight: bold; }
-        .feed-link:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
@@ -84,29 +44,38 @@ fetch('./threat_feed.json')
         <p style="font-size: 0.9rem; color: #ccc;">Live 3D view of the Carrizo-Wilcox water table and active high-volume draws.</p>
         <div class="legend-item"><div class="color-box" style="background: rgba(0, 150, 255, 0.3);"></div> Carrizo-Wilcox Boundary</div>
         <div class="legend-item"><div class="color-box" style="background: rgba(255, 50, 50, 0.9); border-radius: 50%;"></div> High-Volume Threat</div>
+        <div class="legend-item"><div class="color-box" style="background: rgba(255, 0, 0, 1);"></div> 3D Active Permit Request</div>
         <p style="font-size: 0.8rem; color: #888; margin-top: 20px;">Hold SHIFT + Click & Drag to tilt.<br>Hover over a red marker to identify.</p>
     </div>
     
     <div id="threat-feed-panel">
         <h2>Live Permit Intercepts</h2>
         <div id="feed-content">
-            <p style="font-size: 0.8rem; color: #888;">Executing hunter script... no data loaded yet.</p>
+            <p style="font-size: 0.8rem; color: #888;">Intercepting live feed...</p>
         </div>
     </div>
     
     <div id="map"></div>
 
     <script>
-        const { DeckGL, GeoJsonLayer } = deck;
+        const { DeckGL, GeoJsonLayer, ColumnLayer } = deck;
 
-        // Initialize the Map
-        new DeckGL({
+        // Initialize the Map with an automatic 3D Tilt
+        const deckgl = new DeckGL({
             container: 'map',
             initialViewState: { longitude: -94.730, latitude: 31.338, zoom: 7.5, pitch: 45, bearing: 10 },
             controller: true,
             mapStyle: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
-            getTooltip: ({object}) => object && {
-                html: `<strong style="color: #ff3232;">THREAT DETECTED</strong><br/>-------------------------<br/><span class="highlight">Owner:</span> ${object.properties.OwnerName || 'REDACTED'}<br/><span class="highlight">Usage:</span> ${object.properties.PrimaryWat || 'UNKNOWN'}<br/><span class="highlight">Depth:</span> ${object.properties.WellDepth ? object.properties.WellDepth + ' ft' : 'UNKNOWN'}`
+            getTooltip: ({object}) => {
+                if (!object) return null;
+                // Tooltip for existing wells
+                if (object.properties && object.properties.OwnerName) {
+                    return { html: `<strong style="color: #ff3232;">EXISTING WELL</strong><br/>-------------------------<br/><span class="highlight">Owner:</span> ${object.properties.OwnerName || 'REDACTED'}<br/><span class="highlight">Usage:</span> ${object.properties.PrimaryWat || 'UNKNOWN'}<br/><span class="highlight">Depth:</span> ${object.properties.WellDepth ? object.properties.WellDepth + ' ft' : 'UNKNOWN'}` };
+                }
+                // Tooltip for 3D Spikes
+                if (object.bottom_line) {
+                    return { html: `<strong style="color: #ff3232;">ACTIVE PERMIT THREAT</strong><br/>-------------------------<br/>${object.bottom_line}` };
+                }
             },
             layers: [
                 new GeoJsonLayer({
@@ -118,25 +87,54 @@ fetch('./threat_feed.json')
             ]
         });
 
-        // Load the JSON dossier into the Threat Feed UI
+        // Fetch Intelligence Feed and Build UI + 3D Spikes
         fetch('threat_feed.json')
             .then(response => response.json())
             .then(data => {
+                // 1. Build the Right-Hand UI Panel
                 let html = '';
                 data.forEach(item => {
                     let color = item.status === 'HIGH THREAT' ? '#ff3232' : (item.status === 'CLEAR' ? '#4CAF50' : '#ffaa00');
+                    let keywords = item.keywords_found && item.keywords_found.length > 0 ? item.keywords_found.join(', ') : 'None';
                     html += `
                         <div class="feed-item">
                             <strong style="color: ${color}; font-size: 0.85rem; letter-spacing: 1px;">[${item.status}]</strong><br/>
-                            <a href="${item.link}" target="_blank" class="feed-link">${item.title}</a><br/>
-                            <span style="font-size: 0.8rem; color: #aaa;">Keywords triggered: ${item.hits.length > 0 ? item.hits.join(', ') : 'None'}</span>
+                            <strong style="color: white; font-size: 0.9rem;">${item.title}</strong><br/>
+                            <p style="font-size: 0.85rem; line-height: 1.4; color: #ddd; margin: 5px 0;">${item.bottom_line}</p>
+                            <span style="font-size: 0.75rem; color: #888;">Keywords: ${keywords}</span>
                         </div>
                     `;
                 });
                 document.getElementById('feed-content').innerHTML = html;
+
+                // 2. Build the 3D Holographic Spikes
+                const highThreats = data.filter(t => t.status === "HIGH THREAT");
+                const mappedThreats = highThreats.map((threat, index) => ({
+                    ...threat,
+                    position: [-94.73 - (index * 0.1), 31.60 + (index * 0.1)] // Mock coordinates
+                }));
+
+                const threatSpikeLayer = new ColumnLayer({
+                    id: 'threat-spikes',
+                    data: mappedThreats,
+                    diskResolution: 12,
+                    radius: 3000,
+                    extruded: true,
+                    pickable: true,
+                    elevationScale: 50, // Multiplier for height
+                    getPosition: d => d.position,
+                    getFillColor: [255, 0, 0, 255],
+                    getElevation: d => d.raw_volume || 1000
+                });
+
+                // Add 3D Spikes to the map without erasing existing layers
+                deckgl.setProps({
+                    layers: [...deckgl.props.layers, threatSpikeLayer]
+                });
             })
             .catch(error => {
-                document.getElementById('feed-content').innerHTML = '<p style="color: #ff3232;">Error: Run permit_hunter.py to generate intel feed.</p>';
+                console.error("Data pipeline error:", error);
+                document.getElementById('feed-content').innerHTML = '<p style="color: #ff3232;">Error: Grid offline. Threat feed unavailable.</p>';
             });
     </script>
 </body>
