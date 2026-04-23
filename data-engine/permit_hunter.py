@@ -63,7 +63,7 @@ for site in timeSeries:
         })
 
 # OVERWRITE THE FAKE JSON WITH REAL DATA
-filepath = 'frontend/threat_feed.json'
+filepath = 'frontend/usgs_telemetry.json'
 with open(filepath, 'w') as f:
     json.dump(live_threats, f, indent=4)
 
