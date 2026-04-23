@@ -47,14 +47,19 @@
         
         <div style="margin-top: 20px; border-top: 1px solid #444; padding-top: 15px;">
             <strong style="color: #fff; font-size: 0.95rem;">TACTICAL FILTERS</strong><br>
+            
             <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;">
                 <input type="checkbox" id="toggle-draws" checked onchange="updateGrid()"> Show Industrial Water Draws
             </label>
-            <label style="font-size: 0.85rem; display: block; margin-top: 8px; cursor: pointer;">
+            <label style="font-size: 0.8rem; display: block; margin-top: 5px; color: #ffaa00; font-weight: bold; cursor: pointer; padding-left: 20px;">
+                <input type="checkbox" id="toggle-severe-draws" onchange="updateGrid()"> ⚠️ Isolate Mega-Draws Only
+            </label>
+
+            <label style="font-size: 0.85rem; display: block; margin-top: 12px; cursor: pointer;">
                 <input type="checkbox" id="toggle-toxins" checked onchange="updateGrid()"> Show Toxic Discharges
             </label>
-            <label style="font-size: 0.85rem; display: block; margin-top: 8px; color: #ffaa00; font-weight: bold; cursor: pointer;">
-                <input type="checkbox" id="toggle-severe" onchange="updateGrid()"> ⚠️ Isolate Worst Offenders Only
+            <label style="font-size: 0.8rem; display: block; margin-top: 5px; color: #39FF14; font-weight: bold; cursor: pointer; padding-left: 20px;">
+                <input type="checkbox" id="toggle-severe-toxins" onchange="updateGrid()"> ☢️ Isolate Severe Spills Only
             </label>
         </div>
 
@@ -95,14 +100,18 @@
 
         function updateGrid() {
             const showDraws = document.getElementById('toggle-draws').checked;
+            const severeDraws = document.getElementById('toggle-severe-draws').checked;
             const showToxins = document.getElementById('toggle-toxins').checked;
-            const severeOnly = document.getElementById('toggle-severe').checked;
+            const severeToxins = document.getElementById('toggle-severe-toxins').checked;
 
             let activePermits = showDraws ? globalPermits : [];
             let activeToxins = showToxins ? globalToxins : [];
 
-            if (severeOnly) {
+            // INDEPENDENT FILTER LOGIC
+            if (severeDraws) {
                 activePermits = activePermits.filter(p => p.raw_volume && p.raw_volume >= 4500);
+            }
+            if (severeToxins) {
                 activeToxins = activeToxins.filter(t => (t.status && t.status.includes("THREAT")) || (t.impact_radius && t.impact_radius >= 2000));
             }
 
@@ -145,7 +154,6 @@
             html += `<p style="text-align: center; color: #888; font-size: 0.75rem; margin-top: 15px;">Feed truncated to top 75 intercepts to preserve browser memory.</p>`;
             document.getElementById('feed-content').innerHTML = html || '<p style="color: #4CAF50;">Grid Clear.</p>';
 
-            // ROUTING FIX: Pulling the map bounds from the frontend folder
             const aquiferLayer = new GeoJsonLayer({
                 id: 'aquifer-layer', data: 'frontend/wilcox_aquifer.json', filled: true, extruded: false, getFillColor: [0, 150, 255, 60], pickable: false
             });
@@ -186,7 +194,6 @@
             });
         }
 
-        // ROUTING FIX: Pulling the daily feeds from the frontend folder
         Promise.all([
             fetch('frontend/threat_feed.json').then(res => res.json()).catch(() => []),
             fetch('frontend/toxin_feed.json').then(res => res.json()).catch(() => [])
