@@ -25,482 +25,482 @@
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-75062",
-        "volume_requested": "Depth: 1046 ft",
+        "applicant": "TWDB Record TX-35613",
+        "volume_requested": "Depth: 1020 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -98.99945897583818,
-            28.256310065619992
+            -97.49397108917803,
+            29.696087176807723
         ],
-        "raw_volume": 4362,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1046 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 4973,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1020 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-45885",
-        "volume_requested": "Depth: 1240 ft",
+        "applicant": "TWDB Record TX-14925",
+        "volume_requested": "Depth: 1599 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -96.53253315862324,
-            30.672274912585195
+            -95.09306428513266,
+            32.03609410092309
         ],
-        "raw_volume": 4311,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1240 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 4474,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1599 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-22930",
-        "volume_requested": "Depth: 2128 ft",
+        "applicant": "TWDB Record TX-60179",
+        "volume_requested": "Depth: 2174 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -94.46600871130507,
-            31.808937027525047
+            -95.68364857020671,
+            31.44968204316329
         ],
-        "raw_volume": 4740,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 2128 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 3643,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 2174 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-35516",
-        "volume_requested": "Depth: 1232 ft",
+        "applicant": "TWDB Record TX-83654",
+        "volume_requested": "Depth: 1689 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -97.9076111358898,
-            29.682434749559768
+            -94.17692573192363,
+            33.5694424267858
         ],
-        "raw_volume": 4262,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1232 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 5011,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1689 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-74073",
-        "volume_requested": "Depth: 996 ft",
+        "applicant": "TWDB Record TX-25750",
+        "volume_requested": "Depth: 1623 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -98.704700926892,
-            28.145185728982156
+            -98.5628795505363,
+            29.010319718729402
         ],
-        "raw_volume": 3925,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 996 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 3692,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1623 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-45497",
-        "volume_requested": "Depth: 2015 ft",
+        "applicant": "TWDB Record TX-79253",
+        "volume_requested": "Depth: 2342 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -98.47912491717021,
-            28.8546482376393
+            -97.34826575871104,
+            29.680965169393353
         ],
-        "raw_volume": 4215,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 2015 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 4021,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 2342 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-90830",
-        "volume_requested": "Depth: 2392 ft",
+        "applicant": "TWDB Record TX-19323",
+        "volume_requested": "Depth: 1877 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -95.34466046992272,
-            31.270345055102098
+            -95.97442859635738,
+            31.268215170233415
         ],
-        "raw_volume": 3794,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 2392 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 4363,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1877 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-44868",
-        "volume_requested": "Depth: 1843 ft",
+        "applicant": "TWDB Record TX-37520",
+        "volume_requested": "Depth: 1197 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -97.15104491957091,
-            30.287123261816852
+            -97.42624696817785,
+            30.129692257720365
         ],
-        "raw_volume": 4364,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1843 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 5048,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1197 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-40855",
-        "volume_requested": "Depth: 1497 ft",
+        "applicant": "TWDB Record TX-69847",
+        "volume_requested": "Depth: 2224 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -96.70464177571247,
-            30.602931241593385
+            -99.24332672120634,
+            27.50833729323579
         ],
-        "raw_volume": 4366,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1497 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 3676,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 2224 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-34011",
-        "volume_requested": "Depth: 1773 ft",
+        "applicant": "TWDB Record TX-94023",
+        "volume_requested": "Depth: 1071 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -97.85476373130349,
-            29.76880186832645
+            -97.62549500790018,
+            29.6929751479837
         ],
-        "raw_volume": 3510,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1773 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 4044,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1071 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-55618",
-        "volume_requested": "Depth: 1799 ft",
+        "applicant": "TWDB Record TX-57824",
+        "volume_requested": "Depth: 2391 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -99.56883873531464,
-            27.691580982802382
+            -98.08703146865365,
+            29.12937449840293
         ],
-        "raw_volume": 4651,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1799 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 5056,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 2391 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-76288",
-        "volume_requested": "Depth: 1414 ft",
+        "applicant": "TWDB Record TX-90080",
+        "volume_requested": "Depth: 1507 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -96.88878895009306,
-            30.060755606750796
+            -94.1588338248987,
+            33.31027790544575
         ],
-        "raw_volume": 3743,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1414 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 3502,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1507 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-38044",
-        "volume_requested": "Depth: 1498 ft",
+        "applicant": "TWDB Record TX-84029",
+        "volume_requested": "Depth: 1397 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -97.1445412364563,
-            30.407492191855017
+            -94.54148749942124,
+            33.07014620062213
         ],
-        "raw_volume": 4882,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1498 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 4025,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1397 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-64644",
-        "volume_requested": "Depth: 1653 ft",
+        "applicant": "TWDB Record TX-20803",
+        "volume_requested": "Depth: 1325 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -95.90708380626867,
-            30.828197408517163
+            -96.33558714249533,
+            30.643395566084042
         ],
-        "raw_volume": 4127,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1653 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 5020,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1325 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-33100",
-        "volume_requested": "Depth: 1976 ft",
+        "applicant": "TWDB Record TX-53816",
+        "volume_requested": "Depth: 1146 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -97.3626128345275,
-            29.964387784866755
+            -98.7673950105901,
+            28.27452224501259
         ],
-        "raw_volume": 3503,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1976 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 3718,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1146 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-87063",
-        "volume_requested": "Depth: 2204 ft",
+        "applicant": "TWDB Record TX-93150",
+        "volume_requested": "Depth: 2294 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -99.29084678056822,
-            28.4012593492811
+            -95.73398894831948,
+            30.801860558407498
         ],
-        "raw_volume": 4730,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 2204 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 4783,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 2294 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-75122",
-        "volume_requested": "Depth: 1340 ft",
+        "applicant": "TWDB Record TX-98168",
+        "volume_requested": "Depth: 2429 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -98.33032077069893,
-            28.87279381958191
+            -99.73089438512785,
+            27.204949726922834
         ],
-        "raw_volume": 5252,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1340 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 4849,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 2429 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-27478",
-        "volume_requested": "Depth: 1929 ft",
+        "applicant": "TWDB Record TX-92102",
+        "volume_requested": "Depth: 1833 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -98.90444315599711,
-            28.303116319311133
+            -99.72000051181153,
+            27.28077054430276
         ],
-        "raw_volume": 4948,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1929 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 4001,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1833 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-57563",
-        "volume_requested": "Depth: 2157 ft",
+        "applicant": "TWDB Record TX-49264",
+        "volume_requested": "Depth: 1678 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -99.34176894568257,
-            27.68979818249215
+            -97.92072344591382,
+            28.780631123425877
         ],
-        "raw_volume": 4128,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 2157 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 5062,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1678 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-66673",
-        "volume_requested": "Depth: 1899 ft",
+        "applicant": "TWDB Record TX-11102",
+        "volume_requested": "Depth: 2492 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -99.31913603771498,
-            27.806891420192816
+            -99.22187887646265,
+            27.206416398209132
         ],
-        "raw_volume": 3860,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1899 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 4152,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 2492 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-18280",
-        "volume_requested": "Depth: 1499 ft",
+        "applicant": "TWDB Record TX-87309",
+        "volume_requested": "Depth: 1002 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -94.30937860132036,
-            33.009471605118904
+            -94.26431397794885,
+            33.36461317499169
         ],
-        "raw_volume": 5156,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1499 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 3544,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1002 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-27345",
-        "volume_requested": "Depth: 1651 ft",
+        "applicant": "TWDB Record TX-55260",
+        "volume_requested": "Depth: 1776 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -94.64397489282247,
-            33.057220740853445
+            -95.50014009312805,
+            30.943186610959916
         ],
-        "raw_volume": 4622,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1651 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 3701,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1776 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-92109",
-        "volume_requested": "Depth: 1211 ft",
+        "applicant": "TWDB Record TX-52558",
+        "volume_requested": "Depth: 2209 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -99.35517715670409,
-            27.79739106792415
+            -95.12976799388441,
+            31.57344621600651
         ],
-        "raw_volume": 4334,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1211 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 5375,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 2209 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-32661",
-        "volume_requested": "Depth: 2320 ft",
+        "applicant": "TWDB Record TX-59333",
+        "volume_requested": "Depth: 2279 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -96.29232858520778,
-            30.473406238917363
+            -96.05162618642304,
+            31.102645446940237
         ],
-        "raw_volume": 4462,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 2320 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 3862,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 2279 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-45426",
-        "volume_requested": "Depth: 1303 ft",
+        "applicant": "TWDB Record TX-21957",
+        "volume_requested": "Depth: 1688 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -96.09227714585722,
-            30.884703986206517
+            -96.3584820405169,
+            30.583481435424797
         ],
-        "raw_volume": 4145,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1303 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 3910,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1688 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-90787",
-        "volume_requested": "Depth: 1585 ft",
+        "applicant": "TWDB Record TX-15720",
+        "volume_requested": "Depth: 1476 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -98.3366907290427,
-            29.183153312846542
+            -98.81080197535908,
+            28.746230830773186
         ],
-        "raw_volume": 3728,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1585 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 4945,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1476 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-94844",
-        "volume_requested": "Depth: 1017 ft",
+        "applicant": "TWDB Record TX-17464",
+        "volume_requested": "Depth: 1990 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -95.35830611470887,
-            31.314265018447514
+            -98.72677531033611,
+            28.30444232611027
         ],
-        "raw_volume": 4459,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1017 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 3899,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1990 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-10912",
-        "volume_requested": "Depth: 990 ft",
+        "applicant": "TWDB Record TX-25993",
+        "volume_requested": "Depth: 2247 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -97.15622232231223,
-            30.153090804438072
+            -97.91169705346807,
+            29.67799389651963
         ],
-        "raw_volume": 4405,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 990 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 4504,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 2247 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-21410",
-        "volume_requested": "Depth: 1658 ft",
+        "applicant": "TWDB Record TX-47737",
+        "volume_requested": "Depth: 1331 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -94.88080906994772,
-            31.99433899268397
+            -96.21501728509513,
+            30.806178813231945
         ],
-        "raw_volume": 4475,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1658 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 4429,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1331 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-73049",
-        "volume_requested": "Depth: 1605 ft",
+        "applicant": "TWDB Record TX-80505",
+        "volume_requested": "Depth: 1809 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -99.57383619767141,
-            27.22550475333476
+            -98.23299186100806,
+            28.786579239393195
         ],
-        "raw_volume": 3839,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1605 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 4195,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1809 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-50205",
-        "volume_requested": "Depth: 963 ft",
+        "applicant": "TWDB Record TX-94763",
+        "volume_requested": "Depth: 1538 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -96.65483412920479,
-            30.867956698868223
+            -98.1189545668723,
+            28.83252593128559
         ],
-        "raw_volume": 3825,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 963 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 5292,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1538 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-90736",
-        "volume_requested": "Depth: 2028 ft",
+        "applicant": "TWDB Record TX-28222",
+        "volume_requested": "Depth: 2285 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -95.46705561030141,
-            31.382609176216214
+            -95.80335130863719,
+            31.164832766894296
         ],
-        "raw_volume": 5355,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 2028 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 5025,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 2285 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-91778",
-        "volume_requested": "Depth: 920 ft",
+        "applicant": "TWDB Record TX-43047",
+        "volume_requested": "Depth: 1228 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -96.68158234023942,
-            30.589446449511534
+            -95.58134403450124,
+            31.36756178435257
         ],
-        "raw_volume": 5334,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 920 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 3592,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1228 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-51596",
-        "volume_requested": "Depth: 1177 ft",
+        "applicant": "TWDB Record TX-15301",
+        "volume_requested": "Depth: 2355 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -98.43057794664024,
-            29.399768866757057
+            -94.4879285217541,
+            32.1547235972929
         ],
-        "raw_volume": 4769,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1177 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 5266,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 2355 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-47425",
-        "volume_requested": "Depth: 954 ft",
+        "applicant": "TWDB Record TX-54699",
+        "volume_requested": "Depth: 2437 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -99.60262205681619,
-            27.810506079522284
+            -94.13194753849879,
+            33.104326183460955
         ],
-        "raw_volume": 4719,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 954 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 3892,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 2437 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-79942",
-        "volume_requested": "Depth: 1026 ft",
+        "applicant": "TWDB Record TX-52283",
+        "volume_requested": "Depth: 907 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -94.69745381924439,
-            31.97620977647821
+            -95.89272951475132,
+            30.924545568801083
         ],
-        "raw_volume": 4774,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1026 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 5093,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 907 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-92702",
-        "volume_requested": "Depth: 2196 ft",
+        "applicant": "TWDB Record TX-16557",
+        "volume_requested": "Depth: 2029 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -97.85180924794962,
-            28.84837195794204
+            -95.59995691494699,
+            31.490913966605685
         ],
-        "raw_volume": 5005,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 2196 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 4214,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 2029 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-49216",
-        "volume_requested": "Depth: 1013 ft",
+        "applicant": "TWDB Record TX-15494",
+        "volume_requested": "Depth: 1008 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -97.82077744264184,
-            28.891286042731856
+            -94.68338214326327,
+            31.92957868110947
         ],
-        "raw_volume": 4132,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1013 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 3702,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1008 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-84017",
-        "volume_requested": "Depth: 2374 ft",
+        "applicant": "TWDB Record TX-41747",
+        "volume_requested": "Depth: 2136 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -97.85034599745684,
-            29.059790587956577
+            -94.7245590682318,
+            32.7243699460227
         ],
-        "raw_volume": 5441,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 2374 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 4746,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 2136 ft deep. Active threat to regional aquifer pressure."
     },
     {
         "title": "State Registered Industrial Well",
-        "applicant": "TWDB Record TX-24122",
-        "volume_requested": "Depth: 1195 ft",
+        "applicant": "TWDB Record TX-57845",
+        "volume_requested": "Depth: 1641 ft",
         "status": "HIGH THREAT",
         "coordinates": [
-            -98.12961505158714,
-            29.04092223680517
+            -97.43093200688621,
+            30.346336378333273
         ],
-        "raw_volume": 4550,
-        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1195 ft deep. Active threat to regional aquifer pressure."
+        "raw_volume": 3807,
+        "bottom_line": "\ud83d\udea8 STATE TARGET: Heavy industrial well mapped at 1641 ft deep. Active threat to regional aquifer pressure."
     }
 ]
