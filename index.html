@@ -44,7 +44,6 @@
         ::-webkit-scrollbar-track { background: #111; }
         ::-webkit-scrollbar-thumb { background: #444; border-radius: 3px; }
 
-        /* Flashing animation for the Wall of Shame */
         @keyframes pulse-border {
             0% { border-color: rgba(255, 50, 50, 1); box-shadow: 0 0 5px rgba(255,50,50,0.2); }
             50% { border-color: rgba(255, 50, 50, 0.3); box-shadow: 0 0 15px rgba(255,50,50,0.6); }
@@ -95,8 +94,7 @@
         <div id="dark-districts-panel" class="dark-district-box" style="display: none;">
             <strong style="color: #ff3232; font-size: 0.95rem; text-transform: uppercase;">⚠️ Dark Districts Detected</strong>
             <p style="font-size: 0.75rem; color: #ccc; margin: 5px 0;">The following local water boards are actively operating offline to shield their mega-permits from public oversight:</p>
-            <div id="dark-districts-list" style="margin-top: 8px;">
-                </div>
+            <div id="dark-districts-list" style="margin-top: 8px;"></div>
         </div>
 
         <div style="margin-top: 15px; border-top: 1px solid #444; padding-top: 15px;">
@@ -229,7 +227,8 @@
             let activeWells = showExisting ? globalWells : [];
 
             if (severeDraws) {
-                activePermits = activePermits.filter(p => p.raw_volume && p.raw_volume >= 4500);
+                // INCREASED AGGRESSION: Now strictly isolates volumes 7000 and above to clear the board
+                activePermits = activePermits.filter(p => p.raw_volume && p.raw_volume >= 7000);
             }
             
             if (showToxins) {
@@ -324,7 +323,7 @@
                     data: mappedPermits,
                     diskResolution: 36,
                     coverage: 0.9,
-                    radius: 2500,
+                    radius: 400, // TACTICAL NEEDLE ADJUSTMENT: Shrunk from 2500m to 400m
                     extruded: true,
                     pickable: true,
                     elevationScale: 15,
@@ -355,7 +354,6 @@
             deckgl.setProps({ layers: activeLayers });
         }
 
-        // LOAD EVERYTHING IN INCLUDING DARK DISTRICTS
         Promise.all([
             fetch('frontend/threat_feed.json').then(res => res.json()).catch(() => []),
             fetch('frontend/toxin_feed.json').then(res => res.json()).catch(() => []),
