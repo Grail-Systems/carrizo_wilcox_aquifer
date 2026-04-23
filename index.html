@@ -15,13 +15,14 @@
             background: rgba(15, 15, 15, 0.95); border: 1px solid #333;
             color: white; padding: 20px; border-radius: 8px; width: 320px;
             max-height: 95vh; overflow-y: auto;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
         }
         
         #threat-feed-panel {
             position: absolute; top: 15px; right: 15px; z-index: 10;
             background: rgba(15, 15, 15, 0.95); border: 1px solid #ff3232;
             color: white; padding: 20px; border-radius: 8px; width: 350px;
-            max-height: 95vh; overflow-y: auto; box-shadow: 0 0 15px rgba(255, 50, 50, 0.2);
+            max-height: 95vh; overflow-y: auto; box-shadow: 0 0 15px rgba(255, 50, 50, 0.3);
         }
         
         h1 { font-size: 1.2rem; color: #4CAF50; margin-top: 0; }
@@ -33,6 +34,7 @@
             border: 1px solid #ff3232 !important; border-radius: 4px !important; color: #fff !important;
             padding: 10px !important; pointer-events: none;
             max-width: 300px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
         }
         .feed-item { border-bottom: 1px solid #333; padding-bottom: 12px; margin-bottom: 12px; }
         input[type="checkbox"] { accent-color: #ff3232; cursor: pointer; }
@@ -111,6 +113,29 @@
         let globalPermits = [];
         let globalToxins = [];
 
+        // DEFINE THE DYNAMIC MAP STYLES
+        const darkMapStyle = 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json';
+        const satelliteMapStyle = {
+            "version": 8,
+            "sources": {
+                "esri": {
+                    "type": "raster",
+                    "tiles": ["https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"],
+                    "tileSize": 256,
+                    "attribution": "Esri World Imagery"
+                }
+            },
+            "layers": [{
+                "id": "esri-satellite",
+                "type": "raster",
+                "source": "esri",
+                "minzoom": 0,
+                "maxzoom": 22
+            }]
+        };
+        
+        let currentStyle = darkMapStyle;
+
         function registerAlerts() {
             const zip = document.getElementById('zip-input').value.trim();
             const phone = document.getElementById('phone-input').value.trim();
@@ -131,7 +156,6 @@
                     statusBox.style.color = '#4CAF50';
                     statusBox.innerHTML = "✅ Number secured. You are now on the grid. We will text you when major threats are detected in the region.";
                 }
-
                 document.getElementById('zip-input').value = '';
                 document.getElementById('phone-input').value = '';
             } else {
@@ -143,7 +167,17 @@
             container: 'map',
             initialViewState: { longitude: -94.730, latitude: 31.338, zoom: 6.5, pitch: 45, bearing: 10 },
             controller: true,
-            mapStyle: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
+            mapStyle: currentStyle,
+            
+            // DYNAMIC CAMERA SENSOR: Switches to satellite automatically when zooming in close
+            onViewStateChange: ({viewState}) => {
+                const newStyle = viewState.zoom >= 10.5 ? satelliteMapStyle : darkMapStyle;
+                if (currentStyle !== newStyle) {
+                    currentStyle = newStyle;
+                    deckgl.setProps({ mapStyle: currentStyle });
+                }
+            },
+
             getTooltip: ({object}) => {
                 if (!object) return null;
                 if (object.properties && object.properties.OwnerName) {
@@ -172,7 +206,6 @@
             if (severeDraws) {
                 activePermits = activePermits.filter(p => p.raw_volume && p.raw_volume >= 4500);
             }
-            
             if (severeToxins) {
                 const heavyIndustry = ['PLANT', 'CHEMICAL', 'MILL', 'REFINERY', 'ENERGY', 'POWER', 'MANUFACTURING', 'LUMBER', 'OIL', 'GAS', 'PIPELINE', 'INC', 'LLC', 'CORP', 'TIMBER'];
                 activeToxins = activeToxins.filter(t => {
@@ -247,14 +280,17 @@
                 activeLayers.push(new ColumnLayer({
                     id: 'threat-spikes',
                     data: mappedPermits,
-                    diskResolution: 12,
-                    radius: 3000,
+                    diskResolution: 36, // HIGH INTEGRITY: Perfect smooth cylinders
+                    coverage: 0.9,
+                    radius: 2500,
                     extruded: true,
                     pickable: true,
                     elevationScale: 15,
                     getPosition: d => d.position,
                     getFillColor: [255, 0, 0, 255],
-                    getElevation: d => d.raw_volume || 1000
+                    getElevation: d => d.raw_volume || 1000,
+                    // PHYSICS ENGINE: Adding real light reflection to make them look solid
+                    material: { ambient: 0.5, diffuse: 0.8, shininess: 32, specularColor: [255, 255, 255] }
                 }));
             }
 
@@ -263,12 +299,12 @@
                     id: 'toxin-zones',
                     data: activeToxins,
                     pickable: true,
-                    opacity: 0.5,
+                    opacity: 0.6,
                     stroked: true,
                     filled: true,
-                    lineWidthMinPixels: 2,
+                    lineWidthMinPixels: 4, // HIGH INTEGRITY: Thick, glowing radioactive border
                     getPosition: d => d.coordinates,
-                    getFillColor: [57, 255, 20, 100], 
+                    getFillColor: [57, 255, 20, 90], 
                     getLineColor: [57, 255, 20, 255], 
                     getRadius: d => severeToxins ? (d.impact_radius || 3000) * 1.5 : (d.impact_radius || 3000)
                 }));
