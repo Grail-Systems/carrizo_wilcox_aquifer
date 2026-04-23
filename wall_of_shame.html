@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wall of Shame | Aquifer Defense Grid</title>
+    <style>
+        body { 
+            margin: 0; padding: 0; background-color: #0a0a0a; color: #ddd; 
+            font-family: 'Courier New', Courier, monospace; 
+            background-image: linear-gradient(rgba(255, 0, 0, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 0, 0, 0.03) 1px, transparent 1px);
+            background-size: 30px 30px;
+        }
+        
+        .container { max-width: 1000px; margin: 40px auto; padding: 20px; }
+        
+        .header { text-align: center; border-bottom: 2px solid #ff3232; padding-bottom: 20px; margin-bottom: 40px; }
+        .header h1 { color: #ff3232; font-size: 3rem; text-transform: uppercase; margin: 0; text-shadow: 0 0 10px rgba(255,50,50,0.5); }
+        .header p { font-family: sans-serif; color: #888; font-size: 1rem; }
+        
+        .btn-return {
+            display: inline-block; margin-top: 15px; padding: 10px 20px; 
+            background: transparent; border: 1px solid #4CAF50; color: #4CAF50; 
+            text-decoration: none; font-weight: bold; font-family: sans-serif; text-transform: uppercase;
+            transition: 0.3s; border-radius: 4px;
+        }
+        .btn-return:hover { background: rgba(76, 175, 80, 0.2); box-shadow: 0 0 10px rgba(76, 175, 80, 0.5); }
+
+        .section-title { color: #ffaa00; border-bottom: 1px solid #444; padding-bottom: 5px; margin-top: 40px; text-transform: uppercase; font-family: sans-serif; }
+
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
+        
+        /* THE TARGET CARDS */
+        .card { 
+            background: rgba(15, 15, 15, 0.9); border: 1px solid #333; 
+            border-left: 4px solid #ff3232; padding: 20px; border-radius: 4px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5); position: relative;
+        }
+        
+        .card.politician { border-left-color: #ffaa00; }
+        .card.polluter { border-left-color: #39FF14; }
+        .card.dark-board { border-left-color: #555; border: 1px dashed #ff3232; }
+
+        .card h2 { margin: 0 0 10px 0; font-size: 1.2rem; color: #fff; font-family: sans-serif; text-transform: uppercase;}
+        .badge { 
+            position: absolute; top: 15px; right: 15px; background: rgba(255, 50, 50, 0.2); 
+            color: #ff3232; padding: 3px 8px; font-size: 0.7rem; font-weight: bold; 
+            border-radius: 3px; border: 1px solid #ff3232;
+        }
+        .badge.pol { background: rgba(255, 170, 0, 0.2); color: #ffaa00; border-color: #ffaa00;}
+        .badge.tox { background: rgba(57, 255, 20, 0.2); color: #39FF14; border-color: #39FF14;}
+
+        .data-point { margin: 8px 0; font-size: 0.85rem; line-height: 1.4; color: #bbb;}
+        .highlight { color: #ff3232; font-weight: bold; }
+        .highlight-pol { color: #ffaa00; font-weight: bold; }
+        
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>💀 The Ledger</h1>
+            <p>Public accountability for the weaponization of the Carrizo-Wilcox aquifer.</p>
+            <a href="index.html" class="btn-return">◄ Return to Tactical Map</a>
+        </div>
+
+        <h2 class="section-title">Corporate Water Profiteers</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="badge">MEGA-DRAW</div>
+                <h2>[Placeholder LLC]</h2>
+                <div class="data-point"><strong>Parent Co:</strong> <span class="highlight">Pending Investigation</span></div>
+                <div class="data-point"><strong>Location:</strong> Shelby County Sector</div>
+                <div class="data-point"><strong>Threat Level:</strong> Extracting 7,000+ acre-feet/year for out-of-district commercial export while local wells run dry.</div>
+            </div>
+            
+            <div class="card">
+                <div class="badge">SHELL CORP</div>
+                <h2>Texas Water Holdings LLC</h2>
+                <div class="data-point"><strong>CEO:</strong> John Doe (Registered Agent)</div>
+                <div class="data-point"><strong>Location:</strong> Nacogdoches County</div>
+                <div class="data-point"><strong>Threat Level:</strong> Using bureaucratic anonymity to shield corporate water mining from public oversight.</div>
+            </div>
+        </div>
+
+        <h2 class="section-title">Compromised Officials & Boards</h2>
+        <div class="grid">
+            <div class="card politician">
+                <div class="badge pol">COMPROMISED</div>
+                <h2>[Local Board President]</h2>
+                <div class="data-point"><strong>Jurisdiction:</strong> Local Groundwater Conservation District</div>
+                <div class="data-point"><strong>Campaign Ties:</strong> <span class="highlight-pol">$5,000+</span> from industrial PACs.</div>
+                <div class="data-point"><strong>Offense:</strong> Rubber-stamping high-capacity export permits without requiring independent hydrological impact studies.</div>
+            </div>
+
+            <div class="card dark-board">
+                <div class="badge">OFF THE GRID</div>
+                <h2>Angelina County GCD</h2>
+                <div class="data-point"><strong>Status:</strong> <span class="highlight">DARK DISTRICT</span></div>
+                <div class="data-point"><strong>Offense:</strong> Operating strictly on paper. Refusing to digitize active well telemetry, intentionally blinding state oversight and public accountability.</div>
+            </div>
+        </div>
+
+        <h2 class="section-title">Verified Toxic Discharges</h2>
+        <div class="grid">
+            <div class="card polluter">
+                <div class="badge tox">BIOHAZARD</div>
+                <h2>[Heavy Industry Corp]</h2>
+                <div class="data-point"><strong>Location:</strong> Lufkin Blast Zone</div>
+                <div class="data-point"><strong>Offense:</strong> Actively flagged by TCEQ for toxic chemical release directly over the aquifer recharge zone.</div>
+                <div class="data-point"><strong>Status:</strong> Evading immediate cleanup orders.</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
