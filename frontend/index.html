@@ -65,7 +65,7 @@
         // Initialize the Map
         const deckgl = new DeckGL({
             container: 'map',
-            initialViewState: { longitude: -94.730, latitude: 31.338, zoom: 6.5, pitch: 55, bearing: 15 },
+            initialViewState: { longitude: -94.730, latitude: 31.338, zoom: 6.5, pitch: 45, bearing: 10 },
             controller: true,
             mapStyle: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
             getTooltip: ({object}) => {
@@ -83,7 +83,14 @@
                     return { html: `<strong style="color: #39FF14;">TOXIC DISCHARGE DETECTED</strong><br/>-------------------------<br/>${object.bottom_line}` };
                 }
             },
-            layers: [] // Layers injected after data load
+            layers: [
+                new GeoJsonLayer({
+                    id: 'aquifer-layer', data: 'wilcox_aquifer.json', filled: true, extruded: false, getFillColor: [0, 150, 255, 60], pickable: false
+                }),
+                new GeoJsonLayer({
+                    id: 'threat-wells-layer', data: 'threat_wells.json', pointType: 'circle', getFillColor: [255, 50, 50, 255], getPointRadius: 1500, pickable: true, autoHighlight: true, highlightColor: [255, 255, 0, 255]
+                })
+            ]
         });
 
         // Fetch Both Feeds: Permits and Toxins
@@ -92,6 +99,7 @@
             fetch('toxin_feed.json').then(res => res.json()).catch(() => [])
         ]).then(([permitData, toxinData]) => {
             
+            // Calculate total threat volume
             const totalThreats = permitData.length + toxinData.length;
             let html = `
                 <div style="background: #ff3232; color: white; padding: 10px; text-align: center; font-weight: bold; margin-bottom: 15px; border-radius: 4px; box-shadow: 0 0 10px rgba(255, 50, 50, 0.5);">
@@ -103,6 +111,7 @@
             permitData.slice(0, 25).forEach(item => {
                 let color = item.status === 'HIGH THREAT' ? '#ff3232' : '#4CAF50';
                 
+                // The automated email generator button
                 let actionBtn = '';
                 if (item.status === 'HIGH THREAT') {
                     let emailSubject = `URGENT: Public Opposition to Water Permit - ${item.applicant}`;
@@ -139,57 +148,44 @@
 
             document.getElementById('feed-content').innerHTML = html || '<p style="color: #4CAF50;">Grid Clear.</p>';
 
-            // 3. THE HOLOGRAM UPGRADE: Making the Aquifer 3D
-            const aquiferLayer = new GeoJsonLayer({
-                id: 'aquifer-layer', 
-                data: 'wilcox_aquifer.json', 
-                filled: true, 
-                extruded: true,           // Turns the flat shape into a 3D block
-                wireframe: true,          // Shows the structural grid
-                getElevation: 4000,       // Simulates thousands of feet of depth
-                getFillColor: [0, 150, 255, 30],  // Translucent water blue
-                getLineColor: [0, 200, 255, 150], // Glowing cyan structural edges
-                pickable: false
-            });
-
-            // 4. THE STRAW FIX: Using actual GPS data instead of staggering
+            // 3. Build the 3D Red Permit Spikes
             const highThreats = permitData.filter(t => t.status === "HIGH THREAT");
-            const mappedThreats = highThreats.map(threat => ({
+            const mappedThreats = highThreats.map((threat) => ({
                 ...threat, 
-                position: threat.coordinates // <--- The fix: Plugs them into their real locations!
+                position: threat.coordinates // <--- THE FIX: Using actual GPS coordinates
             }));
 
             const threatSpikeLayer = new ColumnLayer({
                 id: 'threat-spikes',
                 data: mappedThreats,
                 diskResolution: 12,
-                radius: 2500,
+                radius: 3000,
                 extruded: true,
                 pickable: true,
-                elevationScale: 100, // Scaled up to pierce through the 3D aquifer
+                elevationScale: 50,
                 getPosition: d => d.position,
                 getFillColor: [255, 0, 0, 255],
-                getElevation: d => d.raw_volume || 200
+                getElevation: d => d.raw_volume || 1000
             });
 
-            // 5. Build the Neon Green Toxin Zones
+            // 4. Build the Neon Green Toxin Zones
             const toxinLayer = new ScatterplotLayer({
                 id: 'toxin-zones',
                 data: toxinData,
                 pickable: true,
-                opacity: 0.6,
+                opacity: 0.5,
                 stroked: true,
                 filled: true,
                 lineWidthMinPixels: 2,
                 getPosition: d => d.coordinates,
-                getFillColor: [57, 255, 20, 80], 
-                getLineColor: [57, 255, 20, 255], 
+                getFillColor: [57, 255, 20, 100], // Transparent Neon Green
+                getLineColor: [57, 255, 20, 255], // Solid Neon Green outline
                 getRadius: d => d.impact_radius || 3000
             });
 
-            // Inject the new layers
+            // Inject both new dynamic layers on top of the original base layers
             deckgl.setProps({
-                layers: [aquiferLayer, toxinLayer, threatSpikeLayer] // Order dictates rendering hierarchy
+                layers: [...deckgl.props.layers, threatSpikeLayer, toxinLayer]
             });
         });
     </script>
