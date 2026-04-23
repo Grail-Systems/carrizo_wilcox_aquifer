@@ -13,7 +13,7 @@ git commit -m "Automated Intel Update: $(date +'%Y-%m-%d')"
 
 # 3. Push it securely using the restricted token
 # Note: We are embedding the token temporarily for the push command
-git push https://scottzion1984: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@github.com/Grail-Systems/carrizo_wilcox_aquifer.git main
+git push origin main
 
 echo "--- SCAN & DEPLOY COMPLETE ---"
 
