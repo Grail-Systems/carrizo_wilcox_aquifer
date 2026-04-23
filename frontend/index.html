@@ -101,25 +101,39 @@
             
             let html = '';
 
-            // 1. Process Water Permits into UI
+           // 1. Process Water Permits into UI
             permitData.forEach(item => {
                 let color = item.status === 'HIGH THREAT' ? '#ff3232' : '#4CAF50';
+                
+                // The automated email generator button
+                let actionBtn = '';
+                if (item.status === 'HIGH THREAT') {
+                    let emailSubject = `URGENT: Public Opposition to Water Permit - ${item.applicant}`;
+                    let emailBody = `To whom it may concern,%0D%0A%0D%0AAs a resident, I am writing to formally oppose the active permit request by ${item.applicant} to draw high-volume water from our local aquifer.%0D%0A%0D%0AThis poses a direct threat to our community's water security. I expect my representatives to intervene immediately.%0D%0A%0D%0ASincerely,%0D%0A[Your Name]`;
+                    actionBtn = `<a href="mailto:?subject=${emailSubject}&body=${emailBody}" style="display: inline-block; margin-top: 8px; padding: 6px 12px; background: #ff3232; color: white; text-decoration: none; font-size: 0.8rem; font-weight: bold; border-radius: 4px; text-transform: uppercase;">Take Action: Send Email</a>`;
+                }
+
                 html += `
                     <div class="feed-item">
                         <strong style="color: ${color}; font-size: 0.85rem;">[WATER THREAT]</strong><br/>
                         <strong style="color: white; font-size: 0.9rem;">${item.title}</strong><br/>
                         <p style="font-size: 0.85rem; line-height: 1.4; color: #ddd; margin: 5px 0;">${item.bottom_line}</p>
+                        ${actionBtn}
                     </div>
                 `;
             });
 
             // 2. Process Toxins into UI
             toxinData.forEach(item => {
+                let emailSubject = `URGENT: Toxic Discharge Inquiry - ${item.facility}`;
+                let emailBody = `To whom it may concern,%0D%0A%0D%0AAs a resident, I am demanding immediate transparency and state intervention regarding the recent toxic discharge reported at ${item.facility}.%0D%0A%0D%0AWe require an immediate public status update on the containment and groundwater impact.%0D%0A%0D%0ASincerely,%0D%0A[Your Name]`;
+                
                 html += `
                     <div class="feed-item">
                         <strong style="color: #39FF14; font-size: 0.85rem;">[${item.status}]</strong><br/>
                         <strong style="color: white; font-size: 0.9rem;">${item.facility}</strong><br/>
                         <p style="font-size: 0.85rem; line-height: 1.4; color: #ddd; margin: 5px 0;">${item.bottom_line}</p>
+                        <a href="mailto:?subject=${emailSubject}&body=${emailBody}" style="display: inline-block; margin-top: 8px; padding: 6px 12px; background: transparent; border: 2px solid #39FF14; color: #39FF14; text-decoration: none; font-size: 0.8rem; font-weight: bold; border-radius: 4px; text-transform: uppercase;">Demand Investigation</a>
                     </div>
                 `;
             });
