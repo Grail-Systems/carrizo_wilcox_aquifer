@@ -2,16 +2,16 @@ import json
 import urllib.request
 import time
 
-print("[INIT] Bypassing simulation. Connecting to USGS National Water Information System (NWIS)...")
+print("[INIT] Initiating live-fire sequence. Connecting to USGS National Water Information System (NWIS)...")
 time.sleep(1)
 
-# REAL WORLD API: USGS Groundwater API for the Carrizo-Wilcox Bounding Box
-# This pulls actual active monitoring wells and their most recent drawdown data.
+# Real-world USGS Groundwater API for the Carrizo-Wilcox Bounding Box
 USGS_API_URL = "https://waterservices.usgs.gov/nwis/gwlevels/?bBox=-98.000000,28.500000,-93.500000,33.500000&format=json"
 
 try:
     print("[UPLINK] Fetching live telemetry from federal database...")
-    with urllib.request.urlopen(USGS_API_URL) as response:
+    req = urllib.request.Request(USGS_API_URL, headers={'User-Agent': 'Mozilla/5.0'})
+    with urllib.request.urlopen(req) as response:
         raw_data = json.loads(response.read().decode())
 except Exception as e:
     print(f"[ERROR] Connection to USGS failed: {e}")
@@ -22,32 +22,33 @@ print(f"[SUCCESS] Intercepted {len(timeSeries)} real-world active monitoring sit
 
 live_threats = []
 
-print("[PROCESSING] Formatting raw telemetry for DeckGL deployment...")
+print("[PROCESSING] Formatting raw federal telemetry for DeckGL deployment...")
 for site in timeSeries:
     sourceInfo = site.get('sourceInfo', {})
     location = sourceInfo.get('geoLocation', {}).get('geogLocation', {})
-    siteName = sourceInfo.get('siteName', 'UNKNOWN SITE')
+    siteName = sourceInfo.get('siteName', 'UNKNOWN FEDERAL SITE')
     
     lat = location.get('latitude')
     lon = location.get('longitude')
     
-    # Extract the most recent water level drawdown metric (if available)
     values = site.get('values', [])
-    drawdown = 1000 # Default baseline 
+    drawdown = 1000 
+    drawdown_text = "Data obscured or pending."
+    
     if values and values[0].get('value'):
         try:
-            # USGS often reports depth to water. We use it to scale the spike.
             drawdown_val = float(values[0]['value'][0]['value'])
-            # Multiply to make the visual scale match our map's elevation settings
-            drawdown = max(1000, int(drawdown_val * 100)) 
+            # Scale to fit the 1000-8000 volume slider visually
+            drawdown = max(1000, int(drawdown_val * 75)) 
+            drawdown_text = f"{drawdown_val} ft below surface."
         except:
             pass
 
     if lat and lon:
         live_threats.append({
-            "title": f"USGS ACTIVE WELL: {siteName}",
-            "applicant": "REAL WORLD DATA",
-            "bottom_line": f"Federal Telemetry Intercepted.<br>Live Drawdown Metric: {drawdown / 100} ft below surface.",
+            "title": f"USGS SITE: {siteName}",
+            "applicant": "USGS LIVE TELEMETRY",
+            "bottom_line": f"Federal Telemetry Intercepted.<br>Live Drawdown Metric: <span style='color:#ff3232; font-weight:bold;'>{drawdown_text}</span>",
             "raw_volume": drawdown,
             "coordinates": [lon, lat]
         })
