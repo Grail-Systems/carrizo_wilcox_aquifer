@@ -1,0 +1,26 @@
+[
+    {
+        "county": "Angelina",
+        "district_name": "Angelina Groundwater Conservation District",
+        "status": "OFFLINE / PAPER-ONLY",
+        "reason": "Refuses central digital integration. Data siloed to prevent automated oversight."
+    },
+    {
+        "county": "Nacogdoches",
+        "district_name": "Nacogdoches Groundwater Conservation District",
+        "status": "OFFLINE / PAPER-ONLY",
+        "reason": "Refuses central digital integration. Data siloed to prevent automated oversight."
+    },
+    {
+        "county": "Trinity",
+        "district_name": "Trinity Groundwater Conservation District",
+        "status": "OFFLINE / PAPER-ONLY",
+        "reason": "Refuses central digital integration. Data siloed to prevent automated oversight."
+    },
+    {
+        "county": "Sabine",
+        "district_name": "Sabine Groundwater Conservation District",
+        "status": "OFFLINE / PAPER-ONLY",
+        "reason": "Refuses central digital integration. Data siloed to prevent automated oversight."
+    }
+]
