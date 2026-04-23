@@ -57,6 +57,18 @@
             border-radius: 4px;
             animation: pulse-border 2s infinite;
         }
+
+        /* Custom Slider Styling */
+        input[type=range] {
+            -webkit-appearance: none; width: 100%; background: transparent;
+        }
+        input[type=range]::-webkit-slider-thumb {
+            -webkit-appearance: none; height: 16px; width: 16px; border-radius: 50%;
+            background: #ffaa00; cursor: pointer; margin-top: -6px; box-shadow: 0 0 5px rgba(255, 170, 0, 0.8);
+        }
+        input[type=range]::-webkit-slider-runnable-track {
+            width: 100%; height: 4px; cursor: pointer; background: #444; border-radius: 2px;
+        }
     </style>
 </head>
 <body>
@@ -73,7 +85,7 @@
             <strong style="color: #fff; font-size: 0.95rem;">RENDER MODE</strong><br>
             <div style="display: flex; gap: 10px; margin-top: 8px;">
                 <label style="font-size: 0.8rem; cursor: pointer; color: #ddd;">
-                    <input type="radio" name="render-mode" id="mode-density" checked onchange="updateGrid()"> ☢️ Threat Heatmap
+                    <input type="radio" name="render-mode" id="mode-density" checked onchange="updateGrid()"> 🛑 Holographic Density
                 </label>
                 <label style="font-size: 0.8rem; cursor: pointer; color: #ddd;">
                     <input type="radio" name="render-mode" id="mode-spikes" onchange="updateGrid()"> 📍 Raw Spikes
@@ -91,11 +103,16 @@
             <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;">
                 <input type="checkbox" id="toggle-draws" checked onchange="updateGrid()"> Show 3D Industrial Draws
             </label>
-            <label style="font-size: 0.8rem; display: block; margin-top: 5px; color: #ffaa00; font-weight: bold; cursor: pointer; padding-left: 20px;">
-                <input type="checkbox" id="toggle-severe-draws" onchange="updateGrid()"> ⚠️ Isolate Mega-Draws Only
-            </label>
 
-            <label style="font-size: 0.85rem; display: block; margin-top: 12px; cursor: pointer;">
+            <div style="margin-top: 8px; padding-left: 20px;">
+                <label style="font-size: 0.75rem; color: #ffaa00; font-weight: bold; display: flex; justify-content: space-between;">
+                    <span>Filter Volume (acre-ft):</span>
+                    <span id="volume-readout">1,000+</span>
+                </label>
+                <input type="range" id="volume-slider" min="1000" max="8000" step="500" value="1000" oninput="updateVolumeLabel(); updateGrid();">
+            </div>
+
+            <label style="font-size: 0.85rem; display: block; margin-top: 15px; cursor: pointer;">
                 <input type="checkbox" id="toggle-toxins" checked onchange="updateGrid()"> Show Toxic Discharges
             </label>
             <label style="font-size: 0.8rem; display: block; margin-top: 5px; color: #39FF14; font-weight: bold; cursor: pointer; padding-left: 20px;">
@@ -120,13 +137,6 @@
             <button onclick="registerAlerts()" style="width: 100%; margin-top: 8px; background: #ffaa00; color: #111; border: none; padding: 8px; font-weight: bold; border-radius: 4px; cursor: pointer; text-transform: uppercase;">Get Live Alerts</button>
             <p id="alert-status" style="font-size: 0.75rem; font-weight: bold; margin-top: 8px; display: none; padding: 8px; border-radius: 4px; line-height: 1.4;"></p>
         </div>
-
-        <div style="margin-top: 15px; border-top: 1px solid #444; padding-top: 15px; text-align: center;">
-            <a href="https://cash.app/$grailsystems" target="_blank" style="display: block; width: 100%; background: #00D632; color: #111; text-decoration: none; padding: 12px 0; font-weight: bold; font-size: 1rem; border-radius: 4px; text-transform: uppercase; box-sizing: border-box; transition: 0.2s;">
-                Support The Grid: $grailsystems
-            </a>
-            <p style="font-size: 0.7rem; color: #888; margin-top: 8px;">Your donations keep these servers online and the intelligence flowing.</p>
-        </div>
     </div>
     
     <div id="threat-feed-panel">
@@ -139,8 +149,7 @@
     <div id="map"></div>
 
     <script>
-        // INJECTED HEATMAP LAYER
-        const { DeckGL, GeoJsonLayer, ColumnLayer, ScatterplotLayer, HeatmapLayer } = deck;
+        const { DeckGL, GeoJsonLayer, ColumnLayer, ScatterplotLayer, HexagonLayer } = deck;
 
         let globalPermits = [];
         let globalToxins = [];
@@ -156,6 +165,11 @@
         };
         
         let currentStyle = darkMapStyle;
+
+        function updateVolumeLabel() {
+            const val = document.getElementById('volume-slider').value;
+            document.getElementById('volume-readout').innerText = Number(val).toLocaleString() + '+';
+        }
 
         function registerAlerts() {
             const zip = document.getElementById('zip-input').value.trim();
@@ -213,6 +227,11 @@
             },
             getTooltip: ({object}) => {
                 if (!object) return null;
+                if (object.points) {
+                    let totalVol = 0;
+                    object.points.forEach(p => { totalVol += (p.source ? p.source.raw_volume : p.raw_volume) || 1000; });
+                    return { html: `<strong style="color: #ffaa00;">CRITICAL DENSITY ZONE</strong><br/>-------------------------<br/>Permits in sector: ${object.points.length}<br/>Combined Volume: ${totalVol.toLocaleString()} acre-ft/yr` };
+                }
                 if (object.properties && object.properties.OwnerName) {
                     return { html: `<strong style="color: #ff3232;">INDUSTRIAL INFRASTRUCTURE</strong><br/>-------------------------<br/><span class="highlight">Owner:</span> ${object.properties.OwnerName || 'REDACTED'}<br/><span class="highlight">Usage:</span> ${object.properties.PrimaryWat || 'UNKNOWN'}<br/><span class="highlight">Depth:</span> ${object.properties.WellDepth ? object.properties.WellDepth + ' ft' : 'UNKNOWN'}` };
                 }
@@ -231,7 +250,9 @@
         function updateGrid() {
             const showExisting = document.getElementById('toggle-existing').checked;
             const showDraws = document.getElementById('toggle-draws').checked;
-            const severeDraws = document.getElementById('toggle-severe-draws').checked;
+            // SLIDER VALUE REPLACES SEVERE DRAWS CHECKBOX
+            const minVolumeFilter = parseInt(document.getElementById('volume-slider').value, 10);
+            
             const showToxins = document.getElementById('toggle-toxins').checked;
             const severeToxins = document.getElementById('toggle-severe-toxins').checked;
             const renderModeSpikes = document.getElementById('mode-spikes').checked;
@@ -240,8 +261,9 @@
             let activeToxins = showToxins ? globalToxins : [];
             let activeWells = showExisting ? globalWells : [];
 
-            if (severeDraws) {
-                activePermits = activePermits.filter(p => p.raw_volume && p.raw_volume >= 7000);
+            // SLIDER DYNAMIC FILTER
+            if (showDraws) {
+                activePermits = activePermits.filter(p => (p.raw_volume || 1000) >= minVolumeFilter);
             }
             
             if (showToxins) {
@@ -275,8 +297,8 @@
                 </div>
             `;
 
+            // Bureaucracy Bypass Email Generator Maintained
             activePermits.slice(0, 25).forEach(item => {
-                // BUREAUCRACY BYPASS: Formatted Legal Warfare Document
                 let emailSubject = `FORMAL REQUEST: Contested Case Hearing & Public Comment - ${item.applicant}`;
                 let emailBody = `To the General Manager and Board of Directors,%0D%0A%0D%0AUnder Texas Water Code Section 36.415, I am submitting this formal public comment and officially requesting a Contested Case Hearing regarding the permit application for ${item.applicant} (${item.raw_volume || 'high capacity'} acre-feet/yr).%0D%0A%0D%0AI hold legal 'Affected Person' status as this high-capacity drawdown poses a direct, localized threat to my groundwater resources, property value, and the structural integrity of the Carrizo-Wilcox aquifer within this district.%0D%0A%0D%0AWe demand an immediate stay on this application until a full, independent hydrological impact study is presented to the public.%0D%0A%0D%0ASincerely,%0D%0A[YOUR LEGAL NAME]%0D%0A[YOUR PHYSICAL ADDRESS]%0D%0A[YOUR PHONE NUMBER]`;
                 let actionBtn = `<a href="mailto:public_intake@localgcd.org?subject=${emailSubject}&body=${emailBody}" style="display: inline-block; margin-top: 8px; padding: 6px 12px; background: #ff3232; color: white; text-decoration: none; font-size: 0.8rem; font-weight: bold; border-radius: 4px; text-transform: uppercase;">File Legal Injunction</a>`;
@@ -292,7 +314,6 @@
             });
 
             activeToxins.slice(0, 50).forEach(item => {
-                // BUREAUCRACY BYPASS: Toxin Demand Document
                 let emailSubject = `URGENT FOIA/PIR REQUEST: Toxic Discharge Investigation - ${item.facility}`;
                 let emailBody = `To the Environmental Enforcement Division,%0D%0A%0D%0AUnder the Texas Public Information Act, I am requesting all notices of violation, internal communications, and groundwater testing logs related to the documented discharge at ${item.facility}.%0D%0A%0D%0ASincerely,%0D%0A[YOUR LEGAL NAME]%0D%0A[YOUR PHONE NUMBER]`;
                 
@@ -349,28 +370,27 @@
                         material: { ambient: 0.5, diffuse: 0.8, shininess: 32, specularColor: [255, 255, 255] }
                     }));
                 } else {
-                    // NEW: SMOOTH HEATMAP + RAZOR THIN LASERS
-                    activeLayers.push(new HeatmapLayer({
-                        id: 'threat-heatmap',
+                    // RESTORED HOLOGRAPHIC HEXAGONS
+                    activeLayers.push(new HexagonLayer({
+                        id: 'threat-density-hex',
                         data: mappedPermits,
-                        getPosition: d => d.position,
-                        getWeight: d => d.raw_volume || 1000,
-                        radiusPixels: 50,
-                        intensity: 1.5,
-                        threshold: 0.03
-                    }));
-
-                    activeLayers.push(new ColumnLayer({
-                        id: 'threat-spikes-light',
-                        data: mappedPermits,
-                        diskResolution: 6,
-                        radius: 120, // RAZOR THIN: So it doesn't block the map
+                        pickable: true,
                         extruded: true,
-                        pickable: false,
-                        elevationScale: 15,
+                        radius: 4000,
+                        coverage: 0.85, 
+                        opacity: 0.6,   
+                        elevationScale: 25,
                         getPosition: d => d.position,
-                        getFillColor: [255, 50, 50, 200], // Slightly transparent
-                        getElevation: d => d.raw_volume || 1000
+                        getElevationWeight: d => d.raw_volume || 1000,
+                        elevationAggregation: 'SUM',
+                        colorRange: [
+                            [80, 0, 0],      
+                            [150, 0, 0],     
+                            [220, 20, 0],    
+                            [255, 70, 0],    
+                            [255, 0, 0]      
+                        ],
+                        material: { ambient: 0.3, diffuse: 0.6, shininess: 64, specularColor: [255, 255, 255] }
                     }));
                 }
             }
