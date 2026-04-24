@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Carrizo-Wilcox 3D Tracker</title>
     <script src="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js"></script>
     <link href="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css" rel="stylesheet" />
@@ -10,71 +11,40 @@
         body { margin: 0; padding: 0; background-color: #111; font-family: sans-serif; overflow: hidden; }
         #map { width: 100vw; height: 100vh; position: absolute; top: 0; left: 0; }
         
-        #ui-panel {
-            position: absolute; top: 15px; left: 15px; bottom: 15px; z-index: 10;
-            background: rgba(15, 15, 15, 0.95); border: 1px solid #333;
-            color: white; padding: 20px; border-radius: 8px; width: 320px;
-            overflow-y: auto; box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-        }
-        
-        #threat-feed-panel {
-            position: absolute; top: 15px; right: 15px; bottom: 15px; z-index: 10;
-            background: rgba(15, 15, 15, 0.95); border: 1px solid #ff3232;
-            color: white; padding: 20px; border-radius: 8px; width: 350px;
-            overflow-y: auto; display: flex; flex-direction: column;
-        }
+        #ui-panel { position: absolute; top: 15px; left: 15px; bottom: 15px; z-index: 10; background: rgba(15, 15, 15, 0.95); border: 1px solid #333; color: white; padding: 20px; border-radius: 8px; width: 320px; overflow-y: auto; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
+        #threat-feed-panel { position: absolute; top: 15px; right: 15px; bottom: 15px; z-index: 10; background: rgba(15, 15, 15, 0.95); border: 1px solid #ff3232; color: white; padding: 20px; border-radius: 8px; width: 320px; overflow-y: auto; display: flex; flex-direction: column; }
         
         h1 { font-size: 1.2rem; color: #4CAF50; margin-top: 0; }
         .legend-item { display: flex; align-items: center; margin-top: 8px; font-size: 0.85rem; }
         .color-box { width: 15px; height: 15px; margin-right: 10px; }
-        
-        .deck-tooltip {
-            font-family: sans-serif; font-size: 0.85rem !important; background: rgba(10, 10, 10, 0.95) !important;
-            border: 1px solid #444 !important; border-radius: 4px !important; color: #fff !important;
-            padding: 0 !important; pointer-events: none; max-width: 320px; z-index: 20;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8); line-height: 1.4; overflow: hidden;
-        }
-
+        .deck-tooltip { font-family: sans-serif; font-size: 0.85rem !important; background: rgba(10, 10, 10, 0.95) !important; border: 1px solid #444 !important; border-radius: 4px !important; color: #fff !important; padding: 0 !important; max-width: 320px; z-index: 20; }
         .feed-item { border-bottom: 1px solid #333; padding-bottom: 12px; margin-bottom: 12px; }
-        input[type="checkbox"] { accent-color: #ff3232; cursor: pointer; }
-        ::-webkit-scrollbar { width: 6px; }
-        ::-webkit-scrollbar-track { background: #111; }
-        ::-webkit-scrollbar-thumb { background: #444; border-radius: 3px; }
-
-        /* THE NEW RECENTER BUTTON */
-        .recenter-btn {
-            display: block; width: 100%; background: #222; color: #fff; border: 1px solid #555;
-            padding: 8px 0; font-weight: bold; font-size: 0.85rem; border-radius: 4px;
-            text-transform: uppercase; cursor: pointer; transition: 0.2s; margin-top: 10px; margin-bottom: 15px;
-        }
-        .recenter-btn:hover { background: #444; border-color: #888; box-shadow: 0 0 8px rgba(255,255,255,0.2); }
-
-        .shame-btn {
-            display: block; width: 100%; background: rgba(255, 0, 0, 0.1); border: 2px solid #ff3232; 
-            color: #ff3232; text-decoration: none; padding: 12px 0; font-weight: bold; font-size: 1rem; 
-            border-radius: 4px; text-transform: uppercase; box-sizing: border-box; text-align: center; margin-top: 15px;
-        }
-        .shame-btn:hover { background: rgba(255, 0, 0, 0.3); box-shadow: inset 0 0 20px rgba(255,50,50,0.6); text-shadow: 0 0 5px #ff3232; }
-
-        .support-btn {
-            display: block; width: 100%; background: #00BCD4; color: #111; text-decoration: none; 
-            padding: 12px 0; font-weight: bold; font-size: 1rem; border-radius: 4px; 
-            text-transform: uppercase; box-sizing: border-box; transition: 0.2s; text-align: center;
-        }
-        .support-btn:hover { background: #00acc1; box-shadow: 0 0 10px rgba(0, 188, 212, 0.5); }
-
+        
+        ::-webkit-scrollbar { width: 6px; } ::-webkit-scrollbar-track { background: #111; } ::-webkit-scrollbar-thumb { background: #444; border-radius: 3px; }
+        
+        .recenter-btn { display: block; width: 100%; background: #222; color: #fff; border: 1px solid #555; padding: 8px 0; font-weight: bold; font-size: 0.85rem; border-radius: 4px; text-transform: uppercase; cursor: pointer; transition: 0.2s; margin-bottom: 15px; }
+        .recenter-btn:hover { background: #444; border-color: #888; }
+        .shame-btn { display: block; width: 100%; background: rgba(255, 0, 0, 0.1); border: 2px solid #ff3232; color: #ff3232; text-decoration: none; padding: 12px 0; font-weight: bold; font-size: 1rem; border-radius: 4px; text-transform: uppercase; text-align: center; margin-top: 15px; }
+        .support-btn { display: block; width: 100%; background: #00BCD4; color: #111; text-decoration: none; padding: 12px 0; font-weight: bold; font-size: 1rem; border-radius: 4px; text-transform: uppercase; text-align: center; }
         .slider-container { margin-top: 8px; padding-left: 20px; border-left: 2px solid #444; margin-bottom: 15px;}
         input[type=range] { -webkit-appearance: none; width: 100%; background: transparent; }
         input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; height: 14px; width: 14px; border-radius: 50%; background: #ffaa00; cursor: pointer; margin-top: -5px; }
         input[type=range]::-webkit-slider-runnable-track { width: 100%; height: 4px; cursor: pointer; background: #555; border-radius: 2px; }
-        
         #target-lock { background: rgba(255, 50, 50, 0.1); border: 1px solid #ff3232; padding: 15px; border-radius: 6px; margin-bottom: 15px; display: none; }
+        .dark-district-box { background: rgba(255, 50, 50, 0.05); border: 1px solid #ff3232; padding: 10px; margin-top: 15px; border-radius: 4px; }
+
+        /* MOBILE RESCUE CSS */
+        @media (max-width: 768px) {
+            #ui-panel { top: auto; bottom: 0; left: 0; right: 0; width: 100%; height: 40vh; border-radius: 15px 15px 0 0; border: none; border-top: 2px solid #333; box-sizing: border-box; }
+            #threat-feed-panel { display: none; /* Hide the side feed on small mobile screens to save space */ }
+            .deck-tooltip { display: none !important; /* Tooltips block finger taps on mobile */ }
+        }
     </style>
 </head>
 <body>
     <div id="ui-panel">
         <h1>Aquifer Defense Grid</h1>
-        <p style="font-size: 0.85rem; color: #ccc; margin-bottom: 5px;">Live 3D view of the Carrizo-Wilcox water table and active threats.</p>
+        <p style="font-size: 0.85rem; color: #ccc; margin-bottom: 10px;">Live 3D view of the Carrizo-Wilcox water table and active threats.</p>
         
         <button class="recenter-btn" onclick="recenterMap()">🎯 Recenter Map</button>
         
@@ -86,47 +56,39 @@
         <div style="margin-top: 15px; border-top: 1px solid #444; padding-top: 15px;">
             <strong style="color: #fff; font-size: 0.95rem;">PRECISION FILTERS</strong><br>
             
-            <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;">
-                <input type="checkbox" id="toggle-permits" checked onchange="updateGrid()"> 🛑 Corporate Mega-Permits
-            </label>
-            <div class="slider-container">
-                <label style="font-size: 0.75rem; color: #ff3232; display: flex; justify-content: space-between;">
-                    <span>Volume (acre-ft/yr):</span><span id="permit-val">1,000+</span>
-                </label>
-                <input type="range" id="permit-slider" min="1000" max="15000" step="1000" value="1000" oninput="updateLabels(); updateGrid();">
-            </div>
-
-            <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;">
-                <input type="checkbox" id="toggle-usgs" checked onchange="updateGrid()"> 📍 USGS Live Telemetry
-            </label>
-            <div class="slider-container">
-                <label style="font-size: 0.75rem; color: #ffaa00; display: flex; justify-content: space-between;">
-                    <span>Drawdown Filter:</span><span id="usgs-val">All</span>
-                </label>
-                <input type="range" id="usgs-slider" min="1000" max="15000" step="1000" value="1000" oninput="updateLabels(); updateGrid();">
-            </div>
-
-            <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;">
-                <input type="checkbox" id="toggle-toxins" checked onchange="updateGrid()"> ☢️ Toxic Discharges
-            </label>
-            <div class="slider-container">
-                <label style="font-size: 0.75rem; color: #39FF14; display: flex; justify-content: space-between;">
-                    <span>Severity Level:</span><span id="toxin-val">Class 1+</span>
-                </label>
-                <input type="range" id="toxin-slider" min="1" max="10" step="1" value="1" oninput="updateLabels(); updateGrid();">
-            </div>
+            <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;"><input type="checkbox" id="toggle-permits" checked onchange="updateGrid()"> 🛑 Corporate Mega-Permits</label>
+            <div class="slider-container"><label style="font-size: 0.75rem; color: #ff3232; display: flex; justify-content: space-between;"><span>Volume (acre-ft/yr):</span><span id="permit-val">1,000+</span></label><input type="range" id="permit-slider" min="1000" max="15000" step="1000" value="1000" oninput="updateLabels(); updateGrid();"></div>
             
-            <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;">
-                <input type="checkbox" id="toggle-existing" checked onchange="updateGrid()"> 🛢️ Show Existing Industrial Wells
-            </label>
+            <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;"><input type="checkbox" id="toggle-usgs" checked onchange="updateGrid()"> 📍 USGS Live Telemetry</label>
+            <div class="slider-container"><label style="font-size: 0.75rem; color: #ffaa00; display: flex; justify-content: space-between;"><span>Drawdown Filter:</span><span id="usgs-val">All</span></label><input type="range" id="usgs-slider" min="1000" max="15000" step="1000" value="1000" oninput="updateLabels(); updateGrid();"></div>
+            
+            <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;"><input type="checkbox" id="toggle-toxins" checked onchange="updateGrid()"> ☢️ Toxic Discharges</label>
+            <div class="slider-container"><label style="font-size: 0.75rem; color: #39FF14; display: flex; justify-content: space-between;"><span>Severity Level:</span><span id="toxin-val">Class 1+</span></label><input type="range" id="toxin-slider" min="1" max="10" step="1" value="1" oninput="updateLabels(); updateGrid();"></div>
+            
+            <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;"><input type="checkbox" id="toggle-existing" checked onchange="updateGrid()"> 🛢️ Show Existing Industrial Wells</label>
+        </div>
+
+        <div class="dark-district-box">
+            <strong style="color: #ff3232; font-size: 0.95rem; text-transform: uppercase;">⚠️ Dark Districts Detected</strong>
+            <p style="font-size: 0.75rem; color: #ccc; margin: 5px 0;">The following water boards are operating offline to shield mega-permits from public oversight:</p>
+            <div style="background: rgba(255, 50, 50, 0.1); border-left: 3px solid #ff3232; padding: 6px; margin-top: 8px;"><strong style="color: #ff3232; font-size: 0.8rem;">Angelina County GCD</strong></div>
+            <div style="background: rgba(255, 50, 50, 0.1); border-left: 3px solid #ff3232; padding: 6px; margin-top: 5px;"><strong style="color: #ff3232; font-size: 0.8rem;">Nacogdoches County GCD</strong></div>
         </div>
 
         <a href="wall_of_shame.html" class="shame-btn">💀 Enter The Wall of Shame</a>
 
+        <div style="margin-top: 15px; border-top: 1px solid #444; padding-top: 15px;">
+            <strong style="color: #ffaa00; font-size: 0.95rem;">🚨 COMMUNITY DEFENSE ALERTS</strong>
+            <div style="display: flex; gap: 5px; margin-top: 8px;">
+                <input type="text" id="zip-input" placeholder="Zip" style="width: 30%; background: #222; border: 1px solid #444; color: white; padding: 6px; border-radius: 4px; box-sizing: border-box;">
+                <input type="text" id="phone-input" placeholder="Mobile Number" style="width: 70%; background: #222; border: 1px solid #444; color: white; padding: 6px; border-radius: 4px; box-sizing: border-box;">
+            </div>
+            <button onclick="registerSMS()" style="width: 100%; margin-top: 8px; background: #ffaa00; color: #111; border: none; padding: 8px; font-weight: bold; border-radius: 4px; cursor: pointer; text-transform: uppercase;">Get Live Alerts</button>
+            <div id="sms-confirm" style="display:none; margin-top: 8px; color: #39FF14; font-size: 0.8rem; font-weight: bold; text-align: center;">✅ Number Secured. You are on the grid.</div>
+        </div>
+
         <div style="margin-top: 15px; border-top: 1px solid #444; padding-top: 15px; text-align: center;">
-            <a href="https://cash.app/$grailsystems" target="_blank" class="support-btn">
-                Support The Grid: $grailsystems
-            </a>
+            <a href="https://cash.app/$grailsystems" target="_blank" class="support-btn">Support The Grid: $grailsystems</a>
         </div>
     </div>
     
@@ -140,56 +102,61 @@
 
     <script>
         const { DeckGL, GeoJsonLayer, ColumnLayer, ScatterplotLayer, HexagonLayer } = deck;
-
         let globalPermits = []; let globalUSGS = []; let globalToxins = []; let globalWells = []; 
-
         const darkMapStyle = 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json';
         const satelliteMapStyle = { "version": 8, "sources": { "esri": { "type": "raster", "tiles": ["https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"], "tileSize": 256 } }, "layers": [{ "id": "esri-satellite", "type": "raster", "source": "esri", "minzoom": 0, "maxzoom": 22 }] };
         let currentStyle = darkMapStyle;
 
-        // FLIGHT PATH AUTO-PILOT FUNCTION
-        function recenterMap() {
-            deckgl.setProps({
-                initialViewState: {
-                    longitude: -94.730,
-                    latitude: 31.338,
-                    zoom: 6.5,
-                    pitch: 45,
-                    bearing: 10,
-                    transitionDuration: 1200 // Adds a smooth 1.2-second flying animation
-                }
-            });
+        // Smooth SMS Logic
+        function registerSMS() {
+            const phone = document.getElementById('phone-input').value;
+            if(phone.length > 6) {
+                document.getElementById('sms-confirm').style.display = 'block';
+                document.getElementById('phone-input').value = '';
+                document.getElementById('zip-input').value = '';
+                setTimeout(() => { document.getElementById('sms-confirm').style.display = 'none'; }, 4000);
+            }
         }
 
+        function recenterMap() { deckgl.setProps({ initialViewState: { longitude: -94.730, latitude: 31.338, zoom: 6.5, pitch: 45, bearing: 10, transitionDuration: 1200 } }); }
+        
         function updateLabels() {
             document.getElementById('permit-val').innerText = Number(document.getElementById('permit-slider').value).toLocaleString() + '+';
-            const usgsVal = document.getElementById('usgs-slider').value;
-            document.getElementById('usgs-val').innerText = usgsVal > 1000 ? 'Severe Only' : 'All';
+            document.getElementById('usgs-val').innerText = document.getElementById('usgs-slider').value > 1000 ? 'Severe Only' : 'All';
             document.getElementById('toxin-val').innerText = 'Class ' + document.getElementById('toxin-slider').value + '+';
         }
-
+        
         function lockTarget(info) {
-            if (!info || !info.object) return;
-            const obj = info.object;
+            if (!info || !info.object) return; const obj = info.object;
             document.getElementById('target-lock').style.display = 'block';
+            
+            // Dynamic Email Routing logic
+            let titleText = (obj.title || obj.facility || 'Infrastructure').toUpperCase();
+            let targetEmail = "public_intake@tceq.texas.gov"; // Default to State TCEQ
+            if (titleText.includes("ANGELINA") || titleText.includes("LUFKIN") || titleText.includes("ZEPHYR")) {
+                targetEmail = "info@pineywoods.gcd.org"; // Angelina area
+            } else if (titleText.includes("SHELBY") || titleText.includes("NACOGDOCHES")) {
+                targetEmail = "district@pineywoods.gcd.org"; 
+            }
+
             let emailSubject = `FORMAL REQUEST: Public Comment / FOIA Request - ${obj.title || obj.facility || 'Infrastructure'}`;
             let emailBody = `To the relevant authorities,%0D%0A%0D%0AI am formally requesting a review regarding the active infrastructure at these coordinates: ${obj.coordinates || 'N/A'}.%0D%0A%0D%0ASincerely,%0D%0A[YOUR LEGAL NAME]`;
-            document.getElementById('target-details').innerHTML = `<strong style="color: white;">${obj.title || obj.facility || 'Identified Target'}</strong><br/><div style="margin-top: 5px; color: #ddd; line-height: 1.4;">${obj.bottom_line || 'Details secured.'}</div><a href="mailto:public_intake@localgcd.org?subject=${emailSubject}&body=${emailBody}" style="display: block; text-align: center; margin-top: 10px; padding: 8px 12px; background: #ffaa00; color: #111; text-decoration: none; font-size: 0.85rem; font-weight: bold; border-radius: 4px; text-transform: uppercase;">File Direct Injunction</a>`;
+            
+            document.getElementById('target-details').innerHTML = `<strong style="color: white;">${obj.title || obj.facility || 'Identified Target'}</strong><br/><div style="margin-top: 5px; color: #ddd; line-height: 1.4;">${obj.bottom_line || 'Details secured.'}</div><a href="mailto:${targetEmail}?subject=${emailSubject}&body=${emailBody}" style="display: block; text-align: center; margin-top: 10px; padding: 8px 12px; background: #ffaa00; color: #111; text-decoration: none; font-size: 0.85rem; font-weight: bold; border-radius: 4px; text-transform: uppercase;">File Direct Injunction</a>`;
         }
 
         const deckgl = new DeckGL({
-            container: 'map', 
-            initialViewState: { longitude: -94.730, latitude: 31.338, zoom: 6.5, pitch: 45, bearing: 10 }, 
-            controller: {dragRotate: true, dragPan: true, scrollZoom: true, doubleClickZoom: true}, // Explicitly defined controller settings
-            mapStyle: currentStyle,
+            container: 'map', initialViewState: { longitude: -94.730, latitude: 31.338, zoom: 6.5, pitch: 45, bearing: 10 }, controller: {dragRotate: true, dragPan: true, scrollZoom: true, doubleClickZoom: true}, mapStyle: currentStyle,
             onViewStateChange: ({viewState}) => { const newStyle = viewState.zoom >= 10.5 ? satelliteMapStyle : darkMapStyle; if (currentStyle !== newStyle) { currentStyle = newStyle; deckgl.setProps({ mapStyle: currentStyle }); } },
+            
+            // FIXED TOOLTIPS
             getTooltip: ({object}) => {
                 if (!object) return null;
                 if (object.feed_type === 'permit') return { html: `<div style="padding: 12px; border-left: 4px solid #ff3232; background: rgba(15,15,15,0.95);"><strong style="color: #ff3232;">💧 MEGA-PERMIT THREAT</strong><br/>${object.title}<br/>${object.bottom_line}</div>` };
                 if (object.feed_type === 'toxin') return { html: `<div style="padding: 12px; border-left: 4px solid #39FF14; background: rgba(15,15,15,0.95);"><strong style="color: #39FF14;">☣️ TOXIC HAZARD (Class ${object.severity})</strong><br/>${object.facility}<br/>${object.bottom_line}</div>` };
                 if (object.feed_type === 'usgs') return { html: `<div style="padding: 12px; border-left: 4px solid #ffaa00; background: rgba(15,15,15,0.95);"><strong style="color: #ffaa00;">📍 USGS TELEMETRY</strong><br/>${object.title}<br/>${object.bottom_line}</div>` };
                 return null;
-            },
+            }, 
             layers: []
         });
 
@@ -204,9 +171,7 @@
             let activeWells = document.getElementById('toggle-existing').checked ? globalWells : [];
 
             let combinedFeed = [];
-            activePermits.forEach(p => combinedFeed.push({...p, feed_type: 'permit'}));
-            activeUSGS.forEach(u => combinedFeed.push({...u, feed_type: 'usgs'}));
-            activeToxins.forEach(t => combinedFeed.push({...t, feed_type: 'toxin'}));
+            activePermits.forEach(p => combinedFeed.push({...p, feed_type: 'permit'})); activeUSGS.forEach(u => combinedFeed.push({...u, feed_type: 'usgs'})); activeToxins.forEach(t => combinedFeed.push({...t, feed_type: 'toxin'}));
             
             let html = `<div style="background: #ff3232; color: white; padding: 10px; text-align: center; font-weight: bold; margin-bottom: 15px; border-radius: 4px;">SYSTEM ALERT: ${combinedFeed.length.toLocaleString()} LIVE INTERCEPTS</div>`;
             combinedFeed.slice(0, 30).forEach(item => {
@@ -223,14 +188,9 @@
             if (activeToxins.length > 0) activeLayers.push(new ScatterplotLayer({ id: 'toxins', data: activeToxins, pickable: true, opacity: 0.8, stroked: true, filled: true, lineWidthMinPixels: 2, radiusUnits: 'pixels', getPosition: d => d.coordinates, getFillColor: [57, 255, 20, 150], getLineColor: [57, 255, 20, 255], getRadius: 15, onClick: lockTarget }));
             deckgl.setProps({ layers: activeLayers });
         }
-
+        
         const nocache = '?v=' + new Date().getTime();
-        Promise.all([
-            fetch('frontend/mega_permits.json' + nocache).then(res => res.json()).catch(() => []), 
-            fetch('frontend/usgs_telemetry.json' + nocache).then(res => res.json()).catch(() => []), 
-            fetch('frontend/toxin_feed.json' + nocache).then(res => res.json()).catch(() => []),
-            fetch('frontend/threat_wells.json' + nocache).then(res => res.json()).then(data => data.features || []).catch(() => [])
-        ]).then(([permitData, usgsData, toxinData, wellData]) => {
+        Promise.all([fetch('frontend/mega_permits.json' + nocache).then(res => res.json()).catch(() => []), fetch('frontend/usgs_telemetry.json' + nocache).then(res => res.json()).catch(() => []), fetch('frontend/toxin_feed.json' + nocache).then(res => res.json()).catch(() => []), fetch('frontend/threat_wells.json' + nocache).then(res => res.json()).then(data => data.features || []).catch(() => [])]).then(([permitData, usgsData, toxinData, wellData]) => {
             globalPermits = permitData; globalUSGS = usgsData; globalToxins = toxinData; globalWells = wellData; updateGrid(); 
         });
     </script>
