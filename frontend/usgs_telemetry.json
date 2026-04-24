@@ -2,8 +2,8 @@
     {
         "title": "USGS SITE: KH-64-33-920 (Texas City Extensometer)",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>47.47 ft below surface.</span>",
-        "raw_volume": 3560,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>47.44 ft below surface.</span>",
+        "raw_volume": 3558,
         "coordinates": [
             -94.8950028,
             29.416325
@@ -32,8 +32,8 @@
     {
         "title": "USGS SITE: LJ-65-22-622 (East End Extensometer)",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>178.75 ft below surface.</span>",
-        "raw_volume": 13406,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>178.74 ft below surface.</span>",
+        "raw_volume": 13405,
         "coordinates": [
             -95.2740556,
             29.7017222
@@ -42,8 +42,8 @@
     {
         "title": "USGS SITE: LJ-65-23-322 (Pasadena Extensometer)",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>107.2 ft below surface.</span>",
-        "raw_volume": 8040,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>107.19 ft below surface.</span>",
+        "raw_volume": 8039,
         "coordinates": [
             -95.159275,
             29.71015833
@@ -62,8 +62,8 @@
     {
         "title": "USGS SITE: LJ-65-21-230 (Southwest Piezometer No. 2)",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>263.96 ft below surface.</span>",
-        "raw_volume": 19797,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>263.94 ft below surface.</span>",
+        "raw_volume": 19795,
         "coordinates": [
             -95.4513889,
             29.7275
@@ -72,8 +72,8 @@
     {
         "title": "USGS SITE: Barker Res Piezometer P52 nr Addicks, TX",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>70.89 ft below surface.</span>",
-        "raw_volume": 5316,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>70.9 ft below surface.</span>",
+        "raw_volume": 5317,
         "coordinates": [
             -95.6464444,
             29.75441667
@@ -82,8 +82,8 @@
     {
         "title": "USGS SITE: LJ-65-16-930 (Baytown C-1 Extensometer)",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>108.12 ft below surface.</span>",
-        "raw_volume": 8109,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>108.04 ft below surface.</span>",
+        "raw_volume": 8103,
         "coordinates": [
             -95.03065,
             29.75784167
@@ -122,7 +122,7 @@
     {
         "title": "USGS SITE: Barker Res Piezometer P5 nr Addicks, TX",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>69.04 ft below surface.</span>",
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>69.05 ft below surface.</span>",
         "raw_volume": 5178,
         "coordinates": [
             -95.6463056,
@@ -132,8 +132,8 @@
     {
         "title": "USGS SITE: Barker Res Piezometer P14 nr Addicks, TX",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>75.43 ft below surface.</span>",
-        "raw_volume": 5657,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>75.52 ft below surface.</span>",
+        "raw_volume": 5664,
         "coordinates": [
             -95.6466944,
             29.7728611
@@ -142,8 +142,8 @@
     {
         "title": "USGS SITE: Barker Res Piezometer P17 nr Addicks, TX",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>73.22 ft below surface.</span>",
-        "raw_volume": 5491,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>73.23 ft below surface.</span>",
+        "raw_volume": 5492,
         "coordinates": [
             -95.6475278,
             29.78116667
@@ -162,8 +162,8 @@
     {
         "title": "USGS SITE: Addicks Res Piezometer P24A nr Addicks, TX",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>72.88 ft below surface.</span>",
-        "raw_volume": 5466,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>72.79 ft below surface.</span>",
+        "raw_volume": 5459,
         "coordinates": [
             -95.6008611,
             29.7901111
@@ -182,8 +182,8 @@
     {
         "title": "USGS SITE: Addicks Res Piezometer P23 nr Addicks, TX",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>70.87 ft below surface.</span>",
-        "raw_volume": 5315,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>70.88 ft below surface.</span>",
+        "raw_volume": 5316,
         "coordinates": [
             -95.60725,
             29.79013889
@@ -202,8 +202,8 @@
     {
         "title": "USGS SITE: Addicks Res Piezometer P10 nr Addicks, TX",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>73.42 ft below surface.</span>",
-        "raw_volume": 5506,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>73.32 ft below surface.</span>",
+        "raw_volume": 5498,
         "coordinates": [
             -95.6008611,
             29.79019444
@@ -222,8 +222,8 @@
     {
         "title": "USGS SITE: Addicks Res Piezometer P2 nr Addicks, TX",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>78.93 ft below surface.</span>",
-        "raw_volume": 5919,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>78.96 ft below surface.</span>",
+        "raw_volume": 5921,
         "coordinates": [
             -95.6313056,
             29.79027778
@@ -242,8 +242,8 @@
     {
         "title": "USGS SITE: LJ-65-12-725 (Addicks Piezometer No. 2)",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>13.66 ft below surface.</span>",
-        "raw_volume": 1024,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>14.04 ft below surface.</span>",
+        "raw_volume": 1053,
         "coordinates": [
             -95.5866667,
             29.79083333
@@ -252,7 +252,7 @@
     {
         "title": "USGS SITE: LJ-65-12-726 (Addicks Extensometer)",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>367.76 ft below surface.</span>",
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>367.77 ft below surface.</span>",
         "raw_volume": 27582,
         "coordinates": [
             -95.5861389,
@@ -272,8 +272,8 @@
     {
         "title": "USGS SITE: Addicks Res Piezometer P36 nr Addicks, TX",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>83.09 ft below surface.</span>",
-        "raw_volume": 6231,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>83.16 ft below surface.</span>",
+        "raw_volume": 6237,
         "coordinates": [
             -95.6008889,
             29.79063889
@@ -282,8 +282,8 @@
     {
         "title": "USGS SITE: Addicks Res Piezometer P35 nr Addicks, TX",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>84.18 ft below surface.</span>",
-        "raw_volume": 6313,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>84.19 ft below surface.</span>",
+        "raw_volume": 6314,
         "coordinates": [
             -95.6064167,
             29.7906111
@@ -302,8 +302,8 @@
     {
         "title": "USGS SITE: Addicks Res Piezometer P45 nr Addicks, TX",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>76.06 ft below surface.</span>",
-        "raw_volume": 5704,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>76.08 ft below surface.</span>",
+        "raw_volume": 5706,
         "coordinates": [
             -95.6441667,
             29.79055556
@@ -312,8 +312,8 @@
     {
         "title": "USGS SITE: Addicks Res Piezometer P41 nr Addicks, TX",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>78.78 ft below surface.</span>",
-        "raw_volume": 5908,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>78.81 ft below surface.</span>",
+        "raw_volume": 5910,
         "coordinates": [
             -95.6455278,
             29.79077778
@@ -322,8 +322,8 @@
     {
         "title": "USGS SITE: Addicks Res Piezometer P40A nr Addicks, TX",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>78.02 ft below surface.</span>",
-        "raw_volume": 5851,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>78.04 ft below surface.</span>",
+        "raw_volume": 5853,
         "coordinates": [
             -95.6533056,
             29.79052778
@@ -332,8 +332,8 @@
     {
         "title": "USGS SITE: Addicks Res Piezometer P46 nr Addicks, TX",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>76.13 ft below surface.</span>",
-        "raw_volume": 5709,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>76.15 ft below surface.</span>",
+        "raw_volume": 5711,
         "coordinates": [
             -95.6441667,
             29.79083333
@@ -342,8 +342,8 @@
     {
         "title": "USGS SITE: Addicks Res Piezometer P39 nr Addicks, TX",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>78.09 ft below surface.</span>",
-        "raw_volume": 5856,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>78.1 ft below surface.</span>",
+        "raw_volume": 5857,
         "coordinates": [
             -95.6533333,
             29.79083333
@@ -352,8 +352,8 @@
     {
         "title": "USGS SITE: LJ-65-14-738 (Northeast Piezometer No. 4)",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>177.34 ft below surface.</span>",
-        "raw_volume": 13300,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>177.32 ft below surface.</span>",
+        "raw_volume": 13299,
         "coordinates": [
             -95.3338889,
             29.79138889
@@ -362,8 +362,8 @@
     {
         "title": "USGS SITE: LJ-65-14-746 (Northeast Extensometer)",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>253.22 ft below surface.</span>",
-        "raw_volume": 18991,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>253.19 ft below surface.</span>",
+        "raw_volume": 18989,
         "coordinates": [
             -95.3339722,
             29.79088889
@@ -372,8 +372,8 @@
     {
         "title": "USGS SITE: LJ-65-07-905 (Lake Houston Piezometer No. 2)",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>101.15 ft below surface.</span>",
-        "raw_volume": 7586,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>101.11 ft below surface.</span>",
+        "raw_volume": 7583,
         "coordinates": [
             -95.145,
             29.91388889
@@ -382,8 +382,8 @@
     {
         "title": "USGS SITE: LJ-65-07-909 (Lake Houston Extensometer)",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>180.52 ft below surface.</span>",
-        "raw_volume": 13539,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>180.48 ft below surface.</span>",
+        "raw_volume": 13536,
         "coordinates": [
             -95.1455278,
             29.9132222
@@ -392,8 +392,8 @@
     {
         "title": "USGS SITE: TS-60-55-710 (New Caney Piezometer No. 7-A)",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>149.46 ft below surface.</span>",
-        "raw_volume": 11209,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>149.49 ft below surface.</span>",
+        "raw_volume": 11211,
         "coordinates": [
             -95.2425,
             30.14694444
@@ -402,8 +402,8 @@
     {
         "title": "USGS SITE: TS-60-53-516 (Needham Piezometer No. 4-A)",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>383.95 ft below surface.</span>",
-        "raw_volume": 28796,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>383.98 ft below surface.</span>",
+        "raw_volume": 28798,
         "coordinates": [
             -95.4575,
             30.20777778
@@ -422,8 +422,8 @@
     {
         "title": "USGS SITE: TS-60-35-202 (Flower Follet)",
         "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>50.78 ft below surface.</span>",
-        "raw_volume": 3808,
+        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>50.77 ft below surface.</span>",
+        "raw_volume": 3807,
         "coordinates": [
             -95.7106111,
             30.49883333
