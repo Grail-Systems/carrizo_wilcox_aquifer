@@ -100,7 +100,7 @@
     
     <div id="map"></div>
 
-    <script>
+<script>
         const { DeckGL, GeoJsonLayer, ColumnLayer, ScatterplotLayer, HexagonLayer } = deck;
         let globalPermits = []; let globalUSGS = []; let globalToxins = []; let globalWells = []; 
         const darkMapStyle = 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json';
@@ -149,12 +149,12 @@
             container: 'map', initialViewState: { longitude: -94.730, latitude: 31.338, zoom: 6.5, pitch: 45, bearing: 10 }, controller: {dragRotate: true, dragPan: true, scrollZoom: true, doubleClickZoom: true}, mapStyle: currentStyle,
             onViewStateChange: ({viewState}) => { const newStyle = viewState.zoom >= 10.5 ? satelliteMapStyle : darkMapStyle; if (currentStyle !== newStyle) { currentStyle = newStyle; deckgl.setProps({ mapStyle: currentStyle }); } },
             
-            // FIXED TOOLTIPS
             getTooltip: ({object}) => {
                 if (!object) return null;
                 if (object.feed_type === 'permit') return { html: `<div style="padding: 12px; border-left: 4px solid #ff3232; background: rgba(15,15,15,0.95);"><strong style="color: #ff3232;">💧 MEGA-PERMIT THREAT</strong><br/>${object.title}<br/>${object.bottom_line}</div>` };
                 if (object.feed_type === 'toxin') return { html: `<div style="padding: 12px; border-left: 4px solid #39FF14; background: rgba(15,15,15,0.95);"><strong style="color: #39FF14;">☣️ TOXIC HAZARD (Class ${object.severity})</strong><br/>${object.facility}<br/>${object.bottom_line}</div>` };
                 if (object.feed_type === 'usgs') return { html: `<div style="padding: 12px; border-left: 4px solid #ffaa00; background: rgba(15,15,15,0.95);"><strong style="color: #ffaa00;">📍 USGS TELEMETRY</strong><br/>${object.title}<br/>${object.bottom_line}</div>` };
+                if (object.feed_type === 'well') return { html: `<div style="padding: 12px; border-left: 4px solid #555; background: rgba(15,15,15,0.95);"><strong style="color: #ccc;">🛢️ EXISTING INDUSTRIAL WELL</strong><br/>Status: Active</div>` };
                 return null;
             }, 
             layers: []
@@ -165,13 +165,13 @@
             const minUSGS = parseInt(document.getElementById('usgs-slider').value, 10);
             const minToxin = parseInt(document.getElementById('toxin-slider').value, 10);
 
-            let activePermits = document.getElementById('toggle-permits').checked ? globalPermits.filter(p => (p.raw_volume || 0) >= minPermit) : [];
-            let activeUSGS = document.getElementById('toggle-usgs').checked ? globalUSGS.filter(u => (u.raw_volume || 0) >= minUSGS) : [];
-            let activeToxins = document.getElementById('toggle-toxins').checked ? globalToxins.filter(t => (t.severity || 1) >= minToxin) : [];
-            let activeWells = document.getElementById('toggle-existing').checked ? globalWells : [];
+            // THE FIX: Tag the data BEFORE giving it to the map layers so the tooltip recognizes them
+            let activePermits = document.getElementById('toggle-permits').checked ? globalPermits.filter(p => (p.raw_volume || 0) >= minPermit).map(p => ({...p, feed_type: 'permit'})) : [];
+            let activeUSGS = document.getElementById('toggle-usgs').checked ? globalUSGS.filter(u => (u.raw_volume || 0) >= minUSGS).map(u => ({...u, feed_type: 'usgs'})) : [];
+            let activeToxins = document.getElementById('toggle-toxins').checked ? globalToxins.filter(t => (t.severity || 1) >= minToxin).map(t => ({...t, feed_type: 'toxin'})) : [];
+            let activeWells = document.getElementById('toggle-existing').checked ? globalWells.map(w => ({...w, feed_type: 'well'})) : [];
 
-            let combinedFeed = [];
-            activePermits.forEach(p => combinedFeed.push({...p, feed_type: 'permit'})); activeUSGS.forEach(u => combinedFeed.push({...u, feed_type: 'usgs'})); activeToxins.forEach(t => combinedFeed.push({...t, feed_type: 'toxin'}));
+            let combinedFeed = [...activePermits, ...activeUSGS, ...activeToxins];
             
             let html = `<div style="background: #ff3232; color: white; padding: 10px; text-align: center; font-weight: bold; margin-bottom: 15px; border-radius: 4px;">SYSTEM ALERT: ${combinedFeed.length.toLocaleString()} LIVE INTERCEPTS</div>`;
             combinedFeed.slice(0, 30).forEach(item => {
@@ -182,7 +182,7 @@
             document.getElementById('feed-content').innerHTML = html || '<p style="color: #4CAF50;">Grid Clear.</p>';
 
             const activeLayers = [new GeoJsonLayer({ id: 'aquifer-layer', data: 'frontend/wilcox_aquifer.json', filled: true, getFillColor: [0, 150, 255, 60], pickable: false })];
-            if (activeWells.length > 0) activeLayers.push(new ScatterplotLayer({ id: 'threat-wells', data: activeWells, getPosition: d => d.geometry.coordinates, getFillColor: [255, 50, 50, 180], getRadius: 5, radiusUnits: 'pixels', pickable: true }));
+            if (activeWells.length > 0) activeLayers.push(new ScatterplotLayer({ id: 'threat-wells', data: activeWells, getPosition: d => d.geometry ? d.geometry.coordinates : d.coordinates, getFillColor: [255, 50, 50, 180], getRadius: 5, radiusUnits: 'pixels', pickable: true, onClick: lockTarget }));
             if (activePermits.length > 0) activeLayers.push(new ColumnLayer({ id: 'threat-permits', data: activePermits, diskResolution: 6, radius: 2500, extruded: true, pickable: true, elevationScale: 5, getPosition: d => d.coordinates, getFillColor: [255, 0, 0, 255], getElevation: d => d.raw_volume || 1000, onClick: lockTarget }));
             if (activeUSGS.length > 0) activeLayers.push(new ColumnLayer({ id: 'usgs-spikes', data: activeUSGS, diskResolution: 12, radius: 800, extruded: true, pickable: true, elevationScale: 2, getPosition: d => d.coordinates, getFillColor: [255, 170, 0, 255], getElevation: d => d.raw_volume || 1000, onClick: lockTarget }));
             if (activeToxins.length > 0) activeLayers.push(new ScatterplotLayer({ id: 'toxins', data: activeToxins, pickable: true, opacity: 0.8, stroked: true, filled: true, lineWidthMinPixels: 2, radiusUnits: 'pixels', getPosition: d => d.coordinates, getFillColor: [57, 255, 20, 150], getLineColor: [57, 255, 20, 255], getRadius: 15, onClick: lockTarget }));
