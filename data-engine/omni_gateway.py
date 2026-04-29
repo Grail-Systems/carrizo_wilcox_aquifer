@@ -11,7 +11,7 @@ start_time = time.time()
 os.makedirs('frontend', exist_ok=True)
 
 # ---------------------------------------------------------
-# TASK 1: ASYNC FEDERAL USGS TELEMETRY
+# TASK 1: ASYNC FEDERAL USGS TELEMETRY (With Pressure Relief Valve)
 # ---------------------------------------------------------
 async def fetch_usgs(session):
     print("[UPLINK] Dialing Federal USGS Database...")
@@ -37,6 +37,11 @@ async def fetch_usgs(session):
                 if values and values[0].get('value'):
                     try:
                         drawdown_val = float(values[0]['value'][0]['value'])
+                        
+                        # THE PRESSURE RELIEF VALVE: Ignore broken sensor blowouts
+                        if drawdown_val < -10000 or drawdown_val > 5000:
+                            continue 
+                            
                         drawdown = max(1000, int(drawdown_val * 75))
                         drawdown_text = f"{drawdown_val} ft below surface."
                     except: pass
