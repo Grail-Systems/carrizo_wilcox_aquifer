@@ -111,7 +111,7 @@ async def process_financials():
     <body><div class="container"><div class="header"><h1>💀 Wall of Shame</h1><a href="index.html" class="btn-return">◄ Return to Tactical Map</a></div><div class="grid">"""
     
     for b in bribes:
-        html_output += f'<div class="card"><div class="badge">COMPROMISED</div><h2>{b["Recipient_Name"]}</h2><div class="data-point"><strong>Date:</strong> {b["Date"]}</div><div class="data-point"><strong>Campaign Ties:</strong> <span style="color:#ffaa00;font-weight:bold">${int(b["Amount"]):,}</span> from {b["Filer_Name"]}</div><a href="https://www.ethics.state.tx.us/search/cf/" target="_blank" class="doc-link">💰 TEC Financial Receipt</a></div>'
+        html_output += f'<div class="card"><div class="badge">COMPROMISED</div><h2>{b["Recipient_Name"]}</h2><div class="data-point"><strong>Date:</strong> {b["Date"]}</div><div class="data-point"><strong>Campaign Ties:</strong> <span style="color:#ffaa00;font-weight:bold">${int(float(b["Amount"])):,}</span> from {b["Filer_Name"]}</div><a href="https://www.ethics.state.tx.us/search/cf/" target="_blank" class="doc-link">💰 TEC Financial Receipt</a></div>'
     html_output += "</div></div></body></html>"
     
     with open(wall_path, 'w', encoding='utf-8') as f:
