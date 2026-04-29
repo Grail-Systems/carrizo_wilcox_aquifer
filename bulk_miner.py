@@ -27,6 +27,11 @@ THREAT_TAGS = [
     "INFRASTRUCTURE", "ENERGY", "UTILITY", "TIMBER", "AGGREGATE"
 ]
 
+# 3. THE REJECT NET (Dolphins to throw back)
+REJECT_TAGS = [
+    "CENTERPOINT", "WILLETT", "ABBOTT", "PAXTON", "CRUZ", "CORNYN"
+]
+
 print("[PROCESSING] Ripping through state financial records. Hunting for local infrastructure bribes...")
 
 intercepted_records = []
@@ -48,7 +53,6 @@ with zipfile.ZipFile(zip_path, 'r') as z:
                 for row in reader:
                     total_scanned += 1
                     
-                    # Safety check: skip malformed or empty state rows
                     if len(row) < 20:
                         continue
                         
@@ -56,10 +60,12 @@ with zipfile.ZipFile(zip_path, 'r') as z:
                     
                     hit_geo = any(tag in row_string for tag in GEO_TAGS)
                     hit_threat = any(tag in row_string for tag in THREAT_TAGS)
+                    hit_reject = any(tag in row_string for tag in REJECT_TAGS)
                     
-                    if hit_geo and hit_threat:
+                    # THE FIX: Only proceed if it hits the targets AND avoids the reject tags
+                    if hit_geo and hit_threat and not hit_reject:
                         try:
-                            # THE FIX: Mapped exactly to the state's internal column structure
+                            # Mapped exactly to the state's internal column structure
                             politician_name = row[8].strip() 
                             
                             org_name = row[16].strip()
@@ -76,8 +82,8 @@ with zipfile.ZipFile(zip_path, 'r') as z:
                             
                             if any(char.isdigit() for char in amount_val) and float(amount_val) > 100:
                                 record = {
-                                    "Filer_Name": donor_name, # The entity supplying the cash
-                                    "Recipient_Name": politician_name, # The official receiving the cash
+                                    "Filer_Name": donor_name,
+                                    "Recipient_Name": politician_name,
                                     "Amount": amount_val,
                                     "Date": date_val,
                                     "PAC_Industry": "Water/Data Infrastructure"
