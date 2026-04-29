@@ -3,7 +3,7 @@ import csv
 import os
 import time
 
-print("[INIT] Booting Tactical Financial Miner (Smart Filter Engaged)...")
+print("[INIT] Booting Tactical Financial Miner (Precision Targeting Engaged)...")
 start_time = time.time()
 
 zip_path = 'data-engine/TEC_CF_CSV.zip'
@@ -47,6 +47,11 @@ with zipfile.ZipFile(zip_path, 'r') as z:
 
                 for row in reader:
                     total_scanned += 1
+                    
+                    # Safety check: skip malformed or empty state rows
+                    if len(row) < 20:
+                        continue
+                        
                     row_string = " ".join(row).upper()
                     
                     hit_geo = any(tag in row_string for tag in GEO_TAGS)
@@ -54,23 +59,35 @@ with zipfile.ZipFile(zip_path, 'r') as z:
                     
                     if hit_geo and hit_threat:
                         try:
-                            amount_val = row[2] if len(row) > 2 else "0"
-                            amount_val = amount_val.replace('$', '').replace(',', '')
+                            # THE FIX: Mapped exactly to the state's internal column structure
+                            politician_name = row[8].strip() 
+                            
+                            org_name = row[16].strip()
+                            first_name = row[19].strip()
+                            last_name = row[17].strip()
+                            
+                            # Determine if the donor is a Corporation or an Individual
+                            donor_name = org_name if org_name else f"{first_name} {last_name}".strip()
+                            if not donor_name:
+                                donor_name = "Undisclosed Corporate Entity"
+                                
+                            amount_val = row[11].replace('$', '').replace(',', '')
+                            date_val = row[10]
                             
                             if any(char.isdigit() for char in amount_val) and float(amount_val) > 100:
                                 record = {
-                                    "Filer_Name": row[0] if len(row) > 0 else "Unknown PAC/Donor",
-                                    "Recipient_Name": row[1] if len(row) > 1 else "Unknown Official",
+                                    "Filer_Name": donor_name, # The entity supplying the cash
+                                    "Recipient_Name": politician_name, # The official receiving the cash
                                     "Amount": amount_val,
-                                    "Date": row[3] if len(row) > 3 else "Unknown Date",
+                                    "Date": date_val,
                                     "PAC_Industry": "Water/Data Infrastructure"
                                 }
                                 intercepted_records.append(record)
-                        except:
+                        except Exception as e:
                             pass
 
 print(f"\n[REPORT] Scanned {total_scanned:,} state financial records.")
-print(f"[SUCCESS] Isolated {len(intercepted_records)} verified threats in your region.")
+print(f"[SUCCESS] Isolated {len(intercepted_records)} verified targets.")
 
 with open(output_path, mode='w', newline='', encoding='utf-8') as out_file:
     writer = csv.DictWriter(out_file, fieldnames=["Filer_Name", "Recipient_Name", "Amount", "Date", "PAC_Industry"])
