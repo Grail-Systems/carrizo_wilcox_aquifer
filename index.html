@@ -177,7 +177,7 @@
             combinedFeed.slice(0, 30).forEach(item => {
                 let color = item.feed_type === 'toxin' ? '#39FF14' : item.feed_type === 'usgs' ? '#ffaa00' : '#ff3232';
                 let tag = item.feed_type === 'toxin' ? '[BIOHAZARD]' : item.feed_type === 'usgs' ? '[USGS DATA]' : '[MEGA-PERMIT]';
-                html += `<div class="feed-item" style="border-left: 2px solid ${color}; padding-left: 10px;"><strong style="color: ${color}; font-size: 0.85rem;">${tag}</strong><br/><strong style="color: white; font-size: 0.9rem;">${item.title || item.facility}</strong><br/><p style="font-size: 0.85rem; line-height: 1.4; color: #ddd; margin: 5px 0;">${item.bottom_line}</p></div>`;
+                html += `<div class="feed-item" style="border-left: 2px solid ${color}; padding-left: 10px;"><strong style="color: ${color}; font-size: 0.85rem;">${tag}</strong><br/><strong style="color: white; font-size: 0.9rem;">${item.title || item.facility}</strong><br/><p style="font-size: 0.85rem; line-height: 1.4; color: #ddd; margin: 5px 0;">${item.bottom_line}</p>${item.source_url ? `<br><a href="${item.source_url}" target="_blank" style="color: #00ffff; font-size: 0.8rem; text-decoration: underline;">View Source Document</a>` : ''}</div>`;
             });
             document.getElementById('feed-content').innerHTML = html || '<p style="color: #4CAF50;">Grid Clear.</p>';
 
