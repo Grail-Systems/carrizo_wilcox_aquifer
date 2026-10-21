@@ -502,7 +502,7 @@ def key_votes_html(official, e):
         recs = [r for r in votes if r['bill'] == item['bill'] and r['session'] == item['session']]
         seen, parts = set(), []
         for r in sorted(recs, key=lambda r: r['date'] or ''):
-            st = _stage(r['motion'])
+            st = next((v for k, v in item.get('labels', {}).items() if k.lower() in (r['motion'] or '').lower()), None) or _stage(r['motion'])
             if not st or (r['date'], st) in seen:
                 continue
             seen.add((r['date'], st))

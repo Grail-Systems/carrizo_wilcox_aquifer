@@ -10,5 +10,21 @@
     "context": {
       "Trenton E. Ashby": "The Texas Bitcoin PAC gave Ashby $500 on Dec. 5, 2022 and $1,000 on Dec. 13, 2024."
     }
+  },
+  {
+    "bill": "HB27",
+    "session": "89th Legislature 2nd Special Session",
+    "year": 2025,
+    "title": "East Texas groundwater study and export pause",
+    "summary": "Would have required the Texas Water Development Board to study the aquifers under the Neches and Trinity Valleys Groundwater Conservation District, with a pause on new export permits while the study ran. The Senate removed the pause, the House rejected that change, and the bill died.",
+    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB27",
+    "verified": "2026-10-21, Texas Legislature Online, Senate floor report, Texas Tribune",
+    "labels": {
+      "FA1 Nichols": "his own amendment removing the export pause"
+    },
+    "context": {
+      "Trenton E. Ashby": "Joint author of the House bill with the export pause.",
+      "Robert Lee Nichols": "Carried the bill in the Senate, then offered the amendment that removed the export pause. He told senators it was the only way to get the study through."
+    }
   }
 ]
