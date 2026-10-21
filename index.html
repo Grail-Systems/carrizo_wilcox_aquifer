@@ -49,20 +49,20 @@
         <button class="recenter-btn" onclick="recenterMap()">🎯 Recenter Map</button>
         
         <div class="legend-item"><div class="color-box" style="background: rgba(0, 150, 255, 0.3);"></div> Carrizo-Wilcox Boundary</div>
-        <div class="legend-item"><div class="color-box" style="background: rgba(255, 0, 0, 1);"></div> Corporate Mega-Permit</div>
+        <div class="legend-item"><div class="color-box" style="background: rgba(255, 0, 0, 1);"></div> Permit / Grid Request</div>
         <div class="legend-item"><div class="color-box" style="background: rgba(255, 170, 0, 1);"></div> Aquifer Water Levels (TWDB)</div>
-        <div class="legend-item"><div class="color-box" style="background: rgba(57, 255, 20, 0.4); border: 2px solid #39FF14; border-radius: 50%;"></div> Toxic Spill / Discharge</div>
+        <div class="legend-item"><div class="color-box" style="background: rgba(57, 255, 20, 0.4); border: 2px solid #39FF14; border-radius: 50%;"></div> EPA Violation</div>
         
         <div style="margin-top: 15px; border-top: 1px solid #444; padding-top: 15px;">
             <strong style="color: #fff; font-size: 0.95rem;">PRECISION FILTERS</strong><br>
             
-            <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;"><input type="checkbox" id="toggle-permits" checked onchange="updateGrid()"> 🛑 Corporate Mega-Permits</label>
-            <div class="slider-container"><label style="font-size: 0.75rem; color: #ff3232; display: flex; justify-content: space-between;"><span>Volume (acre-ft/yr):</span><span id="permit-val">1,000+</span></label><input type="range" id="permit-slider" min="1000" max="15000" step="1000" value="1000" oninput="updateLabels(); updateGrid();"></div>
+            <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;"><input type="checkbox" id="toggle-permits" checked onchange="updateGrid()"> 🛑 Permits &amp; Grid Requests</label>
+            <div class="slider-container"><label style="font-size: 0.75rem; color: #ff3232; display: flex; justify-content: space-between;"><span>Project Size:</span><span id="permit-val">1,000+</span></label><input type="range" id="permit-slider" min="1000" max="15000" step="1000" value="1000" oninput="updateLabels(); updateGrid();"></div>
             
-            <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;"><input type="checkbox" id="toggle-usgs" checked onchange="updateGrid()"> 📍 USGS Live Telemetry</label>
-            <div class="slider-container"><label style="font-size: 0.75rem; color: #ffaa00; display: flex; justify-content: space-between;"><span>Drawdown Filter:</span><span id="usgs-val">All</span></label><input type="range" id="usgs-slider" min="1000" max="15000" step="1000" value="1000" oninput="updateLabels(); updateGrid();"></div>
+            <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;"><input type="checkbox" id="toggle-usgs" checked onchange="updateGrid()"> 📍 Aquifer Water Levels</label>
+            <div class="slider-container"><label style="font-size: 0.75rem; color: #ffaa00; display: flex; justify-content: space-between;"><span>Depth to Water:</span><span id="usgs-val">All</span></label><input type="range" id="usgs-slider" min="1000" max="15000" step="1000" value="1000" oninput="updateLabels(); updateGrid();"></div>
             
-            <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;"><input type="checkbox" id="toggle-toxins" checked onchange="updateGrid()"> ☢️ Toxic Discharges</label>
+            <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;"><input type="checkbox" id="toggle-toxins" checked onchange="updateGrid()"> ☢️ EPA Violations</label>
             <div class="slider-container"><label style="font-size: 0.75rem; color: #39FF14; display: flex; justify-content: space-between;"><span>Severity Level:</span><span id="toxin-val">Class 1+</span></label><input type="range" id="toxin-slider" min="1" max="10" step="1" value="1" oninput="updateLabels(); updateGrid();"></div>
             
             <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;"><input type="checkbox" id="toggle-existing" checked onchange="updateGrid()"> 🛢️ Show Existing Industrial Wells</label>
@@ -151,8 +151,8 @@
             
             getTooltip: ({object}) => {
                 if (!object) return null;
-                if (object.feed_type === 'permit') return { html: `<div style="padding: 12px; border-left: 4px solid #ff3232; background: rgba(15,15,15,0.95);"><strong style="color: #ff3232;">💧 MEGA-PERMIT THREAT</strong><br/>${object.title}<br/>${object.bottom_line}</div>` };
-                if (object.feed_type === 'toxin') return { html: `<div style="padding: 12px; border-left: 4px solid #39FF14; background: rgba(15,15,15,0.95);"><strong style="color: #39FF14;">☣️ TOXIC HAZARD (Class ${object.severity})</strong><br/>${object.facility}<br/>${object.bottom_line}</div>` };
+                if (object.feed_type === 'permit') return { html: `<div style="padding: 12px; border-left: 4px solid #ff3232; background: rgba(15,15,15,0.95);"><strong style="color: #ff3232;">💧 PERMIT / GRID REQUEST</strong><br/>${object.title}<br/>${object.bottom_line}</div>` };
+                if (object.feed_type === 'toxin') return { html: `<div style="padding: 12px; border-left: 4px solid #39FF14; background: rgba(15,15,15,0.95);"><strong style="color: #39FF14;">☣️ EPA VIOLATION (Level ${object.severity})</strong><br/>${object.facility}<br/>${object.bottom_line}</div>` };
                 if (object.feed_type === 'usgs') return { html: `<div style="padding: 12px; border-left: 4px solid #ffaa00; background: rgba(15,15,15,0.95);"><strong style="color: #ffaa00;">💧 AQUIFER WATER LEVEL</strong><br/>${object.title}<br/>${object.bottom_line}</div>` };
                 if (object.feed_type === 'well') return { html: `<div style="padding: 12px; border-left: 4px solid #555; background: rgba(15,15,15,0.95);"><strong style="color: #ccc;">🛢️ EXISTING INDUSTRIAL WELL</strong><br/>Status: Active</div>` };
                 return null;
@@ -176,7 +176,7 @@
             let html = `<div style="background: #ff3232; color: white; padding: 10px; text-align: center; font-weight: bold; margin-bottom: 15px; border-radius: 4px;">SYSTEM ALERT: ${combinedFeed.length.toLocaleString()} LIVE INTERCEPTS</div>`;
             combinedFeed.slice(0, 30).forEach(item => {
                 let color = item.feed_type === 'toxin' ? '#39FF14' : item.feed_type === 'usgs' ? '#ffaa00' : '#ff3232';
-                let tag = item.feed_type === 'toxin' ? '[BIOHAZARD]' : item.feed_type === 'usgs' ? '[WATER LEVEL]' : '[MEGA-PERMIT]';
+                let tag = item.feed_type === 'toxin' ? '[EPA VIOLATION]' : item.feed_type === 'usgs' ? '[WATER LEVEL]' : '[GRID / PERMIT]';
                 html += `<div class="feed-item" style="border-left: 2px solid ${color}; padding-left: 10px;"><strong style="color: ${color}; font-size: 0.85rem;">${tag}</strong><br/><strong style="color: white; font-size: 0.9rem;">${item.title || item.facility}</strong><br/><p style="font-size: 0.85rem; line-height: 1.4; color: #ddd; margin: 5px 0;">${item.bottom_line}</p>${item.source_url ? `<br><a href="${item.source_url}" target="_blank" style="color: #00ffff; font-size: 0.8rem; text-decoration: underline;">View Source Document</a>` : ''}</div>`;
             });
             document.getElementById('feed-content').innerHTML = html || '<p style="color: #4CAF50;">Grid Clear.</p>';
