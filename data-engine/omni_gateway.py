@@ -600,7 +600,7 @@ td a{color:var(--amber)}
 <title>Wall of Shame | Aquifer Defense Grid</title><style>{css}</style></head><body><div class="wrap">
 <header><h1>Wall of Shame</h1>
 <p class="lede">Campaign donations from energy, utility, oil and gas, timber and water interests to the officials who represent Deep East Texas, {e(span)}. Every figure comes from Texas Ethics Commission filings.</p>
-<a class="back" href="index.html">Back to the map</a></header>
+<a class="back" href="index.html">Back to the map</a> &nbsp; <a class="back" href="records.html">Records requests</a></header>
 <h2 class="sec">Officials we track</h2>
 <p class="note">Totals count only donors whose name, employer or occupation matched an industry keyword, so real totals may be higher. A donation is a public, legal record of support, not proof of wrongdoing.</p>"""
 

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Records Requests | Aquifer Defense Grid</title>
+<style>
+:root{--bg:#0e0d0c;--panel:#171513;--line:#2c2824;--text:#e8e2d9;--dim:#9a9187;--amber:#e0a43a;--red:#d9483b;--grey:#6f675e}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Georgia,'Times New Roman',serif;line-height:1.6}
+.wrap{max-width:820px;margin:0 auto;padding:40px 20px 80px}
+header{border-bottom:2px solid var(--red);padding-bottom:22px;margin-bottom:28px}
+h1{font-size:clamp(2rem,5vw,3rem);margin:0;color:var(--red);letter-spacing:-.01em}
+.lede{color:var(--dim);max-width:62ch;margin:10px 0 0}
+nav{margin-top:16px;display:flex;gap:18px;flex-wrap:wrap;font-family:system-ui,sans-serif;font-size:.9rem}
+a{color:var(--amber)}
+a:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.summary{font-size:1.1rem;max-width:62ch;margin:0 0 10px}
+.how{color:var(--dim);font-size:.95rem;max-width:62ch;margin:0 0 36px}
+article{border-left:4px solid var(--grey);padding:4px 0 4px 22px;margin:0 0 44px}
+article[data-state="ag"],article[data-state="none"]{border-left-color:var(--red)}
+article[data-state="waiting"],article[data-state="partial"]{border-left-color:var(--amber)}
+.head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:4px 16px}
+h2{font-size:1.45rem;margin:0}
+.status{font-family:system-ui,sans-serif;font-weight:600;font-size:.95rem}
+article[data-state="ag"] .status,article[data-state="none"] .status{color:var(--red)}
+article[data-state="waiting"] .status,article[data-state="partial"] .status{color:var(--amber)}
+article[data-state="closed"] .status{color:var(--dim)}
+.meta{font-family:system-ui,sans-serif;font-size:.85rem;color:var(--dim);margin:2px 0 14px}
+h3{font-family:system-ui,sans-serif;font-size:.9rem;font-weight:600;color:var(--dim);margin:18px 0 4px}
+p.asked{margin:0;max-width:66ch}
+ol.events{list-style:none;margin:6px 0 0;padding:0}
+ol.events li{display:grid;grid-template-columns:7.5em 1fr;gap:0 14px;padding:8px 0;border-top:1px solid var(--line)}
+ol.events li:first-child{border-top:0}
+.d{font-family:system-ui,sans-serif;font-size:.85rem;color:var(--dim);padding-top:.15em}
+.waiting{margin:14px 0 0;max-width:66ch}
+.waiting b{font-family:system-ui,sans-serif;font-size:.9rem}
+footer{border-top:1px solid var(--line);padding-top:16px;font-family:system-ui,sans-serif;font-size:.8rem;color:var(--dim)}
+@media (max-width:520px){ol.events li{grid-template-columns:1fr}.d{padding-top:0}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Records requests</h1>
+  <p class="lede">Every public information request the East Texas Legacy Coalition has filed about the data center and power projects around Lufkin: what we asked for, what each agency did with it, and what we are still waiting on.</p>
+  <nav><a href="index.html">Back to the map</a><a href="wall_of_shame.html">Wall of Shame</a></nav>
+</header>
+
+<main>
+  <p class="summary" id="summary">Loading requests…</p>
+  <p class="how">Under the Texas Public Information Act, an agency must release records promptly. If it can't within 10 business days, it must say when they will be ready, or ask the Attorney General for permission to withhold them. The Attorney General then has 45 business days to rule.</p>
+  <div id="list"></div>
+</main>
+
+<footer id="foot">Requests filed by Fawn Elizabeth Zion for the East Texas Legacy Coalition.</footer>
+</div>
+
+<script>
+const MONTHS=['Jan.','Feb.','March','April','May','June','July','Aug.','Sept.','Oct.','Nov.','Dec.'];
+function fmt(iso){const [y,m,d]=iso.split('-').map(Number);return `${MONTHS[m-1]} ${d}, ${y}`;}
+function el(tag,cls,text){const e=document.createElement(tag);if(cls)e.className=cls;if(text!=null)e.textContent=text;return e;}
+const WORDS=['No','One','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten'];
+function count(n,one,many){return `${n} ${n===1?one:many}`;}
+
+fetch('frontend/records.json?v='+Date.now()).then(r=>r.json()).then(data=>{
+  const reqs=data.requests;
+  const by=s=>reqs.filter(r=>r.state===s).length;
+  const parts=[];
+  if(by('ag')) parts.push(`${by('ag')} with the Attorney General`);
+  if(by('waiting')) parts.push(`${by('waiting')} waiting on the agency`);
+  if(by('partial')) parts.push(`${by('partial')} partly answered`);
+  if(by('none')) parts.push(`${by('none')} with no response yet`);
+  if(by('closed')) parts.push(`${by('closed')} merged into another request`);
+  document.getElementById('summary').textContent =
+    `${count(reqs.length,'request','requests')} filed with ${new Set(reqs.map(r=>r.agency)).size} agencies. ` +
+    parts.join(', ').replace(/^./,c=>c.toUpperCase()) + '.';
+
+  const list=document.getElementById('list');
+  reqs.forEach(r=>{
+    const a=el('article'); a.dataset.state=r.state;
+    const head=el('div','head');
+    head.append(el('h2',null,r.agency), el('span','status',r.status));
+    a.append(head);
+    a.append(el('div','meta',r.number?`${r.number}, filed ${fmt(r.filed)}`:`Filed ${fmt(r.filed)}`));
+    a.append(el('h3',null,'What we asked for'), el('p','asked',r.asked));
+    a.append(el('h3',null,'What has happened'));
+    const ol=el('ol','events');
+    r.events.forEach(e=>{
+      const li=el('li'); li.append(el('span','d',fmt(e.date)));
+      const t=el('span',null,e.text+' ');
+      if(e.link){const l=el('a',null,e.link_text||'Source');l.href=e.link;l.target='_blank';l.rel='noopener';t.append(l);}
+      li.append(t); ol.append(li);
+    });
+    a.append(ol);
+    const w=el('p','waiting'); w.append(el('b',null,'Waiting on: '), document.createTextNode(r.waiting)); a.append(w);
+    list.append(a);
+  });
+  document.getElementById('foot').textContent=`Last updated ${fmt(data.updated)}. Requests filed by Fawn Elizabeth Zion for the East Texas Legacy Coalition.`;
+}).catch(()=>{document.getElementById('summary').textContent='The request list could not be loaded. Refresh the page to try again.';});
+</script>
+</body>
+</html>
