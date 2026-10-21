@@ -272,6 +272,7 @@ async def compile_permits():
     except Exception as e:
         print(f"[ERROR] permits_verified.json unreadable: {e}")
 
+    covered = {str(p.get('ercot_inr')).strip() for p in permits if p.get('ercot_inr')}
     ercot_n = 0
     try:
         ercot_path = next((x for x in ['P2A/east_texas_interconnections.json',
@@ -290,6 +291,8 @@ async def compile_permits():
             lon += 0.06 * ((n % 5) - 2); lat += 0.06 * ((n // 5) % 5 - 2)
             name = _pick(row, 'project_name', 'name') or 'Unnamed project'
             inr = _pick(row, 'inr')
+            if inr and str(inr).strip() in covered:
+                continue
             fuel = _pick(row, 'fuel', 'technology') or 'unknown fuel'
             mw = _pick(row, 'capacity', 'mw')
             try: mw = float(mw)
