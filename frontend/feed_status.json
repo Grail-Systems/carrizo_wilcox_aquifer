@@ -1,0 +1,69 @@
+{
+  "checked": "2026-10-21T22:07:04+00:00",
+  "feeds": [
+    {
+      "file": "frontend/mega_permits.json",
+      "label": "Permits and ERCOT grid requests",
+      "state": "held",
+      "records": 70,
+      "last_good": null,
+      "note": "dropped from 70 to 3"
+    },
+    {
+      "file": "frontend/toxin_feed.json",
+      "label": "EPA ECHO violations",
+      "state": "unchanged",
+      "records": 455,
+      "last_good": "2026-10-21T22:07:04+00:00",
+      "note": ""
+    },
+    {
+      "file": "frontend/usgs_telemetry.json",
+      "label": "TWDB well water levels",
+      "state": "unchanged",
+      "records": 274,
+      "last_good": "2026-10-21T22:07:04+00:00",
+      "note": ""
+    },
+    {
+      "file": "frontend/threat_feed.json",
+      "label": "Threat feed",
+      "state": "unchanged",
+      "records": 43,
+      "last_good": "2026-10-21T22:07:04+00:00",
+      "note": ""
+    },
+    {
+      "file": "frontend/threat_wells.json",
+      "label": "Industrial wells",
+      "state": "unchanged",
+      "records": 2530,
+      "last_good": "2026-10-21T22:07:04+00:00",
+      "note": ""
+    },
+    {
+      "file": "wall_of_shame.html",
+      "label": "Wall of Shame officials",
+      "state": "updated",
+      "records": 5,
+      "last_good": "2026-10-21T22:07:04+00:00",
+      "note": ""
+    },
+    {
+      "file": "data-engine/votes.json",
+      "label": "Legislative votes (LegiScan)",
+      "state": "unchanged",
+      "records": 2237,
+      "last_good": "2026-10-21T22:06:52+00:00",
+      "note": ""
+    },
+    {
+      "file": "data-engine/tec_pac_data.csv",
+      "label": "Campaign donations (TEC)",
+      "state": "unchanged",
+      "records": 300,
+      "last_good": "2026-10-21T22:06:52+00:00",
+      "note": ""
+    }
+  ]
+}
