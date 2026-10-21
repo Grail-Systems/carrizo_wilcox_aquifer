@@ -66,7 +66,7 @@ jobs:
           git config user.email 'contact@grailsystems.io'
           git add frontend/ wall_of_shame.html data-engine/votes.json data-engine/tec_pac_data.csv data-engine/miner_report.json
           git diff --cached --quiet && echo "No changes tonight." || \
-            (git commit -m "Nightly data update $(date -u +%Y-%m-%d)" && git push)
+            (git commit -m "Nightly data update $(date -u +%Y-%m-%d)" && git pull --rebase && git push)
 
       - name: Report held feeds (fails the run so GitHub emails you)
         run: python3 data-engine/feed_guard.py verdict

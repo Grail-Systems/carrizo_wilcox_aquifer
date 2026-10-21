@@ -87,9 +87,10 @@ def fetch_ercot():
     with urllib.request.urlopen(req, timeout=120) as r:
         docs = json.load(r)['ListDocsByRptTypeRes']['DocumentList']
     xlsx = [d['Document'] for d in docs
-            if str(d['Document'].get('ConstructedName', '')).lower().endswith('.xlsx')]
+            if str(d['Document'].get('ConstructedName', '')).lower().endswith('.xlsx')
+            and 'gis_report' in str(d['Document'].get('ConstructedName', '')).lower()]
     if not xlsx:
-        raise RuntimeError('ERCOT list has no .xlsx GIS report')
+        raise RuntimeError('ERCOT list has no file named GIS_Report (ERCOT may have renamed it)')
     latest = max(xlsx, key=lambda d: d.get('PublishDate', ''))
     print(f"[ERCOT] latest report: {latest.get('ConstructedName')} ({latest.get('PublishDate', '')[:10]})")
     req = urllib.request.Request(ERCOT_DOC.format(latest['DocID']), headers=UA)
