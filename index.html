@@ -25,6 +25,7 @@
         .recenter-btn { display: block; width: 100%; background: #222; color: #fff; border: 1px solid #555; padding: 8px 0; font-weight: bold; font-size: 0.85rem; border-radius: 4px; text-transform: uppercase; cursor: pointer; transition: 0.2s; margin-bottom: 15px; }
         .recenter-btn:hover { background: #444; border-color: #888; }
         .shame-btn { display: block; width: 100%; background: rgba(255, 0, 0, 0.1); border: 2px solid #ff3232; color: #ff3232; text-decoration: none; padding: 12px 0; font-weight: bold; font-size: 1rem; border-radius: 4px; text-transform: uppercase; text-align: center; margin-top: 15px; }
+        .shame-btn.records-btn { border-color: #e0a43a; color: #e0a43a; background: rgba(224, 164, 58, 0.1); margin-top: 8px; }
         .support-btn { display: block; width: 100%; background: #00BCD4; color: #111; text-decoration: none; padding: 12px 0; font-weight: bold; font-size: 1rem; border-radius: 4px; text-transform: uppercase; text-align: center; }
         .slider-container { margin-top: 8px; padding-left: 20px; border-left: 2px solid #444; margin-bottom: 15px;}
         input[type=range] { -webkit-appearance: none; width: 100%; background: transparent; }
@@ -68,24 +69,10 @@
             <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;"><input type="checkbox" id="toggle-existing" checked onchange="updateGrid()"> 💧 Show Wells on File (TWDB)</label>
         </div>
 
-        <div class="dark-district-box">
-            <strong style="color: #ff3232; font-size: 0.95rem; text-transform: uppercase;">⚠️ Dark Districts Detected</strong>
-            <p style="font-size: 0.75rem; color: #ccc; margin: 5px 0;">The following water boards are operating offline to shield mega-permits from public oversight:</p>
-            <div style="background: rgba(255, 50, 50, 0.1); border-left: 3px solid #ff3232; padding: 6px; margin-top: 8px;"><strong style="color: #ff3232; font-size: 0.8rem;">Angelina County GCD</strong></div>
-            <div style="background: rgba(255, 50, 50, 0.1); border-left: 3px solid #ff3232; padding: 6px; margin-top: 5px;"><strong style="color: #ff3232; font-size: 0.8rem;">Nacogdoches County GCD</strong></div>
-        </div>
 
         <a href="wall_of_shame.html" class="shame-btn">💀 Enter The Wall of Shame</a>
+        <a href="records.html" class="shame-btn records-btn">📄 Records Requests</a>
 
-        <div style="margin-top: 15px; border-top: 1px solid #444; padding-top: 15px;">
-            <strong style="color: #ffaa00; font-size: 0.95rem;">🚨 COMMUNITY DEFENSE ALERTS</strong>
-            <div style="display: flex; gap: 5px; margin-top: 8px;">
-                <input type="text" id="zip-input" placeholder="Zip" style="width: 30%; background: #222; border: 1px solid #444; color: white; padding: 6px; border-radius: 4px; box-sizing: border-box;">
-                <input type="text" id="phone-input" placeholder="Mobile Number" style="width: 70%; background: #222; border: 1px solid #444; color: white; padding: 6px; border-radius: 4px; box-sizing: border-box;">
-            </div>
-            <button onclick="registerSMS()" style="width: 100%; margin-top: 8px; background: #ffaa00; color: #111; border: none; padding: 8px; font-weight: bold; border-radius: 4px; cursor: pointer; text-transform: uppercase;">Get Live Alerts</button>
-            <div id="sms-confirm" style="display:none; margin-top: 8px; color: #39FF14; font-size: 0.8rem; font-weight: bold; text-align: center;">✅ Number Secured. You are on the grid.</div>
-        </div>
 
         <div style="margin-top: 15px; border-top: 1px solid #444; padding-top: 15px; text-align: center;">
             <a href="https://cash.app/$grailsystems" target="_blank" class="support-btn">Support The Grid: $grailsystems</a>
