@@ -1,106 +1,148 @@
-import zipfile
-import csv
-import os
-import time
+import zipfile, csv, io, re, os, sys, time, json
 
-print("[INIT] Booting Tactical Financial Miner (Precision Targeting Engaged)...")
-start_time = time.time()
+# ============================================================
+# BULK MINER v2 - finds columns by NAME, not position.
+# If the state renames or reorders headers, it adapts.
+# If a header is missing entirely, it stops and tells you.
+# ============================================================
 
-zip_path = 'data-engine/TEC_CF_CSV.zip'
-output_path = 'data-engine/tec_pac_data.csv'
+ZIP_PATH   = 'data-engine/TEC_CF_CSV.zip'
+OUT_PATH   = 'data-engine/tec_pac_data.csv'
+REPORT     = 'data-engine/miner_report.json'
+MIN_YEAR   = 2018      # ignore anything older
+MIN_AMOUNT = 100       # ignore tiny donations
+MAX_ROWS   = 300       # cap for the web page
 
-if not os.path.exists(zip_path):
-    print(f"[ERROR] {zip_path} not found. Ensure the state ZIP is exactly named and in the data-engine folder.")
-    exit()
+# Every name the state has used (or might use) for each field.
+# When a new variation shows up, add it to the list. That's it.
+FIELDS = {
+    'recipient':  ['filerName', 'filer_name', 'recipientName'],
+    'date':       ['contributionDt', 'contribution_date', 'contribDt'],
+    'amount':     ['contributionAmount', 'contribution_amount', 'contribAmount'],
+    'org':        ['contributorNameOrganization', 'contributor_org', 'contributorOrganization'],
+    'last':       ['contributorNameLast', 'contributor_last'],
+    'first':      ['contributorNameFirst', 'contributor_first'],
+    'city':       ['contributorStreetCity', 'contributor_city', 'contributorCity'],
+    'employer':   ['contributorEmployer', 'contributor_employer'],
+    'occupation': ['contributorOccupation', 'contributor_occupation'],
+}
+REQUIRED = ['recipient', 'date', 'amount']
 
-# 1. THE GEOGRAPHY NET
-GEO_TAGS = [
-    "ANGELINA", "NACOGDOCHES", "SHELBY", "LUFKIN", "DEEP EAST", 
-    "ZAVALLA", "DIBOLL", "CENTER", "TIMPSON", "TENAHA",
-    "NICHOLS", "ASHBY" 
-]
+# OFFICIALS WE TRACK: any donation TO them is pulled, no matter where the donor lives.
+# Add names here as needed (match how TEC lists them: "Last, First").
+TARGET_OFFICIALS = ['ASHBY', 'NICHOLS', 'THIGPEN', 'CLARDY']
 
-# 2. THE THREAT NET
-THREAT_TAGS = [
-    "AQUIFER", "WATER", "GROUNDWATER", "CARRIZO", "WILCOX", "GCD",
-    "DATA CENTER", "CLOUD", "AI ", "ARTIFICIAL INTELLIGENCE", "SERVER",
-    "INFRASTRUCTURE", "ENERGY", "UTILITY", "TIMBER", "AGGREGATE"
-]
+GEO_CITIES = {'LUFKIN','NACOGDOCHES','DIBOLL','ZAVALLA','HUDSON','HUNTINGTON',
+              'CENTER','TIMPSON','TENAHA','JOAQUIN','GARRISON','CUSHING',
+              'APPLEBY','CHIRENO','SAN AUGUSTINE','JACKSONVILLE','RUSK','PALESTINE'}
 
-# 3. THE REJECT NET (Dolphins to throw back)
-REJECT_TAGS = [
-    "CENTERPOINT", "WILLETT", "ABBOTT", "PAXTON", "CRUZ", "CORNYN"
-]
+THREAT_WORDS = ['AQUIFER','GCD','INFRASTRUCTURE','OIL','GAS','ELECTRIC','TRANSMISSION','PIPELINE','WATER','GROUNDWATER','CARRIZO','WILCOX','DATA CENTER',
+                'CLOUD','ARTIFICIAL INTELLIGENCE','SERVER','ENERGY','POWER',
+                'UTILITY','TIMBER','AGGREGATE','PIPELINE','MINING','CRYPTO','BITCOIN']
+THREAT_RE = re.compile(r'\b(' + '|'.join(re.escape(w) for w in THREAT_WORDS) + r')\b')
 
-print("[PROCESSING] Ripping through state financial records. Hunting for local infrastructure bribes...")
+def norm(s):
+    return re.sub(r'[^a-z0-9]', '', s.lower())
 
-intercepted_records = []
-total_scanned = 0
+def map_headers(headers):
+    lookup = {norm(h): i for i, h in enumerate(headers)}
+    found, missing = {}, []
+    for field, aliases in FIELDS.items():
+        idx = next((lookup[norm(a)] for a in aliases if norm(a) in lookup), None)
+        if idx is None:
+            missing.append(field)
+        else:
+            found[field] = idx
+    return found, missing
 
-with zipfile.ZipFile(zip_path, 'r') as z:
-    for filename in z.namelist():
-        if filename.endswith('.csv'):
-            print(f" -> Scanning sector: {filename}...")
-            with z.open(filename) as f:
-                decoded_file = (line.decode('utf-8', errors='ignore') for line in f)
-                reader = csv.reader(decoded_file)
-                
+def parse_date(raw):
+    digits = re.sub(r'\D', '', raw or '')
+    if len(digits) >= 8:
+        return f"{digits[:4]}-{digits[4:6]}-{digits[6:8]}", int(digits[:4])
+    return None, None
+
+def main():
+    t0 = time.time()
+    if not os.path.exists(ZIP_PATH):
+        sys.exit(f"[ERROR] {ZIP_PATH} not found. Download the TEC bulk CSV zip into data-engine/.")
+
+    hits, seen = [], set()
+    report = {'files_scanned': [], 'files_skipped': [], 'rows_scanned': 0}
+
+    with zipfile.ZipFile(ZIP_PATH) as z:
+        # Only CONTRIBUTION files. The old miner read every file in the
+        # zip with the same column numbers - that was the main bug.
+        names = [n for n in z.namelist() if n.lower().endswith('.csv') and 'contrib' in n.lower()]
+        if not names:
+            sys.exit("[ERROR] No contribution files in the zip. The state may have renamed them - check z.namelist().")
+
+        for name in names:
+            with z.open(name) as f:
+                reader = csv.reader(io.TextIOWrapper(f, encoding='utf-8', errors='ignore'))
                 try:
                     headers = next(reader)
                 except StopIteration:
                     continue
+                cols, missing = map_headers(headers)
+                if any(m in REQUIRED for m in missing):
+                    print(f"[FLAG] {name}: unknown headers, skipped. Missing: {missing}")
+                    report['files_skipped'].append({'file': name, 'missing': missing, 'headers': headers})
+                    continue
+                report['files_scanned'].append(name)
+
+                def get(row, field):
+                    i = cols.get(field)
+                    return row[i].strip() if i is not None and i < len(row) else ''
 
                 for row in reader:
-                    total_scanned += 1
-                    
-                    if len(row) < 20:
+                    report['rows_scanned'] += 1
+                    city = get(row, 'city').upper()
+                    recipient_up = get(row, 'recipient').upper()
+                    is_target = any(o in recipient_up for o in TARGET_OFFICIALS)
+                    profile = ' '.join([get(row,'org'), get(row,'employer'), get(row,'occupation')]).upper()
+                    m = THREAT_RE.search(profile)
+                    # Keep if: donation to a tracked official from a threat industry (from ANYWHERE),
+                    # or a local donor from a threat industry (old behavior).
+                    if not m or not (is_target or city in GEO_CITIES):
                         continue
-                        
-                    row_string = " ".join(row).upper()
-                    
-                    hit_geo = any(tag in row_string for tag in GEO_TAGS)
-                    hit_threat = any(tag in row_string for tag in THREAT_TAGS)
-                    hit_reject = any(tag in row_string for tag in REJECT_TAGS)
-                    
-                    # THE FIX: Only proceed if it hits the targets AND avoids the reject tags
-                    if hit_geo and hit_threat and not hit_reject:
-                        try:
-                            # Mapped exactly to the state's internal column structure
-                            politician_name = row[8].strip() 
-                            
-                            org_name = row[16].strip()
-                            first_name = row[19].strip()
-                            last_name = row[17].strip()
-                            
-                            # Determine if the donor is a Corporation or an Individual
-                            donor_name = org_name if org_name else f"{first_name} {last_name}".strip()
-                            if not donor_name:
-                                donor_name = "Undisclosed Corporate Entity"
-                                
-                            amount_val = row[11].replace('$', '').replace(',', '')
-                            date_val = row[10]
-                            
-                            if any(char.isdigit() for char in amount_val) and float(amount_val) > 100:
-                                record = {
-                                    "Filer_Name": donor_name,
-                                    "Recipient_Name": politician_name,
-                                    "Amount": amount_val,
-                                    "Date": date_val,
-                                    "PAC_Industry": "Water/Data Infrastructure"
-                                }
-                                intercepted_records.append(record)
-                        except Exception as e:
-                            pass
+                    if 'ACTBLUE' in recipient_up or 'WINRED' in recipient_up:
+                        continue  # pass-throughs double-count
+                    date, year = parse_date(get(row, 'date'))
+                    if not year or year < MIN_YEAR:
+                        continue
+                    try:
+                        amount = float(get(row, 'amount').replace('$','').replace(',',''))
+                    except ValueError:
+                        continue
+                    if amount < MIN_AMOUNT:
+                        continue
+                    donor = get(row,'org') or f"{get(row,'first')} {get(row,'last')}".strip() or 'Unnamed contributor'
+                    recipient = get(row, 'recipient')
+                    key = (donor.upper(), recipient.upper(), date, amount)
+                    if key in seen:
+                        continue
+                    seen.add(key)
+                    hits.append({'Filer_Name': donor, 'Recipient_Name': recipient,
+                                 'Amount': f"{amount:.2f}", 'Date': date,
+                                 'PAC_Industry': m.group(1).title(),
+                                 'Donor_City': city.title(), 'Tracked_Official': 'YES' if is_target else '', 'Source_File': name})
 
-print(f"\n[REPORT] Scanned {total_scanned:,} state financial records.")
-print(f"[SUCCESS] Isolated {len(intercepted_records)} verified targets.")
+    hits.sort(key=lambda r: (r['Tracked_Official']=='YES', float(r['Amount'])), reverse=True)
+    with open(OUT_PATH, 'w', newline='', encoding='utf-8') as out:
+        w = csv.DictWriter(out, fieldnames=list(hits[0].keys()) if hits else
+                           ['Filer_Name','Recipient_Name','Amount','Date','PAC_Industry','Donor_City','Tracked_Official','Source_File'])
+        w.writeheader()
+        w.writerows(hits[:MAX_ROWS])
 
-with open(output_path, mode='w', newline='', encoding='utf-8') as out_file:
-    writer = csv.DictWriter(out_file, fieldnames=["Filer_Name", "Recipient_Name", "Amount", "Date", "PAC_Industry"])
-    writer.writeheader()
-    for record in intercepted_records[:100]:
-        writer.writerow(record)
+    report['matches'] = len(hits)
+    with open(REPORT, 'w') as r:
+        json.dump(report, r, indent=2)
 
-end_time = time.time()
-print(f"[READY] Dossiers compiled. Run omni_gateway.py to publish the Wall of Shame.")
-print(f"Execution Time: {round(end_time - start_time, 2)} seconds")
+    print(f"[REPORT] Scanned {report['rows_scanned']:,} rows in {len(report['files_scanned'])} files.")
+    print(f"[SUCCESS] {len(hits)} matches since {MIN_YEAR}. Top {min(len(hits),MAX_ROWS)} written to {OUT_PATH}")
+    if report['files_skipped']:
+        print(f"[ATTENTION] {len(report['files_skipped'])} file(s) had unknown headers. See {REPORT}.")
+    print(f"Done in {time.time()-t0:.1f}s. Next: python3 data-engine/omni_gateway.py")
+
+if __name__ == '__main__':
+    main()
