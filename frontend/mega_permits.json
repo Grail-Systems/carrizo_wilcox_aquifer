@@ -1,5 +1,38 @@
 [
     {
+        "title": "Amp Z data center (former Southland/Abitibi paper mill)",
+        "applicant": "AmpZ Champion Data Center Holdings LLC; land owned by Verdant Industries",
+        "bottom_line": "Hwy 103 East at Herty, just outside Lufkin. Public was told about 500 gallons a day. The county abatement application lists water needs as \"TBD\", and city leaders said on record they won't cap water use. Plan: 2.1 GW full build on an option for about 1,041 acres. The city owns the mill's wells (bought 2009); Pineywoods GCD says Amp Z has filed no well permits. District records also include the site's expired permits A0046-A0048. Location: Herty community (approximate).",
+        "raw_volume": 3500,
+        "coordinates": [
+            -94.6833,
+            31.3564
+        ],
+        "source_url": "docs/powered_land.pdf"
+    },
+    {
+        "title": "HyperDataGrid data center, Ben Dunn Road",
+        "applicant": "HyperDataGrid (tract bought through Paluxy LandCo)",
+        "bottom_line": "Ben Dunn Road off Hwy 103 West. The developer told the groundwater district it would use about 500 gallons a day, then asked for 13 million gallons a year from five wells, just under the 15-million-gallon public-hearing trigger. Source: Pineywoods GCD emails, Aug.-Sept. 2026. Location approximate; exact site not yet mapped.",
+        "raw_volume": 1000,
+        "coordinates": [
+            -94.8,
+            31.33
+        ],
+        "source_url": "docs/powered_land.pdf"
+    },
+    {
+        "title": "WattBridge power plant, north of Lufkin",
+        "applicant": "WattBridge",
+        "bottom_line": "Approved for 80 million gallons a year in late 2024 or early 2025 (never drilled). In March 2026 it switched to 24/7 operation and requested 1.5 billion gallons a year, about 4.1 million gallons a day. On hold since July 2026 at the company's request. Source: Pineywoods GCD general manager. Location approximate; exact site not yet mapped.",
+        "raw_volume": 4603,
+        "coordinates": [
+            -94.73,
+            31.42
+        ],
+        "source_url": "docs/powered_land.pdf"
+    },
+    {
         "title": "ERCOT grid request: Eagle Pines Gas",
         "applicant": "FGE Power",
         "bottom_line": "GAS, 1,174 MW in Cherokee County. Projected online: 2028-10-30. ERCOT ID 18INR0009. Location shown at county level.",
