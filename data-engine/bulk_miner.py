@@ -30,7 +30,7 @@ REQUIRED = ['recipient', 'date', 'amount']
 
 # OFFICIALS WE TRACK: any donation TO them is pulled, no matter where the donor lives.
 # Add names here as needed (match how TEC lists them: "Last, First").
-TARGET_OFFICIALS = ['ASHBY', 'NICHOLS', 'THIGPEN', 'CLARDY']
+TARGET_OFFICIALS = ['ASHBY, TRENT', 'NICHOLS, ROBERT', 'THIGPEN, ALAN', 'CLARDY, TRAVIS']  # 'Last, First' as TEC lists them
 
 GEO_CITIES = {'LUFKIN','NACOGDOCHES','DIBOLL','ZAVALLA','HUDSON','HUNTINGTON',
               'CENTER','TIMPSON','TENAHA','JOAQUIN','GARRISON','CUSHING',
@@ -98,7 +98,7 @@ def main():
                     report['rows_scanned'] += 1
                     city = get(row, 'city').upper()
                     recipient_up = get(row, 'recipient').upper()
-                    is_target = any(o in recipient_up for o in TARGET_OFFICIALS)
+                    is_target = any(recipient_up.startswith(o) for o in TARGET_OFFICIALS)
                     profile = ' '.join([get(row,'org'), get(row,'employer'), get(row,'occupation')]).upper()
                     m = THREAT_RE.search(profile)
                     # Keep if: donation to a tracked official from a threat industry (from ANYWHERE),
