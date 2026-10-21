@@ -63,9 +63,9 @@
             <div class="slider-container"><label style="font-size: 0.75rem; color: #ffaa00; display: flex; justify-content: space-between;"><span>Depth to Water:</span><span id="usgs-val">All</span></label><input type="range" id="usgs-slider" min="1000" max="15000" step="1000" value="1000" oninput="updateLabels(); updateGrid();"></div>
             
             <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;"><input type="checkbox" id="toggle-toxins" checked onchange="updateGrid()"> ☢️ EPA Violations</label>
-            <div class="slider-container"><label style="font-size: 0.75rem; color: #39FF14; display: flex; justify-content: space-between;"><span>Severity Level:</span><span id="toxin-val">Class 1+</span></label><input type="range" id="toxin-slider" min="1" max="10" step="1" value="1" oninput="updateLabels(); updateGrid();"></div>
+            <div class="slider-container"><label style="font-size: 0.75rem; color: #39FF14; display: flex; justify-content: space-between;"><span title="Quarters out of compliance in recent EPA records, plus 4 for significant violators (max 10)">Min. EPA score:</span><span id="toxin-val">1+</span></label><input type="range" id="toxin-slider" min="1" max="10" step="1" value="1" oninput="updateLabels(); updateGrid();"></div>
             
-            <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;"><input type="checkbox" id="toggle-existing" checked onchange="updateGrid()"> 🛢️ Show Existing Industrial Wells</label>
+            <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;"><input type="checkbox" id="toggle-existing" checked onchange="updateGrid()"> 💧 Show Wells on File (TWDB)</label>
         </div>
 
         <div class="dark-district-box">
@@ -123,7 +123,7 @@
         function updateLabels() {
             document.getElementById('permit-val').innerText = Number(document.getElementById('permit-slider').value).toLocaleString() + '+';
             document.getElementById('usgs-val').innerText = document.getElementById('usgs-slider').value > 1000 ? 'Severe Only' : 'All';
-            document.getElementById('toxin-val').innerText = 'Class ' + document.getElementById('toxin-slider').value + '+';
+            document.getElementById('toxin-val').innerText = document.getElementById('toxin-slider').value + '+';
         }
         
         function lockTarget(info) {
@@ -142,7 +142,7 @@
             let emailSubject = `FORMAL REQUEST: Public Comment / FOIA Request - ${obj.title || obj.facility || 'Infrastructure'}`;
             let emailBody = `To the relevant authorities,%0D%0A%0D%0AI am formally requesting a review regarding the active infrastructure at these coordinates: ${obj.coordinates || 'N/A'}.%0D%0A%0D%0ASincerely,%0D%0A[YOUR LEGAL NAME]`;
             
-            document.getElementById('target-details').innerHTML = `<strong style="color: white;">${obj.title || obj.facility || 'Identified Target'}</strong><br/><div style="margin-top: 5px; color: #ddd; line-height: 1.4;">${obj.bottom_line || 'Details secured.'}</div><a href="mailto:${targetEmail}?subject=${emailSubject}&body=${emailBody}" style="display: block; text-align: center; margin-top: 10px; padding: 8px 12px; background: #ffaa00; color: #111; text-decoration: none; font-size: 0.85rem; font-weight: bold; border-radius: 4px; text-transform: uppercase;">File Direct Injunction</a>`;
+            document.getElementById('target-details').innerHTML = `<strong style="color: white;">${obj.title || obj.facility || 'Selected site'}</strong><br/><div style="margin-top: 5px; color: #ddd; line-height: 1.4;">${obj.bottom_line || 'No details on file.'}</div>`;
         }
 
         const deckgl = new DeckGL({
@@ -151,10 +151,10 @@
             
             getTooltip: ({object}) => {
                 if (!object) return null;
-                if (object.feed_type === 'permit') return { html: `<div style="padding: 12px; border-left: 4px solid #ff3232; background: rgba(15,15,15,0.95);"><strong style="color: #ff3232;">💧 PERMIT / GRID REQUEST</strong><br/>${object.title}<br/>${object.bottom_line}</div>` };
-                if (object.feed_type === 'toxin') return { html: `<div style="padding: 12px; border-left: 4px solid #39FF14; background: rgba(15,15,15,0.95);"><strong style="color: #39FF14;">☣️ EPA VIOLATION (Level ${object.severity})</strong><br/>${object.facility}<br/>${object.bottom_line}</div>` };
+                if (object.feed_type === 'permit') return { html: `<div style="padding: 12px; max-width: 360px; border-left: 4px solid #ff3232; background: rgba(15,15,15,0.95);"><strong style="color: #ff3232;">💧 PERMIT / GRID REQUEST</strong><br/>${object.title}<br/>${object.bottom_line}</div>` };
+                if (object.feed_type === 'toxin') return { html: `<div style="padding: 12px; border-left: 4px solid #39FF14; background: rgba(15,15,15,0.95);"><strong style="color: #39FF14;">☣️ EPA VIOLATION (score ${object.severity}/10)</strong><br/>${object.facility}<br/>${object.bottom_line}</div>` };
                 if (object.feed_type === 'usgs') return { html: `<div style="padding: 12px; border-left: 4px solid #ffaa00; background: rgba(15,15,15,0.95);"><strong style="color: #ffaa00;">💧 AQUIFER WATER LEVEL</strong><br/>${object.title}<br/>${object.bottom_line}</div>` };
-                if (object.feed_type === 'well') return { html: `<div style="padding: 12px; border-left: 4px solid #555; background: rgba(15,15,15,0.95);"><strong style="color: #ccc;">🛢️ EXISTING INDUSTRIAL WELL</strong><br/>Status: Active</div>` };
+                if (object.feed_type === 'well') { const p = object.properties || {}; return { html: `<div style="padding: 12px; max-width: 360px; border-left: 4px solid #555; background: rgba(15,15,15,0.95);"><strong style="color: #ccc;">💧 WELL ON FILE (TWDB)</strong><br/>State well ${p.StateWellN || ''}, ${p.CountyName || ''} County<br/>Use: ${p.PrimaryWat || 'unknown'} · Depth: ${p.WellDepth ? p.WellDepth + ' ft' : 'unknown'}<br/>${p.AquiferCod || ''}</div>` }; }
                 return null;
             }, 
             layers: []
