@@ -1,0 +1,72 @@
+name: Grid Nightly Update
+
+on:
+  schedule:
+    - cron: '0 8 * * *'   # 3:00 AM Central (daylight time); 2:00 AM in winter
+  workflow_dispatch:      # adds a "Run workflow" button on GitHub
+
+permissions:
+  contents: write
+
+concurrency:
+  group: grid-nightly
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install
+        run: pip install aiohttp pandas openpyxl
+
+      - name: Save LegiScan key (from GitHub secret, never stored in the repo)
+        env:
+          LEGISCAN_KEY: ${{ secrets.LEGISCAN_KEY }}
+        run: |
+          if [ -n "$LEGISCAN_KEY" ]; then
+            printf 'LEGISCAN_KEY="%s"\n' "$LEGISCAN_KEY" > ~/.legiscan && chmod 600 ~/.legiscan
+          else
+            echo "No LEGISCAN_KEY secret set; votes will keep last good data."
+          fi
+
+      - name: Snapshot current feeds
+        run: python3 data-engine/feed_guard.py snapshot
+
+      - name: Download TEC, TWDB and ERCOT files
+        run: python3 data-engine/fetch_sources.py
+
+      - name: Legislative votes (LegiScan)
+        continue-on-error: true
+        run: python3 data-engine/legiscan_votes.py
+
+      - name: Campaign donations (TEC)
+        continue-on-error: true
+        run: python3 data-engine/bulk_miner.py
+
+      - name: Guard the inputs before building pages
+        run: python3 data-engine/feed_guard.py check data-engine/
+
+      - name: Build map feeds and Wall of Shame
+        continue-on-error: true
+        run: python3 data-engine/omni_gateway.py
+
+      - name: Guard the published feeds
+        run: python3 data-engine/feed_guard.py check '!data-engine/'
+
+      - name: Publish
+        run: |
+          git config user.name 'Grail-Systems-Bot'
+          git config user.email 'contact@grailsystems.io'
+          git add frontend/ wall_of_shame.html data-engine/votes.json data-engine/tec_pac_data.csv data-engine/miner_report.json
+          git diff --cached --quiet && echo "No changes tonight." || \
+            (git commit -m "Nightly data update $(date -u +%Y-%m-%d)" && git push)
+
+      - name: Report held feeds (fails the run so GitHub emails you)
+        run: python3 data-engine/feed_guard.py verdict
