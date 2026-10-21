@@ -1,3 +1,4 @@
+from datetime import datetime
 import asyncio
 import aiohttp
 import json
@@ -474,6 +475,54 @@ def clean_official(name):
 def money(x):
     return f'${x:,.0f}'
 
+
+# ---------------------------------------------------------
+# KEY VOTES: LegiScan roll calls for bills listed in key_votes.json
+# ---------------------------------------------------------
+def _vote_word(v):
+    return {'Yea': 'Yes', 'Nay': 'No', 'NV': 'Not voting', 'Absent': 'Absent'}.get(v, v)
+
+def _stage(motion):
+    m = (motion or '').lower()
+    if 'conference committee' in m: return 'final version'
+    if 'concur' in m: return "accepting the other chamber's changes"
+    if 'amendment' in m and 'fail' in m: return 'an amendment that failed'
+    if '3rd' in m or 'passed' in m: return 'passage'
+    if '2nd' in m: return 'second reading'
+    return None  # procedural motions are skipped
+
+def key_votes_html(official, e):
+    try:
+        kv = json.load(open('data-engine/key_votes.json', encoding='utf-8'))
+        votes = json.load(open('data-engine/votes.json', encoding='utf-8'))['officials'].get(official, [])
+    except (OSError, ValueError):
+        return ''
+    rows = ''
+    for item in kv:
+        recs = [r for r in votes if r['bill'] == item['bill'] and r['session'] == item['session']]
+        seen, parts = set(), []
+        for r in sorted(recs, key=lambda r: r['date'] or ''):
+            st = _stage(r['motion'])
+            if not st or (r['date'], st) in seen:
+                continue
+            seen.add((r['date'], st))
+            dt = datetime.strptime(r['date'], '%Y-%m-%d')
+            mon = ['Jan.', 'Feb.', 'March', 'April', 'May', 'June', 'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.'][dt.month - 1]
+            d = f'{mon} {dt.day}, {dt.year}'
+            parts.append(f"<b>{e(_vote_word(r['vote']))}</b> on {e(st)} <span class=\"kv-d\">({e(d)}, {e(r['tally'])})</span>")
+        if not parts:
+            continue
+        ctx = item.get('context', {}).get(official, '')
+        rows += (f'<tr><td><a href="{e(item["url"])}" target="_blank" rel="noopener">{e(item["bill"])}</a>'
+                 f'<div class="kv-d">{e(str(item["year"]))}</div></td>'
+                 f'<td><b>{e(item["title"])}.</b> {e(item["summary"])}'
+                 + (f'<div class="kv-ctx">{e(ctx)}</div>' if ctx else '') +
+                 f'</td><td>{"<br>".join(parts)}</td></tr>')
+    if not rows:
+        return ''
+    return ('<h4 class="kv-h">Key votes</h4><div class="tbl"><table><thead><tr><th>Bill</th>'
+            '<th>What it does</th><th>How they voted</th></tr></thead><tbody>' + rows + '</tbody></table></div>')
+
 async def process_financials():
     print("[PROCESSING] Aggregating Financial Receipts...")
     csv_path = 'data-engine/tec_pac_data.csv'
@@ -533,6 +582,9 @@ details summary{cursor:pointer;color:var(--amber);font-family:system-ui,sans-ser
 details summary:focus-visible,a:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
 .src{font-family:system-ui,sans-serif;font-size:.8rem;color:var(--dim);margin-top:40px;border-top:1px solid var(--line);padding-top:16px}
 .src a{color:var(--amber)}
+.kv-h{font-family:system-ui,sans-serif;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--dim);margin:22px 0 4px}
+.kv-d{color:var(--dim);font-size:.8rem}.kv-ctx{margin-top:6px;color:var(--amber);font-size:.85rem}
+td a{color:var(--amber)}
 """
 
     def donor_table(items):
@@ -556,6 +608,7 @@ details summary:focus-visible,a:focus-visible{outline:2px solid var(--amber);out
         h += donor_table(donors[:8])
         if len(donors) > 8:
             h += f'<details><summary>Show all {len(donors)} donors</summary>{donor_table(donors[8:])}</details>'
+        h += key_votes_html(official, e)
         h += '</section>'
 
     if local:
@@ -565,7 +618,7 @@ details summary:focus-visible,a:focus-visible{outline:2px solid var(--amber);out
             h += f'<tr><td>{e(name)}</td><td>{e(l["city"])}</td><td>{e(l["industry"])}</td><td>{e(", ".join(sorted(l["recipients"])))}</td><td class="n">{money(l["total"])}</td></tr>'
         h += '</tbody></table></div>'
 
-    h += f'<p class="src">Source: Texas Ethics Commission campaign finance bulk data. Look up any filing at <a href="{tec}" target="_blank" rel="noopener">ethics.state.tx.us</a>.</p></div></body></html>'
+    h += f'<p class="src">Source: Texas Ethics Commission campaign finance bulk data. Look up any filing at <a href="{tec}" target="_blank" rel="noopener">ethics.state.tx.us</a>. Vote records from <a href="https://legiscan.com" target="_blank" rel="noopener">LegiScan</a> (CC BY 4.0), checked against Texas Legislature Online.</p></div></body></html>'
 
     with open(wall_path, 'w', encoding='utf-8') as f:
         f.write(h)
