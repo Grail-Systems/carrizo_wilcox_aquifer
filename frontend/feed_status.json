@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-21T22:07:04+00:00",
+  "checked": "2026-10-21T23:07:02+00:00",
   "feeds": [
     {
       "file": "frontend/mega_permits.json",
@@ -45,8 +45,8 @@
       "file": "wall_of_shame.html",
       "label": "Wall of Shame officials",
       "state": "updated",
-      "records": 5,
-      "last_good": "2026-10-21T22:07:04+00:00",
+      "records": 4,
+      "last_good": "2026-10-21T23:07:02+00:00",
       "note": ""
     },
     {
