@@ -22,15 +22,16 @@
         "source_url": "docs/powered_land.pdf"
     },
     {
-        "title": "WattBridge power plant, north of Lufkin",
-        "applicant": "WattBridge",
-        "bottom_line": "Approved for 80 million gallons a year in late 2024 or early 2025 (never drilled). In March 2026 it switched to 24/7 operation and requested 1.5 billion gallons a year, about 4.1 million gallons a day. On hold since July 2026 at the company's request. Source: Pineywoods GCD general manager. Location approximate; exact site not yet mapped.",
+        "title": "Longleaf Power Station (WattBridge), north of Lufkin",
+        "applicant": "Long Leaf Generating LLC / WattBridge Texas Holdings, LLC",
+        "bottom_line": "A 600 MW natural gas peaking plant in ERCOT's interconnection queue (project 26INR0294), connecting at the Redland Substation near Kurth Lake, north of Lufkin.<br><br><b>Tax break:</b> Angelina County approved a 10-year tax abatement for Long Leaf Generating LLC in May 2025: 100% for the first three years, then stepping down. The company must invest at least $350 million and create nine full-time jobs, and the county attorney said it must operate as a peaking plant, supplying power when demand is high (<a href=\"https://lufkindailynews.com/news/local/commissioners-approve-10-year-tax-abatement-for-long-leaf-generating-llc/article_952e0e31-4270-50a7-8633-aa3d2c1f6446.html\" target=\"_blank\" rel=\"noopener\">Lufkin Daily News</a>).<br><br><b>Water:</b> Approved for 80 million gallons a year in late 2024 or early 2025 (never drilled). In March 2026 it switched to 24/7 operation and requested 1.5 billion gallons a year, about 4.1 million gallons a day. On hold since July 2026 at the company's request. Source: Pineywoods GCD general manager. A 24/7 plant is not a peaking plant, so this change may conflict with the abatement terms.<br><br>Location approximate, near Kurth Lake.",
         "raw_volume": 4603,
         "coordinates": [
             -94.73,
             31.42
         ],
-        "source_url": "docs/powered_land.pdf"
+        "source_url": "docs/powered_land.pdf",
+        "ercot_inr": "26INR0294"
     },
     {
         "title": "ERCOT grid request: Eagle Pines Gas",
@@ -557,17 +558,6 @@
         "coordinates": [
             -95.542,
             31.258
-        ],
-        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
-    },
-    {
-        "title": "ERCOT grid request: Longleaf Power Station ",
-        "applicant": "WattBridge Texas Holdings, LLC",
-        "bottom_line": "GAS, 600 MW in Angelina County. Projected online: 2029-03-31. ERCOT ID 26INR0294. Location shown at county level.",
-        "raw_volume": 12000,
-        "coordinates": [
-            -94.611,
-            31.135
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
