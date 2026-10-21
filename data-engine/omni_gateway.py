@@ -377,6 +377,9 @@ async def compile_toxins(session):
             snc = str(f.get('FacSNCFlg', '')).upper() == 'Y'
             if not (snc or qtrs > 0):
                 continue
+            fc = str(f.get('FacCounty') or '').upper().replace(' COUNTY', '').strip()
+            if fc and fc != county:
+                continue   # ECHO name matching can pull in other counties (e.g. Houston city vs Houston County)
             approx = False
             try:
                 lat, lon = float(f.get('FacLat')), float(f.get('FacLong'))
@@ -387,6 +390,8 @@ async def compile_toxins(session):
                 k = len(seen)
                 lon, lat = cl[0] + 0.05 * ((k % 5) - 2), cl[1] + 0.05 * ((k // 5) % 5 - 2)
                 approx = True
+            if not (30.3 <= lat <= 33.6 and -96.9 <= lon <= -93.4):
+                continue   # outside East Texas: bad coordinates
             rid = f.get('RegistryID') or ''
             if rid in seen:
                 continue

@@ -77,17 +77,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012944840"
     },
     {
-        "facility": "JANES SHADY ACRES R V PARK-PLANT",
-        "status": "Violation Identified",
-        "bottom_line": "LAPORTE, Angelina County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 10.",
-        "coordinates": [
-            -95.05738,
-            29.688456
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110052585528"
-    },
-    {
         "facility": "LUFKIN GENERATING PLANT",
         "status": "Significant Violation",
         "bottom_line": "LUFKIN, Angelina County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 12. Flagged as significant violator.",
@@ -792,17 +781,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110034210084"
     },
     {
-        "facility": "PERMIAN TANK & MANUFACTURING INC",
-        "status": "Significant Violation",
-        "bottom_line": "KILGORE, Rusk County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 12. Flagged as significant violator.",
-        "coordinates": [
-            -94.86858,
-            32.35462
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110024420624"
-    },
-    {
         "facility": "SHAN D WATER SUPPLY-PLANT - CR 2182 OFF SH 43",
         "status": "Significant Violation",
         "bottom_line": "TATUM, Rusk County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 11. Flagged as significant violator.",
@@ -911,17 +889,6 @@
         ],
         "severity": 10,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071214719"
-    },
-    {
-        "facility": "DUPONT LA PORTE PLANT",
-        "status": "Significant Violation",
-        "bottom_line": "LA PORTE, Houston County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 12. Flagged as significant violator.",
-        "coordinates": [
-            -95.036967,
-            29.700264
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110000463542"
     },
     {
         "facility": "NORTHSIDE WWTP",
@@ -1122,17 +1089,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012904857"
     },
     {
-        "facility": "COMMODORE CAPE WATER SYSTEM-PLANT 1 - COMMODORE DR",
-        "status": "Violation Identified",
-        "bottom_line": "CYPRESS, Polk County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -95.659524,
-            30.029479
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013215975"
-    },
-    {
         "facility": "FLORIDA CAMP INN-FLORIDA CAMP INN WATER PLANT",
         "status": "Violation Identified",
         "bottom_line": "DALLAS, Polk County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
@@ -1164,28 +1120,6 @@
         ],
         "severity": 10,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013216536"
-    },
-    {
-        "facility": "OAK TERRACE ESTATES WATER SYSTEM-PLANT - 197 LIVELY OAK",
-        "status": "Violation Identified",
-        "bottom_line": "AUSTIN, Polk County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -97.755996,
-            30.307182
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013216153"
-    },
-    {
-        "facility": "PINWAH PINES ESTATES-PLANT - JO ANN PINE LN",
-        "status": "Violation Identified",
-        "bottom_line": "AUSTIN, Polk County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -97.755996,
-            30.307182
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013216634"
     },
     {
         "facility": "R C WSC",
@@ -1221,17 +1155,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013217553"
     },
     {
-        "facility": "SPRING CREEK PURE UTILITIES-PLANT - SPRING CREEK LOOP",
-        "status": "Violation Identified",
-        "bottom_line": "CYPRESS, Polk County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -95.659524,
-            30.029479
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013216796"
-    },
-    {
         "facility": "SUN MART 308",
         "status": "Violation Identified",
         "bottom_line": "None, Polk County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
@@ -1252,17 +1175,6 @@
         ],
         "severity": 10,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013216475"
-    },
-    {
-        "facility": "TEXAS WATER SUPPLY-PLANT - WESTWARD SUBD",
-        "status": "Violation Identified",
-        "bottom_line": "CYPRESS, Polk County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -95.659524,
-            30.029479
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013216652"
     },
     {
         "facility": "TPWD LAKE LIVINGSTON STATE PARK",
@@ -1353,17 +1265,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110056154236"
     },
     {
-        "facility": "MID LAKE CAMPGROUND",
-        "status": "Violation Identified",
-        "bottom_line": "SPRING, Sabine County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -95.465877,
-            30.061932
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110052978319"
-    },
-    {
         "facility": "TIMBERLANE ESTATES PROPERTY OWNERS ASSOC-PLANT - WHITE PINE DR",
         "status": "Significant Violation",
         "bottom_line": "HEMPHILL, Sabine County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 11. Flagged as significant violator.",
@@ -1430,28 +1331,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013211942"
     },
     {
-        "facility": "ATHENS WATER SYSTEM COOP-PLANT",
-        "status": "Violation Identified",
-        "bottom_line": "AUSTIN, Henderson County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -97.755996,
-            30.307182
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013245988"
-    },
-    {
-        "facility": "BRIARWOOD HARBOR-PLANT - BEVERLY DR / BRIARWOOD DR",
-        "status": "Violation Identified",
-        "bottom_line": "AUSTIN, Henderson County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -97.755996,
-            30.307182
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013245906"
-    },
-    {
         "facility": "CAMP MEISENBACH CIRCLE TEN COUNCIL",
         "status": "Violation Identified",
         "bottom_line": "None, Henderson County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
@@ -1461,17 +1340,6 @@
         ],
         "severity": 10,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110052667887"
-    },
-    {
-        "facility": "CAPE TRANQUILITY SYSTEM-PLANT - CR 4202",
-        "status": "Violation Identified",
-        "bottom_line": "CYPRESS, Henderson County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -95.659524,
-            30.029479
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013245657"
     },
     {
         "facility": "CEDARVIEW ESTATES",
@@ -1560,17 +1428,6 @@
         ],
         "severity": 10,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013247281"
-    },
-    {
-        "facility": "DAL HIGH WATER SYSTEM-PLANT - HWY 175 / CR 3925",
-        "status": "Violation Identified",
-        "bottom_line": "AUSTIN, Henderson County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -97.755996,
-            30.307182
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013245513"
     },
     {
         "facility": "DIXIE ISLE WATER SYSTEM",
@@ -1714,17 +1571,6 @@
         ],
         "severity": 10,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110052747131"
-    },
-    {
-        "facility": "WESTWOOD BEACH-PLANT - LOST PINES / OLD MISSION",
-        "status": "Violation Identified",
-        "bottom_line": "AUSTIN, Henderson County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -97.755996,
-            30.307182
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012922016"
     },
     {
         "facility": "CITY OF BECKVILLE WWTF",
@@ -2519,17 +2365,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110030995074"
     },
     {
-        "facility": "BEACON BAY MARINA AND RV PARK-GULF COAST",
-        "status": "Inactive",
-        "bottom_line": "AUSTIN, Polk County. EPA status: Inactive. Quarters out of compliance (last 3 yrs): 7.",
-        "coordinates": [
-            -97.755996,
-            30.307182
-        ],
-        "severity": 7,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110052976918"
-    },
-    {
         "facility": "CAMP CHO-YEH CENTRAL CAMP WWTP",
         "status": "Significant Violation",
         "bottom_line": "LIVINGSTON, Polk County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 3. Flagged as significant violator.",
@@ -2605,17 +2440,6 @@
         ],
         "severity": 7,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110000458825"
-    },
-    {
-        "facility": "CRYSTAL SYSTEMS-PLANT 2 - 15969 CR 436",
-        "status": "Violation Identified",
-        "bottom_line": "CYPRESS, Smith County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 7.",
-        "coordinates": [
-            -95.659524,
-            30.029479
-        ],
-        "severity": 7,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013212040"
     },
     {
         "facility": "CHRISTIAN YOUTH FOUNDATION CREATIV",
@@ -2871,17 +2695,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013216091"
     },
     {
-        "facility": "TAYLOR LAKE ESTATES WATER SYSTEM-PLANT 1 - PIN OAK RD",
-        "status": "Violation Identified",
-        "bottom_line": "CYPRESS, Polk County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 6.",
-        "coordinates": [
-            -95.659524,
-            30.029479
-        ],
-        "severity": 6,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013216199"
-    },
-    {
         "facility": "TIMBERWOOD NURSING & REHABILITATION CENTER",
         "status": "Significant Violation",
         "bottom_line": "LIVINGSTON, Polk County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 2. Flagged as significant violator.",
@@ -3124,17 +2937,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110022990405"
     },
     {
-        "facility": "PORT ADVENTURE-PLANT - PORT BLVD",
-        "status": "No Violation Identified",
-        "bottom_line": "AUSTIN, Trinity County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 5.",
-        "coordinates": [
-            -97.70123,
-            30.31801
-        ],
-        "severity": 5,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013208812"
-    },
-    {
         "facility": "TRINITY RURAL WSC 2",
         "status": "No Violation Identified",
         "bottom_line": "None, Trinity County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 5.",
@@ -3188,17 +2990,6 @@
         ],
         "severity": 5,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013245933"
-    },
-    {
-        "facility": "CAROLYNN ESTATES-SWTP - HICKORY TRACE",
-        "status": "Violation Identified",
-        "bottom_line": "AUSTIN, Henderson County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 5.",
-        "coordinates": [
-            -97.755996,
-            30.307182
-        ],
-        "severity": 5,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013245292"
     },
     {
         "facility": "CONTRACTORS SUPPLIES ATHENS PLANT",
@@ -3520,17 +3311,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013241633"
     },
     {
-        "facility": "FLYING J TRAVEL PLAZA 740",
-        "status": "No Violation Identified",
-        "bottom_line": "BROOKSHIRE, Houston County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
-        "coordinates": [
-            -95.95148,
-            29.780583
-        ],
-        "severity": 4,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110063201583"
-    },
-    {
         "facility": "LATEXO WETLANDS",
         "status": "No Violation Identified",
         "bottom_line": "LATEXO, Houston County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
@@ -3562,17 +3342,6 @@
         ],
         "severity": 4,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009746819"
-    },
-    {
-        "facility": "BENTWOOD BEND WATER SYSTEM-PLANT 1",
-        "status": "Violation Identified",
-        "bottom_line": "CYPRESS, Polk County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
-        "coordinates": [
-            -95.659524,
-            30.029479
-        ],
-        "severity": 4,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013215216"
     },
     {
         "facility": "CITY OF GOODRICH WWTP",
@@ -3639,17 +3408,6 @@
         ],
         "severity": 4,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012905053"
-    },
-    {
-        "facility": "LAKESIDE VILLAGE SUBDIVISION-PLANT - ROYAL WOODS ST",
-        "status": "Violation Identified",
-        "bottom_line": "CYPRESS, Polk County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
-        "coordinates": [
-            -95.659524,
-            30.029479
-        ],
-        "severity": 4,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013216457"
     },
     {
         "facility": "MONTANA NELSON READY MIX - HWY 190 PLANT",
@@ -3771,17 +3529,6 @@
         ],
         "severity": 4,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009780273"
-    },
-    {
-        "facility": "CHEROKEE SHORES WATER SUPPLY-SWTP PLANT - FARGO",
-        "status": "No Violation Identified",
-        "bottom_line": "AUSTIN, Henderson County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
-        "coordinates": [
-            -97.755996,
-            30.307182
-        ],
-        "severity": 4,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013245791"
     },
     {
         "facility": "EAST CEDAR CREEK FWSD NORTH WWTP",
@@ -4213,17 +3960,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110048903157"
     },
     {
-        "facility": "CEDAR POINT WWTP",
-        "status": "No Violation Identified",
-        "bottom_line": "POLK COUNTY, Polk County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
-        "coordinates": [
-            -95.393037,
-            29.857273
-        ],
-        "severity": 3,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009776199"
-    },
-    {
         "facility": "GEORGIA-PACIFIC WOOD PRODUCTS SOUTH",
         "status": "Violation Identified",
         "bottom_line": "CORRIGAN, Polk County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
@@ -4323,17 +4059,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009775083"
     },
     {
-        "facility": "WESTLAKE ROYAL ROOFING PLANT 1-MONIER LIFETILE WTP",
-        "status": "No Violation Identified",
-        "bottom_line": "HOUSTON, Polk County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
-        "coordinates": [
-            -95.46059,
-            29.73747
-        ],
-        "severity": 3,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110053828257"
-    },
-    {
         "facility": "FRONTIER PARK WWTP",
         "status": "Violation Identified",
         "bottom_line": "HEMPHILL, Sabine County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
@@ -4387,17 +4112,6 @@
         ],
         "severity": 3,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013212004"
-    },
-    {
-        "facility": "GARDEN VALLEY RESORT-PLANT 1 - WELL 2",
-        "status": "No Violation Identified",
-        "bottom_line": "CYPRESS, Smith County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
-        "coordinates": [
-            -95.659524,
-            30.029479
-        ],
-        "severity": 3,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110022993439"
     },
     {
         "facility": "BEACHWOOD ESTATES WWTF",
@@ -4750,17 +4464,6 @@
         ],
         "severity": 1,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071668312"
-    },
-    {
-        "facility": "KERVINS RV PARK-PLANT - 161 ANNAS LN",
-        "status": "No Violation Identified",
-        "bottom_line": "LAKE JACKSON, Angelina County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
-        "coordinates": [
-            -95.472595,
-            29.055134
-        ],
-        "severity": 1,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110051864782"
     },
     {
         "facility": "PILGRIMS PRIDE LUFKIN SHOP AND STAGING AREA",
