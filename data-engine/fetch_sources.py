@@ -75,7 +75,14 @@ def parse_ercot(xlsx_bytes):
     if h is None:
         raise RuntimeError(f'no header row with "County" and "INR" in sheet {sheet!r}')
     df = raw.iloc[h + 1:].copy()
-    df.columns = [str(c).strip().lower().replace(' ', '_').replace('\n', '_') for c in raw.iloc[h]]
+    names, seen = [], {}
+    for i, c in enumerate(raw.iloc[h]):
+        n = str(c).strip().lower().replace(' ', '_').replace('\n', '_')
+        if n in ('', 'nan', 'none'):
+            n = f'col_{i}'
+        seen[n] = seen.get(n, 0) + 1
+        names.append(n if seen[n] == 1 else f'{n}_{seen[n]}')
+    df.columns = names
     df = df[df['county'].fillna('').astype(str).str.strip().str.lower().isin(ERCOT_COUNTIES)]
     df = df.dropna(how='all', axis=1)
     print(f'[ERCOT] sheet {sheet!r}, header found on row {h + 1}, {len(df)} East Texas projects')
