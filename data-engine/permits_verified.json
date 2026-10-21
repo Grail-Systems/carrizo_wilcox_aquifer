@@ -1,10 +1,13 @@
 [
   {
     "title": "Amp Z data center (former Southland/Abitibi paper mill)",
-    "applicant": "AmpZ Champion Data Center Holdings LLC; land owned by Verdant Industries",
-    "bottom_line": "Hwy 103 East at Herty, just outside Lufkin. Public was told about 500 gallons a day. The county abatement application lists water needs as \"TBD\", and city leaders said on record they won't cap water use. Plan: 2.1 GW full build on an option for about 1,041 acres. The city owns the mill's wells (bought 2009); Pineywoods GCD says Amp Z has filed no well permits. District records also include the site's expired permits A0046-A0048. Location: Herty community (approximate).",
+    "applicant": "Amp Z Champion Data Center Holdings LLC; land owned by Verdant Industries LLC and Verdant Industries Realty LLC",
+    "bottom_line": "Hwy 103 East near Herty, just outside Lufkin.<br><br><b>Land:</b> Verdant Industries and Verdant Industries Realty, which bought the mill from Abitibi in 2010 and 2012, granted Amp Z an option on about 1,041 acres (<a href=\"https://lufkindailynews.com/news/local/ai-data-center-planned-on-1-000-acres-at-former-southland-paper-mill-site/article_ff9e97bf-361d-5649-835b-68a75818bd94.html\" target=\"_blank\" rel=\"noopener\">Lufkin Daily News</a>). Corporate records name Eric Estes as Verdant's president; his late father, Harold Estes, managed it from 2014 until his death in 2025 (Lufkin Daily News, Sept. 18, 2026).<br><br><b>Power:</b> Verdant holds a January 2025 state air authorization for 12 natural gas turbines. TCEQ asked whether the emissions could be lowered enough to avoid a more extensive federal review (<a href=\"https://lufkindailynews.com/news/local/not-so-green-light-tceq-asks-amp-z-developer-if-it-can-lower-numbers-to/article_e81c0787-46a6-5dcd-8e8b-57483d36f8b0.html\" target=\"_blank\" rel=\"noopener\">Lufkin Daily News</a>). Full build planned at 2.1 GW.<br><br><b>Water:</b> The public was told about 500 gallons a day. The county abatement application lists water needs as \"TBD,\" and city leaders said on record they won't cap water use. The city owns the mill's wells (bought 2009), and Pineywoods GCD says Amp Z has filed no well permits. Separately, Verdant is renewing the old mill's wastewater permit, which allows discharges averaging up to 5 million gallons a day into Paper Mill Creek, the Angelina River and Sam Rayburn Reservoir.<br><br><b>Taxes:</b> The county rejected Amp Z's 10-year tax abatement request (<a href=\"https://lufkindailynews.com/news/local/angelina-county-to-consider-legal-work-for-amp-z-after-rejecting-tax-abatement-request/article_5d1eca7d-1e08-53b1-8dad-9afc3b1c9c28.html\" target=\"_blank\" rel=\"noopener\">Lufkin Daily News</a>). In 2026 the appraisal district added about $1.8 million in value for existing buildings on two tracts, while most of the land stays taxed at timber value (Angelina CAD property IDs 120149, 29802, 28701).<br><br>District records also list the site's expired permits A0046-A0048. Location approximate.",
     "raw_volume": 3500,
-    "coordinates": [-94.6833, 31.3564],
+    "coordinates": [
+      -94.6833,
+      31.3564
+    ],
     "source_url": "docs/powered_land.pdf"
   },
   {
@@ -12,7 +15,10 @@
     "applicant": "HyperDataGrid (tract bought through Paluxy LandCo)",
     "bottom_line": "Ben Dunn Road off Hwy 103 West. The developer told the groundwater district it would use about 500 gallons a day, then asked for 13 million gallons a year from five wells, just under the 15-million-gallon public-hearing trigger. Source: Pineywoods GCD emails, Aug.-Sept. 2026. Location approximate; exact site not yet mapped.",
     "raw_volume": 1000,
-    "coordinates": [-94.80, 31.33],
+    "coordinates": [
+      -94.8,
+      31.33
+    ],
     "source_url": "docs/powered_land.pdf"
   },
   {
@@ -20,7 +26,10 @@
     "applicant": "WattBridge",
     "bottom_line": "Approved for 80 million gallons a year in late 2024 or early 2025 (never drilled). In March 2026 it switched to 24/7 operation and requested 1.5 billion gallons a year, about 4.1 million gallons a day. On hold since July 2026 at the company's request. Source: Pineywoods GCD general manager. Location approximate; exact site not yet mapped.",
     "raw_volume": 4603,
-    "coordinates": [-94.73, 31.42],
+    "coordinates": [
+      -94.73,
+      31.42
+    ],
     "source_url": "docs/powered_land.pdf"
   }
 ]
