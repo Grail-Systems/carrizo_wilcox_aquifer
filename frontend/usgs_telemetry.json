@@ -1,422 +1,3564 @@
 [
     {
-        "title": "USGS SITE: KH-64-33-920 (Texas City Extensometer)",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>47.71 ft below surface.</span>",
-        "raw_volume": 3578,
+        "title": "TWDB WELL 3445803 (Smith County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>413 ft</span> (measured 2024-02-14). Water level has dropped 260 ft since 1971. 33 measurements on record.",
+        "raw_volume": 30957,
+        "drop_ft": 259.8,
         "coordinates": [
-            -94.8950028,
-            29.416325
-        ]
+            -95.4325,
+            32.2677778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3445803"
     },
     {
-        "title": "USGS SITE: LJ-65-32-428 (Clear Lake Deep Extensometer)",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>131.26 ft below surface.</span>",
-        "raw_volume": 9844,
+        "title": "TWDB WELL 3735401 (Angelina County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, industrial. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>290 ft</span> (measured 2024-07-01). Water level has dropped 234 ft since 1939. 76 measurements on record.",
+        "raw_volume": 21750,
+        "drop_ft": 234.0,
         "coordinates": [
-            -95.1189444,
-            29.56341667
-        ]
+            -94.7122222,
+            31.4316667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3735401"
     },
     {
-        "title": "USGS SITE: LJ-65-32-625 (Seabrook Extensometer)",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>100.09 ft below surface.</span>",
-        "raw_volume": 7506,
+        "title": "TWDB WELL 3460602 (Anderson County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>377 ft</span> (measured 2024-11-06). Water level has dropped 234 ft since 1949. 29 measurements on record.",
+        "raw_volume": 28241,
+        "drop_ft": 233.6,
         "coordinates": [
-            -95.0214556,
-            29.56479444
-        ]
+            -95.5058333,
+            32.0555556
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3460602"
     },
     {
-        "title": "USGS SITE: LJ-65-22-622 (East End Extensometer)",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>178.69 ft below surface.</span>",
-        "raw_volume": 13401,
+        "title": "TWDB WELL 3461902 (Cherokee County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>363 ft</span> (measured 2026-02-10). Water level has dropped 193 ft since 1968. 39 measurements on record.",
+        "raw_volume": 27208,
+        "drop_ft": 192.8,
         "coordinates": [
-            -95.2740556,
-            29.7017222
-        ]
+            -95.3875556,
+            32.0404722
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3461902"
     },
     {
-        "title": "USGS SITE: LJ-65-23-322 (Pasadena Extensometer)",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>107.15 ft below surface.</span>",
-        "raw_volume": 8036,
+        "title": "TWDB WELL 3735701 (Angelina County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>377 ft</span> (measured 2026-04-05). Water level has dropped 188 ft since 1946. 47 measurements on record.",
+        "raw_volume": 28275,
+        "drop_ft": 187.5,
         "coordinates": [
-            -95.159275,
-            29.71015833
-        ]
+            -94.7269444,
+            31.3988889
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3735701"
     },
     {
-        "title": "USGS SITE: LJ-65-21-230 (Southwest Piezometer No. 2)",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>263.71 ft below surface.</span>",
-        "raw_volume": 19778,
+        "title": "TWDB WELL 3429503 (Smith County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>229 ft</span> (measured 2019-11-21). Water level has dropped 185 ft since 1960. 35 measurements on record.",
+        "raw_volume": 17172,
+        "drop_ft": 185.2,
         "coordinates": [
-            -95.4513889,
-            29.7275
-        ]
+            -95.4302778,
+            32.5830556
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3429503"
     },
     {
-        "title": "USGS SITE: Barker Res Piezometer P52 nr Addicks, TX",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>70.35 ft below surface.</span>",
-        "raw_volume": 5276,
+        "title": "TWDB WELL 3461501 (Anderson County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>312 ft</span> (measured 2026-02-10). Water level has dropped 175 ft since 1969. 49 measurements on record.",
+        "raw_volume": 23432,
+        "drop_ft": 175.4,
         "coordinates": [
-            -95.6464444,
-            29.75441667
-        ]
+            -95.4447222,
+            32.0522222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3461501"
     },
     {
-        "title": "USGS SITE: LJ-65-16-930 (Baytown C-1 Extensometer)",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>107.99 ft below surface.</span>",
-        "raw_volume": 8099,
+        "title": "TWDB WELL 3455903 (Smith County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>312 ft</span> (measured 2026-02-26). Water level has dropped 158 ft since 1962. 12 measurements on record.",
+        "raw_volume": 23389,
+        "drop_ft": 157.9,
         "coordinates": [
-            -95.03065,
-            29.75784167
-        ]
+            -95.1286111,
+            32.1441667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3455903"
     },
     {
-        "title": "USGS SITE: LJ-65-16-931 (Baytown C-2 Extensometer)",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>110.28 ft below surface.</span>",
-        "raw_volume": 8271,
+        "title": "TWDB WELL 3450306 (Henderson County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>300 ft</span> (measured 2024-11-05). Water level has dropped 158 ft since 1943. 36 measurements on record.",
+        "raw_volume": 22465,
+        "drop_ft": 157.5,
         "coordinates": [
-            -95.03065,
-            29.75784167
-        ]
+            -95.7910556,
+            32.2406667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3450306"
     },
     {
-        "title": "USGS SITE: Barker Res Piezometer P1B nr Addicks, TX",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>67.93 ft below surface.</span>",
-        "raw_volume": 5094,
+        "title": "TWDB WELL 3806603 (Cherokee County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>520 ft</span> (measured 2026-02-11). Water level has dropped 147 ft since 1965. 29 measurements on record.",
+        "raw_volume": 39000,
+        "drop_ft": 147.0,
         "coordinates": [
-            -95.6461944,
-            29.76405556
-        ]
+            -95.2670028,
+            31.9498611
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3806603"
     },
     {
-        "title": "USGS SITE: Barker Res Piezometer P12 nr Addicks, TX",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>67.59 ft below surface.</span>",
-        "raw_volume": 5069,
+        "title": "TWDB WELL 3438201 (Smith County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>499 ft</span> (measured 2026-02-23). Water level has dropped 134 ft since 1977. 17 measurements on record.",
+        "raw_volume": 37425,
+        "drop_ft": 134.0,
         "coordinates": [
-            -95.6465556,
-            29.76408333
-        ]
+            -95.3016667,
+            32.4697222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3438201"
     },
     {
-        "title": "USGS SITE: Barker Res Piezometer P5 nr Addicks, TX",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>69.03 ft below surface.</span>",
-        "raw_volume": 5177,
+        "title": "TWDB WELL 3810205 (Anderson County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>239 ft</span> (measured 2026-02-13). Water level has dropped 129 ft since 1973. 43 measurements on record.",
+        "raw_volume": 17888,
+        "drop_ft": 128.5,
         "coordinates": [
-            -95.6463056,
-            29.77280556
-        ]
+            -95.8088889,
+            31.8463889
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3810205"
     },
     {
-        "title": "USGS SITE: Barker Res Piezometer P14 nr Addicks, TX",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>77.07 ft below surface.</span>",
-        "raw_volume": 5780,
+        "title": "TWDB WELL 3463107 (Cherokee County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, irrigation. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>200 ft</span> (measured 2026-02-11). Water level has dropped 120 ft since 1993. 6 measurements on record.",
+        "raw_volume": 14982,
+        "drop_ft": 119.8,
         "coordinates": [
-            -95.6466944,
-            29.7728611
-        ]
+            -95.2232778,
+            32.0892
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3463107"
     },
     {
-        "title": "USGS SITE: Barker Res Piezometer P17 nr Addicks, TX",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>73.24 ft below surface.</span>",
-        "raw_volume": 5493,
+        "title": "TWDB WELL 3443603 (Henderson County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>238 ft</span> (measured 2026-02-10). Water level has dropped 118 ft since 1970. 43 measurements on record.",
+        "raw_volume": 17823,
+        "drop_ft": 118.2,
         "coordinates": [
-            -95.6475278,
-            29.78116667
-        ]
+            -95.6599722,
+            32.2939722
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3443603"
     },
     {
-        "title": "USGS SITE: Barker Res Piezometer P3A nr Addicks, TX",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>73.87 ft below surface.</span>",
-        "raw_volume": 5540,
+        "title": "TWDB WELL 3808105 (Cherokee County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>330 ft</span> (measured 2026-02-11). Water level has dropped 108 ft since 1968. 40 measurements on record.",
+        "raw_volume": 24773,
+        "drop_ft": 108.3,
         "coordinates": [
-            -95.6472778,
-            29.7813611
-        ]
+            -95.0906111,
+            31.9761111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3808105"
     },
     {
-        "title": "USGS SITE: Addicks Res Piezometer P24A nr Addicks, TX",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>71.42 ft below surface.</span>",
-        "raw_volume": 5356,
+        "title": "TWDB WELL 3460505 (Henderson County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>261 ft</span> (measured 2026-02-10). Water level has dropped 100 ft since 1972. 37 measurements on record.",
+        "raw_volume": 19566,
+        "drop_ft": 99.6,
         "coordinates": [
-            -95.6008611,
-            29.7901111
-        ]
+            -95.5440556,
+            32.0715
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3460505"
     },
     {
-        "title": "USGS SITE: Addicks Res Piezometer P8 nr Addicks, TX",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>72.36 ft below surface.</span>",
-        "raw_volume": 5427,
+        "title": "TWDB WELL 3813106 (Anderson County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>244 ft</span> (measured 2026-09-30). Water level has dropped 99 ft since 1965. 1972 measurements on record.",
+        "raw_volume": 18327,
+        "drop_ft": 99.4,
         "coordinates": [
-            -95.6064167,
-            29.79013889
-        ]
+            -95.4963889,
+            31.8658333
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3813106"
     },
     {
-        "title": "USGS SITE: Addicks Res Piezometer P23 nr Addicks, TX",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>70.57 ft below surface.</span>",
-        "raw_volume": 5292,
+        "title": "TWDB WELL 3442403 (Henderson County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>248 ft</span> (measured 2026-02-10). Water level has dropped 82 ft since 1970. 38 measurements on record.",
+        "raw_volume": 18588,
+        "drop_ft": 82.0,
         "coordinates": [
-            -95.60725,
-            29.79013889
-        ]
+            -95.8489167,
+            32.29675
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3442403"
     },
     {
-        "title": "USGS SITE: Addicks Res Piezometer P18 nr Addicks, TX",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>70.78 ft below surface.</span>",
-        "raw_volume": 5308,
+        "title": "TWDB WELL 3733202 (Cherokee County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>209 ft</span> (measured 2026-02-11). Water level has dropped 81 ft since 1955. 37 measurements on record.",
+        "raw_volume": 15711,
+        "drop_ft": 81.5,
         "coordinates": [
-            -95.6160833,
-            29.7901222
-        ]
+            -94.9419444,
+            31.4880278
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3733202"
     },
     {
-        "title": "USGS SITE: Addicks Res Piezometer P10 nr Addicks, TX",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>72.19 ft below surface.</span>",
-        "raw_volume": 5414,
+        "title": "TWDB WELL 3430907 (Smith County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>381 ft</span> (measured 2026-09-30). Water level has dropped 81 ft since 1977. 3699 measurements on record.",
+        "raw_volume": 28552,
+        "drop_ft": 80.7,
         "coordinates": [
-            -95.6008611,
-            29.79019444
-        ]
+            -95.2627778,
+            32.5316667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3430907"
     },
     {
-        "title": "USGS SITE: Addicks Res Piezometer P17 nr Addicks, TX",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>71.81 ft below surface.</span>",
-        "raw_volume": 5385,
+        "title": "TWDB WELL 3448203 (Smith County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>345 ft</span> (measured 2026-02-23). Water level has dropped 79 ft since 1960. 7 measurements on record.",
+        "raw_volume": 25900,
+        "drop_ft": 79.3,
         "coordinates": [
-            -95.6160556,
-            29.79033333
-        ]
+            -95.0433333,
+            32.3388889
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3448203"
     },
     {
-        "title": "USGS SITE: Addicks Res Piezometer P2 nr Addicks, TX",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>78.77 ft below surface.</span>",
-        "raw_volume": 5907,
+        "title": "TWDB WELL 3456207 (Smith County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, industrial. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>275 ft</span> (measured 2026-02-23). Water level has dropped 75 ft since 1965. 30 measurements on record.",
+        "raw_volume": 20609,
+        "drop_ft": 74.8,
         "coordinates": [
-            -95.6313056,
-            29.79027778
-        ]
+            -95.0694444,
+            32.22
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3456207"
     },
     {
-        "title": "USGS SITE: Addicks Res Piezometer P42 nr Addicks, TX",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>78.71 ft below surface.</span>",
-        "raw_volume": 5903,
+        "title": "TWDB WELL 3703201 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>192 ft</span> (measured 2026-03-04). Water level has dropped 72 ft since 1979. 27 measurements on record.",
+        "raw_volume": 14384,
+        "drop_ft": 71.8,
         "coordinates": [
-            -95.6455556,
-            29.79038889
-        ]
+            -94.6697222,
+            31.9605556
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3703201"
     },
     {
-        "title": "USGS SITE: LJ-65-12-725 (Addicks Piezometer No. 2)",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>13.92 ft below surface.</span>",
-        "raw_volume": 1044,
+        "title": "TWDB WELL 3812502 (Anderson County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>215 ft</span> (measured 2026-02-12). Water level has dropped 69 ft since 1972. 34 measurements on record.",
+        "raw_volume": 16148,
+        "drop_ft": 69.3,
         "coordinates": [
-            -95.5866667,
-            29.79083333
-        ]
+            -95.5788889,
+            31.8052778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3812502"
     },
     {
-        "title": "USGS SITE: LJ-65-12-726 (Addicks Extensometer)",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>367.86 ft below surface.</span>",
-        "raw_volume": 27589,
+        "title": "TWDB WELL 3550801 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>338 ft</span> (measured 2026-03-03). Water level has dropped 63 ft since 1947. 43 measurements on record.",
+        "raw_volume": 25313,
+        "drop_ft": 62.5,
         "coordinates": [
-            -95.5861389,
-            29.79069444
-        ]
+            -94.7936111,
+            32.1508333
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3550801"
     },
     {
-        "title": "USGS SITE: LJ-65-12-729 (Addicks Piezometer No. 1)",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>151.87 ft below surface.</span>",
-        "raw_volume": 11390,
+        "title": "TWDB WELL 3547502 (Panola County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>92 ft</span> (measured 2025-12-02). Water level has dropped 60 ft since 1965. 41 measurements on record.",
+        "raw_volume": 6937,
+        "drop_ft": 60.5,
         "coordinates": [
-            -95.5866667,
-            29.79083333
-        ]
+            -94.1830556,
+            32.3297222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3547502"
     },
     {
-        "title": "USGS SITE: Addicks Res Piezometer P36 nr Addicks, TX",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>79.46 ft below surface.</span>",
-        "raw_volume": 5959,
+        "title": "TWDB WELL 3712804 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>220 ft</span> (measured 2025-12-28). Water level has dropped 58 ft since 1971. 48 measurements on record.",
+        "raw_volume": 16500,
+        "drop_ft": 58.1,
         "coordinates": [
-            -95.6008889,
-            29.79063889
-        ]
+            -94.5627778,
+            31.7894444
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3712804"
     },
     {
-        "title": "USGS SITE: Addicks Res Piezometer P35 nr Addicks, TX",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>79.14 ft below surface.</span>",
-        "raw_volume": 5935,
+        "title": "TWDB WELL 3810111 (Anderson County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>310 ft</span> (measured 2026-02-12). Water level has dropped 57 ft since 1981. 24 measurements on record.",
+        "raw_volume": 23245,
+        "drop_ft": 56.9,
         "coordinates": [
-            -95.6064167,
-            29.7906111
-        ]
+            -95.8473611,
+            31.8605111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3810111"
     },
     {
-        "title": "USGS SITE: Addicks Res Piezometer P1 nr Addicks, TX",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>71.01 ft below surface.</span>",
-        "raw_volume": 5325,
+        "title": "TWDB WELL 3558408 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>139 ft</span> (measured 2020-06-05). Water level has dropped 54 ft since 2009. 42 measurements on record.",
+        "raw_volume": 10432,
+        "drop_ft": 53.9,
         "coordinates": [
-            -95.6313333,
-            29.7906111
-        ]
+            -94.8433333,
+            32.0719444
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3558408"
     },
     {
-        "title": "USGS SITE: Addicks Res Piezometer P45 nr Addicks, TX",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>76.05 ft below surface.</span>",
-        "raw_volume": 5703,
+        "title": "TWDB WELL 3441406 (Henderson County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>132 ft</span> (measured 2026-02-10). Water level has dropped 53 ft since 1970. 30 measurements on record.",
+        "raw_volume": 9928,
+        "drop_ft": 53.4,
         "coordinates": [
-            -95.6441667,
-            29.79055556
-        ]
+            -95.9819722,
+            32.2944167
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3441406"
     },
     {
-        "title": "USGS SITE: Addicks Res Piezometer P41 nr Addicks, TX",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>78.9 ft below surface.</span>",
-        "raw_volume": 5917,
+        "title": "TWDB WELL 3550706 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>170 ft</span> (measured 2023-06-01). Water level has dropped 53 ft since 2009. 48 measurements on record.",
+        "raw_volume": 12720,
+        "drop_ft": 52.6,
         "coordinates": [
-            -95.6455278,
-            29.79077778
-        ]
+            -94.8510278,
+            32.1540278
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3550706"
     },
     {
-        "title": "USGS SITE: Addicks Res Piezometer P40A nr Addicks, TX",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>78.1 ft below surface.</span>",
-        "raw_volume": 5857,
+        "title": "TWDB WELL 3463501 (Cherokee County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>148 ft</span> (measured 2026-02-11). Water level has dropped 48 ft since 1982. 36 measurements on record.",
+        "raw_volume": 11091,
+        "drop_ft": 48.4,
         "coordinates": [
-            -95.6533056,
-            29.79052778
-        ]
+            -95.1820833,
+            32.0608333
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3463501"
     },
     {
-        "title": "USGS SITE: Addicks Res Piezometer P46 nr Addicks, TX",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>76.13 ft below surface.</span>",
-        "raw_volume": 5709,
+        "title": "TWDB WELL 3802402 (Anderson County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, plugged or destroyed. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>200 ft</span> (measured 2020-11-03). Water level has dropped 45 ft since 1969. 45 measurements on record.",
+        "raw_volume": 14997,
+        "drop_ft": 45.0,
         "coordinates": [
-            -95.6441667,
-            29.79083333
-        ]
+            -95.8483333,
+            31.9336111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3802402"
     },
     {
-        "title": "USGS SITE: Addicks Res Piezometer P39 nr Addicks, TX",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>78.19 ft below surface.</span>",
-        "raw_volume": 5864,
+        "title": "TWDB WELL 3823406 (Cherokee County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>171 ft</span> (measured 2026-02-12). Water level has dropped 38 ft since 1976. 42 measurements on record.",
+        "raw_volume": 12850,
+        "drop_ft": 38.5,
         "coordinates": [
-            -95.6533333,
-            29.79083333
-        ]
+            -95.2145556,
+            31.6885556
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3823406"
     },
     {
-        "title": "USGS SITE: LJ-65-14-738 (Northeast Piezometer No. 4)",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>177.26 ft below surface.</span>",
-        "raw_volume": 13294,
+        "title": "TWDB WELL 3348616 (Henderson County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, irrigation. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>108 ft</span> (measured 2026-02-10). Water level has dropped 38 ft since 1985. 27 measurements on record.",
+        "raw_volume": 8103,
+        "drop_ft": 38.0,
         "coordinates": [
-            -95.3338889,
-            29.79138889
-        ]
+            -96.0098611,
+            32.30225
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3348616"
     },
     {
-        "title": "USGS SITE: LJ-65-14-746 (Northeast Extensometer)",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>253.2 ft below surface.</span>",
-        "raw_volume": 18990,
+        "title": "TWDB WELL 3709102 (Cherokee County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>67 ft</span> (measured 2026-02-11). Water level has dropped 37 ft since 1965. 52 measurements on record.",
+        "raw_volume": 5033,
+        "drop_ft": 37.1,
         "coordinates": [
-            -95.3339722,
-            29.79088889
-        ]
+            -94.9886667,
+            31.8621389
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3709102"
     },
     {
-        "title": "USGS SITE: LJ-65-07-905 (Lake Houston Piezometer No. 2)",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>101.13 ft below surface.</span>",
+        "title": "TWDB WELL 3542704 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>53 ft</span> (measured 2020-06-03). Water level has dropped 34 ft since 2009. 44 measurements on record.",
+        "raw_volume": 3975,
+        "drop_ft": 34.3,
+        "coordinates": [
+            -94.8527778,
+            32.2650278
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3542704"
+    },
+    {
+        "title": "TWDB WELL 3730801 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>20 ft</span> (measured 2023-11-15). Water level has dropped 32 ft since 1949. 182 measurements on record.",
+        "raw_volume": 1522,
+        "drop_ft": 31.8,
+        "coordinates": [
+            -94.3080556,
+            31.5044444
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3730801"
+    },
+    {
+        "title": "TWDB WELL 3819802 (Anderson County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>110 ft</span> (measured 2026-02-12). Water level has dropped 32 ft since 1960. 46 measurements on record.",
+        "raw_volume": 8261,
+        "drop_ft": 31.7,
+        "coordinates": [
+            -95.685,
+            31.6569444
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3819802"
+    },
+    {
+        "title": "TWDB WELL 3547503 (Panola County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>87 ft</span> (measured 2025-12-02). Water level has dropped 30 ft since 2001. 26 measurements on record.",
+        "raw_volume": 6510,
+        "drop_ft": 30.3,
+        "coordinates": [
+            -94.18,
+            32.3208333
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3547503"
+    },
+    {
+        "title": "TWDB WELL 3429902 (Smith County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>262 ft</span> (measured 2026-02-23). Water level has dropped 26 ft since 1962. 32 measurements on record.",
+        "raw_volume": 19659,
+        "drop_ft": 26.1,
+        "coordinates": [
+            -95.4097222,
+            32.5172222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3429902"
+    },
+    {
+        "title": "TWDB WELL 3815607 (Cherokee County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>505 ft</span> (measured 2024-11-07). Water level has dropped 26 ft since 1969. 30 measurements on record.",
+        "raw_volume": 37875,
+        "drop_ft": 26.0,
+        "coordinates": [
+            -95.1618056,
+            31.8069167
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3815607"
+    },
+    {
+        "title": "TWDB WELL 3820106 (Anderson County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>365 ft</span> (measured 2026-02-13). Water level has dropped 25 ft since 1999. 2 measurements on record.",
+        "raw_volume": 27388,
+        "drop_ft": 25.2,
+        "coordinates": [
+            -95.5836111,
+            31.7086111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3820106"
+    },
+    {
+        "title": "TWDB WELL 3735504 (Angelina County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, industrial. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>192 ft</span> (measured 2023-07-05). Water level has dropped 25 ft since 1943. 68 measurements on record.",
+        "raw_volume": 14400,
+        "drop_ft": 24.8,
+        "coordinates": [
+            -94.7011111,
+            31.4261111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3735504"
+    },
+    {
+        "title": "TWDB WELL 3719301 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>109 ft</span> (measured 2023-11-16). Water level has dropped 24 ft since 1945. 42 measurements on record.",
+        "raw_volume": 8175,
+        "drop_ft": 24.0,
+        "coordinates": [
+            -94.6416667,
+            31.7175
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3719301"
+    },
+    {
+        "title": "TWDB WELL 3559902 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>201 ft</span> (measured 2026-03-04). Water level has dropped 23 ft since 1972. 33 measurements on record.",
+        "raw_volume": 15070,
+        "drop_ft": 22.7,
+        "coordinates": [
+            -94.6641667,
+            32.0097222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3559902"
+    },
+    {
+        "title": "TWDB WELL 3735702 (Angelina County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>258 ft</span> (measured 2026-04-05). Water level has dropped 23 ft since 1948. 62 measurements on record.",
+        "raw_volume": 19350,
+        "drop_ft": 22.7,
+        "coordinates": [
+            -94.7386111,
+            31.405
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3735702"
+    },
+    {
+        "title": "TWDB WELL 3816803 (Cherokee County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>212 ft</span> (measured 2026-02-11). Water level has dropped 22 ft since 1973. 45 measurements on record.",
+        "raw_volume": 15917,
+        "drop_ft": 22.2,
+        "coordinates": [
+            -95.0533333,
+            31.7641111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3816803"
+    },
+    {
+        "title": "TWDB WELL 3829802 (Houston County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>302 ft</span> (measured 2025-11-14). Water level has dropped 22 ft since 1980. 3 measurements on record.",
+        "raw_volume": 22612,
+        "drop_ft": 21.5,
+        "coordinates": [
+            -95.4561111,
+            31.5077778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3829802"
+    },
+    {
+        "title": "TWDB WELL 3721701 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>133 ft</span> (measured 2025-11-28). Water level has dropped 21 ft since 1949. 147 measurements on record.",
+        "raw_volume": 9975,
+        "drop_ft": 21.4,
+        "coordinates": [
+            -94.4636111,
+            31.6277778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3721701"
+    },
+    {
+        "title": "TWDB WELL 3717909 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>233 ft</span> (measured 2024-01-23). Water level has dropped 20 ft since 2008. 2 measurements on record.",
+        "raw_volume": 17475,
+        "drop_ft": 20.0,
+        "coordinates": [
+            -94.8938889,
+            31.6261111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3717909"
+    },
+    {
+        "title": "TWDB WELL 3732709 (San Augustine County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>70 ft</span> (measured 2025-11-13). Water level has dropped 19 ft since 1998. 24 measurements on record.",
+        "raw_volume": 5286,
+        "drop_ft": 19.1,
+        "coordinates": [
+            -94.1077778,
+            31.5105556
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3732709"
+    },
+    {
+        "title": "TWDB WELL 3544601 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>58 ft</span> (measured 2026-03-03). Water level has dropped 19 ft since 1939. 39 measurements on record.",
+        "raw_volume": 4321,
+        "drop_ft": 18.6,
+        "coordinates": [
+            -94.5127778,
+            32.3141667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3544601"
+    },
+    {
+        "title": "TWDB WELL 3735403 (Angelina County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, industrial. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>327 ft</span> (measured 2026-04-05). Water level has dropped 18 ft since 2014. 9 measurements on record.",
+        "raw_volume": 24525,
+        "drop_ft": 18.0,
+        "coordinates": [
+            -94.7357639,
+            31.4347056
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3735403"
+    },
+    {
+        "title": "TWDB WELL 3443108 (Henderson County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>200 ft</span> (measured 2026-02-10). Water level has dropped 17 ft since 2013. 4 measurements on record.",
+        "raw_volume": 14971,
+        "drop_ft": 16.6,
+        "coordinates": [
+            -95.7194444,
+            32.3397222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3443108"
+    },
+    {
+        "title": "TWDB WELL 3544204 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>47 ft</span> (measured 2020-06-04). Water level has dropped 16 ft since 2010. 37 measurements on record.",
+        "raw_volume": 3510,
+        "drop_ft": 16.5,
+        "coordinates": [
+            -94.5505,
+            32.3733611
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3544204"
+    },
+    {
+        "title": "TWDB WELL 3457405 (Henderson County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, irrigation. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>115 ft</span> (measured 2026-02-12). Water level has dropped 16 ft since 1989. 36 measurements on record.",
+        "raw_volume": 8631,
+        "drop_ft": 15.9,
+        "coordinates": [
+            -95.9676667,
+            32.0539722
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3457405"
+    },
+    {
+        "title": "TWDB WELL 3801102 (Anderson County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>70 ft</span> (measured 2026-02-12). Water level has dropped 16 ft since 1970. 50 measurements on record.",
+        "raw_volume": 5218,
+        "drop_ft": 15.9,
+        "coordinates": [
+            -95.9980556,
+            31.9672222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3801102"
+    },
+    {
+        "title": "TWDB WELL 3553702 (Panola County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>46 ft</span> (measured 2025-11-19). Water level has dropped 14 ft since 1977. 40 measurements on record.",
+        "raw_volume": 3465,
+        "drop_ft": 14.2,
+        "coordinates": [
+            -94.4925,
+            32.150834
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3553702"
+    },
+    {
+        "title": "TWDB WELL 3820104 (Anderson County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>311 ft</span> (measured 2026-02-13). Water level has dropped 14 ft since 1964. 4 measurements on record.",
+        "raw_volume": 23338,
+        "drop_ft": 14.2,
+        "coordinates": [
+            -95.6016667,
+            31.7452778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3820104"
+    },
+    {
+        "title": "TWDB WELL 3348615 (Henderson County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>85 ft</span> (measured 2018-11-12). Water level has dropped 13 ft since 1976. 23 measurements on record.",
+        "raw_volume": 6365,
+        "drop_ft": 13.0,
+        "coordinates": [
+            -96.0230833,
+            32.2945
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3348615"
+    },
+    {
+        "title": "TWDB WELL 3542209 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>215 ft</span> (measured 2024-12-01). Water level has dropped 12 ft since 2009. 119 measurements on record.",
+        "raw_volume": 16102,
+        "drop_ft": 12.1,
+        "coordinates": [
+            -94.82175,
+            32.3395833
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3542209"
+    },
+    {
+        "title": "TWDB WELL 3727808 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>273 ft</span> (measured 2024-12-30). Water level has dropped 12 ft since 2021. 8 measurements on record.",
+        "raw_volume": 20456,
+        "drop_ft": 11.8,
+        "coordinates": [
+            -94.7022222,
+            31.5091667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3727808"
+    },
+    {
+        "title": "TWDB WELL 3542208 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>193 ft</span> (measured 2024-12-01). Water level has dropped 11 ft since 2009. 55 measurements on record.",
+        "raw_volume": 14497,
+        "drop_ft": 10.9,
+        "coordinates": [
+            -94.8180833,
+            32.3628056
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3542208"
+    },
+    {
+        "title": "TWDB WELL 3707401 (Shelby County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>174 ft</span> (measured 2017-11-01). Water level has dropped 10 ft since 2006. 8 measurements on record.",
+        "raw_volume": 13056,
+        "drop_ft": 10.1,
+        "coordinates": [
+            -94.2447222,
+            31.9433333
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3707401"
+    },
+    {
+        "title": "TWDB WELL 3560502 (Panola County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>87 ft</span> (measured 2025-11-19). Water level has dropped 10 ft since 1977. 42 measurements on record.",
+        "raw_volume": 6495,
+        "drop_ft": 9.8,
+        "coordinates": [
+            -94.565278,
+            32.060834
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3560502"
+    },
+    {
+        "title": "TWDB WELL 3559601 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>102 ft</span> (measured 2024-11-20). Water level has dropped 10 ft since 1977. 37 measurements on record.",
+        "raw_volume": 7672,
+        "drop_ft": 9.6,
+        "coordinates": [
+            -94.6347222,
+            32.0580556
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3559601"
+    },
+    {
+        "title": "TWDB WELL 3728203 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>145 ft</span> (measured 2024-12-09). Water level has dropped 9 ft since 2021. 6 measurements on record.",
+        "raw_volume": 10882,
+        "drop_ft": 8.9,
+        "coordinates": [
+            -94.5791889,
+            31.59635
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3728203"
+    },
+    {
+        "title": "TWDB WELL 3541907 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>154 ft</span> (measured 2024-12-01). Water level has dropped 9 ft since 2010. 64 measurements on record.",
+        "raw_volume": 11527,
+        "drop_ft": 8.7,
+        "coordinates": [
+            -94.8839444,
+            32.2862778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3541907"
+    },
+    {
+        "title": "TWDB WELL 3541604 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>175 ft</span> (measured 2026-09-30). Water level has dropped 9 ft since 2010. 2422 measurements on record.",
+        "raw_volume": 13109,
+        "drop_ft": 8.6,
+        "coordinates": [
+            -94.8752778,
+            32.2980556
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3541604"
+    },
+    {
+        "title": "TWDB WELL 3542805 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>116 ft</span> (measured 2020-06-03). Water level has dropped 8 ft since 2009. 44 measurements on record.",
+        "raw_volume": 8685,
+        "drop_ft": 8.3,
+        "coordinates": [
+            -94.8231944,
+            32.2872222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3542805"
+    },
+    {
+        "title": "TWDB WELL 3839701 (Houston County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>132 ft</span> (measured 2025-11-12). Water level has dropped 8 ft since 1963. 47 measurements on record.",
+        "raw_volume": 9863,
+        "drop_ft": 8.2,
+        "coordinates": [
+            -95.2494444,
+            31.3791667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3839701"
+    },
+    {
+        "title": "TWDB WELL 3727805 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>249 ft</span> (measured 2026-06-23). Water level has dropped 8 ft since 2021. 9 measurements on record.",
+        "raw_volume": 18675,
+        "drop_ft": 8.0,
+        "coordinates": [
+            -94.6977778,
+            31.52
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3727805"
+    },
+    {
+        "title": "TWDB WELL 3704301 (Panola County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>71 ft</span> (measured 2025-12-03). Water level has dropped 8 ft since 1972. 153 measurements on record.",
+        "raw_volume": 5302,
+        "drop_ft": 7.7,
+        "coordinates": [
+            -94.5386111,
+            31.9736111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3704301"
+    },
+    {
+        "title": "TWDB WELL 3710703 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>148 ft</span> (measured 2025-12-28). Water level has dropped 8 ft since 1968. 45 measurements on record.",
+        "raw_volume": 11062,
+        "drop_ft": 7.5,
+        "coordinates": [
+            -94.8604278,
+            31.786632
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3710703"
+    },
+    {
+        "title": "TWDB WELL 3541605 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>216 ft</span> (measured 2024-12-01). Water level has dropped 7 ft since 2010. 61 measurements on record.",
+        "raw_volume": 16170,
+        "drop_ft": 7.4,
+        "coordinates": [
+            -94.8869444,
+            32.3011111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3541605"
+    },
+    {
+        "title": "TWDB WELL 3706401 (Shelby County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, stock. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>52 ft</span> (measured 2026-03-05). Water level has dropped 7 ft since 1972. 49 measurements on record.",
+        "raw_volume": 3889,
+        "drop_ft": 7.0,
+        "coordinates": [
+            -94.3467778,
+            31.9164444
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3706401"
+    },
+    {
+        "title": "TWDB WELL 3543501 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>61 ft</span> (measured 2026-03-03). Water level has dropped 7 ft since 1976. 47 measurements on record.",
+        "raw_volume": 4579,
+        "drop_ft": 6.9,
+        "coordinates": [
+            -94.6997222,
+            32.3144444
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3543501"
+    },
+    {
+        "title": "TWDB WELL 3558306 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>261 ft</span> (measured 2020-06-08). Water level has dropped 7 ft since 2010. 42 measurements on record.",
+        "raw_volume": 19560,
+        "drop_ft": 6.9,
+        "coordinates": [
+            -94.7883333,
+            32.1075
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3558306"
+    },
+    {
+        "title": "TWDB WELL 3702301 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>132 ft</span> (measured 2024-11-20). Water level has dropped 7 ft since 1976. 38 measurements on record.",
+        "raw_volume": 9872,
+        "drop_ft": 6.5,
+        "coordinates": [
+            -94.7683333,
+            31.9911111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3702301"
+    },
+    {
+        "title": "TWDB WELL 3543203 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>108 ft</span> (measured 2020-12-17). Water level has dropped 6 ft since 2010. 45 measurements on record.",
+        "raw_volume": 8115,
+        "drop_ft": 6.4,
+        "coordinates": [
+            -94.6988889,
+            32.3619167
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3543203"
+    },
+    {
+        "title": "TWDB WELL 3625802 (Sabine County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>37 ft</span> (measured 2025-11-13). Water level has dropped 6 ft since 1942. 52 measurements on record.",
+        "raw_volume": 2746,
+        "drop_ft": 6.2,
+        "coordinates": [
+            -93.9180556,
+            31.5158333
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3625802"
+    },
+    {
+        "title": "TWDB WELL 3557311 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>157 ft</span> (measured 2020-06-05). Water level has dropped 6 ft since 2010. 41 measurements on record.",
+        "raw_volume": 11767,
+        "drop_ft": 6.1,
+        "coordinates": [
+            -94.8827778,
+            32.1013889
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3557311"
+    },
+    {
+        "title": "TWDB WELL 3713105 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>76 ft</span> (measured 2025-12-01). Water level has dropped 6 ft since 2009. 66 measurements on record.",
+        "raw_volume": 5677,
+        "drop_ft": 6.0,
+        "coordinates": [
+            -94.4786111,
+            31.8572222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3713105"
+    },
+    {
+        "title": "TWDB WELL 3464302 (Cherokee County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>49 ft</span> (measured 2026-02-11). Water level has dropped 6 ft since 1971. 43 measurements on record.",
+        "raw_volume": 3659,
+        "drop_ft": 5.9,
+        "coordinates": [
+            -95.0209167,
+            32.1045833
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3464302"
+    },
+    {
+        "title": "TWDB WELL 3824806 (Cherokee County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>271 ft</span> (measured 2018-11-14). Water level has dropped 6 ft since 1986. 19 measurements on record.",
+        "raw_volume": 20308,
+        "drop_ft": 5.8,
+        "coordinates": [
+            -95.0806111,
+            31.6561667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3824806"
+    },
+    {
+        "title": "TWDB WELL 3610701 (Shelby County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>8 ft</span> (measured 2026-03-05). Water level has dropped 6 ft since 1972. 51 measurements on record.",
+        "raw_volume": 1000,
+        "drop_ft": 5.6,
+        "coordinates": [
+            -93.86,
+            31.7722222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3610701"
+    },
+    {
+        "title": "TWDB WELL 3708701 (Shelby County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>14 ft</span> (measured 2026-03-05). Water level has dropped 6 ft since 1972. 52 measurements on record.",
+        "raw_volume": 1024,
+        "drop_ft": 5.6,
+        "coordinates": [
+            -94.0858333,
+            31.8913889
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3708701"
+    },
+    {
+        "title": "TWDB WELL 3625504 (Sabine County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>10 ft</span> (measured 2025-11-13). Water level has dropped 5 ft since 1964. 49 measurements on record.",
+        "raw_volume": 1000,
+        "drop_ft": 5.5,
+        "coordinates": [
+            -93.9194444,
+            31.5686111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3625504"
+    },
+    {
+        "title": "TWDB WELL 3557512 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>151 ft</span> (measured 2024-12-01). Water level has dropped 5 ft since 2010. 121 measurements on record.",
+        "raw_volume": 11340,
+        "drop_ft": 5.2,
+        "coordinates": [
+            -94.919,
+            32.0778333
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3557512"
+    },
+    {
+        "title": "TWDB WELL 3542507 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>137 ft</span> (measured 2020-06-03). Water level has dropped 5 ft since 2010. 41 measurements on record.",
+        "raw_volume": 10245,
+        "drop_ft": 5.1,
+        "coordinates": [
+            -94.8046944,
+            32.3061667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3542507"
+    },
+    {
+        "title": "TWDB WELL 3557308 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>118 ft</span> (measured 2024-12-01). Water level has dropped 5 ft since 2010. 58 measurements on record.",
+        "raw_volume": 8865,
+        "drop_ft": 5.1,
+        "coordinates": [
+            -94.887,
+            32.0898056
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3557308"
+    },
+    {
+        "title": "TWDB WELL 3542503 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>179 ft</span> (measured 2020-06-03). Water level has dropped 5 ft since 2010. 41 measurements on record.",
+        "raw_volume": 13440,
+        "drop_ft": 4.9,
+        "coordinates": [
+            -94.8008889,
+            32.3088056
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3542503"
+    },
+    {
+        "title": "TWDB WELL 3558405 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>140 ft</span> (measured 2026-09-30). Water level has dropped 5 ft since 2011. 2336 measurements on record.",
+        "raw_volume": 10472,
+        "drop_ft": 4.8,
+        "coordinates": [
+            -94.8741667,
+            32.0786111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3558405"
+    },
+    {
+        "title": "TWDB WELL 3742102 (Angelina County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, test well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>244 ft</span> (measured 2026-09-30). Water level has dropped 5 ft since 2025. 594 measurements on record.",
+        "raw_volume": 18307,
+        "drop_ft": 4.7,
+        "coordinates": [
+            -94.8677111,
+            31.3727694
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3742102"
+    },
+    {
+        "title": "TWDB WELL 3555901 (Panola County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>66 ft</span> (measured 2025-11-20). Water level has dropped 5 ft since 1977. 50 measurements on record.",
+        "raw_volume": 4927,
+        "drop_ft": 4.5,
+        "coordinates": [
+            -94.146111,
+            32.142778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3555901"
+    },
+    {
+        "title": "TWDB WELL 3704601 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>34 ft</span> (measured 2026-03-04). Water level has dropped 4 ft since 1976. 43 measurements on record.",
+        "raw_volume": 2516,
+        "drop_ft": 4.5,
+        "coordinates": [
+            -94.5311111,
+            31.9241667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3704601"
+    },
+    {
+        "title": "TWDB WELL 3558407 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>188 ft</span> (measured 2024-12-01). Water level has dropped 4 ft since 2017. 31 measurements on record.",
+        "raw_volume": 14070,
+        "drop_ft": 4.2,
+        "coordinates": [
+            -94.8636111,
+            32.0452778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3558407"
+    },
+    {
+        "title": "TWDB WELL 3546703 (Panola County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, irrigation. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>56 ft</span> (measured 2025-11-19). Water level has dropped 4 ft since 2001. 23 measurements on record.",
+        "raw_volume": 4185,
+        "drop_ft": 3.8,
+        "coordinates": [
+            -94.374722,
+            32.283611
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3546703"
+    },
+    {
+        "title": "TWDB WELL 3557602 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>92 ft</span> (measured 2024-12-01). Water level has dropped 3 ft since 2017. 32 measurements on record.",
+        "raw_volume": 6870,
+        "drop_ft": 3.4,
+        "coordinates": [
+            -94.9022222,
+            32.055
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3557602"
+    },
+    {
+        "title": "TWDB WELL 3559702 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>238 ft</span> (measured 2017-09-26). Only one measurement on record. 2 measurements on record.",
+        "raw_volume": 17835,
+        "drop_ft": 3.4,
+        "coordinates": [
+            -94.7243611,
+            32.0017222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3559702"
+    },
+    {
+        "title": "TWDB WELL 3740307 (San Augustine County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, industrial. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>56 ft</span> (measured 2025-11-13). Water level has dropped 3 ft since 2021. 4 measurements on record.",
+        "raw_volume": 4236,
+        "drop_ft": 3.4,
+        "coordinates": [
+            -94.0129444,
+            31.494
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3740307"
+    },
+    {
+        "title": "TWDB WELL 3712305 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>81 ft</span> (measured 2025-06-01). Water level has dropped 3 ft since 2018. 33 measurements on record.",
+        "raw_volume": 6097,
+        "drop_ft": 3.3,
+        "coordinates": [
+            -94.5147222,
+            31.8744444
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3712305"
+    },
+    {
+        "title": "TWDB WELL 3559404 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, stock. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>170 ft</span> (measured 2020-06-08). Water level has dropped 3 ft since 2010. 39 measurements on record.",
+        "raw_volume": 12727,
+        "drop_ft": 3.1,
+        "coordinates": [
+            -94.7297222,
+            32.0491667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3559404"
+    },
+    {
+        "title": "TWDB WELL 3702905 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>122 ft</span> (measured 2026-09-30). Water level has dropped 3 ft since 2009. 2559 measurements on record.",
+        "raw_volume": 9114,
+        "drop_ft": 2.6,
+        "coordinates": [
+            -94.7702778,
+            31.8938889
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3702905"
+    },
+    {
+        "title": "TWDB WELL 3542804 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>109 ft</span> (measured 2024-12-01). Water level has dropped 2 ft since 2010. 57 measurements on record.",
+        "raw_volume": 8160,
+        "drop_ft": 2.4,
+        "coordinates": [
+            -94.8150278,
+            32.2821944
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3542804"
+    },
+    {
+        "title": "TWDB WELL 3558602 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>126 ft</span> (measured 2020-06-08). Water level has dropped 2 ft since 2009. 43 measurements on record.",
+        "raw_volume": 9450,
+        "drop_ft": 2.4,
+        "coordinates": [
+            -94.7655556,
+            32.0602778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3558602"
+    },
+    {
+        "title": "TWDB WELL 3535402 (Gregg County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>86 ft</span> (measured 2026-02-24). Water level has dropped 2 ft since 1955. 51 measurements on record.",
+        "raw_volume": 6473,
+        "drop_ft": 2.3,
+        "coordinates": [
+            -94.7261111,
+            32.4566667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3535402"
+    },
+    {
+        "title": "TWDB WELL 3543404 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>107 ft</span> (measured 2024-12-01). Water level has dropped 2 ft since 2010. 55 measurements on record.",
+        "raw_volume": 8002,
+        "drop_ft": 2.3,
+        "coordinates": [
+            -94.7413889,
+            32.2986944
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3543404"
+    },
+    {
+        "title": "TWDB WELL 3713108 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>90 ft</span> (measured 2025-12-01). Water level has dropped 2 ft since 2018. 31 measurements on record.",
+        "raw_volume": 6720,
+        "drop_ft": 2.3,
+        "coordinates": [
+            -94.4936111,
+            31.8602778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3713108"
+    },
+    {
+        "title": "TWDB WELL 3550606 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>237 ft</span> (measured 2019-06-13). Water level has dropped 2 ft since 2010. 36 measurements on record.",
+        "raw_volume": 17760,
+        "drop_ft": 2.1,
+        "coordinates": [
+            -94.7576111,
+            32.1673611
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3550606"
+    },
+    {
+        "title": "TWDB WELL 3558503 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>241 ft</span> (measured 2020-06-08). Water level has dropped 2 ft since 2009. 43 measurements on record.",
+        "raw_volume": 18060,
+        "drop_ft": 2.1,
+        "coordinates": [
+            -94.7947222,
+            32.0625
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3558503"
+    },
+    {
+        "title": "TWDB WELL 3704902 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>88 ft</span> (measured 2025-12-01). Water level has dropped 2 ft since 2018. 97 measurements on record.",
+        "raw_volume": 6585,
+        "drop_ft": 2.0,
+        "coordinates": [
+            -94.5188889,
+            31.8869444
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3704902"
+    },
+    {
+        "title": "TWDB WELL 3705703 (Shelby County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>72 ft</span> (measured 2026-03-04). Water level has dropped 2 ft since 1984. 37 measurements on record.",
+        "raw_volume": 5399,
+        "drop_ft": 2.0,
+        "coordinates": [
+            -94.4669444,
+            31.9158333
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3705703"
+    },
+    {
+        "title": "TWDB WELL 3706101 (Shelby County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>76 ft</span> (measured 2024-11-20). Water level has dropped 2 ft since 1984. 36 measurements on record.",
+        "raw_volume": 5691,
+        "drop_ft": 1.9,
+        "coordinates": [
+            -94.3525,
+            31.9747222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3706101"
+    },
+    {
+        "title": "TWDB WELL 3802403 (Anderson County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>249 ft</span> (measured 2026-02-12). Water level has dropped 2 ft since 2024. 2 measurements on record.",
+        "raw_volume": 18705,
+        "drop_ft": 1.9,
+        "coordinates": [
+            -95.8481111,
+            31.9338111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3802403"
+    },
+    {
+        "title": "TWDB WELL 3731605 (San Augustine County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>11 ft</span> (measured 2024-11-06). Water level has dropped 2 ft since 2022. 2 measurements on record.",
+        "raw_volume": 1000,
+        "drop_ft": 1.5,
+        "coordinates": [
+            -94.1284722,
+            31.5500556
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3731605"
+    },
+    {
+        "title": "TWDB WELL 3552701 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>121 ft</span> (measured 2026-03-03). Water level has dropped 1 ft since 1967. 40 measurements on record.",
+        "raw_volume": 9102,
+        "drop_ft": 1.4,
+        "coordinates": [
+            -94.6002778,
+            32.1519444
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3552701"
+    },
+    {
+        "title": "TWDB WELL 3558203 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>139 ft</span> (measured 2020-06-08). Water level has dropped 1 ft since 2009. 47 measurements on record.",
+        "raw_volume": 10395,
+        "drop_ft": 1.4,
+        "coordinates": [
+            -94.8305556,
+            32.11
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3558203"
+    },
+    {
+        "title": "TWDB WELL 3559405 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>236 ft</span> (measured 2024-06-01). Water level has dropped 1 ft since 2009. 57 measurements on record.",
+        "raw_volume": 17715,
+        "drop_ft": 1.4,
+        "coordinates": [
+            -94.7436111,
+            32.0738889
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3559405"
+    },
+    {
+        "title": "TWDB WELL 3558106 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>142 ft</span> (measured 2024-12-01). Water level has dropped 1 ft since 2009. 61 measurements on record.",
+        "raw_volume": 10620,
+        "drop_ft": 1.2,
+        "coordinates": [
+            -94.8453333,
+            32.1085556
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3558106"
+    },
+    {
+        "title": "TWDB WELL 3721403 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>135 ft</span> (measured 2026-03-16). Water level has dropped 1 ft since 2021. 8 measurements on record.",
+        "raw_volume": 10125,
+        "drop_ft": 1.0,
+        "coordinates": [
+            -94.4697222,
+            31.7058333
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3721403"
+    },
+    {
+        "title": "TWDB WELL 3709104 (Cherokee County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>49 ft</span> (measured 2026-02-11). Water level has dropped 1 ft since 1979. 42 measurements on record.",
+        "raw_volume": 3657,
+        "drop_ft": 0.8,
+        "coordinates": [
+            -94.9885,
+            31.8622222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3709104"
+    },
+    {
+        "title": "TWDB WELL 3729604 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>140 ft</span> (measured 2026-05-18). Water level has dropped 1 ft since 2021. 6 measurements on record.",
+        "raw_volume": 10500,
+        "drop_ft": 0.8,
+        "coordinates": [
+            -94.4005556,
+            31.5783333
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3729604"
+    },
+    {
+        "title": "TWDB WELL 3549607 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>219 ft</span> (measured 2020-06-04). Water level has dropped 1 ft since 2009. 36 measurements on record.",
+        "raw_volume": 16410,
+        "drop_ft": 0.7,
+        "coordinates": [
+            -94.88075,
+            32.197
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3549607"
+    },
+    {
+        "title": "TWDB WELL 3748306 (Sabine County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, industrial. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>6 ft</span> (measured 2025-11-13). Water level has dropped 1 ft since 2021. 5 measurements on record.",
+        "raw_volume": 1000,
+        "drop_ft": 0.7,
+        "coordinates": [
+            -94.0140278,
+            31.3456111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3748306"
+    },
+    {
+        "title": "TWDB WELL 3557307 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>88 ft</span> (measured 2020-06-05). Water level has dropped 1 ft since 2009. 44 measurements on record.",
+        "raw_volume": 6630,
+        "drop_ft": 0.6,
+        "coordinates": [
+            -94.8961111,
+            32.1088889
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3557307"
+    },
+    {
+        "title": "TWDB WELL 3552602 (Panola County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>52 ft</span> (measured 2026-09-30). Water level roughly unchanged since 2022. 1411 measurements on record.",
+        "raw_volume": 3923,
+        "drop_ft": 0.5,
+        "coordinates": [
+            -94.5208333,
+            32.1668944
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3552602"
+    },
+    {
+        "title": "TWDB WELL 3724601 (Shelby County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>31 ft</span> (measured 2026-03-05). Water level roughly unchanged since 1972. 53 measurements on record.",
+        "raw_volume": 2324,
+        "drop_ft": 0.3,
+        "coordinates": [
+            -94.0333333,
+            31.6694444
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3724601"
+    },
+    {
+        "title": "TWDB WELL 3543703 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>166 ft</span> (measured 2020-06-04). Water level roughly unchanged since 2009. 47 measurements on record.",
+        "raw_volume": 12412,
+        "drop_ft": 0.2,
+        "coordinates": [
+            -94.7463611,
+            32.2518056
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3543703"
+    },
+    {
+        "title": "TWDB WELL 3738202 (San Augustine County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>15 ft</span> (measured 2025-11-13). Water level roughly unchanged since 2021. 5 measurements on record.",
+        "raw_volume": 1116,
+        "drop_ft": 0.2,
+        "coordinates": [
+            -94.293,
+            31.475
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3738202"
+    },
+    {
+        "title": "TWDB WELL 3549306 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>156 ft</span> (measured 2024-12-01). Water level roughly unchanged since 2012. 51 measurements on record.",
+        "raw_volume": 11700,
+        "drop_ft": 0.1,
+        "coordinates": [
+            -94.9136111,
+            32.2380556
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3549306"
+    },
+    {
+        "title": "TWDB WELL 3702802 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>142 ft</span> (measured 2026-03-04). Water level roughly unchanged since 1976. 47 measurements on record.",
+        "raw_volume": 10687,
+        "drop_ft": 0.0,
+        "coordinates": [
+            -94.8258333,
+            31.8925
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3702802"
+    },
+    {
+        "title": "TWDB WELL 3721204 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>70 ft</span> (measured 2025-11-28). Water level roughly unchanged since 1961. 48 measurements on record.",
+        "raw_volume": 5250,
+        "drop_ft": 0.0,
+        "coordinates": [
+            -94.4522222,
+            31.7094444
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3721204"
+    },
+    {
+        "title": "TWDB WELL 3726103 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>352 ft</span> (measured 2024-01-23). Only one measurement on record. 1 measurements on record.",
+        "raw_volume": 26400,
+        "drop_ft": 0.0,
+        "coordinates": [
+            -94.8555,
+            31.6201667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3726103"
+    },
+    {
+        "title": "TWDB WELL 3726603 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>412 ft</span> (measured 2024-01-23). Only one measurement on record. 1 measurements on record.",
+        "raw_volume": 30900,
+        "drop_ft": 0.0,
+        "coordinates": [
+            -94.7562778,
+            31.5787472
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3726603"
+    },
+    {
+        "title": "TWDB WELL 3815506 (Cherokee County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>300 ft</span> (measured 2023-08-26). Only one measurement on record. 1 measurements on record.",
+        "raw_volume": 22473,
+        "drop_ft": 0.0,
+        "coordinates": [
+            -95.1790833,
+            31.8022778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3815506"
+    },
+    {
+        "title": "TWDB WELL 3559707 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>232 ft</span> (measured 2020-06-08). Water level roughly unchanged since 2018. 10 measurements on record.",
+        "raw_volume": 17377,
+        "drop_ft": -0.1,
+        "coordinates": [
+            -94.7433333,
+            32.0033333
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3559707"
+    },
+    {
+        "title": "TWDB WELL 3549609 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>73 ft</span> (measured 2024-12-01). Water level roughly unchanged since 2010. 58 measurements on record.",
+        "raw_volume": 5467,
+        "drop_ft": -0.2,
+        "coordinates": [
+            -94.8788056,
+            32.2032778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3549609"
+    },
+    {
+        "title": "TWDB WELL 3707202 (Shelby County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>52 ft</span> (measured 2026-03-05). Water level roughly unchanged since 1972. 44 measurements on record.",
+        "raw_volume": 3890,
+        "drop_ft": -0.2,
+        "coordinates": [
+            -94.1969444,
+            31.9738889
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3707202"
+    },
+    {
+        "title": "TWDB WELL 3543402 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>36 ft</span> (measured 2020-06-04). Water level roughly unchanged since 2010. 42 measurements on record.",
+        "raw_volume": 2692,
+        "drop_ft": -0.4,
+        "coordinates": [
+            -94.7288889,
+            32.3319444
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3543402"
+    },
+    {
+        "title": "TWDB WELL 3563601 (Panola County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>38 ft</span> (measured 2025-12-03). Water level roughly unchanged since 1972. 164 measurements on record.",
+        "raw_volume": 2812,
+        "drop_ft": -0.5,
+        "coordinates": [
+            -94.128889,
+            32.07
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3563601"
+    },
+    {
+        "title": "TWDB WELL 3558406 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, plugged or destroyed. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>192 ft</span> (measured 2018-03-12). Water level has risen 1 ft since 2017. 5 measurements on record.",
+        "raw_volume": 14377,
+        "drop_ft": -0.6,
+        "coordinates": [
+            -94.8491667,
+            32.045
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3558406"
+    },
+    {
+        "title": "TWDB WELL 3564103 (Panola County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>23 ft</span> (measured 2018-06-01). Only one measurement on record. 6 measurements on record.",
+        "raw_volume": 1740,
+        "drop_ft": -0.7,
+        "coordinates": [
+            -94.1096667,
+            32.0906389
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3564103"
+    },
+    {
+        "title": "TWDB WELL 3710905 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>192 ft</span> (measured 2026-09-30). Water level has risen 1 ft since 2024. 937 measurements on record.",
+        "raw_volume": 14400,
+        "drop_ft": -0.7,
+        "coordinates": [
+            -94.7654694,
+            31.7795444
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3710905"
+    },
+    {
+        "title": "TWDB WELL 3549406 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>62 ft</span> (measured 2024-12-01). Water level has risen 1 ft since 2011. 121 measurements on record.",
+        "raw_volume": 4650,
+        "drop_ft": -0.8,
+        "coordinates": [
+            -94.9633333,
+            32.1805556
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3549406"
+    },
+    {
+        "title": "TWDB WELL 3550501 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>32 ft</span> (measured 2026-03-03). Water level has risen 1 ft since 1972. 52 measurements on record.",
+        "raw_volume": 2402,
+        "drop_ft": -0.8,
+        "coordinates": [
+            -94.8213889,
+            32.2080556
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3550501"
+    },
+    {
+        "title": "TWDB WELL 3634303 (Sabine County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>20 ft</span> (measured 2025-11-13). Water level has risen 1 ft since 1964. 50 measurements on record.",
+        "raw_volume": 1494,
+        "drop_ft": -0.8,
+        "coordinates": [
+            -93.7766667,
+            31.4725
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3634303"
+    },
+    {
+        "title": "TWDB WELL 3557208 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>54 ft</span> (measured 2020-06-05). Water level has risen 1 ft since 2017. 16 measurements on record.",
+        "raw_volume": 4027,
+        "drop_ft": -1.0,
+        "coordinates": [
+            -94.9458333,
+            32.0897222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3557208"
+    },
+    {
+        "title": "TWDB WELL 3562401 (Panola County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>68 ft</span> (measured 2018-06-01). Only one measurement on record. 6 measurements on record.",
+        "raw_volume": 5070,
+        "drop_ft": -1.0,
+        "coordinates": [
+            -94.3648333,
+            32.0646389
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3562401"
+    },
+    {
+        "title": "TWDB WELL 3702502 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>38 ft</span> (measured 2025-12-01). Water level has risen 1 ft since 2010. 155 measurements on record.",
+        "raw_volume": 2835,
+        "drop_ft": -1.0,
+        "coordinates": [
+            -94.8151389,
+            31.9497222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3702502"
+    },
+    {
+        "title": "TWDB WELL 3716201 (Shelby County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>13 ft</span> (measured 2026-03-05). Water level has risen 1 ft since 1972. 50 measurements on record.",
+        "raw_volume": 1000,
+        "drop_ft": -1.0,
+        "coordinates": [
+            -94.0816667,
+            31.8641667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3716201"
+    },
+    {
+        "title": "TWDB WELL 3552901 (Panola County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>35 ft</span> (measured 2018-06-01). Only one measurement on record. 6 measurements on record.",
+        "raw_volume": 2595,
+        "drop_ft": -1.1,
+        "coordinates": [
+            -94.5055833,
+            32.1483056
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3552901"
+    },
+    {
+        "title": "TWDB WELL 3711201 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>46 ft</span> (measured 2026-03-04). Water level has risen 1 ft since 1976. 45 measurements on record.",
+        "raw_volume": 3449,
+        "drop_ft": -1.1,
+        "coordinates": [
+            -94.7083333,
+            31.8683333
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3711201"
+    },
+    {
+        "title": "TWDB WELL 3554603 (Panola County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>18 ft</span> (measured 2018-06-01). Only one measurement on record. 6 measurements on record.",
+        "raw_volume": 1342,
+        "drop_ft": -1.3,
+        "coordinates": [
+            -94.2739806,
+            32.1826139
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3554603"
+    },
+    {
+        "title": "TWDB WELL 3542506 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>69 ft</span> (measured 2024-12-01). Water level has risen 1 ft since 2010. 57 measurements on record.",
+        "raw_volume": 5160,
+        "drop_ft": -1.4,
+        "coordinates": [
+            -94.8313611,
+            32.3247778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3542506"
+    },
+    {
+        "title": "TWDB WELL 3542509 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>52 ft</span> (measured 2024-12-01). Water level has risen 1 ft since 2009. 64 measurements on record.",
+        "raw_volume": 3892,
+        "drop_ft": -1.4,
+        "coordinates": [
+            -94.8112222,
+            32.3109722
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3542509"
+    },
+    {
+        "title": "TWDB WELL 3553601 (Panola County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>61 ft</span> (measured 2018-06-01). Only one measurement on record. 6 measurements on record.",
+        "raw_volume": 4582,
+        "drop_ft": -1.4,
+        "coordinates": [
+            -94.3996944,
+            32.1982778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3553601"
+    },
+    {
+        "title": "TWDB WELL 3706301 (Panola County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>20 ft</span> (measured 2018-06-01). Only one measurement on record. 6 measurements on record.",
+        "raw_volume": 1522,
+        "drop_ft": -1.4,
+        "coordinates": [
+            -94.2605833,
+            31.9950833
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3706301"
+    },
+    {
+        "title": "TWDB WELL 3542505 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, industrial. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>62 ft</span> (measured 2020-06-03). Water level has risen 2 ft since 2010. 41 measurements on record.",
+        "raw_volume": 4620,
+        "drop_ft": -1.6,
+        "coordinates": [
+            -94.8184444,
+            32.3006389
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3542505"
+    },
+    {
+        "title": "TWDB WELL 3558901 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>108 ft</span> (measured 2024-12-01). Water level has risen 2 ft since 2009. 55 measurements on record.",
+        "raw_volume": 8130,
+        "drop_ft": -1.7,
+        "coordinates": [
+            -94.7694444,
+            32.0327778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3558901"
+    },
+    {
+        "title": "TWDB WELL 3561202 (Panola County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>11 ft</span> (measured 2018-06-01). Only one measurement on record. 6 measurements on record.",
+        "raw_volume": 1000,
+        "drop_ft": -1.7,
+        "coordinates": [
+            -94.4545556,
+            32.1061111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3561202"
+    },
+    {
+        "title": "TWDB WELL 3701204 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>149 ft</span> (measured 2025-12-01). Water level has risen 2 ft since 2012. 55 measurements on record.",
+        "raw_volume": 11182,
+        "drop_ft": -1.7,
+        "coordinates": [
+            -94.9194444,
+            31.9591667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3701204"
+    },
+    {
+        "title": "TWDB WELL 3708304 (Shelby County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>24 ft</span> (measured 2024-11-21). Water level has risen 2 ft since 2020. 5 measurements on record.",
+        "raw_volume": 1768,
+        "drop_ft": -2.0,
+        "coordinates": [
+            -94.0225833,
+            31.9689722
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3708304"
+    },
+    {
+        "title": "TWDB WELL 3716302 (Shelby County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>12 ft</span> (measured 2026-03-05). Water level has risen 2 ft since 1972. 49 measurements on record.",
+        "raw_volume": 1000,
+        "drop_ft": -2.2,
+        "coordinates": [
+            -94.0091667,
+            31.8352778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3716302"
+    },
+    {
+        "title": "TWDB WELL 3548206 (Panola County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>39 ft</span> (measured 2018-06-01). Only one measurement on record. 6 measurements on record.",
+        "raw_volume": 2940,
+        "drop_ft": -2.4,
+        "coordinates": [
+            -94.0572778,
+            32.34625
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3548206"
+    },
+    {
+        "title": "TWDB WELL 3553107 (Panola County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>23 ft</span> (measured 2018-06-01). Only one measurement on record. 6 measurements on record.",
+        "raw_volume": 1710,
+        "drop_ft": -2.5,
+        "coordinates": [
+            -94.4799722,
+            32.2219722
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3553107"
+    },
+    {
+        "title": "TWDB WELL 3557210 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>140 ft</span> (measured 2024-12-01). Water level has risen 3 ft since 2010. 56 measurements on record.",
+        "raw_volume": 10507,
+        "drop_ft": -3.0,
+        "coordinates": [
+            -94.9205556,
+            32.095
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3557210"
+    },
+    {
+        "title": "TWDB WELL 3734605 (Angelina County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>536 ft</span> (measured 2026-04-05). Water level has risen 3 ft since 2008. 23 measurements on record.",
+        "raw_volume": 40200,
+        "drop_ft": -3.0,
+        "coordinates": [
+            -94.7805556,
+            31.4447222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3734605"
+    },
+    {
+        "title": "TWDB WELL 3558101 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>15 ft</span> (measured 2026-03-04). Water level has risen 3 ft since 1972. 51 measurements on record.",
+        "raw_volume": 1124,
+        "drop_ft": -3.1,
+        "coordinates": [
+            -94.8663889,
+            32.0858333
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3558101"
+    },
+    {
+        "title": "TWDB WELL 3707201 (Panola County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>31 ft</span> (measured 2024-11-12). Water level has risen 3 ft since 1972. 49 measurements on record.",
+        "raw_volume": 2325,
+        "drop_ft": -3.5,
+        "coordinates": [
+            -94.193611,
+            31.988889
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3707201"
+    },
+    {
+        "title": "TWDB WELL 3559207 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, plugged or destroyed. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>194 ft</span> (measured 2020-06-08). Water level has risen 4 ft since 2018. 10 measurements on record.",
+        "raw_volume": 14542,
+        "drop_ft": -4.1,
+        "coordinates": [
+            -94.6972222,
+            32.0991667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3559207"
+    },
+    {
+        "title": "TWDB WELL 3702906 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>142 ft</span> (measured 2025-12-01). Water level has risen 4 ft since 2009. 66 measurements on record.",
+        "raw_volume": 10665,
+        "drop_ft": -4.1,
+        "coordinates": [
+            -94.7813889,
+            31.8847222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3702906"
+    },
+    {
+        "title": "TWDB WELL 3544510 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>171 ft</span> (measured 2020-06-04). Water level has risen 4 ft since 2010. 40 measurements on record.",
+        "raw_volume": 12840,
+        "drop_ft": -4.2,
+        "coordinates": [
+            -94.5828333,
+            32.3112222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3544510"
+    },
+    {
+        "title": "TWDB WELL 3549608 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>48 ft</span> (measured 2020-06-05). Water level has risen 4 ft since 2009. 41 measurements on record.",
+        "raw_volume": 3570,
+        "drop_ft": -4.2,
+        "coordinates": [
+            -94.881,
+            32.1911667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3549608"
+    },
+    {
+        "title": "TWDB WELL 3559503 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>266 ft</span> (measured 2020-06-08). Water level has risen 4 ft since 2009. 42 measurements on record.",
+        "raw_volume": 19927,
+        "drop_ft": -4.2,
+        "coordinates": [
+            -94.6833333,
+            32.0552778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3559503"
+    },
+    {
+        "title": "TWDB WELL 3544507 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>144 ft</span> (measured 2020-06-04). Water level has risen 4 ft since 2010. 40 measurements on record.",
+        "raw_volume": 10830,
+        "drop_ft": -4.5,
+        "coordinates": [
+            -94.5781944,
+            32.3153056
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3544507"
+    },
+    {
+        "title": "TWDB WELL 3558304 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>218 ft</span> (measured 2020-06-08). Water level has risen 5 ft since 2009. 46 measurements on record.",
+        "raw_volume": 16357,
+        "drop_ft": -4.6,
+        "coordinates": [
+            -94.7575,
+            32.0869444
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3558304"
+    },
+    {
+        "title": "TWDB WELL 3543102 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, industrial. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>60 ft</span> (measured 2020-06-04). Water level has risen 5 ft since 2009. 43 measurements on record.",
+        "raw_volume": 4477,
+        "drop_ft": -4.7,
+        "coordinates": [
+            -94.7134167,
+            32.33725
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3543102"
+    },
+    {
+        "title": "TWDB WELL 3544408 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>143 ft</span> (measured 2020-06-04). Water level has risen 5 ft since 2010. 42 measurements on record.",
+        "raw_volume": 10732,
+        "drop_ft": -4.7,
+        "coordinates": [
+            -94.5888889,
+            32.2956111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3544408"
+    },
+    {
+        "title": "TWDB WELL 3542207 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>122 ft</span> (measured 2020-06-03). Water level has risen 5 ft since 2010. 38 measurements on record.",
+        "raw_volume": 9116,
+        "drop_ft": -4.8,
+        "coordinates": [
+            -94.7977778,
+            32.3541667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3542207"
+    },
+    {
+        "title": "TWDB WELL 3542508 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>73 ft</span> (measured 2020-06-03). Water level has risen 5 ft since 2009. 42 measurements on record.",
+        "raw_volume": 5505,
+        "drop_ft": -4.8,
+        "coordinates": [
+            -94.8270556,
+            32.2958889
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3542508"
+    },
+    {
+        "title": "TWDB WELL 3544207 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>94 ft</span> (measured 2016-09-14). Water level has risen 5 ft since 2009. 21 measurements on record.",
+        "raw_volume": 7072,
+        "drop_ft": -4.8,
+        "coordinates": [
+            -94.5821667,
+            32.3592778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3544207"
+    },
+    {
+        "title": "TWDB WELL 3543605 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>147 ft</span> (measured 2024-12-01). Water level has risen 5 ft since 2010. 54 measurements on record.",
+        "raw_volume": 11002,
+        "drop_ft": -4.9,
+        "coordinates": [
+            -94.6662222,
+            32.3238611
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3543605"
+    },
+    {
+        "title": "TWDB WELL 3559206 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>234 ft</span> (measured 2024-12-01). Water level has risen 5 ft since 2009. 47 measurements on record.",
+        "raw_volume": 17520,
+        "drop_ft": -5.1,
+        "coordinates": [
+            -94.705,
+            32.1116667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3559206"
+    },
+    {
+        "title": "TWDB WELL 3732111 (San Augustine County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>38 ft</span> (measured 2025-11-13). Water level has risen 5 ft since 1971. 51 measurements on record.",
+        "raw_volume": 2844,
+        "drop_ft": -5.1,
+        "coordinates": [
+            -94.1052778,
+            31.5866667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3732111"
+    },
+    {
+        "title": "TWDB WELL 3550406 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>27 ft</span> (measured 2020-06-04). Water level has risen 5 ft since 2009. 48 measurements on record.",
+        "raw_volume": 2032,
+        "drop_ft": -5.2,
+        "coordinates": [
+            -94.8507222,
+            32.1853611
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3550406"
+    },
+    {
+        "title": "TWDB WELL 3543906 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>155 ft</span> (measured 2026-09-30). Water level has risen 5 ft since 2009. 2157 measurements on record.",
+        "raw_volume": 11608,
+        "drop_ft": -5.4,
+        "coordinates": [
+            -94.6469444,
+            32.2711111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3543906"
+    },
+    {
+        "title": "TWDB WELL 3545701 (Panola County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>53 ft</span> (measured 2025-12-01). Water level has risen 6 ft since 1972. 180 measurements on record.",
+        "raw_volume": 3967,
+        "drop_ft": -5.6,
+        "coordinates": [
+            -94.463056,
+            32.253056
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3545701"
+    },
+    {
+        "title": "TWDB WELL 3715401 (Shelby County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>35 ft</span> (measured 2026-03-04). Water level has risen 6 ft since 1972. 50 measurements on record.",
+        "raw_volume": 2598,
+        "drop_ft": -6.0,
+        "coordinates": [
+            -94.2411111,
+            31.8127778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3715401"
+    },
+    {
+        "title": "TWDB WELL 3728605 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>140 ft</span> (measured 2026-05-18). Water level has risen 6 ft since 2021. 6 measurements on record.",
+        "raw_volume": 10500,
+        "drop_ft": -6.0,
+        "coordinates": [
+            -94.5391389,
+            31.5510389
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3728605"
+    },
+    {
+        "title": "TWDB WELL 3551904 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>132 ft</span> (measured 2024-12-01). Water level has risen 6 ft since 2017. 31 measurements on record.",
+        "raw_volume": 9885,
+        "drop_ft": -6.1,
+        "coordinates": [
+            -94.6464005,
+            32.1534119
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3551904"
+    },
+    {
+        "title": "TWDB WELL 3551605 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>119 ft</span> (measured 2024-12-01). Water level has risen 6 ft since 2017. 142 measurements on record.",
+        "raw_volume": 8955,
+        "drop_ft": -6.2,
+        "coordinates": [
+            -94.6305389,
+            32.2005694
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3551605"
+    },
+    {
+        "title": "TWDB WELL 3544407 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>172 ft</span> (measured 2024-12-01). Water level has risen 6 ft since 2010. 60 measurements on record.",
+        "raw_volume": 12922,
+        "drop_ft": -6.4,
+        "coordinates": [
+            -94.5845278,
+            32.2963889
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3544407"
+    },
+    {
+        "title": "TWDB WELL 3716701 (Shelby County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>8 ft</span> (measured 2026-03-05). Water level has risen 6 ft since 1972. 52 measurements on record.",
+        "raw_volume": 1000,
+        "drop_ft": -6.5,
+        "coordinates": [
+            -94.11,
+            31.7827778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3716701"
+    },
+    {
+        "title": "TWDB WELL 3714501 (Shelby County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, stock. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>36 ft</span> (measured 2026-03-04). Water level has risen 7 ft since 1972. 53 measurements on record.",
+        "raw_volume": 2699,
+        "drop_ft": -6.6,
+        "coordinates": [
+            -94.3305556,
+            31.8227778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3714501"
+    },
+    {
+        "title": "TWDB WELL 3551604 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>105 ft</span> (measured 2024-12-01). Water level has risen 7 ft since 2008. 47 measurements on record.",
+        "raw_volume": 7897,
+        "drop_ft": -7.4,
+        "coordinates": [
+            -94.6522222,
+            32.1808333
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3551604"
+    },
+    {
+        "title": "TWDB WELL 3563701 (Panola County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>24 ft</span> (measured 2025-11-20). Water level has risen 7 ft since 1972. 51 measurements on record.",
+        "raw_volume": 1770,
+        "drop_ft": -7.5,
+        "coordinates": [
+            -94.229444,
+            32.036111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3563701"
+    },
+    {
+        "title": "TWDB WELL 3544305 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, plugged or destroyed. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>88 ft</span> (measured 2018-03-14). Water level has risen 8 ft since 2009. 32 measurements on record.",
+        "raw_volume": 6637,
+        "drop_ft": -7.9,
+        "coordinates": [
+            -94.5392222,
+            32.3576389
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3544305"
+    },
+    {
+        "title": "TWDB WELL 3734505 (Angelina County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>412 ft</span> (measured 2020-11-12). Water level has risen 8 ft since 1963. 39 measurements on record.",
+        "raw_volume": 30900,
+        "drop_ft": -8.0,
+        "coordinates": [
+            -94.8033167,
+            31.4214722
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3734505"
+    },
+    {
+        "title": "TWDB WELL 3544405 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>90 ft</span> (measured 2024-12-01). Water level has risen 8 ft since 2009. 62 measurements on record.",
+        "raw_volume": 6750,
+        "drop_ft": -8.4,
+        "coordinates": [
+            -94.62175,
+            32.329
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3544405"
+    },
+    {
+        "title": "TWDB WELL 3544202 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>28 ft</span> (measured 2020-06-04). Water level has risen 9 ft since 2010. 39 measurements on record.",
+        "raw_volume": 2070,
+        "drop_ft": -8.6,
+        "coordinates": [
+            -94.5825,
+            32.3636111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3544202"
+    },
+    {
+        "title": "TWDB WELL 3557302 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>153 ft</span> (measured 2020-06-05). Water level has risen 9 ft since 2011. 38 measurements on record.",
+        "raw_volume": 11445,
+        "drop_ft": -8.6,
+        "coordinates": [
+            -94.8761111,
+            32.1158333
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3557302"
+    },
+    {
+        "title": "TWDB WELL 3732301 (Shelby County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>16 ft</span> (measured 2026-03-05). Water level has risen 9 ft since 1972. 51 measurements on record.",
+        "raw_volume": 1218,
+        "drop_ft": -8.7,
+        "coordinates": [
+            -94.0296139,
+            31.6038056
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3732301"
+    },
+    {
+        "title": "TWDB WELL 3544205 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>41 ft</span> (measured 2020-06-04). Water level has risen 9 ft since 2009. 41 measurements on record.",
+        "raw_volume": 3090,
+        "drop_ft": -8.9,
+        "coordinates": [
+            -94.5447222,
+            32.3684167
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3544205"
+    },
+    {
+        "title": "TWDB WELL 3549801 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, irrigation. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>48 ft</span> (measured 2026-03-03). Water level has risen 9 ft since 1941. 50 measurements on record.",
+        "raw_volume": 3607,
+        "drop_ft": -8.9,
+        "coordinates": [
+            -94.9413889,
+            32.1361111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3549801"
+    },
+    {
+        "title": "TWDB WELL 3544112 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>127 ft</span> (measured 2020-06-04). Water level has risen 9 ft since 2010. 40 measurements on record.",
+        "raw_volume": 9540,
+        "drop_ft": -9.0,
+        "coordinates": [
+            -94.6052222,
+            32.346
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3544112"
+    },
+    {
+        "title": "TWDB WELL 3544203 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>46 ft</span> (measured 2020-06-04). Water level has risen 9 ft since 2009. 40 measurements on record.",
+        "raw_volume": 3442,
+        "drop_ft": -9.2,
+        "coordinates": [
+            -94.5463889,
+            32.3669444
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3544203"
+    },
+    {
+        "title": "TWDB WELL 3544108 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>85 ft</span> (measured 2020-06-04). Water level has risen 9 ft since 2009. 43 measurements on record.",
+        "raw_volume": 6345,
+        "drop_ft": -9.3,
+        "coordinates": [
+            -94.6225,
+            32.3344444
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3544108"
+    },
+    {
+        "title": "TWDB WELL 3729103 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>220 ft</span> (measured 2024-11-20). Water level has risen 9 ft since 2010. 15 measurements on record.",
+        "raw_volume": 16477,
+        "drop_ft": -9.3,
+        "coordinates": [
+            -94.4847222,
+            31.6011111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3729103"
+    },
+    {
+        "title": "TWDB WELL 3544111 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>118 ft</span> (measured 2024-12-01). Water level has risen 9 ft since 2010. 57 measurements on record.",
+        "raw_volume": 8865,
+        "drop_ft": -9.4,
+        "coordinates": [
+            -94.5938611,
+            32.334
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3544111"
+    },
+    {
+        "title": "TWDB WELL 3544304 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>98 ft</span> (measured 2024-12-01). Water level has risen 9 ft since 2010. 57 measurements on record.",
+        "raw_volume": 7342,
+        "drop_ft": -9.4,
+        "coordinates": [
+            -94.5336944,
+            32.3423056
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3544304"
+    },
+    {
+        "title": "TWDB WELL 3526706 (Gregg County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>154 ft</span> (measured 2026-02-24). Water level has risen 10 ft since 1964. 46 measurements on record.",
+        "raw_volume": 11585,
+        "drop_ft": -9.5,
+        "coordinates": [
+            -94.8544444,
+            32.5038889
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3526706"
+    },
+    {
+        "title": "TWDB WELL 3544206 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>32 ft</span> (measured 2020-06-04). Water level has risen 10 ft since 2009. 39 measurements on record.",
+        "raw_volume": 2415,
+        "drop_ft": -9.5,
+        "coordinates": [
+            -94.5586389,
+            32.3713333
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3544206"
+    },
+    {
+        "title": "TWDB WELL 3559205 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>212 ft</span> (measured 2020-06-08). Water level has risen 10 ft since 2009. 42 measurements on record.",
+        "raw_volume": 15885,
+        "drop_ft": -9.5,
+        "coordinates": [
+            -94.7013333,
+            32.1175278
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3559205"
+    },
+    {
+        "title": "TWDB WELL 3559705 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>161 ft</span> (measured 2020-06-08). Water level has risen 10 ft since 2009. 42 measurements on record.",
+        "raw_volume": 12105,
+        "drop_ft": -9.7,
+        "coordinates": [
+            -94.7105556,
+            32.0227778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3559705"
+    },
+    {
+        "title": "TWDB WELL 3536802 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>47 ft</span> (measured 2020-06-03). Water level has risen 10 ft since 2009. 38 measurements on record.",
+        "raw_volume": 3540,
+        "drop_ft": -9.8,
+        "coordinates": [
+            -94.5545556,
+            32.3801111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3536802"
+    },
+    {
+        "title": "TWDB WELL 3713403 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>5 ft</span> (measured 2025-12-28). Water level has risen 10 ft since 1936. 64 measurements on record.",
+        "raw_volume": 1000,
+        "drop_ft": -9.9,
+        "coordinates": [
+            -94.4911111,
+            31.8261111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3713403"
+    },
+    {
+        "title": "TWDB WELL 3544208 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>28 ft</span> (measured 2024-12-01). Water level has risen 10 ft since 2009. 58 measurements on record.",
+        "raw_volume": 2077,
+        "drop_ft": -10.0,
+        "coordinates": [
+            -94.5768611,
+            32.3654722
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3544208"
+    },
+    {
+        "title": "TWDB WELL 3559806 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>172 ft</span> (measured 2022-06-17). Water level has risen 10 ft since 2010. 47 measurements on record.",
+        "raw_volume": 12930,
+        "drop_ft": -10.2,
+        "coordinates": [
+            -94.6836111,
+            32.0211111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3559806"
+    },
+    {
+        "title": "TWDB WELL 3544705 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>90 ft</span> (measured 2024-12-01). Water level has risen 11 ft since 2012. 113 measurements on record.",
+        "raw_volume": 6750,
+        "drop_ft": -10.6,
+        "coordinates": [
+            -94.594,
+            32.2644722
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3544705"
+    },
+    {
+        "title": "TWDB WELL 3544113 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>93 ft</span> (measured 2024-12-01). Water level has risen 11 ft since 2009. 127 measurements on record.",
+        "raw_volume": 7005,
+        "drop_ft": -11.0,
+        "coordinates": [
+            -94.5913611,
+            32.3557778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3544113"
+    },
+    {
+        "title": "TWDB WELL 3715105 (Shelby County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, irrigation. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>57 ft</span> (measured 2026-03-05). Water level has risen 11 ft since 1985. 37 measurements on record.",
+        "raw_volume": 4276,
+        "drop_ft": -11.0,
+        "coordinates": [
+            -94.2147222,
+            31.8705556
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3715105"
+    },
+    {
+        "title": "TWDB WELL 3559805 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>208 ft</span> (measured 2024-12-01). Water level has risen 13 ft since 2009. 132 measurements on record.",
+        "raw_volume": 15615,
+        "drop_ft": -12.6,
+        "coordinates": [
+            -94.7066667,
+            32.0105556
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3559805"
+    },
+    {
+        "title": "TWDB WELL 3708604 (Shelby County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>1 ft</span> (measured 2026-03-05). Water level has risen 13 ft since 1972. 51 measurements on record.",
+        "raw_volume": 1000,
+        "drop_ft": -13.5,
+        "coordinates": [
+            -94.0018889,
+            31.9312222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3708604"
+    },
+    {
+        "title": "TWDB WELL 3705201 (Panola County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>14 ft</span> (measured 2025-11-19). Water level has risen 14 ft since 1972. 51 measurements on record.",
+        "raw_volume": 1080,
+        "drop_ft": -13.8,
+        "coordinates": [
+            -94.425278,
+            31.981111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3705201"
+    },
+    {
+        "title": "TWDB WELL 3542802 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>96 ft</span> (measured 2020-06-03). Water level has risen 14 ft since 1987. 38 measurements on record.",
+        "raw_volume": 7207,
+        "drop_ft": -13.9,
+        "coordinates": [
+            -94.8236111,
+            32.2913889
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3542802"
+    },
+    {
+        "title": "TWDB WELL 3714701 (Shelby County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>35 ft</span> (measured 2026-03-04). Water level has risen 15 ft since 1972. 50 measurements on record.",
+        "raw_volume": 2592,
+        "drop_ft": -14.8,
+        "coordinates": [
+            -94.3641667,
+            31.7547222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3714701"
+    },
+    {
+        "title": "TWDB WELL 3550605 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>165 ft</span> (measured 2024-12-01). Water level has risen 16 ft since 2009. 62 measurements on record.",
+        "raw_volume": 12352,
+        "drop_ft": -16.3,
+        "coordinates": [
+            -94.7502778,
+            32.1911111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3550605"
+    },
+    {
+        "title": "TWDB WELL 3356611 (Henderson County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>259 ft</span> (measured 2024-11-04). Water level has risen 17 ft since 2002. 10 measurements on record.",
+        "raw_volume": 19439,
+        "drop_ft": -16.9,
+        "coordinates": [
+            -96.0148611,
+            32.1676944
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3356611"
+    },
+    {
+        "title": "TWDB WELL 3548101 (Panola County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>24 ft</span> (measured 2025-12-03). Water level has risen 17 ft since 1972. 179 measurements on record.",
+        "raw_volume": 1777,
+        "drop_ft": -17.2,
+        "coordinates": [
+            -94.095556,
+            32.355278
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3548101"
+    },
+    {
+        "title": "TWDB WELL 3559107 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>277 ft</span> (measured 2024-12-01). Water level has risen 17 ft since 2009. 114 measurements on record.",
+        "raw_volume": 20775,
+        "drop_ft": -17.4,
+        "coordinates": [
+            -94.7245278,
+            32.1215
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3559107"
+    },
+    {
+        "title": "TWDB WELL 3559906 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>128 ft</span> (measured 2025-12-01). Water level has risen 18 ft since 2010. 132 measurements on record.",
+        "raw_volume": 9562,
+        "drop_ft": -17.5,
+        "coordinates": [
+            -94.6481667,
+            32.0409167
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3559906"
+    },
+    {
+        "title": "TWDB WELL 3727104 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>180 ft</span> (measured 2024-12-30). Water level has risen 18 ft since 2021. 7 measurements on record.",
+        "raw_volume": 13522,
+        "drop_ft": -17.7,
+        "coordinates": [
+            -94.7147222,
+            31.5852778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3727104"
+    },
+    {
+        "title": "TWDB WELL 3559108 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>278 ft</span> (measured 2024-12-01). Water level has risen 18 ft since 2009. 58 measurements on record.",
+        "raw_volume": 20865,
+        "drop_ft": -17.8,
+        "coordinates": [
+            -94.7272222,
+            32.1152778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3559108"
+    },
+    {
+        "title": "TWDB WELL 3735602 (Angelina County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, industrial. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>231 ft</span> (measured 2023-07-05). Water level has risen 18 ft since 2021. 5 measurements on record.",
+        "raw_volume": 17325,
+        "drop_ft": -18.0,
+        "coordinates": [
+            -94.662225,
+            31.4472222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3735602"
+    },
+    {
+        "title": "TWDB WELL 3550508 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>34 ft</span> (measured 2024-12-01). Water level has risen 19 ft since 2009. 62 measurements on record.",
+        "raw_volume": 2535,
+        "drop_ft": -18.6,
+        "coordinates": [
+            -94.8316111,
+            32.1802222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3550508"
+    },
+    {
+        "title": "TWDB WELL 3713302 (Shelby County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>101 ft</span> (measured 2026-03-04). Water level has risen 19 ft since 1984. 40 measurements on record.",
         "raw_volume": 7584,
+        "drop_ft": -18.9,
         "coordinates": [
-            -95.145,
-            29.91388889
-        ]
+            -94.3797222,
+            31.8627778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3713302"
     },
     {
-        "title": "USGS SITE: LJ-65-07-909 (Lake Houston Extensometer)",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>180.45 ft below surface.</span>",
-        "raw_volume": 13533,
+        "title": "TWDB WELL 3727201 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>239 ft</span> (measured 2023-12-13). Water level has risen 20 ft since 1958. 42 measurements on record.",
+        "raw_volume": 17947,
+        "drop_ft": -19.5,
         "coordinates": [
-            -95.1455278,
-            29.9132222
-        ]
+            -94.6722222,
+            31.6102778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3727201"
     },
     {
-        "title": "USGS SITE: TS-60-55-710 (New Caney Piezometer No. 7-A)",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>149.45 ft below surface.</span>",
-        "raw_volume": 11208,
+        "title": "TWDB WELL 3735703 (Angelina County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>311 ft</span> (measured 2026-04-05). Water level has risen 20 ft since 1956. 57 measurements on record.",
+        "raw_volume": 23325,
+        "drop_ft": -20.2,
         "coordinates": [
-            -95.2425,
-            30.14694444
-        ]
+            -94.7294083,
+            31.3853389
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3735703"
     },
     {
-        "title": "USGS SITE: TS-60-53-516 (Needham Piezometer No. 4-A)",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>384.01 ft below surface.</span>",
-        "raw_volume": 28800,
+        "title": "TWDB WELL 3735402 (Angelina County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, industrial. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>273 ft</span> (measured 2024-12-06). Water level has risen 21 ft since 2021. 8 measurements on record.",
+        "raw_volume": 20475,
+        "drop_ft": -21.0,
         "coordinates": [
-            -95.4575,
-            30.20777778
-        ]
+            -94.7258333,
+            31.4361111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3735402"
     },
     {
-        "title": "USGS SITE: YD-58-50-301 (Lovelady)",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>199.46 ft below surface.</span>",
-        "raw_volume": 14959,
+        "title": "TWDB WELL 3559804 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>271 ft</span> (measured 2020-06-08). Water level has risen 22 ft since 2009. 43 measurements on record.",
+        "raw_volume": 20332,
+        "drop_ft": -22.4,
         "coordinates": [
-            -97.7815833,
-            30.21033889
-        ]
+            -94.6759722,
+            32.0375556
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3559804"
     },
     {
-        "title": "USGS SITE: TS-60-35-202 (Flower Follet)",
-        "applicant": "USGS TELEMETRY",
-        "bottom_line": "Federal Telemetry Intercepted.<br>Live Drawdown: <span style='color:#ffaa00; font-weight:bold;'>50.8 ft below surface.</span>",
-        "raw_volume": 3810,
+        "title": "TWDB WELL 3562301 (Panola County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>38 ft</span> (measured 2025-12-02). Water level has risen 25 ft since 1977. 173 measurements on record.",
+        "raw_volume": 2865,
+        "drop_ft": -24.8,
         "coordinates": [
-            -95.7106111,
-            30.49883333
-        ]
+            -94.279167,
+            32.112223
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3562301"
+    },
+    {
+        "title": "TWDB WELL 3460503 (Henderson County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>290 ft</span> (measured 2026-02-10). Water level has risen 25 ft since 1976. 45 measurements on record.",
+        "raw_volume": 21758,
+        "drop_ft": -25.3,
+        "coordinates": [
+            -95.5730833,
+            32.0819167
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3460503"
+    },
+    {
+        "title": "TWDB WELL 3705701 (Shelby County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>16 ft</span> (measured 2026-03-04). Water level has risen 26 ft since 1972. 52 measurements on record.",
+        "raw_volume": 1177,
+        "drop_ft": -25.5,
+        "coordinates": [
+            -94.4680556,
+            31.9158333
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3705701"
+    },
+    {
+        "title": "TWDB WELL 3729402 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>192 ft</span> (measured 2025-12-28). Water level has risen 26 ft since 1968. 47 measurements on record.",
+        "raw_volume": 14437,
+        "drop_ft": -25.5,
+        "coordinates": [
+            -94.4861111,
+            31.5647222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3729402"
+    },
+    {
+        "title": "TWDB WELL 3735505 (Angelina County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, industrial. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>245 ft</span> (measured 2023-07-05). Water level has risen 27 ft since 2021. 5 measurements on record.",
+        "raw_volume": 18375,
+        "drop_ft": -27.0,
+        "coordinates": [
+            -94.6705556,
+            31.4386111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3735505"
+    },
+    {
+        "title": "TWDB WELL 3734604 (Angelina County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>280 ft</span> (measured 2026-04-05). Water level has risen 28 ft since 2008. 23 measurements on record.",
+        "raw_volume": 21000,
+        "drop_ft": -28.0,
+        "coordinates": [
+            -94.7669444,
+            31.4547222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3734604"
+    },
+    {
+        "title": "TWDB WELL 3558305 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>229 ft</span> (measured 2020-06-08). Water level has risen 29 ft since 2009. 42 measurements on record.",
+        "raw_volume": 17205,
+        "drop_ft": -29.2,
+        "coordinates": [
+            -94.7886111,
+            32.0986111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3558305"
+    },
+    {
+        "title": "TWDB WELL 3705905 (Shelby County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>163 ft</span> (measured 2026-03-05). Water level has risen 30 ft since 1986. 29 measurements on record.",
+        "raw_volume": 12225,
+        "drop_ft": -29.8,
+        "coordinates": [
+            -94.3977778,
+            31.9061111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3705905"
+    },
+    {
+        "title": "TWDB WELL 3431902 (Smith County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>62 ft</span> (measured 2016-11-15). Water level has risen 32 ft since 1960. 8 measurements on record.",
+        "raw_volume": 4651,
+        "drop_ft": -31.9,
+        "coordinates": [
+            -95.1411111,
+            32.5341667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3431902"
+    },
+    {
+        "title": "TWDB WELL 3457309 (Henderson County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>102 ft</span> (measured 2026-02-12). Water level has risen 35 ft since 2011. 10 measurements on record.",
+        "raw_volume": 7642,
+        "drop_ft": -35.1,
+        "coordinates": [
+            -95.8976389,
+            32.0963194
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3457309"
+    },
+    {
+        "title": "TWDB WELL 3721102 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>153 ft</span> (measured 2026-03-16). Water level has risen 38 ft since 2002. 9 measurements on record.",
+        "raw_volume": 11475,
+        "drop_ft": -38.0,
+        "coordinates": [
+            -94.4858333,
+            31.7294444
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3721102"
+    },
+    {
+        "title": "TWDB WELL 3541811 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>322 ft</span> (measured 2018-08-03). Water level has risen 44 ft since 1985. 3 measurements on record.",
+        "raw_volume": 24117,
+        "drop_ft": -44.4,
+        "coordinates": [
+            -94.9272222,
+            32.2541667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3541811"
+    },
+    {
+        "title": "TWDB WELL 3726201 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>291 ft</span> (measured 2024-01-23). Water level has risen 47 ft since 1991. 2 measurements on record.",
+        "raw_volume": 21825,
+        "drop_ft": -47.0,
+        "coordinates": [
+            -94.794408,
+            31.5836648
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3726201"
+    },
+    {
+        "title": "TWDB WELL 3541601 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>18 ft</span> (measured 2026-03-03). Water level has risen 53 ft since 1972. 51 measurements on record.",
+        "raw_volume": 1383,
+        "drop_ft": -53.0,
+        "coordinates": [
+            -94.8972222,
+            32.2963889
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3541601"
+    },
+    {
+        "title": "TWDB WELL 3727505 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>250 ft</span> (measured 2023-06-23). Water level has risen 54 ft since 1964. 4 measurements on record.",
+        "raw_volume": 18750,
+        "drop_ft": -54.0,
+        "coordinates": [
+            -94.6844444,
+            31.5597222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3727505"
+    },
+    {
+        "title": "TWDB WELL 3729305 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>111 ft</span> (measured 2026-05-18). Water level has risen 56 ft since 2021. 5 measurements on record.",
+        "raw_volume": 8325,
+        "drop_ft": -56.5,
+        "coordinates": [
+            -94.3952778,
+            31.5883333
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3729305"
+    },
+    {
+        "title": "TWDB WELL 3728902 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>145 ft</span> (measured 2025-12-15). Water level has risen 68 ft since 1969. 39 measurements on record.",
+        "raw_volume": 10875,
+        "drop_ft": -67.6,
+        "coordinates": [
+            -94.5322222,
+            31.5133333
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3728902"
+    },
+    {
+        "title": "TWDB WELL 3457301 (Henderson County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>13 ft</span> (measured 2026-02-12). Water level has risen 71 ft since 1969. 51 measurements on record.",
+        "raw_volume": 1004,
+        "drop_ft": -70.6,
+        "coordinates": [
+            -95.8980556,
+            32.0964583
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3457301"
+    },
+    {
+        "title": "TWDB WELL 3735408 (Angelina County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>350 ft</span> (measured 2026-04-05). Water level has risen 73 ft since 1966. 42 measurements on record.",
+        "raw_volume": 26250,
+        "drop_ft": -73.0,
+        "coordinates": [
+            -94.7416667,
+            31.4227778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3735408"
+    },
+    {
+        "title": "TWDB WELL 3727506 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>238 ft</span> (measured 2026-06-23). Water level has risen 79 ft since 1968. 43 measurements on record.",
+        "raw_volume": 17850,
+        "drop_ft": -79.0,
+        "coordinates": [
+            -94.6877778,
+            31.5491667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3727506"
+    },
+    {
+        "title": "TWDB WELL 3552301 (Panola County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, industrial. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>3 ft</span> (measured 2025-11-19). Water level has risen 79 ft since 1977. 28 measurements on record.",
+        "raw_volume": 1000,
+        "drop_ft": -79.1,
+        "coordinates": [
+            -94.501667,
+            32.231111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3552301"
+    },
+    {
+        "title": "TWDB WELL 3727802 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>304 ft</span> (measured 2026-06-23). Water level has risen 81 ft since 1967. 11 measurements on record.",
+        "raw_volume": 22800,
+        "drop_ft": -81.0,
+        "coordinates": [
+            -94.6941667,
+            31.5361111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3727802"
+    },
+    {
+        "title": "TWDB WELL 3727504 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>236 ft</span> (measured 2026-06-23). Water level has risen 83 ft since 1968. 10 measurements on record.",
+        "raw_volume": 17700,
+        "drop_ft": -83.2,
+        "coordinates": [
+            -94.6811111,
+            31.5708333
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3727504"
+    },
+    {
+        "title": "TWDB WELL 3551707 (Rusk County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, plugged or destroyed. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>110 ft</span> (measured 2017-03-14). Water level has risen 84 ft since 2009. 13 measurements on record.",
+        "raw_volume": 8287,
+        "drop_ft": -84.4,
+        "coordinates": [
+            -94.7126111,
+            32.1365278
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3551707"
+    },
+    {
+        "title": "TWDB WELL 3727304 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>226 ft</span> (measured 2023-06-23). Water level has risen 87 ft since 1956. 18 measurements on record.",
+        "raw_volume": 16950,
+        "drop_ft": -87.4,
+        "coordinates": [
+            -94.6652778,
+            31.6105556
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3727304"
+    },
+    {
+        "title": "TWDB WELL 3734902 (Angelina County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>394 ft</span> (measured 2026-04-05). Water level has risen 119 ft since 1967. 42 measurements on record.",
+        "raw_volume": 29550,
+        "drop_ft": -119.0,
+        "coordinates": [
+            -94.7540278,
+            31.4102194
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3734902"
+    },
+    {
+        "title": "TWDB WELL 3735714 (Angelina County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>411 ft</span> (measured 2026-04-05). Water level has risen 131 ft since 1979. 28 measurements on record.",
+        "raw_volume": 30825,
+        "drop_ft": -131.0,
+        "coordinates": [
+            -94.7116667,
+            31.4016667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3735714"
+    },
+    {
+        "title": "TWDB WELL 3734603 (Angelina County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>282 ft</span> (measured 2024-12-06). Water level has risen 136 ft since 1998. 27 measurements on record.",
+        "raw_volume": 21150,
+        "drop_ft": -136.0,
+        "coordinates": [
+            -94.7533333,
+            31.4427778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3734603"
+    },
+    {
+        "title": "TWDB WELL 3735409 (Angelina County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>336 ft</span> (measured 2026-04-05). Water level has risen 144 ft since 1980. 27 measurements on record.",
+        "raw_volume": 25200,
+        "drop_ft": -144.0,
+        "coordinates": [
+            -94.7472389,
+            31.43105
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3735409"
+    },
+    {
+        "title": "TWDB WELL 3735716 (Angelina County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>382 ft</span> (measured 2026-04-05). Water level has risen 160 ft since 1993. 27 measurements on record.",
+        "raw_volume": 28650,
+        "drop_ft": -160.0,
+        "coordinates": [
+            -94.7277778,
+            31.4088889
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3735716"
+    },
+    {
+        "title": "TWDB WELL 3727605 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>204 ft</span> (measured 2024-01-23). Water level has risen 166 ft since 2000. 2 measurements on record.",
+        "raw_volume": 15300,
+        "drop_ft": -166.0,
+        "coordinates": [
+            -94.6616667,
+            31.5597222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3727605"
+    },
+    {
+        "title": "TWDB WELL 3735603 (Nacogdoches County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, industrial. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>144 ft</span> (measured 2024-12-31). Water level has risen 294 ft since 1971. 7 measurements on record.",
+        "raw_volume": 10800,
+        "drop_ft": -294.0,
+        "coordinates": [
+            -94.6355556,
+            31.4552778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3735603"
     }
 ]
