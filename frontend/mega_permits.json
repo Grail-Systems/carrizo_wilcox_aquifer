@@ -47,7 +47,7 @@
     {
         "title": "ERCOT grid request: Azalea Springs Solar ",
         "applicant": "AZALEA SPRINGS SOLAR PARK LLC ",
-        "bottom_line": "SOL, 181 MW in Angelina County. Projected online: 2025-10-31. ERCOT ID 19INR0110. Location shown at county level.",
+        "bottom_line": "SOL, 181 MW in Angelina County. Projected online: 2026-11-01. ERCOT ID 19INR0110. Location shown at county level.",
         "raw_volume": 3620,
         "coordinates": [
             -94.731,
@@ -58,7 +58,7 @@
     {
         "title": "ERCOT grid request: Board Creek Wind",
         "applicant": "Limestone Wind Project, LLC",
-        "bottom_line": "WIN, 299 MW in Navarro County. Projected online: 2026-07-01. ERCOT ID 21INR0324. Location shown at county level.",
+        "bottom_line": "WIN, 299 MW in Navarro County. Projected online: 2026-10-31. ERCOT ID 21INR0324. Location shown at county level.",
         "raw_volume": 5984,
         "coordinates": [
             -96.592,
@@ -69,7 +69,7 @@
     {
         "title": "ERCOT grid request: Armadillo Solar ",
         "applicant": "Armadillo Solar Center, LLC ",
-        "bottom_line": "SOL, 150 MW in Navarro County. Projected online: 2026-10-27. ERCOT ID 21INR0421. Location shown at county level.",
+        "bottom_line": "SOL, 150 MW in Navarro County. Projected online: 2026-12-31. ERCOT ID 21INR0421. Location shown at county level.",
         "raw_volume": 3009,
         "coordinates": [
             -96.532,
@@ -135,7 +135,7 @@
     {
         "title": "ERCOT grid request: Skull Creek Solar",
         "applicant": "Skull Creek Solar, LLC",
-        "bottom_line": "SOL, 137 MW in Anderson County. Projected online: 2027-05-16. ERCOT ID 23INR0289. Location shown at county level.",
+        "bottom_line": "SOL, 137 MW in Anderson County. Projected online: 2027-06-30. ERCOT ID 23INR0289. Location shown at county level.",
         "raw_volume": 2739,
         "coordinates": [
             -95.713,
@@ -210,28 +210,6 @@
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
     {
-        "title": "ERCOT grid request: Gaia Storage",
-        "applicant": "Gaia Solar, LLC",
-        "bottom_line": "OTH, 79 MW in Navarro County. Projected online: 2026-05-01. ERCOT ID 24INR0140. Location shown at county level.",
-        "raw_volume": 1576,
-        "coordinates": [
-            -96.472,
-            31.987
-        ],
-        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
-    },
-    {
-        "title": "ERCOT grid request: Gaia Solar",
-        "applicant": "Gaia Solar, LLC",
-        "bottom_line": "SOL, 144 MW in Navarro County. Projected online: 2026-05-01. ERCOT ID 24INR0141. Location shown at county level.",
-        "raw_volume": 2880,
-        "coordinates": [
-            -96.412,
-            31.987
-        ],
-        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
-    },
-    {
         "title": "ERCOT grid request: Solar Star North Herty Storage",
         "applicant": "Solar Star North Herty Storage, LLC",
         "bottom_line": "OTH, 126 MW in Angelina County. Projected online: 2027-08-25. ERCOT ID 24INR0174. Location shown at county level.",
@@ -248,7 +226,7 @@
         "bottom_line": "SOL, 505 MW in Navarro County. Projected online: 2027-05-18. ERCOT ID 24INR0188. Location shown at county level.",
         "raw_volume": 10108,
         "coordinates": [
-            -96.352,
+            -96.472,
             31.987
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
@@ -256,11 +234,11 @@
     {
         "title": "ERCOT grid request: Wensowitch Solar",
         "applicant": "Greenalia Solar Power Wensowitch LLC",
-        "bottom_line": "SOL, 146 MW in Navarro County. Projected online: 2028-09-18. ERCOT ID 24INR0205. Location shown at county level.",
+        "bottom_line": "SOL, 146 MW in Navarro County. Projected online: 2029-04-17. ERCOT ID 24INR0205. Location shown at county level.",
         "raw_volume": 2921,
         "coordinates": [
-            -96.592,
-            32.047
+            -96.412,
+            31.987
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
@@ -270,8 +248,8 @@
         "bottom_line": "SOL, 204 MW in Navarro County. Projected online: 2028-03-16. ERCOT ID 24INR0206. Location shown at county level.",
         "raw_volume": 4070,
         "coordinates": [
-            -96.532,
-            32.047
+            -96.352,
+            31.987
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
@@ -281,7 +259,7 @@
         "bottom_line": "OTH, 101 MW in Navarro County. Projected online: 2028-03-16. ERCOT ID 24INR0207. Location shown at county level.",
         "raw_volume": 2020,
         "coordinates": [
-            -96.472,
+            -96.592,
             32.047
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
@@ -292,7 +270,7 @@
         "bottom_line": "SOL, 102 MW in Navarro County. Projected online: 2028-12-31. ERCOT ID 24INR0256. Location shown at county level.",
         "raw_volume": 2030,
         "coordinates": [
-            -96.412,
+            -96.532,
             32.047
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
@@ -300,7 +278,7 @@
     {
         "title": "ERCOT grid request: Anatole Renewable Energy Storage",
         "applicant": "Anatole Renewable Energy LLC",
-        "bottom_line": "OTH, 208 MW in Henderson County. Projected online: 2027-06-01. ERCOT ID 24INR0355. Location shown at county level.",
+        "bottom_line": "OTH, 208 MW in Henderson County. Projected online: 2027-06-30. ERCOT ID 24INR0355. Location shown at county level.",
         "raw_volume": 4156,
         "coordinates": [
             -95.913,
@@ -314,7 +292,7 @@
         "bottom_line": "OTH, 25 MW in Navarro County. Projected online: 2028-12-31. ERCOT ID 24INR0391. Location shown at county level.",
         "raw_volume": 506,
         "coordinates": [
-            -96.352,
+            -96.472,
             32.047
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
@@ -355,11 +333,11 @@
     {
         "title": "ERCOT grid request: Yellow Cat Wind",
         "applicant": "Yellow Cat Wind LLC",
-        "bottom_line": "WIN, 262 MW in Navarro County. Projected online: 2027-04-01. ERCOT ID 25INR0018. Location shown at county level.",
+        "bottom_line": "WIN, 262 MW in Navarro County. Projected online: 2027-03-05. ERCOT ID 25INR0018. Location shown at county level.",
         "raw_volume": 5240,
         "coordinates": [
-            -96.592,
-            32.107
+            -96.412,
+            32.047
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
@@ -369,18 +347,18 @@
         "bottom_line": "SOL, 56 MW in Navarro County. Projected online: 2028-05-15. ERCOT ID 25INR0029. Location shown at county level.",
         "raw_volume": 1126,
         "coordinates": [
-            -96.532,
-            32.107
+            -96.352,
+            32.047
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
     {
         "title": "ERCOT grid request: Hector Solar",
         "applicant": "Hector Solar, LLC",
-        "bottom_line": "SOL, 82 MW in Navarro County. Projected online: 2027-12-31. ERCOT ID 25INR0220. Location shown at county level.",
+        "bottom_line": "SOL, 82 MW in Navarro County. Projected online: 2028-10-08. ERCOT ID 25INR0220. Location shown at county level.",
         "raw_volume": 1631,
         "coordinates": [
-            -96.472,
+            -96.592,
             32.107
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
@@ -388,10 +366,10 @@
     {
         "title": "ERCOT grid request: Hector Storage",
         "applicant": "Hector Solar, LLC",
-        "bottom_line": "OTH, 43 MW in Navarro County. Projected online: 2027-12-31. ERCOT ID 25INR0221. Location shown at county level.",
+        "bottom_line": "OTH, 43 MW in Navarro County. Projected online: 2028-10-08. ERCOT ID 25INR0221. Location shown at county level.",
         "raw_volume": 853,
         "coordinates": [
-            -96.412,
+            -96.532,
             32.107
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
@@ -399,10 +377,10 @@
     {
         "title": "ERCOT grid request: Bluebonnet Prairie Wind",
         "applicant": "Bluebonnet Prairie Wind, LLC",
-        "bottom_line": "WIN, 173 MW in Navarro County. Projected online: 2027-07-15. ERCOT ID 25INR0247. Location shown at county level.",
-        "raw_volume": 3460,
+        "bottom_line": "WIN, 180 MW in Navarro County. Projected online: 2028-07-15. ERCOT ID 25INR0247. Location shown at county level.",
+        "raw_volume": 3600,
         "coordinates": [
-            -96.352,
+            -96.472,
             32.107
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
@@ -410,7 +388,7 @@
     {
         "title": "ERCOT grid request: Rogers Creek BESS",
         "applicant": "Dialville BESS",
-        "bottom_line": "OTH, 100 MW in Cherokee County. Projected online: 2028-04-19. ERCOT ID 25INR0414. Location shown at county level.",
+        "bottom_line": "OTH, 100 MW in Cherokee County. Projected online: 2029-04-17. ERCOT ID 25INR0414. Location shown at county level.",
         "raw_volume": 2006,
         "coordinates": [
             -95.165,
@@ -454,29 +432,29 @@
     {
         "title": "ERCOT grid request: Elm Flats Solar SLF",
         "applicant": "Orca Falls Solar, LLC",
-        "bottom_line": "SOL, 126 MW in Navarro County. Projected online: 2027-09-30. ERCOT ID 26INR0130. Location shown at county level.",
+        "bottom_line": "SOL, 126 MW in Navarro County. Projected online: 2027-11-01. ERCOT ID 26INR0130. Location shown at county level.",
         "raw_volume": 2516,
         "coordinates": [
-            -96.592,
-            32.167
+            -96.412,
+            32.107
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
     {
         "title": "ERCOT grid request: Elm Flats Storage SLF",
         "applicant": "Orca Falls Solar, LLC",
-        "bottom_line": "OTH in Navarro County. Projected online: 2027-09-30. ERCOT ID 26INR0131. Location shown at county level.",
+        "bottom_line": "OTH in Navarro County. Projected online: 2027-11-01. ERCOT ID 26INR0131. Location shown at county level.",
         "raw_volume": 1000,
         "coordinates": [
-            -96.532,
-            32.167
+            -96.352,
+            32.107
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
     {
         "title": "ERCOT grid request: Timberline Solar",
         "applicant": "Timberline Renewables, LLC",
-        "bottom_line": "SOL, 201 MW in Nacogdoches County. Projected online: 2029-04-20. ERCOT ID 26INR0161. Location shown at county level.",
+        "bottom_line": "SOL, 201 MW in Nacogdoches County. Projected online: 2029-10-05. ERCOT ID 26INR0161. Location shown at county level.",
         "raw_volume": 4020,
         "coordinates": [
             -94.736,
@@ -487,7 +465,7 @@
     {
         "title": "ERCOT grid request: Timberline Storage",
         "applicant": "Timberline Renewables, LLC",
-        "bottom_line": "OTH, 100 MW in Nacogdoches County. Projected online: 2029-04-20. ERCOT ID 26INR0162. Location shown at county level.",
+        "bottom_line": "OTH, 100 MW in Nacogdoches County. Projected online: 2029-10-05. ERCOT ID 26INR0162. Location shown at county level.",
         "raw_volume": 2010,
         "coordinates": [
             -94.676,
@@ -498,7 +476,7 @@
     {
         "title": "ERCOT grid request: Dionysus Solar",
         "applicant": "Dionysus Solar, LLC",
-        "bottom_line": "SOL, 153 MW in Houston County. Projected online: 2027-03-11. ERCOT ID 26INR0176. Location shown at county level.",
+        "bottom_line": "SOL, 153 MW in Houston County. Projected online: 2028-12-15. ERCOT ID 26INR0176. Location shown at county level.",
         "raw_volume": 3065,
         "coordinates": [
             -95.422,
@@ -509,7 +487,7 @@
     {
         "title": "ERCOT grid request: Dionysus Storage",
         "applicant": "Dionysus Solar, LLC",
-        "bottom_line": "OTH, 77 MW in Houston County. Projected online: 2027-03-11. ERCOT ID 26INR0177. Location shown at county level.",
+        "bottom_line": "OTH, 77 MW in Houston County. Projected online: 2028-12-15. ERCOT ID 26INR0177. Location shown at county level.",
         "raw_volume": 1545,
         "coordinates": [
             -95.362,
@@ -520,10 +498,10 @@
     {
         "title": "ERCOT grid request: Cape Rich BESS",
         "applicant": "Cape Rich BESS",
-        "bottom_line": "OTH, 151 MW in Navarro County. Projected online: 2028-04-17. ERCOT ID 26INR0180. Location shown at county level.",
+        "bottom_line": "OTH, 151 MW in Navarro County. Projected online: 2030-04-18. ERCOT ID 26INR0180. Location shown at county level.",
         "raw_volume": 3010,
         "coordinates": [
-            -96.472,
+            -96.592,
             32.167
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
@@ -534,7 +512,7 @@
         "bottom_line": "SOL, 106 MW in Navarro County. Projected online: 2028-09-20. ERCOT ID 26INR0228. Location shown at county level.",
         "raw_volume": 2117,
         "coordinates": [
-            -96.412,
+            -96.532,
             32.167
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
@@ -573,20 +551,9 @@
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
     {
-        "title": "ERCOT grid request: Three Canes Solar",
-        "applicant": "Three Canes Solar LLC",
-        "bottom_line": "SOL, 335 MW in Navarro County. Projected online: 2027-07-31. ERCOT ID 26INR0543. Location shown at county level.",
-        "raw_volume": 6694,
-        "coordinates": [
-            -96.352,
-            32.167
-        ],
-        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
-    },
-    {
         "title": "ERCOT grid request: Kit Fox Storage",
         "applicant": "Kit Fox Storage, LLC",
-        "bottom_line": "OTH, 154 MW in Henderson County. Projected online: 2027-07-01. ERCOT ID 27INR0014. Location shown at county level.",
+        "bottom_line": "OTH, 154 MW in Henderson County. Projected online: 2029-07-01. ERCOT ID 27INR0014. Location shown at county level.",
         "raw_volume": 3072,
         "coordinates": [
             -95.853,
@@ -597,7 +564,7 @@
     {
         "title": "ERCOT grid request: Houston County BESS",
         "applicant": "Houston ESS, LLC",
-        "bottom_line": "OTH, 125 MW in Houston County. Projected online: 2027-04-12. ERCOT ID 27INR0196. Location shown at county level.",
+        "bottom_line": "OTH, 125 MW in Houston County. Projected online: 2029-12-31. ERCOT ID 27INR0196. Location shown at county level.",
         "raw_volume": 2508,
         "coordinates": [
             -95.422,
@@ -607,7 +574,7 @@
     },
     {
         "title": "ERCOT grid request: Musgravite Solar",
-        "applicant": "BT Thompson Solar, LLC",
+        "applicant": "Solex Ridge, LLC",
         "bottom_line": "SOL, 101 MW in Henderson County. Projected online: 2027-11-01. ERCOT ID 27INR0198. Location shown at county level.",
         "raw_volume": 2012,
         "coordinates": [
@@ -617,31 +584,9 @@
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
     {
-        "title": "ERCOT grid request: Sunlit Pines Solar SLF",
-        "applicant": "Sunlit Pines Energy Center LLC",
-        "bottom_line": "SOL, 207 MW in Nacogdoches County. Projected online: 2028-09-12. ERCOT ID 27INR0226. Location shown at county level.",
-        "raw_volume": 4134,
-        "coordinates": [
-            -94.616,
-            31.496
-        ],
-        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
-    },
-    {
-        "title": "ERCOT grid request: Sunlit Pines BESS SLF",
-        "applicant": "Sunlit Pines BESS LLC",
-        "bottom_line": "OTH, 208 MW in Nacogdoches County. Projected online: 2028-09-12. ERCOT ID 27INR0228. Location shown at county level.",
-        "raw_volume": 4162,
-        "coordinates": [
-            -94.556,
-            31.496
-        ],
-        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
-    },
-    {
         "title": "ERCOT grid request: Sun Angel ESS",
         "applicant": "Sun Angel ESS LLC",
-        "bottom_line": "OTH, 202 MW in Angelina County. Projected online: 2028-07-01. ERCOT ID 27INR0247. Location shown at county level.",
+        "bottom_line": "OTH, 202 MW in Angelina County. Projected online: 2028-09-21. ERCOT ID 27INR0247. Location shown at county level.",
         "raw_volume": 4030,
         "coordinates": [
             -94.551,
@@ -653,9 +598,9 @@
         "title": "ERCOT grid request: Spindletop Solar",
         "applicant": "Banita Creek Solar LLC ",
         "bottom_line": "SOL, 286 MW in Nacogdoches County. Projected online: 2027-12-29. ERCOT ID 27INR0313. Location shown at county level.",
-        "raw_volume": 5720,
+        "raw_volume": 5728,
         "coordinates": [
-            -94.496,
+            -94.616,
             31.496
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
@@ -674,8 +619,8 @@
     {
         "title": "ERCOT grid request: Dry Creek Solar II",
         "applicant": "Oak Hill Solar II LLC",
-        "bottom_line": "SOL, 203 MW in Rusk County. Projected online: 2028-02-01. ERCOT ID 27INR0488. Location shown at county level.",
-        "raw_volume": 4068,
+        "bottom_line": "SOL, 201 MW in Rusk County. Projected online: 2028-02-01. ERCOT ID 27INR0488. Location shown at county level.",
+        "raw_volume": 4025,
         "coordinates": [
             -94.642,
             31.988
@@ -696,8 +641,8 @@
     {
         "title": "ERCOT grid request: Wild Paw Storage",
         "applicant": "Wild Paw Energy Center, LLC",
-        "bottom_line": "OTH, 313 MW in Henderson County. Projected online: 2028-09-30. ERCOT ID 28INR0075. Location shown at county level.",
-        "raw_volume": 6264,
+        "bottom_line": "OTH, 301 MW in Henderson County. Projected online: 2028-09-30. ERCOT ID 28INR0075. Location shown at county level.",
+        "raw_volume": 6023,
         "coordinates": [
             -95.973,
             32.152
@@ -721,8 +666,8 @@
         "bottom_line": "SOL, 149 MW in Navarro County. Projected online: 2029-04-06. ERCOT ID 28INR0182. Location shown at county level.",
         "raw_volume": 2977,
         "coordinates": [
-            -96.592,
-            31.927
+            -96.472,
+            32.167
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
@@ -732,8 +677,8 @@
         "bottom_line": "OTH, 359 MW in Navarro County. Projected online: 2028-09-30. ERCOT ID 28INR0292. Location shown at county level.",
         "raw_volume": 7182,
         "coordinates": [
-            -96.532,
-            31.927
+            -96.412,
+            32.167
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
@@ -743,8 +688,8 @@
         "bottom_line": "SOL, 251 MW in Navarro County. Projected online: 2029-09-28. ERCOT ID 28INR0335. Location shown at county level.",
         "raw_volume": 5026,
         "coordinates": [
-            -96.472,
-            31.927
+            -96.352,
+            32.167
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
@@ -754,18 +699,51 @@
         "bottom_line": "SOL, 100 MW in Navarro County. Projected online: 2029-09-17. ERCOT ID 28INR0467. Location shown at county level.",
         "raw_volume": 2008,
         "coordinates": [
-            -96.412,
+            -96.592,
             31.927
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
     {
-        "title": "ERCOT grid request: Mule Deer Run Gas",
-        "applicant": "BOULEVARD ASSOCIATES, LLC",
-        "bottom_line": "GAS, 1,263 MW in Anderson County. Projected online: 2031-07-01. ERCOT ID 32INR0003. Location shown at county level.",
+        "title": "ERCOT grid request: Longleaf II Power Station",
+        "applicant": "WattBridge Texas Holdings, LLC",
+        "bottom_line": "GAS, 600 MW in Angelina County. Projected online: 2030-07-01. ERCOT ID 30INR0114. Location shown at county level.",
+        "raw_volume": 12000,
+        "coordinates": [
+            -94.491,
+            31.135
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Mule Deer Run Gas II",
+        "applicant": "Anderson Energy Center, LLC",
+        "bottom_line": "GAS, 1,263 MW in Anderson County. Projected online: 2032-07-01. ERCOT ID 31INR0021. Location shown at county level.",
         "raw_volume": 25260,
         "coordinates": [
             -95.713,
+            31.753
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Mule Deer Run Gas III",
+        "applicant": "Anderson Energy Center, LLC",
+        "bottom_line": "GAS, 1,263 MW in Anderson County. Projected online: 2032-07-01. ERCOT ID 31INR0022. Location shown at county level.",
+        "raw_volume": 25260,
+        "coordinates": [
+            -95.653,
+            31.753
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Mule Deer Run Gas",
+        "applicant": "Anderson Energy Center, LLC",
+        "bottom_line": "GAS, 1,263 MW in Anderson County. Projected online: 2031-07-01. ERCOT ID 32INR0003. Location shown at county level.",
+        "raw_volume": 25260,
+        "coordinates": [
+            -95.593,
             31.753
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
