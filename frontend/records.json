@@ -107,16 +107,24 @@
       "agency": "Angelina County",
       "number": "",
       "filed": "2026-09-25",
-      "status": "No response yet",
-      "state": "none",
+      "status": "Records received",
+      "state": "done",
       "asked": "Any road use agreement with the companies; tax abatement applications, drafts and reinvestment zone records for either site, including the Long Leaf Generating LLC abatement approved in May 2025; Resolution 010-26; county permits for either site; records of the Oncor easement to Exacore LLC filed May 13, 2025; correspondence with the companies; records of the Nov. 7, 2025 meeting; and letters of support.",
       "events": [
         {
           "date": "2026-09-25",
           "text": "Request sent to the County Judge's office and Commissioners Court."
+        },
+        {
+          "date": "2026-10-02",
+          "text": "After ETLC paid the County's $45 charge, County Judge Keith Wright's office sent its records."
+        },
+        {
+          "date": "2026-10-02",
+          "text": "Commissioner Kermit Kennedy (Precinct 2) also forwarded records."
         }
       ],
-      "waiting": "A response from the County."
+      "waiting": "Nothing further. ETLC is reviewing the County's records."
     }
   ]
 }
