@@ -26,6 +26,8 @@ h2{font-size:1.45rem;margin:0}
 article[data-state="ag"] .status,article[data-state="none"] .status{color:var(--red)}
 article[data-state="waiting"] .status,article[data-state="partial"] .status{color:var(--amber)}
 article[data-state="closed"] .status{color:var(--dim)}
+article[data-state="done"]{border-left-color:#5a9e6f}
+article[data-state="done"] .status{color:#5a9e6f}
 .meta{font-family:system-ui,sans-serif;font-size:.85rem;color:var(--dim);margin:2px 0 14px}
 h3{font-family:system-ui,sans-serif;font-size:.9rem;font-weight:600;color:var(--dim);margin:18px 0 4px}
 p.asked{margin:0;max-width:66ch}
@@ -71,6 +73,7 @@ fetch('frontend/records.json?v='+Date.now()).then(r=>r.json()).then(data=>{
   if(by('waiting')) parts.push(`${by('waiting')} waiting on the agency`);
   if(by('partial')) parts.push(`${by('partial')} partly answered`);
   if(by('none')) parts.push(`${by('none')} with no response yet`);
+  if(by('done')) parts.push(`${by('done')} answered`);
   if(by('closed')) parts.push(`${by('closed')} merged into another request`);
   document.getElementById('summary').textContent =
     `${count(reqs.length,'request','requests')} filed with ${new Set(reqs.map(r=>r.agency)).size} agencies. ` +
