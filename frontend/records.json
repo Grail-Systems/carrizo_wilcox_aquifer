@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "requests": [
     {
       "agency": "City of Lufkin",
@@ -9,10 +9,28 @@
       "state": "ag",
       "asked": "The industrial development ordinance adopted in August 2026; city limits and ETJ maps for both sites; water, sewer and utility agreements with the companies; records of the City's wells on the former Southland Paper Mill property; the documents behind the 500-gallons-a-day figure in the City's Data Center FAQ; communications with the companies; and records of the Nov. 7, 2025 meeting and any letters of support signed by City officials.",
       "events": [
-        {"date": "2026-09-25", "text": "Request filed and logged by the City."},
-        {"date": "2026-10-08", "text": "City sent a cost estimate of $108 and asked for a $54 deposit."},
-        {"date": "2026-10-09", "text": "City asked the Texas Attorney General to let it withhold records, citing economic development negotiations (Sec. 552.131), internal policy advice (Sec. 552.111) and possible third-party business information (Sec. 552.110).", "link": "docs/lufkin_ag_request_2026-10-09.pdf", "link_text": "Read the City's letter (redacted copy)"},
-        {"date": "2026-10-21", "text": "ETLC accepted the estimate and asked the City to release the records it did not send to the Attorney General."}
+        {
+          "date": "2026-09-25",
+          "text": "Request filed and logged by the City."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "City sent a cost estimate of $108 and asked for a $54 deposit."
+        },
+        {
+          "date": "2026-10-09",
+          "text": "City asked the Texas Attorney General to let it withhold records, citing economic development negotiations (Sec. 552.131), internal policy advice (Sec. 552.111) and possible third-party business information (Sec. 552.110).",
+          "link": "docs/lufkin_ag_request_2026-10-09.pdf",
+          "link_text": "Read the City's letter (redacted copy)"
+        },
+        {
+          "date": "2026-10-21",
+          "text": "ETLC accepted the estimate and asked the City to release the records it did not send to the Attorney General."
+        },
+        {
+          "date": "2026-10-22",
+          "text": "ETLC paid the $54 deposit in cash at the City Secretary's Office and received a receipt."
+        }
       ],
       "waiting": "The Attorney General's ruling, due by about mid-December 2026, and release of the records the City did not submit for review."
     },
@@ -24,10 +42,22 @@
       "state": "waiting",
       "asked": "The City's water system records: an inventory of City wells with production and water-level records since 2016; water and wastewater capacity and demand since 2021; water, wastewater and capital plans; any study of serving a data center or other large industrial water user; any will-serve letter or capacity reservation for the companies; how the City would supply and charge for that water at the former mill; and the City's 2009 purchase of the mill's water system.",
       "events": [
-        {"date": "2026-09-25", "text": "Request filed and logged by the City."},
-        {"date": "2026-10-08", "text": "City asked for a $234 deposit, half of its estimated charges."},
-        {"date": "2026-10-09", "text": "City included the parts of this request that overlap CRR-2026-315 in its request to the Attorney General."},
-        {"date": "2026-10-21", "text": "ETLC removed the overlap with CRR-2026-315, asked for a revised estimate, and asked the City to include the data center studies, will-serve letters and well records."}
+        {
+          "date": "2026-09-25",
+          "text": "Request filed and logged by the City."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "City asked for a $234 deposit, half of its estimated charges."
+        },
+        {
+          "date": "2026-10-09",
+          "text": "City included the parts of this request that overlap CRR-2026-315 in its request to the Attorney General."
+        },
+        {
+          "date": "2026-10-21",
+          "text": "ETLC removed the overlap with CRR-2026-315, asked for a revised estimate, and asked the City to include the data center studies, will-serve letters and well records."
+        }
       ],
       "waiting": "A revised cost estimate from the City."
     },
@@ -39,8 +69,14 @@
       "state": "closed",
       "asked": "Incentive offers, letters of intent and nondisclosure agreements with the companies; site marketing materials for the former Southland mill and Northern Chip Mill sites; records of the Nov. 7, 2025 meeting; letters of support; board agendas and minutes mentioning data centers; and correspondence about the project.",
       "events": [
-        {"date": "2026-09-25", "text": "Request sent to the EDC and logged by the City."},
-        {"date": "2026-10-09", "text": "City said five of the seven items duplicate CRR-2026-315 and are handled there. For site marketing materials and for board agendas and minutes mentioning data centers, it said it found no responsive records."}
+        {
+          "date": "2026-09-25",
+          "text": "Request sent to the EDC and logged by the City."
+        },
+        {
+          "date": "2026-10-09",
+          "text": "City said five of the seven items duplicate CRR-2026-315 and are handled there. For site marketing materials and for board agendas and minutes mentioning data centers, it said it found no responsive records."
+        }
       ],
       "waiting": "Nothing further; the overlapping records follow CRR-2026-315."
     },
@@ -52,9 +88,18 @@
       "state": "partial",
       "asked": "District rules and management plan; well permits and applications for wells on or serving either site; production records; any permit to export groundwater; board minutes and agendas mentioning data centers or the companies; and correspondence with the companies.",
       "events": [
-        {"date": "2026-09-25", "text": "Request filed."},
-        {"date": "2026-09-29", "text": "District sent its rules, the expired permits for three wells at the Ben Dunn Road site, board minutes and agendas, and an email exchange with agents for the site, and asked clarifying questions."},
-        {"date": "2026-10-12", "text": "ETLC answered the questions and listed the records still needed. The District said it is gathering them."}
+        {
+          "date": "2026-09-25",
+          "text": "Request filed."
+        },
+        {
+          "date": "2026-09-29",
+          "text": "District sent its rules, the expired permits for three wells at the Ben Dunn Road site, board minutes and agendas, and an email exchange with agents for the site, and asked clarifying questions."
+        },
+        {
+          "date": "2026-10-12",
+          "text": "ETLC answered the questions and listed the records still needed. The District said it is gathering them."
+        }
       ],
       "waiting": "The remaining well, permit and correspondence records."
     },
@@ -66,7 +111,10 @@
       "state": "none",
       "asked": "Any road use agreement with the companies; tax abatement applications, drafts and reinvestment zone records for either site, including the Long Leaf Generating LLC abatement approved in May 2025; Resolution 010-26; county permits for either site; records of the Oncor easement to Exacore LLC filed May 13, 2025; correspondence with the companies; records of the Nov. 7, 2025 meeting; and letters of support.",
       "events": [
-        {"date": "2026-09-25", "text": "Request sent to the County Judge's office and Commissioners Court."}
+        {
+          "date": "2026-09-25",
+          "text": "Request sent to the County Judge's office and Commissioners Court."
+        }
       ],
       "waiting": "A response from the County."
     }
