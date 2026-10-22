@@ -1,13 +1,13 @@
 {
-  "checked": "2026-10-21T23:07:02+00:00",
+  "checked": "2026-10-22T02:26:41+00:00",
   "feeds": [
     {
       "file": "frontend/mega_permits.json",
       "label": "Permits and ERCOT grid requests",
-      "state": "held",
-      "records": 70,
-      "last_good": null,
-      "note": "dropped from 70 to 3"
+      "state": "updated",
+      "records": 68,
+      "last_good": "2026-10-22T02:26:41+00:00",
+      "note": ""
     },
     {
       "file": "frontend/toxin_feed.json",
@@ -44,7 +44,7 @@
     {
       "file": "wall_of_shame.html",
       "label": "Wall of Shame officials",
-      "state": "updated",
+      "state": "unchanged",
       "records": 4,
       "last_good": "2026-10-21T23:07:02+00:00",
       "note": ""
