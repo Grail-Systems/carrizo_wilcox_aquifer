@@ -87,6 +87,29 @@
     {
       "agency": "Pineywoods Groundwater Conservation District",
       "number": "",
+      "filed": "2026-09-18",
+      "status": "Partly answered",
+      "state": "partial",
+      "asked": "Well permit applications for Amp Z, Verdant Industries or anyone seeking groundwater at the former Southland Paper Mill site; correspondence with those companies since 2024; any well application in Angelina County since 2024 for more than 25,000 gallons a day; and board agendas and minutes discussing them.",
+      "events": [
+        {
+          "date": "2026-09-18",
+          "text": "Request filed."
+        },
+        {
+          "date": "2026-09-22",
+          "text": "The District answered in writing: no well applications near the Southland mill site in the past two years and no contact with Amp Z or Verdant. It disclosed that WattBridge was approved in late 2024 and early 2025 for a well permit of 80 million gallons a year for a power plant in the north of the county, never drilled, and in March 2026 asked for 1.5 billion gallons a year for a 24/7 plant; that request has been on hold since July 2026 at the company's request. The District asked whether ETLC still wanted the documents and requested until Oct. 16 to gather them."
+        },
+        {
+          "date": "2026-10-22",
+          "text": "ETLC confirmed it still wants the WattBridge permit applications and the related board agendas and minutes, and dropped the rig supply well applications."
+        }
+      ],
+      "waiting": "The WattBridge permit applications and the related board agendas and minutes."
+    },
+    {
+      "agency": "Pineywoods Groundwater Conservation District",
+      "number": "",
       "filed": "2026-09-25",
       "status": "Partly answered",
       "state": "partial",
