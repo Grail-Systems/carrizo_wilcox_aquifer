@@ -60,7 +60,7 @@
     <nav id="mobile-tabs" aria-label="Panels"><button id="tab-filters" class="active" onclick="showTab('filters')">Map filters</button><button id="tab-feed" onclick="showTab('feed')">Threat list <span id="feed-tab-count"></span></button></nav>
     <div id="ui-panel">
         <h1>Aquifer Defense Grid</h1>
-        <p style="font-size: 0.85rem; color: #ccc; margin-bottom: 10px;">Live 3D view of the Carrizo-Wilcox water table and active threats.</p>
+        <p style="font-size: 0.85rem; color: #ccc; margin-bottom: 10px;">The Carrizo-Wilcox Aquifer in 3D, and everybody lining up to drink from it.</p>
         
         <button class="recenter-btn" onclick="recenterMap()">🎯 Recenter Map</button>
         
@@ -70,7 +70,7 @@
         <div class="legend-item"><div class="color-box" style="background: rgba(57, 255, 20, 0.4); border: 2px solid #39FF14; border-radius: 50%;"></div> EPA Violation</div>
         
         <div style="margin-top: 15px; border-top: 1px solid #444; padding-top: 15px;">
-            <strong style="color: #fff; font-size: 0.95rem;">PRECISION FILTERS</strong><br>
+            <strong style="color: #fff; font-size: 0.95rem;">FILTERS</strong><br>
             
             <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;"><input type="checkbox" id="toggle-permits" checked onchange="updateGrid()"> 🛑 Permits &amp; Grid Requests</label>
             <div class="slider-container"><label style="font-size: 0.75rem; color: #ff3232; display: flex; justify-content: space-between;"><span>Project Size:</span><span id="permit-val">1,000+</span></label><input type="range" id="permit-slider" min="1000" max="15000" step="1000" value="1000" oninput="updateLabels(); scheduleGrid();"></div>
@@ -91,14 +91,14 @@
 
 
         <div style="margin-top: 15px; border-top: 1px solid #444; padding-top: 15px; text-align: center;">
-            <a href="https://cash.app/$grailsystems" target="_blank" class="support-btn">Support The Grid: $grailsystems</a>
+            <a href="https://cash.app/$grailsystems" target="_blank" class="support-btn">Chip in: $grailsystems</a>
         </div>
     </div>
     
     <div id="threat-feed-panel">
-        <h2 style="margin-bottom: 5px;">Omni-Feed Intercepts</h2>
-        <div id="target-lock"><strong style="color: #ffaa00; font-size: 0.9rem;">📍 TARGET LOCKED</strong><div id="target-details" style="margin-top: 8px; font-size: 0.85rem;"></div></div>
-        <div id="feed-content" style="flex-grow: 1; overflow-y: auto;"><p style="font-size: 0.8rem; color: #888;">Intercepting live feed...</p></div>
+        <h2 style="margin-bottom: 5px;">Threat list</h2>
+        <div id="target-lock"><strong style="color: #ffaa00; font-size: 0.9rem;">📍 SELECTED SITE</strong><div id="target-details" style="margin-top: 8px; font-size: 0.85rem;"></div></div>
+        <div id="feed-content" style="flex-grow: 1; overflow-y: auto;"><p style="font-size: 0.8rem; color: #888;">Loading the records…</p></div>
     </div>
     
     <div id="map"></div>
@@ -176,14 +176,14 @@
 
             let combinedFeed = [...activePermits, ...activeUSGS, ...activeToxins];
             
-            let html = `<div style="background: #ff3232; color: white; padding: 10px; text-align: center; font-weight: bold; margin-bottom: 15px; border-radius: 4px;">SYSTEM ALERT: ${combinedFeed.length.toLocaleString()} LIVE INTERCEPTS</div>`;
+            let html = `<div style="background: #ff3232; color: white; padding: 10px; text-align: center; font-weight: bold; margin-bottom: 15px; border-radius: 4px;">${combinedFeed.length.toLocaleString()} sites on the map right now</div>`;
             combinedFeed.slice(0, 30).forEach(item => {
                 let color = item.feed_type === 'toxin' ? '#39FF14' : item.feed_type === 'usgs' ? '#ffaa00' : '#ff3232';
                 let tag = item.feed_type === 'toxin' ? '[EPA VIOLATION]' : item.feed_type === 'usgs' ? '[WATER LEVEL]' : '[GRID / PERMIT]';
                 html += `<div class="feed-item" style="border-left: 2px solid ${color}; padding-left: 10px;"><strong style="color: ${color}; font-size: 0.85rem;">${tag}</strong><br/><strong style="color: white; font-size: 0.9rem;">${esc(item.title || item.facility)}</strong><br/><p style="font-size: 0.85rem; line-height: 1.4; color: #ddd; margin: 5px 0;">${safe(item.bottom_line)}</p>${srcUrl(item.source_url) ? `<br><a href="${srcUrl(item.source_url)}" target="_blank" rel="noopener" style="color: #00ffff; font-size: 0.8rem; text-decoration: underline;">View Source Document</a>` : ''}</div>`;
             });
             document.getElementById('feed-tab-count').textContent = '(' + combinedFeed.length.toLocaleString() + ')';
-            document.getElementById('feed-content').innerHTML = html || '<p style="color: #4CAF50;">Grid Clear.</p>';
+            document.getElementById('feed-content').innerHTML = html || '<p style="color: #4CAF50;">Nothing matches these filters. Enjoy it while it lasts.</p>';
 
             const activeLayers = [new GeoJsonLayer({ id: 'aquifer-layer', data: 'frontend/wilcox_aquifer.json', filled: true, getFillColor: [0, 150, 255, 60], pickable: false })];
             if (activeWells.length > 0) activeLayers.push(new ScatterplotLayer({ id: 'threat-wells', data: activeWells, getPosition: d => d.geometry ? d.geometry.coordinates : d.coordinates, getFillColor: [255, 50, 50, 180], getRadius: 5, radiusUnits: 'pixels', pickable: true, onClick: lockTarget }));
