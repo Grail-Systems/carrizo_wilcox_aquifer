@@ -32,7 +32,10 @@
           "text": "ETLC paid the $54 deposit in cash at the City Secretary's Office and received a receipt."
         }
       ],
-      "waiting": "The Attorney General's ruling, due by about mid-December 2026, and release of the records the City did not submit for review."
+      "waiting": "The Attorney General's ruling, due by about mid-December 2026, and release of the records the City did not submit for review.",
+      "clock": {
+        "ag_requested": "2026-10-09"
+      }
     },
     {
       "agency": "City of Lufkin",
@@ -63,7 +66,12 @@
           "text": "At the City's request, ETLC marked the items to remove: City well locations, Pineywoods permits and production reports, water system capacity and demand, wastewater capacity and flows, the capital improvement plan, and the drought and conservation plans. ETLC asked for a revised itemized statement with the total and a written response to its fee waiver request."
         }
       ],
-      "waiting": "A revised itemized statement from the City and a written response to the fee waiver request."
+      "waiting": "A revised itemized statement from the City and a written response to the fee waiver request.",
+      "clock": {
+        "start": "2026-10-22",
+        "kind": "expected",
+        "start_note": "ETLC marked the items to remove"
+      }
     },
     {
       "agency": "Lufkin Economic Development Corporation",
@@ -105,7 +113,12 @@
           "text": "ETLC confirmed it still wants the WattBridge permit applications and the related board agendas and minutes, and dropped the rig supply well applications."
         }
       ],
-      "waiting": "The WattBridge permit applications and the related board agendas and minutes."
+      "waiting": "The WattBridge permit applications and the related board agendas and minutes.",
+      "clock": {
+        "start": "2026-10-22",
+        "kind": "expected",
+        "start_note": "ETLC confirmed which records it still wants"
+      }
     },
     {
       "agency": "Pineywoods Groundwater Conservation District",
@@ -128,7 +141,12 @@
           "text": "ETLC answered the questions and listed the records still needed. The District said its management plan is posted on its website and that pulling the rest will take time."
         }
       ],
-      "waiting": "The remaining well, permit and correspondence records."
+      "waiting": "The remaining well, permit and correspondence records.",
+      "clock": {
+        "start": "2026-10-12",
+        "kind": "legal",
+        "start_note": "ETLC answered the District's clarifying questions"
+      }
     },
     {
       "agency": "Angelina County",
