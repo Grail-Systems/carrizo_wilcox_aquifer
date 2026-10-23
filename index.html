@@ -137,11 +137,14 @@
             document.getElementById('toxin-val').innerText = document.getElementById('toxin-slider').value + '+';
         }
         
+        function esc(v){ return String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+        function safe(v){ return esc(v).replace(/&lt;br\s*\/?&gt;/g,'<br>').replace(/&lt;(\/?)(b|strong)&gt;/g,'<$1$2>').replace(/&lt;span style=&#39;color:#(?:ffaa00|ff3232); font-weight:bold;&#39;&gt;/g, m => '<span style="color:#ffaa00; font-weight:bold;">').replace(/&lt;\/span&gt;/g,'</span>'); }
+        function srcUrl(u){ u = String(u || ''); return /^(https?:\/\/|docs\/)/.test(u) ? esc(u) : ''; }
         function lockTarget(info) {
             if (!info || !info.object) return; const obj = info.object;
             document.getElementById('target-lock').style.display = 'block';
             
-            document.getElementById('target-details').innerHTML = `<strong style="color: white;">${obj.title || obj.facility || 'Selected site'}</strong><br/><div style="margin-top: 5px; color: #ddd; line-height: 1.4;">${obj.bottom_line || 'No details on file.'}</div>`;
+            document.getElementById('target-details').innerHTML = `<strong style="color: white;">${esc(obj.title || obj.facility || 'Selected site')}</strong><br/><div style="margin-top: 5px; color: #ddd; line-height: 1.4;">${safe(obj.bottom_line || 'No details on file.')}</div>`;
             if (isPhone()) { showTab('feed'); document.getElementById('threat-feed-panel').scrollTop = 0; }
         }
 
@@ -151,10 +154,10 @@
             
             getTooltip: ({object}) => {
                 if (!object) return null;
-                if (object.feed_type === 'permit') return { html: `<div style="padding: 12px; max-width: 360px; border-left: 4px solid #ff3232; background: rgba(15,15,15,0.95);"><strong style="color: #ff3232;">💧 PERMIT / GRID REQUEST</strong><br/>${object.title}<br/>${object.bottom_line}</div>` };
-                if (object.feed_type === 'toxin') return { html: `<div style="padding: 12px; border-left: 4px solid #39FF14; background: rgba(15,15,15,0.95);"><strong style="color: #39FF14;">☣️ EPA VIOLATION (score ${object.severity}/10)</strong><br/>${object.facility}<br/>${object.bottom_line}</div>` };
-                if (object.feed_type === 'usgs') return { html: `<div style="padding: 12px; border-left: 4px solid #ffaa00; background: rgba(15,15,15,0.95);"><strong style="color: #ffaa00;">💧 AQUIFER WATER LEVEL</strong><br/>${object.title}<br/>${object.bottom_line}</div>` };
-                if (object.feed_type === 'well') { const p = object.properties || {}; return { html: `<div style="padding: 12px; max-width: 360px; border-left: 4px solid #555; background: rgba(15,15,15,0.95);"><strong style="color: #ccc;">💧 WELL ON FILE (TWDB)</strong><br/>State well ${p.StateWellN || ''}, ${p.CountyName || ''} County<br/>Use: ${p.PrimaryWat || 'unknown'} · Depth: ${p.WellDepth ? p.WellDepth + ' ft' : 'unknown'}<br/>${p.AquiferCod || ''}</div>` }; }
+                if (object.feed_type === 'permit') return { html: `<div style="padding: 12px; max-width: 360px; border-left: 4px solid #ff3232; background: rgba(15,15,15,0.95);"><strong style="color: #ff3232;">💧 PERMIT / GRID REQUEST</strong><br/>${esc(object.title)}<br/>${safe(object.bottom_line)}</div>` };
+                if (object.feed_type === 'toxin') return { html: `<div style="padding: 12px; border-left: 4px solid #39FF14; background: rgba(15,15,15,0.95);"><strong style="color: #39FF14;">☣️ EPA VIOLATION (score ${esc(object.severity)}/10)</strong><br/>${esc(object.facility)}<br/>${safe(object.bottom_line)}</div>` };
+                if (object.feed_type === 'usgs') return { html: `<div style="padding: 12px; border-left: 4px solid #ffaa00; background: rgba(15,15,15,0.95);"><strong style="color: #ffaa00;">💧 AQUIFER WATER LEVEL</strong><br/>${esc(object.title)}<br/>${safe(object.bottom_line)}</div>` };
+                if (object.feed_type === 'well') { const p = object.properties || {}; return { html: `<div style="padding: 12px; max-width: 360px; border-left: 4px solid #555; background: rgba(15,15,15,0.95);"><strong style="color: #ccc;">💧 WELL ON FILE (TWDB)</strong><br/>State well ${esc(p.StateWellN)}, ${esc(p.CountyName)} County<br/>Use: ${esc(p.PrimaryWat || 'unknown')} · Depth: ${p.WellDepth ? esc(p.WellDepth) + ' ft' : 'unknown'}<br/>${esc(p.AquiferCod)}</div>` }; }
                 return null;
             }, 
             layers: []
@@ -177,7 +180,7 @@
             combinedFeed.slice(0, 30).forEach(item => {
                 let color = item.feed_type === 'toxin' ? '#39FF14' : item.feed_type === 'usgs' ? '#ffaa00' : '#ff3232';
                 let tag = item.feed_type === 'toxin' ? '[EPA VIOLATION]' : item.feed_type === 'usgs' ? '[WATER LEVEL]' : '[GRID / PERMIT]';
-                html += `<div class="feed-item" style="border-left: 2px solid ${color}; padding-left: 10px;"><strong style="color: ${color}; font-size: 0.85rem;">${tag}</strong><br/><strong style="color: white; font-size: 0.9rem;">${item.title || item.facility}</strong><br/><p style="font-size: 0.85rem; line-height: 1.4; color: #ddd; margin: 5px 0;">${item.bottom_line}</p>${item.source_url ? `<br><a href="${item.source_url}" target="_blank" style="color: #00ffff; font-size: 0.8rem; text-decoration: underline;">View Source Document</a>` : ''}</div>`;
+                html += `<div class="feed-item" style="border-left: 2px solid ${color}; padding-left: 10px;"><strong style="color: ${color}; font-size: 0.85rem;">${tag}</strong><br/><strong style="color: white; font-size: 0.9rem;">${esc(item.title || item.facility)}</strong><br/><p style="font-size: 0.85rem; line-height: 1.4; color: #ddd; margin: 5px 0;">${safe(item.bottom_line)}</p>${srcUrl(item.source_url) ? `<br><a href="${srcUrl(item.source_url)}" target="_blank" rel="noopener" style="color: #00ffff; font-size: 0.8rem; text-decoration: underline;">View Source Document</a>` : ''}</div>`;
             });
             document.getElementById('feed-tab-count').textContent = '(' + combinedFeed.length.toLocaleString() + ')';
             document.getElementById('feed-content').innerHTML = html || '<p style="color: #4CAF50;">Grid Clear.</p>';
