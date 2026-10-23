@@ -193,6 +193,25 @@
         }
       ],
       "waiting": "Nothing further. ETLC is reviewing the County's records."
+    },
+    {
+      "agency": "City of Lufkin",
+      "number": "",
+      "filed": "2026-10-23",
+      "status": "Waiting on the City",
+      "state": "waiting",
+      "asked": "The approved minutes of the Feb. 9, 2026 Planning and Zoning meeting; the Feb. 23, 2026 special meeting packet; recordings and sign-in sheets; staff and commissioner communications from Feb. 9 to 23 about public comment procedures or the data center; and records showing whether the Feb. 23 packet was ever posted online.",
+      "events": [
+        {
+          "date": "2026-10-23",
+          "text": "Request emailed to the City Secretary and the City’s public information address."
+        }
+      ],
+      "waiting": "The City’s response is due by law within 10 business days.",
+      "clock": {
+        "start": "2026-10-23",
+        "kind": "legal"
+      }
     }
   ]
 }
