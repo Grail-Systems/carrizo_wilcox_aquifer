@@ -70,11 +70,18 @@ def main():
                 item["text"] = f"Response due {label(due)}: 10 business days after {why}."
             else:
                 item["text"] = f"Expected around {label(due)} (10 business days after {why}; no fixed legal deadline)."
-            if today > due:
+            if c.get("waiver"):
+                item["text"] += f" ETLC has agreed to more time: {c['waiver']}."
+            if today > due and not c.get("waiver"):
                 n = bd_between(due, today); item["overdue_bd"] = n
                 if kind == "legal":
                     item["text"] = f"Response was due {label(due)} (10 business days after {why}). Past due by {n} business day{'s' if n!=1 else ''}."
-                    alerts.append(f"- **{name}**: agency deadline {due} has passed. Consider a follow-up asking for a written ready date (Gov't Code 552.221(d)).")
+                    if n >= 10:
+                        alerts.append(f"- **{name}**: business day 20 reached (deadline was {due}). ESCALATE: the agency's governing board, and a complaint to the county or district attorney (Gov't Code 552.3215).")
+                    elif n >= 5:
+                        alerts.append(f"- **{name}**: business day 15 reached (deadline was {due}). Send a written warning citing Gov't Code 552.221 and 552.3215.")
+                    else:
+                        alerts.append(f"- **{name}**: business day 10 passed (deadline was {due}). Contact the agency and ask for a written ready date (Gov't Code 552.221(d)).")
                 else:
                     alerts.append(f"- **{name}**: expected reply ({due}) has not been logged. Consider a check-in.")
         for o in c.get("ours", []):

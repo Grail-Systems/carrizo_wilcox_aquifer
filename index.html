@@ -28,6 +28,8 @@
         .shame-btn { display: block; width: 100%; background: rgba(255, 0, 0, 0.1); border: 2px solid #ff3232; color: #ff3232; text-decoration: none; padding: 12px 0; font-weight: bold; font-size: 1rem; border-radius: 4px; text-transform: uppercase; text-align: center; margin-top: 15px; }
         .shame-btn.records-btn { border-color: #e0a43a; color: #e0a43a; background: rgba(224, 164, 58, 0.1); margin-top: 8px; }
         .support-btn { display: block; width: 100%; background: #00BCD4; color: #111; text-decoration: none; padding: 12px 0; font-weight: bold; font-size: 1rem; border-radius: 4px; text-transform: uppercase; text-align: center; }
+        #mobile-tabs { display: none; }
+        #feed-content a { color: #00ffff; }
         .slider-container { margin-top: 8px; padding-left: 20px; border-left: 2px solid #444; margin-bottom: 15px;}
         input[type=range] { -webkit-appearance: none; width: 100%; background: transparent; }
         input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; height: 14px; width: 14px; border-radius: 50%; background: #ffaa00; cursor: pointer; margin-top: -5px; }
@@ -39,12 +41,23 @@
         @media (max-width: 768px) {
             #ui-panel { top: auto; bottom: 0; left: 0; right: 0; width: 100%; height: 40vh; height: 40svh; border-radius: 15px 15px 0 0; border: none; border-top: 2px solid #333; box-sizing: border-box;
                         overscroll-behavior: contain; -webkit-overflow-scrolling: touch; touch-action: pan-y; padding-bottom: calc(20px + env(safe-area-inset-bottom, 0px)); }
-            #threat-feed-panel { display: none; /* Hide the side feed on small mobile screens to save space */ }
+            #threat-feed-panel { display: none; top: auto; bottom: 0; left: 0; right: 0; width: 100%; height: 40vh; height: 40svh; border-radius: 15px 15px 0 0; border: none; border-top: 2px solid #ff3232; box-sizing: border-box; overflow: hidden; padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px)); }
+            #threat-feed-panel h2 { font-size: 1rem; margin: 0 0 8px; }
+            #feed-content { overscroll-behavior: contain; -webkit-overflow-scrolling: touch; touch-action: pan-y; }
+            body.show-feed #threat-feed-panel { display: flex; }
+            body.show-feed #ui-panel { display: none; }
+            #mobile-tabs { display: flex; position: fixed; left: 0; right: 0; bottom: 40vh; bottom: 40svh; z-index: 11; gap: 6px; padding: 0 12px 6px; pointer-events: none; }
+            #mobile-tabs button { pointer-events: auto; flex: 1; padding: 10px 0; font: bold 0.9rem sans-serif; color: #ccc; background: rgba(20,20,20,0.92); border: 1px solid #444; border-radius: 10px; }
+            #mobile-tabs button.active { color: #fff; border-color: #4CAF50; background: rgba(30,60,30,0.95); }
+            .slider-container { margin-bottom: 24px; padding-top: 4px; }
+            input[type=range] { height: 32px; }
+            input[type=range]::-webkit-slider-thumb { height: 26px; width: 26px; margin-top: -11px; }
             .deck-tooltip { display: none !important; /* Tooltips block finger taps on mobile */ }
         }
     </style>
 </head>
 <body>
+    <nav id="mobile-tabs" aria-label="Panels"><button id="tab-filters" class="active" onclick="showTab('filters')">Map filters</button><button id="tab-feed" onclick="showTab('feed')">Threat list <span id="feed-tab-count"></span></button></nav>
     <div id="ui-panel">
         <h1>Aquifer Defense Grid</h1>
         <p style="font-size: 0.85rem; color: #ccc; margin-bottom: 10px;">Live 3D view of the Carrizo-Wilcox water table and active threats.</p>
@@ -60,13 +73,13 @@
             <strong style="color: #fff; font-size: 0.95rem;">PRECISION FILTERS</strong><br>
             
             <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;"><input type="checkbox" id="toggle-permits" checked onchange="updateGrid()"> 🛑 Permits &amp; Grid Requests</label>
-            <div class="slider-container"><label style="font-size: 0.75rem; color: #ff3232; display: flex; justify-content: space-between;"><span>Project Size:</span><span id="permit-val">1,000+</span></label><input type="range" id="permit-slider" min="1000" max="15000" step="1000" value="1000" oninput="updateLabels(); updateGrid();"></div>
+            <div class="slider-container"><label style="font-size: 0.75rem; color: #ff3232; display: flex; justify-content: space-between;"><span>Project Size:</span><span id="permit-val">1,000+</span></label><input type="range" id="permit-slider" min="1000" max="15000" step="1000" value="1000" oninput="updateLabels(); scheduleGrid();"></div>
             
             <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;"><input type="checkbox" id="toggle-usgs" checked onchange="updateGrid()"> 📍 Aquifer Water Levels</label>
-            <div class="slider-container"><label style="font-size: 0.75rem; color: #ffaa00; display: flex; justify-content: space-between;"><span>Depth to Water:</span><span id="usgs-val">All</span></label><input type="range" id="usgs-slider" min="1000" max="15000" step="1000" value="1000" oninput="updateLabels(); updateGrid();"></div>
+            <div class="slider-container"><label style="font-size: 0.75rem; color: #ffaa00; display: flex; justify-content: space-between;"><span>Depth to Water:</span><span id="usgs-val">All</span></label><input type="range" id="usgs-slider" min="1000" max="15000" step="1000" value="1000" oninput="updateLabels(); scheduleGrid();"></div>
             
             <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;"><input type="checkbox" id="toggle-toxins" checked onchange="updateGrid()"> ☢️ EPA Violations</label>
-            <div class="slider-container"><label style="font-size: 0.75rem; color: #39FF14; display: flex; justify-content: space-between;"><span title="Quarters out of compliance in recent EPA records, plus 4 for significant violators (max 10)">Min. EPA score:</span><span id="toxin-val">1+</span></label><input type="range" id="toxin-slider" min="1" max="10" step="1" value="1" oninput="updateLabels(); updateGrid();"></div>
+            <div class="slider-container"><label style="font-size: 0.75rem; color: #39FF14; display: flex; justify-content: space-between;"><span title="Quarters out of compliance in recent EPA records, plus 4 for significant violators (max 10)">Min. EPA score:</span><span id="toxin-val">1+</span></label><input type="range" id="toxin-slider" min="1" max="10" step="1" value="1" oninput="updateLabels(); scheduleGrid();"></div>
             
             <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;"><input type="checkbox" id="toggle-existing" checked onchange="updateGrid()"> 💧 Show Wells on File (TWDB)</label>
         </div>
@@ -109,6 +122,14 @@
 
         function recenterMap() { deckgl.setProps({ initialViewState: { longitude: -94.730, latitude: 31.338, zoom: 6.5, pitch: 45, bearing: 10, transitionDuration: 1200 } }); }
         
+        let gridTimer = null;
+        function scheduleGrid() { clearTimeout(gridTimer); gridTimer = setTimeout(() => requestAnimationFrame(updateGrid), 120); }
+        const isPhone = () => window.matchMedia('(max-width: 768px)').matches;
+        function showTab(which) {
+            document.body.classList.toggle('show-feed', which === 'feed');
+            document.getElementById('tab-feed').classList.toggle('active', which === 'feed');
+            document.getElementById('tab-filters').classList.toggle('active', which !== 'feed');
+        }
         function updateLabels() {
             document.getElementById('permit-val').innerText = Number(document.getElementById('permit-slider').value).toLocaleString() + '+';
             document.getElementById('usgs-val').innerText = document.getElementById('usgs-slider').value > 1000 ? 'Severe Only' : 'All';
@@ -119,19 +140,8 @@
             if (!info || !info.object) return; const obj = info.object;
             document.getElementById('target-lock').style.display = 'block';
             
-            // Dynamic Email Routing logic
-            let titleText = (obj.title || obj.facility || 'Infrastructure').toUpperCase();
-            let targetEmail = "public_intake@tceq.texas.gov"; // Default to State TCEQ
-            if (titleText.includes("ANGELINA") || titleText.includes("LUFKIN") || titleText.includes("ZEPHYR")) {
-                targetEmail = "info@pineywoods.gcd.org"; // Angelina area
-            } else if (titleText.includes("SHELBY") || titleText.includes("NACOGDOCHES")) {
-                targetEmail = "district@pineywoods.gcd.org"; 
-            }
-
-            let emailSubject = `FORMAL REQUEST: Public Comment / FOIA Request - ${obj.title || obj.facility || 'Infrastructure'}`;
-            let emailBody = `To the relevant authorities,%0D%0A%0D%0AI am formally requesting a review regarding the active infrastructure at these coordinates: ${obj.coordinates || 'N/A'}.%0D%0A%0D%0ASincerely,%0D%0A[YOUR LEGAL NAME]`;
-            
             document.getElementById('target-details').innerHTML = `<strong style="color: white;">${obj.title || obj.facility || 'Selected site'}</strong><br/><div style="margin-top: 5px; color: #ddd; line-height: 1.4;">${obj.bottom_line || 'No details on file.'}</div>`;
+            if (isPhone()) { showTab('feed'); document.getElementById('threat-feed-panel').scrollTop = 0; }
         }
 
         const deckgl = new DeckGL({
@@ -168,6 +178,7 @@
                 let tag = item.feed_type === 'toxin' ? '[EPA VIOLATION]' : item.feed_type === 'usgs' ? '[WATER LEVEL]' : '[GRID / PERMIT]';
                 html += `<div class="feed-item" style="border-left: 2px solid ${color}; padding-left: 10px;"><strong style="color: ${color}; font-size: 0.85rem;">${tag}</strong><br/><strong style="color: white; font-size: 0.9rem;">${item.title || item.facility}</strong><br/><p style="font-size: 0.85rem; line-height: 1.4; color: #ddd; margin: 5px 0;">${item.bottom_line}</p>${item.source_url ? `<br><a href="${item.source_url}" target="_blank" style="color: #00ffff; font-size: 0.8rem; text-decoration: underline;">View Source Document</a>` : ''}</div>`;
             });
+            document.getElementById('feed-tab-count').textContent = '(' + combinedFeed.length.toLocaleString() + ')';
             document.getElementById('feed-content').innerHTML = html || '<p style="color: #4CAF50;">Grid Clear.</p>';
 
             const activeLayers = [new GeoJsonLayer({ id: 'aquifer-layer', data: 'frontend/wilcox_aquifer.json', filled: true, getFillColor: [0, 150, 255, 60], pickable: false })];
