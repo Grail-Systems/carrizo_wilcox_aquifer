@@ -1,0 +1,57 @@
+{
+  "computed": "2026-10-22",
+  "note": "Deadlines are estimates. They skip weekends and Texas state holidays; local agencies may observe different holidays.",
+  "requests": [
+    {
+      "key": "City of Lufkin|2026-09-25|CRR-2026-315",
+      "agency": "City of Lufkin",
+      "number": "CRR-2026-315",
+      "filed": "2026-09-25",
+      "type": "ag",
+      "due": "2026-12-16",
+      "text": "Attorney General ruling due about Wed., Dec. 16, 2026 (45 business days after the City of Lufkin request of Oct. 9; the AG may extend it 10 business days)."
+    },
+    {
+      "key": "City of Lufkin|2026-09-25|CRR-2026-316",
+      "agency": "City of Lufkin",
+      "number": "CRR-2026-316",
+      "filed": "2026-09-25",
+      "type": "expected",
+      "due": "2026-11-05",
+      "start": "2026-10-22",
+      "text": "Expected around Thu., Nov. 5 (10 business days after ETLC marked the items to remove; no fixed legal deadline)."
+    },
+    {
+      "key": "Lufkin Economic Development Corporation|2026-09-25|CRR-2026-319",
+      "agency": "Lufkin Economic Development Corporation",
+      "number": "CRR-2026-319",
+      "filed": "2026-09-25"
+    },
+    {
+      "key": "Pineywoods Groundwater Conservation District|2026-09-18|",
+      "agency": "Pineywoods Groundwater Conservation District",
+      "number": "",
+      "filed": "2026-09-18",
+      "type": "expected",
+      "due": "2026-11-05",
+      "start": "2026-10-22",
+      "text": "Expected around Thu., Nov. 5 (10 business days after ETLC confirmed which records it still wants; no fixed legal deadline)."
+    },
+    {
+      "key": "Pineywoods Groundwater Conservation District|2026-09-25|",
+      "agency": "Pineywoods Groundwater Conservation District",
+      "number": "",
+      "filed": "2026-09-25",
+      "type": "legal",
+      "due": "2026-10-26",
+      "start": "2026-10-12",
+      "text": "Response due Mon., Oct. 26: 10 business days after ETLC answered the District's clarifying questions."
+    },
+    {
+      "key": "Angelina County|2026-09-25|",
+      "agency": "Angelina County",
+      "number": "",
+      "filed": "2026-09-25"
+    }
+  ]
+}

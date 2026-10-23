@@ -36,6 +36,8 @@ ol.events li{display:grid;grid-template-columns:7.5em 1fr;gap:0 14px;padding:8px
 ol.events li:first-child{border-top:0}
 .d{font-family:system-ui,sans-serif;font-size:.85rem;color:var(--dim);padding-top:.15em}
 .waiting{margin:14px 0 0;max-width:66ch}
+.due{margin:6px 0 0;font-family:system-ui,sans-serif;font-size:.9rem;color:var(--dim);max-width:66ch}
+.due.late{color:var(--red);font-weight:600}
 .waiting b{font-family:system-ui,sans-serif;font-size:.9rem}
 footer{border-top:1px solid var(--line);padding-top:16px;font-family:system-ui,sans-serif;font-size:.8rem;color:var(--dim)}
 @media (max-width:520px){ol.events li{grid-template-columns:1fr}.d{padding-top:0}}
@@ -65,7 +67,9 @@ function el(tag,cls,text){const e=document.createElement(tag);if(cls)e.className
 const WORDS=['No','One','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten'];
 function count(n,one,many){return `${n} ${n===1?one:many}`;}
 
-fetch('frontend/records.json?v='+Date.now()).then(r=>r.json()).then(data=>{
+Promise.all([fetch('frontend/records.json?v='+Date.now()).then(r=>r.json()),
+  fetch('frontend/deadlines.json?v='+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null)]).then(([data,dl])=>{
+  const due={}; if(dl) dl.requests.forEach(x=>{if(x.text) due[x.key]=x;});
   const reqs=data.requests;
   const by=s=>reqs.filter(r=>r.state===s).length;
   const parts=[];
@@ -97,9 +101,11 @@ fetch('frontend/records.json?v='+Date.now()).then(r=>r.json()).then(data=>{
     });
     a.append(ol);
     const w=el('p','waiting'); w.append(el('b',null,'Waiting on: '), document.createTextNode(r.waiting)); a.append(w);
+    const k=`${r.agency}|${r.filed}|${r.number||''}`;
+    if(due[k]) a.append(el('p','due'+(due[k].overdue_bd&&due[k].type==='legal'?' late':''),due[k].text));
     list.append(a);
   });
-  document.getElementById('foot').textContent=`Last updated ${fmt(data.updated)}. Requests filed by Fawn Elizabeth Zion for the East Texas Legacy Coalition.`;
+  document.getElementById('foot').textContent=`Last updated ${fmt(data.updated)}.`+(dl?` Deadlines recalculated ${fmt(dl.computed)}; they skip weekends and Texas state holidays and are estimates.`:'')+` Requests filed by Fawn Elizabeth Zion for the East Texas Legacy Coalition.`;
 }).catch(()=>{document.getElementById('summary').textContent='The request list could not be loaded. Refresh the page to try again.';});
 </script>
 </body>

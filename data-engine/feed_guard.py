@@ -31,7 +31,7 @@ FEEDS = {
     'frontend/toxin_feed.json':     'EPA ECHO violations',
     'frontend/usgs_telemetry.json': 'TWDB well water levels',
     'frontend/threat_feed.json':    'Threat feed',
-    'frontend/threat_wells.json':   'Industrial wells',
+    'frontend/threat_wells.json':   'Wells on file (TWDB)',
     'wall_of_shame.html':           'Wall of Shame officials',
     'data-engine/votes.json':       'Legislative votes (LegiScan)',
     'data-engine/tec_pac_data.csv': 'Campaign donations (TEC)',

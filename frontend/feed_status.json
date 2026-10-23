@@ -35,7 +35,7 @@
     },
     {
       "file": "frontend/threat_wells.json",
-      "label": "Industrial wells",
+      "label": "Wells on file (TWDB)",
       "state": "unchanged",
       "records": 2530,
       "last_good": "2026-10-21T22:07:04+00:00",
