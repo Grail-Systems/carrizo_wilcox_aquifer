@@ -45,6 +45,10 @@ figcaption{font-family:system-ui,sans-serif;font-size:.85rem;color:var(--dim);ma
 .quotes q{display:block;font-size:1.12rem;margin-bottom:6px}
 .quotes span{font-family:system-ui,sans-serif;font-size:.85rem;color:var(--dim)}
 .alongside{max-width:64ch;color:var(--dim)}
+.testimony{margin:0 0 34px;max-width:64ch;border:1px solid var(--line);border-radius:4px;padding:14px 20px}
+.testimony summary{cursor:pointer;font-family:system-ui,sans-serif;color:var(--amber)}
+.testimony[open] summary{margin-bottom:14px}
+section[aria-labelledby="proposal"] h3{font-size:1.35rem;font-weight:normal;margin:34px 0 10px}
 .alongside strong{color:var(--text);font-weight:normal}
 
 /* What changed */
@@ -136,6 +140,24 @@ footer{border-top:1px solid var(--line);padding:30px 0 60px;font-family:system-u
     <li><q>I drove to Austin because we’re running out of time to protect our home.</q><span>The Lufkin Daily News</span></li>
     <li><q>My biggest concern is that this draft plan is living in the past.</q><span>The Lufkin Daily News</span></li>
   </ul>
+  <details class="testimony">
+    <summary>Read her full testimony</summary>
+    <div class="prose">
+      <p>My name’s Fawn Zion. I’m the founder of the East Texas Legacy Coalition and the co-owner of Zion Auto Glass in Lufkin, Texas. I’m a wife, a mother of three, as well as a seventh-generation Texan.</p>
+      <p>I want to start by addressing the standard defense, so we can focus on the actual problem. I know you will say the TWDB does not issue water well permits, and that pumping is the jurisdiction of local groundwater districts. But you control the blueprint, and you control the funding.</p>
+      <p>If you include hyper-scale corporate extraction in this State Water Plan as a recommended strategy, you legitimize it. You cannot offer state financial backing for the infrastructure that drains our aquifer and then claim you have no jurisdiction over the consequences.</p>
+      <p>I’m here today because the 2027 State Water Plan, as currently drafted, is planning for a future that ignores reality. It fails to establish a clear priority between people and corporations competing for the same water, and it severely underestimates the hyper-scale water demands of incoming data centers and industrial projects.</p>
+      <p>We’re often told that Texas operates on the Rule of Capture, that leasing water to a developer is a private property right. But the Rule of Capture was built to protect a rancher watering his herd. It wasn’t built for a corporation pumping millions of gallons a day to cool servers. When one industrial site extracts at a scale that drains the Carrizo-Wilcox Aquifer for miles around, they aren’t exercising their property rights. They are destroying the property rights of every family surrounding them.</p>
+      <p>The draft plan warns of economic damage if we don’t develop new water strategies. But I have to ask: whose economy?</p>
+      <p>A hyper-scale data center provides very few permanent local jobs. The real economic damage happens when local farmers, families, and businesses go dry to subsidize a tech company’s utility bill.</p>
+      <p>We’ve been told that if we do not find a use for our water, the state will. Well… we ARE using our water. We’re using it by keeping it in the ground, sustaining private wells, agriculture, and the ecosystems that keep East Texas livable.</p>
+      <p>That is the highest use.</p>
+      <p>The 2027 State Water Plan must explicitly state that the water needs of Texas people take priority over corporate extraction projects. Not as preference. As policy. As law.</p>
+      <p>The board has the authority to draw this line right now. Once these projects are baked into the state plan and funded, that authority is gone.</p>
+      <p>I am asking you to use it.</p>
+      <p>Thank you.</p>
+    </div>
+  </details>
   <p class="alongside">She wasn’t alone. <strong>Rita Beving of Public Citizen</strong> told the board, “The fight is here. The fight is now.” <strong>Melissa Beckett</strong> of East Texas warned that the plan was about Dallas–Fort Worth “wanting water for economic development.” <strong>Annie Hardy</strong>, who had worked for a company that builds AI data centers, called the plan’s silence on AI water use “mind boggling.”</p>
 </section>
 
@@ -154,8 +176,9 @@ footer{border-top:1px solid var(--line);padding:30px 0 60px;font-family:system-u
 </section>
 
 <section aria-labelledby="proposal">
-  <h2 id="proposal">Her proposal: the East Texas Dry-Cooling Mandate</h2>
+  <h2 id="proposal">Her proposals</h2>
   <div class="prose">
+    <h3>The East Texas Dry-Cooling Mandate</h3>
     <p>Fawn drafted the East Texas Dry-Cooling Mandate for ETLC on Aug. 28, 2026. Its argument is simple: the technology to cool power plants and data centers without evaporating groundwater exists today, so the companies should pay for it instead of East Texas paying with its aquifer.</p>
     <blockquote class="bathtub">“East Texas will not serve as a sacrificial resource colony for this expansion.”<cite>From the directive</cite></blockquote>
     <p style="margin-top:1.4em">It calls for three requirements on new infrastructure permits:</p>
@@ -164,7 +187,10 @@ footer{border-top:1px solid var(--line);padding:30px 0 60px;font-family:system-u
       <li>New data centers larger than 5 megawatts must use closed-loop or direct-to-chip cooling, with no evaporative cooling on local groundwater.</li>
       <li>Companies absorb the small loss of efficiency on hot summer days as the cost of operating in a water-stressed region.</li>
     </ul>
-    <p><a href="https://docs.google.com/document/d/13eyXJhraOBfO2UYxHjq73R5qyZCHN1D_vYBvAqy5TwE">Read the full directive</a></p>
+    <p><a href="docs/dry_cooling_mandate.html">Read the full directive</a></p>
+    <h3>The Texas Corporate Power Reset Act</h3>
+    <p>A draft bill with a memo to the Texas Legislature. Instead of trying to restrict corporate speech, it would change the Texas Business Organizations Code so that companies formed or registered in Texas do not have the power to spend company money on Texas elections. A company that broke the rule would lose its right to do business in the state.</p>
+    <p><a href="docs/texas_corporate_power_reset_act.pdf">Read the memo and bill</a></p>
   </div>
 </section>
 
@@ -172,14 +198,18 @@ footer{border-top:1px solid var(--line);padding:30px 0 60px;font-family:system-u
   <h2 id="timeline">The fight so far</h2>
   <ol class="timeline">
     <li><span class="when">Feb. 2026</span><span>Plans for a $1 billion AI data center at the former Southland Paper Mill site become public.</span></li>
+    <li><span class="when">Feb. 2026</span><span>At Lufkin’s first Planning and Zoning meeting on the project, Fawn argues that the City has a say because it controls the water.</span></li>
+    <li><span class="when">Feb. 12, 2026</span><span>ETLC files its first public records request, asking the City for its water, power and incentive agreements with Amp Z.</span></li>
+    <li><span class="when">Mar. 30, 2026</span><span>Fawn asks the Angelina County Commissioners Court to put data center power and water demands on its agenda.</span></li>
+    <li><span class="when">April 2026</span><span>The first version of the Aquifer Defense Grid goes live.</span></li>
     <li><span class="when">May 27, 2026</span><span>Fawn testifies before the Texas Water Development Board in Austin.</span></li>
     <li><span class="when">May 27–31</span><span>The 936 and The Lufkin Daily News report on her testimony.</span></li>
     <li><span class="when">July 23, 2026</span><span>The state adopts its water plan with new language on data center water use.</span></li>
     <li><span class="when">Aug. 28, 2026</span><span>Fawn drafts the East Texas Dry-Cooling Mandate.</span></li>
     <li><span class="when">Sept. 18–25</span><span>ETLC files six public records requests with the City of Lufkin, Lufkin’s economic development corporation, Angelina County and the Pineywoods Groundwater Conservation District.</span></li>
-    <li><span class="when">Sept. 23, 2026</span><span>ETLC submits written comment to the Texas Water Development Board ahead of its Sept. 24 public hearing.</span></li>
-    <li><span class="when">Sept. 29, 2026</span><span>ETLC files written comment with the Region I water planning group ahead of its Sept. 30 meeting.</span></li>
-    <li><span class="when">Oct. 2026</span><span>The Aquifer Defense Grid, the Records Requests tracker and the Powered Land report go public.</span></li>
+    <li><span class="when">Sept. 23, 2026</span><span>ETLC files a written brief on Proposed Amendment No. 1 to the 2027 State Water Plan ahead of the Water Development Board’s Sept. 24 hearing. <a href="docs/etlc_comment_amendment1_2026-09-22.pdf">Read the brief</a>.</span></li>
+    <li><span class="when">Sept. 29, 2026</span><span>ETLC files written comment with the Region I water planning group ahead of its Sept. 30 meeting. The group entered it into the record Oct. 1.</span></li>
+    <li><span class="when">Oct. 2026</span><span>The Grid is rebuilt on verified public records, and the Records Requests tracker and the Powered Land report go public.</span></li>
   </ol>
 </section>
 

@@ -1,6 +1,29 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "requests": [
+    {
+      "agency": "City of Lufkin",
+      "number": "",
+      "filed": "2026-02-12",
+      "status": "Response not yet logged",
+      "state": "waiting",
+      "asked": "Water, wastewater and power agreements with Amp Z; any proposed or signed Chapter 380 or 381 incentive agreements; studies of the project’s water use and power needs; and correspondence about utility capacity and “take-or-pay” water clauses.",
+      "events": [
+        {
+          "date": "2026-02-12",
+          "text": "Request emailed to the City Secretary. This was ETLC’s first public records request."
+        },
+        {
+          "date": "2026-02-14",
+          "text": "The City asked that requests be submitted through its official channels."
+        },
+        {
+          "date": "2026-02-17",
+          "text": "Request refiled through the City’s public information address."
+        }
+      ],
+      "waiting": "ETLC is confirming what the City sent in response."
+    },
     {
       "agency": "City of Lufkin",
       "number": "CRR-2026-315",

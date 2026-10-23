@@ -1,7 +1,13 @@
 {
-  "computed": "2026-10-22",
+  "computed": "2026-10-23",
   "note": "Deadlines are estimates. They skip weekends and Texas state holidays; local agencies may observe different holidays.",
   "requests": [
+    {
+      "key": "City of Lufkin|2026-02-12|",
+      "agency": "City of Lufkin",
+      "number": "",
+      "filed": "2026-02-12"
+    },
     {
       "key": "City of Lufkin|2026-09-25|CRR-2026-315",
       "agency": "City of Lufkin",
