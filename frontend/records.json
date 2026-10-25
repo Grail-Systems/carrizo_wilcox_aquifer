@@ -212,7 +212,9 @@
         },
         {
           "date": "2026-10-23",
-          "text": "The City released records: the Data Center FAQ email sent to Planning and Zoning commissioners on Feb. 9, commission agendas and minutes, the bylaws, the Feb. 23 sign-in sheet, and audio recordings of the Feb. 9 and Feb. 23 meetings."
+          "text": "The City released records: the Data Center FAQ email sent to Planning and Zoning commissioners on Feb. 9, commission agendas and minutes, the bylaws, the Feb. 23 sign-in sheet, and audio recordings of the Feb. 9 and Feb. 23 meetings.",
+          "link": "audio.html",
+          "link_text": "Listen to the recordings"
         }
       ],
       "waiting": "ETLC is checking the City's Oct. 23 release against the request."
