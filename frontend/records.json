@@ -70,6 +70,13 @@
       "found": [
         "Nothing yet. The City asked the Texas Attorney General to let it withhold these records. A ruling is expected by about mid-December 2026.",
         "We've asked the City to release now whatever it didn't send to the Attorney General."
+      ],
+      "documents": [
+        {
+          "href": "docs/lufkin_ag_request_2026-10-09.pdf",
+          "title": "The City’s Oct. 9 letter asking the Attorney General to let it withhold records",
+          "pages": 6
+        }
       ]
     },
     {
@@ -109,6 +116,13 @@
       },
       "found": [
         "Nothing yet. We're waiting on the City's revised cost estimate. We dropped the records that are already online to bring the cost down."
+      ],
+      "documents": [
+        {
+          "href": "docs/lufkin_ag_request_2026-10-09.pdf",
+          "title": "The City’s Oct. 9 letter asking the Attorney General to let it withhold records",
+          "pages": 6
+        }
       ]
     },
     {
@@ -254,7 +268,44 @@
         "The Feb. 9 sign-in sheet was not included, though a sign-in sheet was kept that night. We're asking for it."
       ],
       "found_link": "audio.html#feb9",
-      "found_link_text": "Listen to the recordings"
+      "found_link_text": "Listen to the recordings",
+      "documents": [
+        {
+          "href": "records/crr-2026-348/2026-02-09_data-center-faq-email-to-pz.pdf",
+          "title": "Feb. 9 email to P&Z commissioners with the City’s Data Center FAQ",
+          "pages": 2
+        },
+        {
+          "href": "records/crr-2026-348/2026-02-18_pz-agenda-email-draft-minutes-bylaws.pdf",
+          "title": "Feb. 18 email sending the Feb. 23 agenda, draft Feb. 9 minutes and bylaws",
+          "pages": 13
+        },
+        {
+          "href": "records/crr-2026-348/2026-02-23_pz-agenda-packet.pdf",
+          "title": "Feb. 23 agenda packet",
+          "pages": 12
+        },
+        {
+          "href": "records/crr-2026-348/2026-02-23_pz-minutes.pdf",
+          "title": "Feb. 23 minutes",
+          "pages": 2
+        },
+        {
+          "href": "records/crr-2026-348/2026-02-23_pz-sign-in-sheet.pdf",
+          "title": "Feb. 23 sign-in sheet",
+          "pages": 1
+        },
+        {
+          "href": "audio.html",
+          "title": "Recordings of the Feb. 9 and Feb. 23 meetings",
+          "pages": null
+        },
+        {
+          "href": "records/crr-2026-348/SHA256SUMS.txt",
+          "title": "Checksums proving these are the City’s files, unchanged",
+          "pages": null
+        }
+      ]
     }
   ]
 }
