@@ -51,7 +51,7 @@ ol.events li:first-child{border-top:0}
 .waiting b{font-family:system-ui,sans-serif;font-size:.9rem}
 footer{border-top:1px solid var(--line);padding-top:16px;font-family:system-ui,sans-serif;font-size:.8rem;color:var(--dim)}
 @media (max-width:520px){ol.events li{grid-template-columns:1fr}.d{padding-top:0}}
-.found{background:rgba(45,106,79,.08);border-left:3px solid #2D6A4F;padding:.8rem 1rem;margin:.8rem 0}.found ul{margin:.3rem 0 .5rem 1.1rem}.found li{margin-bottom:.35rem}</style>
+.found{background:rgba(45,106,79,.08);border-left:3px solid #2D6A4F;padding:.8rem 1rem;margin:.8rem 0}.found ul{margin:.3rem 0 .5rem 1.1rem}.found li{margin-bottom:.35rem}.docs{margin:.3rem 0 .8rem 1.1rem}.docs li{margin-bottom:.35rem}.docs .pg{opacity:.7;font-size:.9em}</style>
 </head>
 <body>
 <div class="wrap">
@@ -96,13 +96,14 @@ Promise.all([fetch('frontend/records.json?v='+Date.now()).then(r=>r.json()),
 
   const list=document.getElementById('list');
   reqs.forEach(r=>{
-    const a=el('article'); a.dataset.state=r.state;
+    const a=el('article'); a.dataset.state=r.state; if(r.number) a.id=r.number.toLowerCase();
     const head=el('div','head');
     head.append(el('h2',null,r.agency), el('span','status',r.status));
     a.append(head);
     a.append(el('div','meta',r.number?`${r.number}, filed ${fmt(r.filed)}`:`Filed ${fmt(r.filed)}`));
     a.append(el('h3',null,'What we asked for'), el('p','asked',r.asked));
     if(r.found&&r.found.length){const box=el('div','found');box.append(el('h3',null,'What we found'));const ul=el('ul');r.found.forEach(t=>ul.append(el('li',null,t)));box.append(ul);if(r.found_link){const l=el('a',null,(r.found_link_text||'See the records')+' \u2192');l.href=r.found_link;box.append(l);}a.append(box);}
+    if(r.documents&&r.documents.length){a.append(el('h3',null,'Read the documents'));const ul=el('ul','docs');r.documents.forEach(x=>{const li=el('li');const l=el('a',null,x.title);l.href=x.href;if(/\.pdf$/.test(x.href)){l.target='_blank';l.rel='noopener';}li.append(l);if(x.pages)li.append(el('span','pg',` (PDF, ${x.pages} page${x.pages===1?'':'s'})`));ul.append(li);});a.append(ul);}
     a.append(el('h3',null,'What has happened'));
     const ol=el('ol','events');
     r.events.forEach(e=>{
