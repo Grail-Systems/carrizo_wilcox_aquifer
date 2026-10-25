@@ -26,7 +26,11 @@
           "text": "The City said that after a reasonable search it found no responsive documents, said information about economic development negotiations was excepted under Sec. 552.131, and closed the request."
         }
       ],
-      "waiting": "Nothing further on this request."
+      "waiting": "Nothing further on this request.",
+      "found": [
+        "The City said it found no records matching the request.",
+        "Records we later got from Angelina County show Amp Z-related emails reaching Lufkin's City Manager, a council member and the economic development director in November 2025. Whether those emails fall within this request's wording is arguable. We're putting the two side by side so you can judge."
+      ]
     },
     {
       "agency": "City of Lufkin",
@@ -62,7 +66,11 @@
       "waiting": "The Attorney General's ruling, due by about mid-December 2026, and release of the records the City did not submit for review.",
       "clock": {
         "ag_requested": "2026-10-09"
-      }
+      },
+      "found": [
+        "Nothing yet. The City asked the Texas Attorney General to let it withhold these records. A ruling is expected by about mid-December 2026.",
+        "We've asked the City to release now whatever it didn't send to the Attorney General."
+      ]
     },
     {
       "agency": "City of Lufkin",
@@ -98,7 +106,10 @@
         "start": "2026-10-22",
         "kind": "expected",
         "start_note": "ETLC marked the items to remove"
-      }
+      },
+      "found": [
+        "Nothing yet. We're waiting on the City's revised cost estimate. We dropped the records that are already online to bring the cost down."
+      ]
     },
     {
       "agency": "Lufkin Economic Development Corporation",
@@ -117,7 +128,11 @@
           "text": "City said five of the seven items duplicate CRR-2026-315 and are handled there. For site marketing materials and for board agendas and minutes mentioning data centers, it said it found no responsive records."
         }
       ],
-      "waiting": "Nothing further; the overlapping records follow CRR-2026-315."
+      "waiting": "Nothing further; the overlapping records follow CRR-2026-315.",
+      "found": [
+        "The EDC says it has no site marketing materials for the mill sites and no board agendas or minutes mentioning data centers.",
+        "Everything else we asked for is being handled under CRR-2026-315."
+      ]
     },
     {
       "agency": "Pineywoods Groundwater Conservation District",
@@ -145,7 +160,11 @@
         "start": "2026-10-22",
         "kind": "expected",
         "start_note": "ETLC confirmed which records it still wants"
-      }
+      },
+      "found": [
+        "No one has applied to drill wells near the old Southland mill in the past two years, and the District says it has had no contact with Amp Z or Verdant Industries.",
+        "WattBridge was approved for 80 million gallons a year for a power plant in the north of the county and never drilled. In March 2026 it asked for 1.5 billion gallons a year. That request has been on hold since July at the company's request."
+      ]
     },
     {
       "agency": "Pineywoods Groundwater Conservation District",
@@ -173,7 +192,11 @@
         "start": "2026-10-12",
         "kind": "legal",
         "start_note": "ETLC answered the District's clarifying questions"
-      }
+      },
+      "found": [
+        "The District sent its rules, board agendas and minutes, expired permits for three wells at the Ben Dunn Road site, and an email exchange with agents for that site.",
+        "The rest of the well, permit and correspondence records are still coming."
+      ]
     },
     {
       "agency": "Angelina County",
@@ -196,7 +219,15 @@
           "text": "Commissioner Kermit Kennedy (Precinct 2) also forwarded records."
         }
       ],
-      "waiting": "Nothing further. ETLC is reviewing the County's records."
+      "waiting": "Nothing further. ETLC is reviewing the County's records.",
+      "found": [
+        "A Nov. 3, 2025 meeting invitation whose agenda lists “Discussion of utility/Oncor-related issues.”",
+        "A Nov. 12, 2025 email from Raine Cotton asking for a letter of support, and County Judge Keith Wright's signed letter dated Nov. 18.",
+        "A 10-year tax abatement application describing more than $1 billion in investment.",
+        "Engineering emails from Thomas & Hutton about the project.",
+        "Resolution 010-26, asking the Legislature for power to regulate these facilities.",
+        "Amp Z-related emails sent to Lufkin's City Manager, a council member and the economic development director in November 2025."
+      ]
     },
     {
       "agency": "City of Lufkin",
@@ -217,7 +248,13 @@
           "link_text": "Listen to the recordings"
         }
       ],
-      "waiting": "ETLC is checking the City's Oct. 23 release against the request."
+      "waiting": "ETLC is checking the City's Oct. 23 release against the request.",
+      "found": [
+        "The approved Feb. 9 minutes reduce a resident's detailed comment on water to one sentence about “concerns.” The City's own recording has all of it.",
+        "The Feb. 9 sign-in sheet was not included, though a sign-in sheet was kept that night. We're asking for it."
+      ],
+      "found_link": "audio.html#feb9",
+      "found_link_text": "Listen to the recordings"
     }
   ]
 }
