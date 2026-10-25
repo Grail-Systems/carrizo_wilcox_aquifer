@@ -51,7 +51,7 @@ ol.events li:first-child{border-top:0}
 .waiting b{font-family:system-ui,sans-serif;font-size:.9rem}
 footer{border-top:1px solid var(--line);padding-top:16px;font-family:system-ui,sans-serif;font-size:.8rem;color:var(--dim)}
 @media (max-width:520px){ol.events li{grid-template-columns:1fr}.d{padding-top:0}}
-</style>
+.found{background:rgba(45,106,79,.08);border-left:3px solid #2D6A4F;padding:.8rem 1rem;margin:.8rem 0}.found ul{margin:.3rem 0 .5rem 1.1rem}.found li{margin-bottom:.35rem}</style>
 </head>
 <body>
 <div class="wrap">
@@ -102,6 +102,7 @@ Promise.all([fetch('frontend/records.json?v='+Date.now()).then(r=>r.json()),
     a.append(head);
     a.append(el('div','meta',r.number?`${r.number}, filed ${fmt(r.filed)}`:`Filed ${fmt(r.filed)}`));
     a.append(el('h3',null,'What we asked for'), el('p','asked',r.asked));
+    if(r.found&&r.found.length){const box=el('div','found');box.append(el('h3',null,'What we found'));const ul=el('ul');r.found.forEach(t=>ul.append(el('li',null,t)));box.append(ul);if(r.found_link){const l=el('a',null,(r.found_link_text||'See the records')+' \u2192');l.href=r.found_link;box.append(l);}a.append(box);}
     a.append(el('h3',null,'What has happened'));
     const ol=el('ol','events');
     r.events.forEach(e=>{
