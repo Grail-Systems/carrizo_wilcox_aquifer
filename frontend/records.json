@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-23",
+  "updated": "2026-10-25",
   "requests": [
     {
       "agency": "City of Lufkin",
       "number": "",
       "filed": "2026-02-12",
-      "status": "Response not yet logged",
-      "state": "waiting",
+      "status": "Closed by the City: no responsive documents",
+      "state": "closed",
       "asked": "Water, wastewater and power agreements with Amp Z; any proposed or signed Chapter 380 or 381 incentive agreements; studies of the project’s water use and power needs; and correspondence about utility capacity and “take-or-pay” water clauses.",
       "events": [
         {
@@ -20,9 +20,13 @@
         {
           "date": "2026-02-17",
           "text": "Request refiled through the City’s public information address."
+        },
+        {
+          "date": "2026-02-19",
+          "text": "The City said that after a reasonable search it found no responsive documents, said information about economic development negotiations was excepted under Sec. 552.131, and closed the request."
         }
       ],
-      "waiting": "ETLC is confirming what the City sent in response."
+      "waiting": "Nothing further on this request."
     },
     {
       "agency": "City of Lufkin",
@@ -196,22 +200,22 @@
     },
     {
       "agency": "City of Lufkin",
-      "number": "",
+      "number": "CRR-2026-348",
       "filed": "2026-10-23",
-      "status": "Waiting on the City",
-      "state": "waiting",
+      "status": "Records released; ETLC is reviewing",
+      "state": "partial",
       "asked": "The approved minutes of the Feb. 9, 2026 Planning and Zoning meeting; the Feb. 23, 2026 special meeting packet; recordings and sign-in sheets; staff and commissioner communications from Feb. 9 to 23 about public comment procedures or the data center; and records showing whether the Feb. 23 packet was ever posted online.",
       "events": [
         {
           "date": "2026-10-23",
           "text": "Request emailed to the City Secretary and the City’s public information address."
+        },
+        {
+          "date": "2026-10-23",
+          "text": "The City released records: the Data Center FAQ email sent to Planning and Zoning commissioners on Feb. 9, commission agendas and minutes, the bylaws, the Feb. 23 sign-in sheet, and audio recordings of the Feb. 9 and Feb. 23 meetings."
         }
       ],
-      "waiting": "The City’s response is due by law within 10 business days.",
-      "clock": {
-        "start": "2026-10-23",
-        "kind": "legal"
-      }
+      "waiting": "ETLC is checking the City's Oct. 23 release against the request."
     }
   ]
 }
