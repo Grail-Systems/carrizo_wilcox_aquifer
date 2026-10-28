@@ -1,5 +1,5 @@
 {
-  "computed": "2026-10-27",
+  "computed": "2026-10-28",
   "note": "Deadlines are estimates. They skip weekends and Texas state holidays; local agencies may observe different holidays.",
   "requests": [
     {
@@ -51,8 +51,8 @@
       "type": "legal",
       "due": "2026-10-26",
       "start": "2026-10-12",
-      "text": "Response was due Mon., Oct. 26 (10 business days after ETLC answered the District's clarifying questions). Past due by 1 business day.",
-      "overdue_bd": 1
+      "text": "Response was due Mon., Oct. 26 (10 business days after ETLC answered the District's clarifying questions). Past due by 2 business days.",
+      "overdue_bd": 2
     },
     {
       "key": "Angelina County|2026-09-25|",
