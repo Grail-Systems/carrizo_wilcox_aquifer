@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-30",
   "requests": [
     {
       "agency": "City of Lufkin",
@@ -36,7 +36,7 @@
       "agency": "City of Lufkin",
       "number": "CRR-2026-315",
       "filed": "2026-09-25",
-      "status": "Sent to the Attorney General",
+      "status": "At the Attorney General; first records released",
       "state": "ag",
       "asked": "The industrial development ordinance adopted in August 2026; city limits and ETJ maps for both sites; water, sewer and utility agreements with the companies; records of the City's wells on the former Southland Paper Mill property; the documents behind the 500-gallons-a-day figure in the City's Data Center FAQ; communications with the companies; and records of the Nov. 7, 2025 meeting and any letters of support signed by City officials.",
       "events": [
@@ -61,15 +61,35 @@
         {
           "date": "2026-10-22",
           "text": "ETLC paid the $54 deposit in cash at the City Secretary's Office and received a receipt."
+        },
+        {
+          "date": "2026-10-28",
+          "text": "ETLC paid the remaining $60 at the City Secretary's Office. The request is paid in full."
+        },
+        {
+          "date": "2026-10-29",
+          "text": "The City corrected its Oct. 9 letter to the Attorney General: the request under review with this one is CRR-2026-319, not CRR-2026-316. The Attorney General's ID for the review is OR26060629."
+        },
+        {
+          "date": "2026-10-29",
+          "text": "The City released a first batch of records through its request portal and said more will follow. ETLC confirmed which records it is still asking for."
+        },
+        {
+          "date": "2026-10-30",
+          "text": "ETLC sent the City follow-up questions about the release and the scope of its search."
+        },
+        {
+          "date": "2026-10-30",
+          "text": "ETLC filed comments with the Attorney General asking that the ruling be limited to information the law actually protects, and sent the City a copy."
         }
       ],
-      "waiting": "The Attorney General's ruling, due by about mid-December 2026, and release of the records the City did not submit for review.",
+      "waiting": "The Attorney General's ruling on the withheld records, due by about mid-December 2026, and the rest of the City's release.",
       "clock": {
         "ag_requested": "2026-10-09"
       },
       "found": [
-        "Nothing yet. The City asked the Texas Attorney General to let it withhold these records. A ruling is expected by about mid-December 2026.",
-        "We've asked the City to release now whatever it didn't send to the Attorney General."
+        "The City released a first batch of records on Oct. 29. ETLC is reviewing them and will post them here.",
+        "The City asked the Attorney General to let it withhold the rest. A ruling is expected by about mid-December 2026."
       ],
       "documents": [
         {
@@ -83,7 +103,7 @@
       "agency": "City of Lufkin",
       "number": "CRR-2026-316",
       "filed": "2026-09-25",
-      "status": "Waiting on a revised estimate",
+      "status": "Paid in full; waiting on records",
       "state": "waiting",
       "asked": "The City's water system records: an inventory of City wells with production and water-level records since 2016; water and wastewater capacity and demand since 2021; water, wastewater and capital plans; any study of serving a data center or other large industrial water user; any will-serve letter or capacity reservation for the companies; how the City would supply and charge for that water at the former mill; and the City's 2009 purchase of the mill's water system.",
       "events": [
@@ -106,16 +126,28 @@
         {
           "date": "2026-10-22",
           "text": "At the City's request, ETLC marked the items to remove: City well locations, Pineywoods permits and production reports, water system capacity and demand, wastewater capacity and flows, the capital improvement plan, and the drought and conservation plans. ETLC asked for a revised itemized statement with the total and a written response to its fee waiver request."
+        },
+        {
+          "date": "2026-10-28",
+          "text": "ETLC paid the revised charge of $94.50 at the City Secretary's Office. The request is paid in full."
+        },
+        {
+          "date": "2026-10-29",
+          "text": "The City told the Attorney General it is not asking for a ruling on this request."
+        },
+        {
+          "date": "2026-10-30",
+          "text": "ETLC asked the City to release the records or say when to expect them."
         }
       ],
-      "waiting": "A revised itemized statement from the City and a written response to the fee waiver request.",
+      "waiting": "The records. The City says this request does not need an Attorney General ruling.",
       "clock": {
-        "start": "2026-10-22",
+        "start": "2026-10-28",
         "kind": "expected",
-        "start_note": "ETLC marked the items to remove"
+        "start_note": "ETLC paid in full"
       },
       "found": [
-        "Nothing yet. We're waiting on the City's revised cost estimate. We dropped the records that are already online to bring the cost down."
+        "Nothing yet. The request is paid in full, and the City says it does not need an Attorney General ruling, so the records should come next."
       ],
       "documents": [
         {
@@ -129,8 +161,8 @@
       "agency": "Lufkin Economic Development Corporation",
       "number": "CRR-2026-319",
       "filed": "2026-09-25",
-      "status": "Merged into CRR-2026-315",
-      "state": "closed",
+      "status": "Overlapping items at the Attorney General with CRR-2026-315",
+      "state": "ag",
       "asked": "Incentive offers, letters of intent and nondisclosure agreements with the companies; site marketing materials for the former Southland mill and Northern Chip Mill sites; records of the Nov. 7, 2025 meeting; letters of support; board agendas and minutes mentioning data centers; and correspondence about the project.",
       "events": [
         {
@@ -140,13 +172,24 @@
         {
           "date": "2026-10-09",
           "text": "City said five of the seven items duplicate CRR-2026-315 and are handled there. For site marketing materials and for board agendas and minutes mentioning data centers, it said it found no responsive records."
+        },
+        {
+          "date": "2026-10-29",
+          "text": "The City corrected its Oct. 9 letter to the Attorney General: the overlapping items of this request, not CRR-2026-316, are under review with CRR-2026-315 (Attorney General ID OR26060629)."
+        },
+        {
+          "date": "2026-10-30",
+          "text": "ETLC filed comments with the Attorney General on this request and CRR-2026-315, and sent the City a copy."
         }
       ],
-      "waiting": "Nothing further; the overlapping records follow CRR-2026-315.",
+      "waiting": "The Attorney General's ruling on the overlapping items, due by about mid-December 2026.",
       "found": [
         "The EDC says it has no site marketing materials for the mill sites and no board agendas or minutes mentioning data centers.",
-        "Everything else we asked for is being handled under CRR-2026-315."
-      ]
+        "Everything else we asked for is under review with CRR-2026-315."
+      ],
+      "clock": {
+        "ag_requested": "2026-10-09"
+      }
     },
     {
       "agency": "Pineywoods Groundwater Conservation District",
@@ -162,22 +205,30 @@
         },
         {
           "date": "2026-09-22",
-          "text": "The District answered in writing: no well applications near the Southland mill site in the past two years and no contact with Amp Z or Verdant. It disclosed that WattBridge was approved in late 2024 and early 2025 for a well permit of 80 million gallons a year for a power plant in the north of the county, never drilled, and in March 2026 asked for 1.5 billion gallons a year for a 24/7 plant; that request has been on hold since July 2026 at the company's request. The District asked whether ETLC still wanted the documents and requested until Oct. 16 to gather them."
+          "text": "The District answered in writing: no well applications near the Southland mill site in the past two years and no contact with Amp Z or Verdant. It disclosed that WattBridge was approved in late 2024 and early 2025 for wells totaling 80 million gallons a year for a power plant in the north of the county, never drilled, and in March 2026 asked for 1.5 billion gallons a year for a 24/7 plant; that request has been on hold since July 2026 at the company's request. The District asked whether ETLC still wanted the documents and requested until Oct. 16 to gather them."
         },
         {
           "date": "2026-10-22",
           "text": "ETLC confirmed it still wants the WattBridge permit applications and the related board agendas and minutes, and dropped the rig supply well applications."
+        },
+        {
+          "date": "2026-10-26",
+          "text": "The District sent board agendas and minutes from Aug. 5, 2024 (Angelina WSC) and Feb. 10, 2025 (WattBridge). It said WattBridge never drilled its two approved wells, so no permits were issued, and that the later 1.5-billion-gallon request came mostly by phone with no board meeting or public hearing. The District expects to send the rest by Nov. 9."
         }
       ],
-      "waiting": "The WattBridge permit applications and the related board agendas and minutes.",
+      "waiting": "The rest of the records, including information on the Hudson well. The District expects to send them by Nov. 9.",
       "clock": {
         "start": "2026-10-22",
         "kind": "expected",
-        "start_note": "ETLC confirmed which records it still wants"
+        "start_note": "ETLC confirmed which records it still wants",
+        "certified": "2026-11-09"
       },
       "found": [
         "No one has applied to drill wells near the old Southland mill in the past two years, and the District says it has had no contact with Amp Z or Verdant Industries.",
-        "WattBridge was approved for 80 million gallons a year for a power plant in the north of the county and never drilled. In March 2026 it asked for 1.5 billion gallons a year. That request has been on hold since July at the company's request."
+        "On Feb. 10, 2025, the District's board approved WattBridge's application for two wells, totaling 80 million gallons a year, for a power plant in the north of the county. The wells were never drilled, and the District says no permits were ever issued.",
+        "At that vote, board member Roger Russell abstained. The minutes say he is the driller.",
+        "In March or early April 2026, WattBridge asked, mostly by phone, for 1.5 billion gallons a year. There was no board meeting or public hearing on it. The District told the company to resubmit under rules adopted March 23, 2026. The company put the project on hold in July, and the District now considers it dead until updated information arrives.",
+        "On Aug. 5, 2024, the board approved a new Angelina WSC well on Schoolcraft Road off FM 326 for 75 million gallons a year and raised the permitted amounts for three existing wells, which were at 80% of their limits. No one spoke at the public hearing."
       ]
     },
     {
@@ -199,6 +250,10 @@
         {
           "date": "2026-10-12",
           "text": "ETLC answered the questions and listed the records still needed. The District said its management plan is posted on its website and that pulling the rest will take time."
+        },
+        {
+          "date": "2026-10-30",
+          "text": "ETLC asked the District to confirm in writing that its Nov. 9 date also covers this request."
         }
       ],
       "waiting": "The remaining well, permit and correspondence records.",
@@ -305,6 +360,29 @@
           "title": "Checksums proving these are the City’s files, unchanged",
           "pages": null
         }
+      ]
+    },
+    {
+      "agency": "City of Lufkin",
+      "number": "",
+      "filed": "2026-10-30",
+      "status": "Request sent",
+      "state": "waiting",
+      "asked": "Water supply agreements, letters of intent, rate quotes and correspondence with Amp Z, EPG Champion, HyperDataGrid, Long Leaf Generating, WattBridge or 1606 Corp; records discussing which water source would serve a data center or power plant at the former mill or near Lake Kurth; and the City's rates for selling raw or reclaimed water to industry. Covers Sept. 25, 2026 to the present.",
+      "events": [
+        {
+          "date": "2026-10-30",
+          "text": "Request emailed to the City's public information address."
+        }
+      ],
+      "waiting": "The City's response or cost estimate.",
+      "clock": {
+        "start": "2026-10-30",
+        "kind": "legal",
+        "start_note": "the request was sent"
+      },
+      "found": [
+        "Nothing yet."
       ]
     }
   ]
