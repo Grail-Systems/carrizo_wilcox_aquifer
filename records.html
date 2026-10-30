@@ -121,5 +121,6 @@ Promise.all([fetch('frontend/records.json?v='+Date.now()).then(r=>r.json()),
   document.getElementById('foot').textContent=`Last updated ${fmt(data.updated)}.`+(dl?` Deadlines recalculated ${fmt(dl.computed)}; they skip weekends and Texas state holidays and are estimates.`:'')+` Requests filed by Fawn Elizabeth Zion for the East Texas Legacy Coalition.`;
 }).catch(()=>{document.getElementById('summary').textContent='The request list could not be loaded. Refresh the page to try again.';});
 </script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "1ba18e59a6bd4272a9ee39f28efebbab"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
