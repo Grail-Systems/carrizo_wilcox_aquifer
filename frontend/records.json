@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "requests": [
     {
       "agency": "City of Lufkin",
@@ -107,7 +107,7 @@
       "agency": "City of Lufkin",
       "number": "CRR-2026-316",
       "filed": "2026-09-25",
-      "status": "Paid in full; waiting on records",
+      "status": "Records released Oct. 28; five items still missing",
       "state": "waiting",
       "asked": "The City's water system records: an inventory of City wells with production and water-level records since 2016; water and wastewater capacity and demand since 2021; water, wastewater and capital plans; any study of serving a data center or other large industrial water user; any will-serve letter or capacity reservation for the companies; how the City would supply and charge for that water at the former mill; and the City's 2009 purchase of the mill's water system.",
       "events": [
@@ -136,28 +136,43 @@
           "text": "ETLC paid the revised charge of $94.50 at the City Secretary's Office. The request is paid in full."
         },
         {
+          "date": "2026-10-28",
+          "text": "The City marked the request completed and posted 1,054 pages of records in its online records portal."
+        },
+        {
           "date": "2026-10-29",
           "text": "The City told the Attorney General it is not asking for a ruling on this request."
         },
         {
           "date": "2026-10-30",
           "text": "ETLC asked the City to release the records or say when to expect them."
+        },
+        {
+          "date": "2026-10-31",
+          "text": "ETLC told the City that five items from the narrowed request were not in the release and asked for those records or written confirmation that none exist."
         }
       ],
-      "waiting": "The records. The City says this request does not need an Attorney General ruling.",
+      "waiting": "A written answer on five items missing from the release: the City's water and wastewater master plans; any study of serving a data center or other large water user; any will-serve letter or capacity reservation other than the Sept. 25, 2025 letter to Amp Z; historical water records for the wells on the former mill property; and two documents cited in the 2009 purchase records (Exhibit B, the permits, and a December 2008 report by CDM). ETLC asked on Oct. 31 for the records or written confirmation that none exist.",
       "clock": {
         "start": "2026-10-28",
         "kind": "expected",
         "start_note": "ETLC paid in full"
       },
       "found": [
-        "Nothing yet. The request is paid in full, and the City says it does not need an Attorney General ruling, so the records should come next."
+        "The City released 1,054 pages on Oct. 28: City well inventories and water-level reports, the records of the City's 2009 purchase of the mill's water system, and an affidavit by Kevin Gee with the City's water demand forecast through 2046.",
+        "The release contains no capacity analysis, engineering study or impact study of serving a data center, and no will-serve letter for one.",
+        "The full release is below and in the searchable documents library, with personal phone numbers and email addresses blacked out."
       ],
       "documents": [
         {
           "href": "docs/lufkin_ag_request_2026-10-09.pdf",
           "title": "The City’s Oct. 9 letter asking the Attorney General to let it withhold records",
           "pages": 6
+        },
+        {
+          "href": "records/crr-2026-316/2026-10-28_city-of-lufkin-water-records.pdf",
+          "title": "The City’s Oct. 28 release: water system records (personal contact details redacted)",
+          "pages": 1054
         }
       ]
     },
