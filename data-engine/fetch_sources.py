@@ -19,8 +19,7 @@ TWDB_URL = 'https://www.twdb.texas.gov/groundwater/data/GWDBDownload.zip'
 ERCOT_LIST = 'https://www.ercot.com/misapp/servlets/IceDocListJsonWS?reportTypeId=15933'
 ERCOT_DOC = 'https://www.ercot.com/misdownload/servlets/mirDownload?doclookupId={}'
 ERCOT_OUT = 'P2A/east_texas_interconnections.json'
-ERCOT_COUNTIES = ['angelina', 'nacogdoches', 'anderson', 'henderson',
-                  'cherokee', 'rusk', 'navarro', 'houston', 'smith']
+ERCOT_COUNTIES = ['angelina', 'nacogdoches', 'anderson', 'henderson', 'cherokee', 'rusk', 'navarro', 'houston', 'smith', 'milam', 'hood', 'ellis', 'hays', 'young', 'somervell']
 failures = []
 
 
