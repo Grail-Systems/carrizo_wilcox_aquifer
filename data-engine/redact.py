@@ -18,7 +18,13 @@ TESS = (glob.glob("/usr/share/tesseract-ocr/*/tessdata") or [None])[0]
 FIELDS = ["n", "decision", "pages", "type", "match", "context"]
 digits = lambda s: re.sub(r"\D", "", s)
 
-def is_scanned(page): return len(page.get_text().strip()) < 25 and bool(page.get_images())
+def is_scanned(page):
+    t = len(page.get_text().strip())
+    if t < 25: return bool(page.get_images())
+    if t >= 600: return False
+    try: area = sum(abs(r) for x in page.get_images(full=True) for r in page.get_image_rects(x[0]))
+    except Exception: return False
+    return area > 0.5 * abs(page.rect)   # a picture of paper with only a stamp or header as text
 def textpage(page):
     if is_scanned(page) and TESS:
         return page.get_textpage_ocr(dpi=200, full=True, tessdata=TESS)
