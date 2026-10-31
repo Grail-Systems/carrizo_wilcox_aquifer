@@ -3,6 +3,8 @@ Skips sign-in sheets (private residents' contact info) unless INCLUDE_SIGNIN=1."
 import os, re, json, hashlib, subprocess, datetime
 BASE = "https://grailsystems.io/carrizo_wilcox_aquifer/"
 def text_of(path):
+    if os.path.exists(path + ".txt"):  # sidecar OCR text for scanned records
+        return open(path + ".txt").read()
     try: return subprocess.run(["pdftotext", "-q", path, "-"], capture_output=True, text=True, timeout=120).stdout
     except Exception: return ""
 def pages_of(path):
