@@ -90,7 +90,7 @@ def apply(pdf, out):
             tp = tps[pno]
             for v in {r["match"], r["match"].replace(" ", "")}:
                 for q in page.search_for(v, textpage=tp):
-                    page.add_redact_annot(q, fill=(0, 0, 0)); hits += 1; found = True
+                    page.add_redact_annot(q + (-3, -3, 3, 3), fill=(0, 0, 0)); hits += 1; found = True
         if not found: missed.append(f"{r['match']} (p. {r['pages']})")
     for page in pg.values(): page.apply_redactions(images=pymupdf.PDF_REDACT_IMAGE_PIXELS)
     tps.clear()
@@ -99,9 +99,9 @@ def apply(pdf, out):
     chk = pymupdf.open(out); pages = sorted(pg)
     def read(p):
         pp = chk[p - 1]; return " ".join(pp.get_text(textpage=textpage(pp)).split())
-    text = " ".join(read(p) for p in pages) + " " + \
-           " ".join(" ".join(p.get_text().split()) for p in chk)
-    still = [r["match"] for r in todo if r["match"].lower() in text.lower()]
+    ptext = {p: read(p).lower() for p in pages}
+    for i, p in enumerate(chk, 1): ptext[i] = ptext.get(i, "") + " " + " ".join(p.get_text().split()).lower()
+    still = [f"{r['match']} (p. {','.join(str(i) for i, t in ptext.items() if r['match'].lower() in t)})" for r in todo if any(r["match"].lower() in t for t in ptext.values())]
     print(f"Blacked out {hits} spots for {len(todo)} items. Saved {out}")
     if missed: print("  Could not place a box on these (odd spacing or OCR misread). Check those pages by eye:\n   " + "\n   ".join(missed))
     if still: print(f"  WARNING, still readable in the output: {still}"); sys.exit(1)
