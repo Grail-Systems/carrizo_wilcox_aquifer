@@ -88,7 +88,10 @@ def apply(pdf, out):
             page = pg.setdefault(pno, doc[pno - 1])
             if pno not in tps: tps[pno] = textpage(page)
             tp = tps[pno]
-            for v in {r["match"], r["match"].replace(" ", "")}:
+            vs = {r["match"], r["match"].replace(" ", "")}
+            if r["type"] == "email" and "@" in r["match"]:
+                u, d = r["match"].split("@", 1); vs.add(u + "@" + d.split(".")[0])
+            for v in vs:
                 for q in page.search_for(v, textpage=tp):
                     page.add_redact_annot(q + (-3, -3, 3, 3), fill=(0, 0, 0)); hits += 1; found = True
         if not found: missed.append(f"{r['match']} (p. {r['pages']})")
@@ -107,10 +110,16 @@ def apply(pdf, out):
     if still: print(f"  WARNING, still readable in the output: {still}"); sys.exit(1)
     print("  Verified: nothing marked REDACT is readable in the output.")
 
+def add(pdf, pages, text):
+    rows = load(pdf)
+    rows.append({"n": str(len(rows) + 1), "decision": "REDACT", "pages": pages, "type": "manual", "match": text, "context": "added by hand"})
+    save(pdf, rows); print(f"Added: {text} on p. {pages}")
+
 if __name__ == "__main__":
     a = sys.argv[1:]
     if len(a) == 2 and a[0] == "scan": scan(a[1])
     elif len(a) == 2 and a[0] == "review": review(a[1])
     elif len(a) >= 4 and a[0] == "mark": mark(a[1], a[2], a[3:])
     elif len(a) == 3 and a[0] == "apply": apply(a[1], a[2])
+    elif len(a) == 4 and a[0] == "add": add(a[1], a[2], a[3])
     else: print(__doc__)
