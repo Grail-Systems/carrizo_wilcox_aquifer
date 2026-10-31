@@ -98,6 +98,8 @@ def apply(pdf, out):
     for page in pg.values(): page.apply_redactions(images=pymupdf.PDF_REDACT_IMAGE_PIXELS)
     tps.clear()
     doc.set_metadata({}); doc.del_xml_metadata()
+    try: doc.rewrite_images(quality=70, lossy=True, lossless=True)  # keep file size near the original
+    except Exception as e: print(f"  (could not recompress images: {e})")
     doc.save(out, garbage=4, deflate=True, clean=True)
     chk = pymupdf.open(out); pages = sorted(pg)
     def read(p):
