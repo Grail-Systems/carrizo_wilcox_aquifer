@@ -1,28 +1,28 @@
 {
-  "checked": "2026-10-31T14:25:22+00:00",
+  "checked": "2026-11-01T14:53:05+00:00",
   "feeds": [
     {
       "file": "frontend/mega_permits.json",
       "label": "Permits and ERCOT grid requests",
-      "state": "unchanged",
-      "records": 68,
-      "last_good": "2026-10-22T02:26:41+00:00",
+      "state": "updated",
+      "records": 143,
+      "last_good": "2026-11-01T14:53:05+00:00",
       "note": ""
     },
     {
       "file": "frontend/toxin_feed.json",
       "label": "EPA ECHO violations",
-      "state": "unchanged",
-      "records": 454,
-      "last_good": "2026-10-25T13:03:00+00:00",
+      "state": "updated",
+      "records": 525,
+      "last_good": "2026-11-01T14:53:05+00:00",
       "note": ""
     },
     {
       "file": "frontend/usgs_telemetry.json",
       "label": "TWDB well water levels",
-      "state": "unchanged",
-      "records": 274,
-      "last_good": "2026-10-21T22:07:04+00:00",
+      "state": "updated",
+      "records": 422,
+      "last_good": "2026-11-01T14:53:05+00:00",
       "note": ""
     },
     {

@@ -1089,6 +1089,17 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013208769"
     },
     {
+        "facility": "ALABAMA COUSHATTA TRIBE OF TX",
+        "status": "Violation Identified",
+        "bottom_line": "LIVINGSTON, Polk County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 10.",
+        "coordinates": [
+            -94.674417,
+            30.710548
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110037518406"
+    },
+    {
         "facility": "ALABAMA-COUSHATTA TRIBE OF TX",
         "status": "Violation Identified",
         "bottom_line": "LIVINGSTON, Polk County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
@@ -1716,6 +1727,193 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013217973"
     },
     {
+        "facility": "B & B WSC",
+        "status": "No Violation Identified",
+        "bottom_line": "None, Navarro County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
+        "coordinates": [
+            -96.476909,
+            32.048448
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219828"
+    },
+    {
+        "facility": "BEATON LAKE ESTATES WATER SYSTEM",
+        "status": "Violation Identified",
+        "bottom_line": "None, Navarro County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
+        "coordinates": [
+            -96.476909,
+            32.048448
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012907916"
+    },
+    {
+        "facility": "CITY OF ANGUS WWTF",
+        "status": "Significant Violation",
+        "bottom_line": "ANGUS, Navarro County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 9. Flagged as significant violator.",
+        "coordinates": [
+            -96.43806,
+            32.01639
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071363727"
+    },
+    {
+        "facility": "CITY OF BARRY",
+        "status": "No Violation Identified",
+        "bottom_line": "None, Navarro County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
+        "coordinates": [
+            -96.476909,
+            32.048448
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219588"
+    },
+    {
+        "facility": "CITY OF FROST WWTF",
+        "status": "Significant Violation",
+        "bottom_line": "FROST, Navarro County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 11. Flagged as significant violator.",
+        "coordinates": [
+            -96.812523,
+            32.084402
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009781600"
+    },
+    {
+        "facility": "CITY OF GOODLOW",
+        "status": "No Violation Identified",
+        "bottom_line": "None, Navarro County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 10.",
+        "coordinates": [
+            -96.476909,
+            32.048448
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219846"
+    },
+    {
+        "facility": "M E N WSC",
+        "status": "Significant Violation",
+        "bottom_line": "None, Navarro County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 11. Flagged as significant violator.",
+        "coordinates": [
+            -96.476909,
+            32.048448
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219686"
+    },
+    {
+        "facility": "PELICAN ISLE WATER SYSTEM-PLANT -",
+        "status": "Violation Identified",
+        "bottom_line": "KERENS, Navarro County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
+        "coordinates": [
+            -96.207955,
+            32.108388
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110052843474"
+    },
+    {
+        "facility": "WINKLER WSC-SWTP 2 (TRIMITE PLANT)",
+        "status": "Significant Violation",
+        "bottom_line": "STREETMAN, Navarro County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 11. Flagged as significant violator.",
+        "coordinates": [
+            -96.273328,
+            31.946275
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219784"
+    },
+    {
+        "facility": "CRESSON CROSSROADS MUD 2-PLANT - HWY 171",
+        "status": "Violation Identified",
+        "bottom_line": "DALLAS, Hood County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
+        "coordinates": [
+            -96.8076,
+            32.7934
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110052877455"
+    },
+    {
+        "facility": "AVALON WSC",
+        "status": "Significant Violation",
+        "bottom_line": "None, Ellis County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 11. Flagged as significant violator.",
+        "coordinates": [
+            -96.79694,
+            32.346878
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013278354"
+    },
+    {
+        "facility": "CITY OF MAYPEARL",
+        "status": "Violation Identified",
+        "bottom_line": "None, Ellis County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
+        "coordinates": [
+            -96.79694,
+            32.346878
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013278336"
+    },
+    {
+        "facility": "CITY OF PALMER WWTP",
+        "status": "Significant Violation",
+        "bottom_line": "PALMER, Ellis County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 11. Flagged as significant violator.",
+        "coordinates": [
+            -96.660833,
+            32.428055
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071221376"
+    },
+    {
+        "facility": "COMING OF CHRIST FULL GOSPEL CHURCH",
+        "status": "Violation Identified",
+        "bottom_line": "None, Ellis County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
+        "coordinates": [
+            -96.79694,
+            32.346878
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110022987838"
+    },
+    {
+        "facility": "DARTCO OF TEXAS WAXAHACHIE SITE",
+        "status": "Significant Violation",
+        "bottom_line": "WAXAHACHIE, Ellis County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 12. Flagged as significant violator.",
+        "coordinates": [
+            -96.85,
+            32.426944
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110001867132"
+    },
+    {
+        "facility": "CITY OF NEWTON",
+        "status": "Violation Identified",
+        "bottom_line": "None, Newton County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
+        "coordinates": [
+            -93.73925,
+            30.786718
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219908"
+    },
+    {
+        "facility": "TALL TIMBERS WSC",
+        "status": "Violation Identified",
+        "bottom_line": "None, Newton County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
+        "coordinates": [
+            -93.73925,
+            30.786718
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219980"
+    },
+    {
         "facility": "LIBBY WSC",
         "status": "Violation Identified",
         "bottom_line": "None, Nacogdoches County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 9.",
@@ -1804,17 +2002,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012840079"
     },
     {
-        "facility": "ALABAMA COUSHATTA TRIBE OF TX",
-        "status": "Violation Identified",
-        "bottom_line": "LIVINGSTON, Polk County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 9.",
-        "coordinates": [
-            -94.674417,
-            30.710548
-        ],
-        "severity": 9,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110037518406"
-    },
-    {
         "facility": "MEMORIAL POINT UTILITY WWTP",
         "status": "Significant Violation",
         "bottom_line": "LIVINGSTON, Polk County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 5. Flagged as significant violator.",
@@ -1890,6 +2077,39 @@
         ],
         "severity": 9,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013245693"
+    },
+    {
+        "facility": "CITY OF KERENS",
+        "status": "No Violation Identified",
+        "bottom_line": "None, Navarro County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 9.",
+        "coordinates": [
+            -96.476909,
+            32.048448
+        ],
+        "severity": 9,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219560"
+    },
+    {
+        "facility": "AVALON WWTP",
+        "status": "No Violation Identified",
+        "bottom_line": "AVALON, Ellis County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 9.",
+        "coordinates": [
+            -96.79248,
+            32.199799
+        ],
+        "severity": 9,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009781904"
+    },
+    {
+        "facility": "CITY OF ITALY-PLANT - 108 SIMMS ST",
+        "status": "Violation Identified",
+        "bottom_line": "ITALY, Ellis County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 9.",
+        "coordinates": [
+            -96.86912,
+            32.173226
+        ],
+        "severity": 9,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009770523"
     },
     {
         "facility": "CITY OF LUFKIN WASTEWATER TREATMENT PLANT",
@@ -2044,6 +2264,17 @@
         ],
         "severity": 8,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012839688"
+    },
+    {
+        "facility": "CAYUGA ISD",
+        "status": "Violation Identified",
+        "bottom_line": "CAYUGA, Anderson County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 8.",
+        "coordinates": [
+            -95.926611,
+            31.924306
+        ],
+        "severity": 8,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110010843043"
     },
     {
         "facility": "FRANKSTON CADDO CREEK WWTP",
@@ -2233,6 +2464,28 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110061058796"
     },
     {
+        "facility": "GOODALTA POWER CENTER PLANT",
+        "status": "Violation Identified",
+        "bottom_line": "KERENS, Navarro County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 8.",
+        "coordinates": [
+            -96.223333,
+            32.07
+        ],
+        "severity": 8,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110070563175"
+    },
+    {
+        "facility": "CITY OF FERRIS",
+        "status": "No Violation Identified",
+        "bottom_line": "None, Ellis County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 8.",
+        "coordinates": [
+            -96.79694,
+            32.346878
+        ],
+        "severity": 8,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012934888"
+    },
+    {
         "facility": "WOODLAWN WSC-PLANT - HWY 103 WEST",
         "status": "Violation Identified",
         "bottom_line": "LUFKIN, Angelina County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 7.",
@@ -2308,17 +2561,6 @@
         ],
         "severity": 7,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012902001"
-    },
-    {
-        "facility": "CAYUGA ISD",
-        "status": "No Violation Identified",
-        "bottom_line": "CAYUGA, Anderson County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 7.",
-        "coordinates": [
-            -95.926611,
-            31.924306
-        ],
-        "severity": 7,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110010843043"
     },
     {
         "facility": "NORWOOD WSC-PLANT - CITY OF PALESTINE",
@@ -2528,6 +2770,50 @@
         ],
         "severity": 7,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013217919"
+    },
+    {
+        "facility": "CITY OF FROST-PLANT - NAVARRO MILLS",
+        "status": "Violation Identified",
+        "bottom_line": "FROST, Navarro County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 7.",
+        "coordinates": [
+            -96.786919,
+            32.044707
+        ],
+        "severity": 7,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219542"
+    },
+    {
+        "facility": "DULWORTH ENTERPRISES",
+        "status": "No Violation Identified",
+        "bottom_line": "RICE, Navarro County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 7.",
+        "coordinates": [
+            -96.47262,
+            32.19286
+        ],
+        "severity": 7,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071073421"
+    },
+    {
+        "facility": "WHITE ROCK WWTP",
+        "status": "Violation Identified",
+        "bottom_line": "CORSICANA, Navarro County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 7.",
+        "coordinates": [
+            -96.21682,
+            32.00083
+        ],
+        "severity": 7,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110070502765"
+    },
+    {
+        "facility": "BON WIER WSC",
+        "status": "Violation Identified",
+        "bottom_line": "None, Newton County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 7.",
+        "coordinates": [
+            -93.73925,
+            30.786718
+        ],
+        "severity": 7,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219962"
     },
     {
         "facility": "CITY OF DIBOLL WWTP",
@@ -2781,6 +3067,105 @@
         ],
         "severity": 6,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013218017"
+    },
+    {
+        "facility": "CITY OF BLOOMING GROVE  WWTP",
+        "status": "No Violation Identified",
+        "bottom_line": "BLOOMING GROVE, Navarro County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 6.",
+        "coordinates": [
+            -96.707047,
+            32.093791
+        ],
+        "severity": 6,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110006687102"
+    },
+    {
+        "facility": "CITY OF CORSICANA PWS",
+        "status": "Significant Violation",
+        "bottom_line": "PURDON, Navarro County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 2. Flagged as significant violator.",
+        "coordinates": [
+            -96.68644,
+            31.96149
+        ],
+        "severity": 6,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110070916805"
+    },
+    {
+        "facility": "CITY OF DAWSON WWTP",
+        "status": "Violation Identified",
+        "bottom_line": "DAWSON, Navarro County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 6.",
+        "coordinates": [
+            -96.703253,
+            31.891595
+        ],
+        "severity": 6,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110006687308"
+    },
+    {
+        "facility": "CITY OF RICHLAND-PLANT - CR 2340 / CR 2344",
+        "status": "No Violation Identified",
+        "bottom_line": "RICHLAND, Navarro County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 6.",
+        "coordinates": [
+            -96.436057,
+            31.915937
+        ],
+        "severity": 6,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219766"
+    },
+    {
+        "facility": "NORTH TOWN ACRES",
+        "status": "Violation Identified",
+        "bottom_line": "None, Navarro County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 6.",
+        "coordinates": [
+            -96.476909,
+            32.048448
+        ],
+        "severity": 6,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219882"
+    },
+    {
+        "facility": "PURDON WATER",
+        "status": "Violation Identified",
+        "bottom_line": "None, Navarro County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 6.",
+        "coordinates": [
+            -96.476909,
+            32.048448
+        ],
+        "severity": 6,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219702"
+    },
+    {
+        "facility": "ARTESIAN SPRINGS",
+        "status": "Inactive",
+        "bottom_line": "None, Newton County. EPA status: Inactive. Quarters out of compliance (last 3 yrs): 6.",
+        "coordinates": [
+            -93.73925,
+            30.786718
+        ],
+        "severity": 6,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110052897424"
+    },
+    {
+        "facility": "SOUTH NEWTON WSC-PLANT 4 - 429 CR 4212",
+        "status": "No Violation Identified",
+        "bottom_line": "DEWEYVILLE, Newton County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 6.",
+        "coordinates": [
+            -93.747906,
+            30.306015
+        ],
+        "severity": 6,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013220004"
+    },
+    {
+        "facility": "SOUTHERN FOREST PRODUCTS",
+        "status": "Violation Identified",
+        "bottom_line": "NEWTON, Newton County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 6.",
+        "coordinates": [
+            -93.644515,
+            30.784188
+        ],
+        "severity": 6,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009748666"
     },
     {
         "facility": "HHSC LUFKIN STATE SUPPORTED LIVING CENT",
@@ -3056,6 +3441,28 @@
         ],
         "severity": 5,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013217937"
+    },
+    {
+        "facility": "PELICAN ISLE WWTP",
+        "status": "No Violation Identified",
+        "bottom_line": "KERENS, Navarro County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 5.",
+        "coordinates": [
+            -96.171932,
+            31.994621
+        ],
+        "severity": 5,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009774137"
+    },
+    {
+        "facility": "CITY OF WAXAHACHIE WASTEWATER TREATMENT PLANT",
+        "status": "Violation Identified",
+        "bottom_line": "WAXAHACHIE, Ellis County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 5.",
+        "coordinates": [
+            -96.84138,
+            32.36546
+        ],
+        "severity": 5,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110000504954"
     },
     {
         "facility": "CENTRAL WCID OF ANGELINA COUNTY",
@@ -3608,6 +4015,94 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110024420606"
     },
     {
+        "facility": "CHATFIELD WSC-BOOSTER PLANT 3 - 452 W HWY 31, POWELL",
+        "status": "No Violation Identified",
+        "bottom_line": "POWELL, Navarro County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
+        "coordinates": [
+            -96.358838,
+            32.166522
+        ],
+        "severity": 4,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219622"
+    },
+    {
+        "facility": "CITY OF BLOOMING GROVE",
+        "status": "Violation Identified",
+        "bottom_line": "None, Navarro County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
+        "coordinates": [
+            -96.476909,
+            32.048448
+        ],
+        "severity": 4,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219506"
+    },
+    {
+        "facility": "RICE WSC WWTP",
+        "status": "Violation Identified",
+        "bottom_line": "RICE, Navarro County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
+        "coordinates": [
+            -96.506542,
+            32.238869
+        ],
+        "severity": 4,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009748103"
+    },
+    {
+        "facility": "CITY OF PALMER",
+        "status": "Violation Identified",
+        "bottom_line": "None, Ellis County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
+        "coordinates": [
+            -96.79694,
+            32.346878
+        ],
+        "severity": 4,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012934995"
+    },
+    {
+        "facility": "BURKEVILLE WSC",
+        "status": "Violation Identified",
+        "bottom_line": "None, Newton County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
+        "coordinates": [
+            -93.73925,
+            30.786718
+        ],
+        "severity": 4,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219944"
+    },
+    {
+        "facility": "EAST TEXAS BAPTIST ENCAMPMENT",
+        "status": "No Violation Identified",
+        "bottom_line": "None, Newton County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
+        "coordinates": [
+            -93.73925,
+            30.786718
+        ],
+        "severity": 4,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110052843599"
+    },
+    {
+        "facility": "JAMESTOWN WSC",
+        "status": "No Violation Identified",
+        "bottom_line": "None, Newton County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
+        "coordinates": [
+            -93.73925,
+            30.786718
+        ],
+        "severity": 4,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012908096"
+    },
+    {
+        "facility": "TOLEDO VILLAGE WSC",
+        "status": "No Violation Identified",
+        "bottom_line": "None, Newton County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
+        "coordinates": [
+            -93.73925,
+            30.786718
+        ],
+        "severity": 4,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219926"
+    },
+    {
         "facility": "NORTH ANGELINA COUNTY REGIONAL WASTEWATER",
         "status": "No Violation Identified",
         "bottom_line": "LUFKIN, Angelina County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
@@ -3927,6 +4422,17 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009698951"
     },
     {
+        "facility": "PORT ADVENTURE",
+        "status": "Violation Identified",
+        "bottom_line": "TRINITY COUNTY, Trinity County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
+        "coordinates": [
+            -95.227417,
+            30.911833
+        ],
+        "severity": 3,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009773469"
+    },
+    {
         "facility": "TRINITY RURAL WSC 3",
         "status": "No Violation Identified",
         "bottom_line": "None, Trinity County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
@@ -4180,6 +4686,94 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013217893"
     },
     {
+        "facility": "CORSICANA 262",
+        "status": "No Violation Identified",
+        "bottom_line": "CORSICANA, Navarro County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
+        "coordinates": [
+            -96.41549,
+            32.0977
+        ],
+        "severity": 3,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110034530167"
+    },
+    {
+        "facility": "EMHOUSE WATER SYSTEM",
+        "status": "No Violation Identified",
+        "bottom_line": "None, Navarro County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
+        "coordinates": [
+            -96.476909,
+            32.048448
+        ],
+        "severity": 3,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219668"
+    },
+    {
+        "facility": "NAVARRO SAFETY REST AREA  WASTEWATER TREATMENT FACILITY",
+        "status": "Violation Identified",
+        "bottom_line": "RICHLAND, Navarro County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
+        "coordinates": [
+            -96.393147,
+            31.909974
+        ],
+        "severity": 3,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110031275055"
+    },
+    {
+        "facility": "BUFFALO HILLS WATER SYSTEM",
+        "status": "No Violation Identified",
+        "bottom_line": "None, Ellis County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
+        "coordinates": [
+            -96.79694,
+            32.346878
+        ],
+        "severity": 3,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013278522"
+    },
+    {
+        "facility": "CITY OF ENNIS WASTEWATER TREATMENT PLANT",
+        "status": "No Violation Identified",
+        "bottom_line": "ENNIS, Ellis County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
+        "coordinates": [
+            -96.615,
+            32.303889
+        ],
+        "severity": 3,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110000751801"
+    },
+    {
+        "facility": "FORRESTON SEWER SERVICE WWTP",
+        "status": "Violation Identified",
+        "bottom_line": "FORRESTON, Ellis County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
+        "coordinates": [
+            -96.861704,
+            32.251946
+        ],
+        "severity": 3,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009781762"
+    },
+    {
+        "facility": "GARRETT COMMUNITY WATER COMPANY",
+        "status": "No Violation Identified",
+        "bottom_line": "None, Ellis County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
+        "coordinates": [
+            -96.79694,
+            32.346878
+        ],
+        "severity": 3,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012935084"
+    },
+    {
+        "facility": "CITY OF NEWTON WWTP",
+        "status": "Violation Identified",
+        "bottom_line": "NEWTON, Newton County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
+        "coordinates": [
+            -93.737777,
+            30.833888
+        ],
+        "severity": 3,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110064649091"
+    },
+    {
         "facility": "ANGELINA COUNTY FWSD NO 1 WWTP",
         "status": "No Violation Identified",
         "bottom_line": "LUFKIN, Angelina County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 2.",
@@ -4288,17 +4882,6 @@
         ],
         "severity": 2,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012838509"
-    },
-    {
-        "facility": "PORT ADVENTURE",
-        "status": "No Violation Identified",
-        "bottom_line": "TRINITY COUNTY, Trinity County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 2.",
-        "coordinates": [
-            -95.227417,
-            30.911833
-        ],
-        "severity": 2,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009773469"
     },
     {
         "facility": "7-ELEVEN STORE 41037",
@@ -4420,6 +5003,72 @@
         ],
         "severity": 2,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110052883607"
+    },
+    {
+        "facility": "CITY OF KERENS WWTP",
+        "status": "No Violation Identified",
+        "bottom_line": "KERENS, Navarro County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 2.",
+        "coordinates": [
+            -96.232205,
+            32.116992
+        ],
+        "severity": 2,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009781478"
+    },
+    {
+        "facility": "PACTIV CORP",
+        "status": "No Violation Identified",
+        "bottom_line": "CORSICANA, Navarro County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 2.",
+        "coordinates": [
+            -96.386833,
+            32.103596
+        ],
+        "severity": 2,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110000751311"
+    },
+    {
+        "facility": "RIOT CORSICANA",
+        "status": "No Violation Identified",
+        "bottom_line": "CORSICANA, Navarro County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 2.",
+        "coordinates": [
+            -96.51074,
+            31.96471
+        ],
+        "severity": 2,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110072060803"
+    },
+    {
+        "facility": "ARCOSA AGGREGATES - LITTLE RIVER PLANT 1",
+        "status": "No Violation Identified",
+        "bottom_line": "CAMERON, Milam County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 2.",
+        "coordinates": [
+            -96.860486,
+            30.88554
+        ],
+        "severity": 2,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110070367776"
+    },
+    {
+        "facility": "ARCOSA AGGREGATES LITTLE RIVER PLANT 2",
+        "status": "No Violation Identified",
+        "bottom_line": "MAYSFIELD, Milam County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 2.",
+        "coordinates": [
+            -96.845639,
+            30.877883
+        ],
+        "severity": 2,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110070865101"
+    },
+    {
+        "facility": "CITY OF PALMER WWTP",
+        "status": "No Violation Identified",
+        "bottom_line": "PALMER, Ellis County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 2.",
+        "coordinates": [
+            -96.661083,
+            32.428472
+        ],
+        "severity": 2,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110029526724"
     },
     {
         "facility": "BORDEN CHEMICAL INC",
@@ -4741,6 +5390,17 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013217599"
     },
     {
+        "facility": "TEMP WSC WATER WELL NO 8",
+        "status": "Violation Identified",
+        "bottom_line": "LIVINGSTON, Polk County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
+        "coordinates": [
+            -95.035354,
+            30.73952
+        ],
+        "severity": 1,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071324999"
+    },
+    {
         "facility": "TIMBERWOOD NURSING & REHABILITATION CENTER",
         "status": "No Violation Identified",
         "bottom_line": "LIVINGSTON, Polk County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
@@ -4895,7 +5555,7 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071894914"
     },
     {
-        "facility": "TRINIDAD",
+        "facility": "TRINIDAD STEAM ELECTRIC STATION",
         "status": "No Violation Identified",
         "bottom_line": "TRINIDAD, Henderson County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
         "coordinates": [
@@ -4992,5 +5652,126 @@
         ],
         "severity": 1,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110064640811"
+    },
+    {
+        "facility": "ANGUS WSC-PLANT - 212 FM 739",
+        "status": "No Violation Identified",
+        "bottom_line": "CORSICANA, Navarro County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
+        "coordinates": [
+            -96.43273,
+            32.00929
+        ],
+        "severity": 1,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219604"
+    },
+    {
+        "facility": "CITY OF CORSICANA - WWTP 2",
+        "status": "No Violation Identified",
+        "bottom_line": "CORSICANA, Navarro County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
+        "coordinates": [
+            -96.416235,
+            32.100318
+        ],
+        "severity": 1,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110034323701"
+    },
+    {
+        "facility": "RICE WSC-ALMA PS TO 690 CNX & TELCO PS & ENNIS PS",
+        "status": "No Violation Identified",
+        "bottom_line": "ENNIS, Navarro County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
+        "coordinates": [
+            -96.590333,
+            32.323915
+        ],
+        "severity": 1,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219748"
+    },
+    {
+        "facility": "TXI OPERATIONS LP",
+        "status": "No Violation Identified",
+        "bottom_line": "STREETMAN, Navarro County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
+        "coordinates": [
+            -96.31889,
+            31.86376
+        ],
+        "severity": 1,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110008060187"
+    },
+    {
+        "facility": "CHEMICAL RECLAMATION SERVICES - AVALON FACILITY",
+        "status": "No Violation Identified",
+        "bottom_line": "ITALY, Ellis County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
+        "coordinates": [
+            -96.792923,
+            32.211517
+        ],
+        "severity": 1,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110000619475"
+    },
+    {
+        "facility": "CITY OF ENNIS WATER TREATMENT PLANT",
+        "status": "Violation Identified",
+        "bottom_line": "ENNIS, Ellis County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
+        "coordinates": [
+            -96.641944,
+            32.271944
+        ],
+        "severity": 1,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110000502073"
+    },
+    {
+        "facility": "CITY OF FERRIS MS4",
+        "status": "Violation Identified",
+        "bottom_line": "CITY OF FERRIS, Ellis County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
+        "coordinates": [
+            -96.66491,
+            32.53419
+        ],
+        "severity": 1,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110067236226"
+    },
+    {
+        "facility": "ENNIS ASPHALT STORAGE FACILITY",
+        "status": "No Violation Identified",
+        "bottom_line": "ENNIS, Ellis County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
+        "coordinates": [
+            -96.63518,
+            32.36265
+        ],
+        "severity": 1,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071644580"
+    },
+    {
+        "facility": "GLOBE PRODUCTS",
+        "status": "No Violation Identified",
+        "bottom_line": "ENNIS, Ellis County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
+        "coordinates": [
+            -96.621239,
+            32.315529
+        ],
+        "severity": 1,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110000824458"
+    },
+    {
+        "facility": "MINERALTECH DEWEYVILLE PLANT",
+        "status": "Violation Identified",
+        "bottom_line": "DEWEYVILLE, Newton County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
+        "coordinates": [
+            -93.75979,
+            30.3159
+        ],
+        "severity": 1,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071363087"
+    },
+    {
+        "facility": "TOLEDO BEND DAM",
+        "status": "Violation Identified",
+        "bottom_line": "BURKEVILLE, Newton County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
+        "coordinates": [
+            -93.566403,
+            31.17334
+        ],
+        "severity": 1,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110033175481"
     }
 ]

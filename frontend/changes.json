@@ -1,4 +1,814 @@
 {
  "since": "2026-10-31",
- "changes": []
+ "changes": [
+  {
+   "county": [
+    "Gray"
+   ],
+   "text": "Google, Gray County now has a Texas Comptroller tax-break record.",
+   "link": "/texas#google-gray-county",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "Google Red Oak campus now has a Texas Comptroller tax-break record.",
+   "link": "/texas#google-red-oak-campus",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Denton"
+   ],
+   "text": "Prosper / FM 1385 data center: status changed from filed with a government to withdrawn or stopped.",
+   "link": "/texas#prosper-fm-1385-data-center",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Bastrop"
+   ],
+   "text": "Pacifico Cedar Creek Campus: status changed from withdrawn or stopped to announced or reported.",
+   "link": "/texas#pacifico-cedar-creek-campus",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Williamson"
+   ],
+   "text": "Williamson County AI Campus: status changed from announced or reported to under construction.",
+   "link": "/texas#williamson-county-ai-campus",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Williamson"
+   ],
+   "text": "Project Mustang (Taylor): status changed from announced or reported to approved by a government.",
+   "link": "/texas#project-mustang-taylor",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Williamson"
+   ],
+   "text": "KDC Project Comal: status changed from announced or reported to approved by a government.",
+   "link": "/texas#kdc-project-comal",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Williamson"
+   ],
+   "text": "Added to the map: Blueprint Projects data center (Taylor parkland) (Williamson County), approved by a government.",
+   "link": "/texas#blueprint-projects-data-center-taylor-parkland",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Williamson"
+   ],
+   "text": "Mesone data center (Jarrell): status changed from announced or reported to approved by a government.",
+   "link": "/texas#mesone-data-center-jarrell",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Guadalupe"
+   ],
+   "text": "Guadalupe County Technology Center: status changed from announced or reported to under construction.",
+   "link": "/texas#guadalupe-county-technology-center",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Guadalupe"
+   ],
+   "text": "Added to the map: Palomino Alpha data center (Guadalupe County), approved by a government.",
+   "link": "/texas#palomino-alpha-data-center",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "McLennan"
+   ],
+   "text": "Project Merlin (McGregor): status changed from announced or reported to approved by a government.",
+   "link": "/texas#project-merlin-mcgregor",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Medina"
+   ],
+   "text": "Cinco data center: status changed from announced or reported to under construction.",
+   "link": "/texas#cinco-data-center",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Nolan"
+   ],
+   "text": "IREN Sweetwater 1: status changed from operating to under construction.",
+   "link": "/texas#iren-sweetwater-1",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Brazoria"
+   ],
+   "text": "CleanSpark Valley Gamma: status changed from under construction to announced or reported.",
+   "link": "/texas#cleanspark-valley-gamma",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Childress"
+   ],
+   "text": "Crusoe / Lancium Childress campus: status changed from announced or reported to under construction.",
+   "link": "/texas#crusoe-lancium-childress-campus",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Childress"
+   ],
+   "text": "Crusoe / Lancium Childress campus now has a Texas Comptroller tax-break record.",
+   "link": "/texas#crusoe-lancium-childress-campus",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Hays"
+   ],
+   "text": "Sabey / Carson Select San Marcos campus: status changed from under construction to announced or reported.",
+   "link": "/texas#sabey-carson-select-san-marcos-campus",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Cameron"
+   ],
+   "text": "FluidStack Cameron County campus: status changed from announced or reported to under construction.",
+   "link": "/texas#fluidstack-cameron-county-campus",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Liberty"
+   ],
+   "text": "LAMP power and innovation hub: status changed from announced or reported to under construction.",
+   "link": "/texas#lamp-power-and-innovation-hub",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Wilbarger"
+   ],
+   "text": "Google Wilbarger County data center: status changed from announced or reported to under construction.",
+   "link": "/texas#google-wilbarger-county-data-center",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Wilbarger"
+   ],
+   "text": "Added to the map: Sabey Oklaunion (Wilbarger County), announced or reported.",
+   "link": "/texas#sabey-oklaunion",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Wilbarger"
+   ],
+   "text": "Added to the map: GDA Rowdy (Vernon) (Wilbarger County), operating.",
+   "link": "/texas#gda-rowdy-vernon",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Wichita"
+   ],
+   "text": "Added to the map: Calvano data center (Wichita Falls) (Wichita County), approved by a government.",
+   "link": "/texas#calvano-data-center-wichita-falls",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Wichita"
+   ],
+   "text": "Added to the map: DataNovaX (Airport Drive) (Wichita County), approved by a government.",
+   "link": "/texas#datanovax-airport-drive",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Bastrop"
+   ],
+   "text": "Added to the map: EdgeConneX Cedar Creek campuses (Bastrop County), under construction.",
+   "link": "/texas#edgeconnex-cedar-creek-campuses",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Young"
+   ],
+   "text": "New ERCOT grid request: Trinity Hills Wind repower. WIN, -27 MW in Young County. Projected online: 2026-12-31. ERCOT ID 20INR0019.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: Eastbell Milam Solar . SOL, 245 MW in Milam County. Projected online: 2026-11-01. ERCOT ID 21INR0203.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Oystercatcher Solar. SOL, 198 MW in Ellis County. Projected online: 2027-01-29. ERCOT ID 21INR0362.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Somervell"
+   ],
+   "text": "New ERCOT grid request: Yellow Viking Solar. SOL, 171 MW in Somervell County. Projected online: 2027-07-13. ERCOT ID 21INR0520.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Hays"
+   ],
+   "text": "New ERCOT grid request: Hays Energy Unit 3 Repower. GAS, 18 MW in Hays County. Projected online: 2028-07-01. ERCOT ID 21INR0527.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Midlothian Unit 2 repower. GAS, 18 MW in Ellis County. Projected online: 2028-06-03. ERCOT ID 21INR0534.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: Sandow Solar. SOL, 287 MW in Milam County. Projected online: 2028-06-01. ERCOT ID 22INR0350.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Midlothian 4 repower. GAS, 18 MW in Ellis County. Projected online: 2028-06-03. ERCOT ID 22INR0523.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Midlothian Unit 3 repower. GAS, 18 MW in Ellis County. Projected online: 2028-06-03. ERCOT ID 22INR0543.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Hays"
+   ],
+   "text": "New ERCOT grid request: Hays Energy Unit 2 Repower. GAS, 18 MW in Hays County. Projected online: 2028-07-01. ERCOT ID 22INR0586.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: Camino Santiago Solar. SOL, 196 MW in Milam County. Projected online: 2027-09-01. ERCOT ID 22INR0605.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Venus Mill Storage. OTH, 101 MW in Ellis County. Projected online: 2027-12-31. ERCOT ID 23INR0216.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: Hoyte Solar. SOL, 207 MW in Milam County. Projected online: 2027-04-15. ERCOT ID 23INR0235.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: Petunia Storage Project. OTH, 232 MW in Milam County. Projected online: 2028-06-30. ERCOT ID 23INR0468.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: Rhoda Storage. OTH, 141 MW in Milam County. Projected online: 2028-08-01. ERCOT ID 23INR0478.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: Adelite Storage. OTH, 232 MW in Milam County. Projected online: 2028-04-20. ERCOT ID 23INR0502.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: Stoneridge Solar. SOL, 202 MW in Milam County. Projected online: 2026-12-31. ERCOT ID 24INR0031.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: Yaupon Solar SLF. SOL, 201 MW in Milam County. Projected online: 2026-11-18. ERCOT ID 24INR0042.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: Sypert Branch Solar Project. SOL, 261 MW in Milam County. Projected online: 2026-04-30. ERCOT ID 24INR0070.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: Yaupon Storage SLF. OTH in Milam County. Projected online: 2028-07-01. ERCOT ID 24INR0169.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Cumulus Grid BESS. OTH, 211 MW in Ellis County. Projected online: 2028-01-01. ERCOT ID 24INR0178.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: Eastbell Milam Solar II. SOL, 151 MW in Milam County. Projected online: 2026-11-01. ERCOT ID 24INR0208.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Hays"
+   ],
+   "text": "New ERCOT grid request: PaleAle BESS. OTH, 75 MW in Hays County. Projected online: 2027-04-15. ERCOT ID 24INR0387.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Hood"
+   ],
+   "text": "New ERCOT grid request: Wolf Hollow III. GAS, 306 MW in Hood County. Projected online: 2027-05-31. ERCOT ID 24INR0567.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Tokyo TxHSR TPSS EW-1. OTH, 50 MW in Ellis County. Projected online: 2028-07-15. ERCOT ID 25INR0005.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: Burgos Solar. SOL, 106 MW in Milam County. Projected online: 2027-11-22. ERCOT ID 25INR0214.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Hood"
+   ],
+   "text": "New ERCOT grid request: Apache Hill BESS. OTH, 201 MW in Hood County. Projected online: 2026-10-31. ERCOT ID 25INR0231.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Young"
+   ],
+   "text": "New ERCOT grid request: Red Top Solar I. SOL, 201 MW in Young County. Projected online: 2029-04-20. ERCOT ID 25INR0306.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: HappyDogSolar. SOL, 86 MW in Milam County. Projected online: 2027-08-04. ERCOT ID 25INR0382.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: Stoneridge BESS. OTH, 102 MW in Milam County. Projected online: 2026-12-31. ERCOT ID 25INR0389.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: Happy Dog Storage. OTH, 105 MW in Milam County. Projected online: 2027-08-04. ERCOT ID 25INR0442.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Dolomite Storage. OTH, 126 MW in Ellis County. Projected online: 2026-12-01. ERCOT ID 25INR0495.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Hays"
+   ],
+   "text": "New ERCOT grid request: Hays Energy Unit 1 Repower. GAS, 18 MW in Hays County. Projected online: 2028-07-01. ERCOT ID 25INR0694.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Hays"
+   ],
+   "text": "New ERCOT grid request: Hays Energy Unit 4 Repower. GAS, 18 MW in Hays County. Projected online: 2028-07-01. ERCOT ID 25INR0695.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Sol Marina SLF Energy Center . SOL, 171 MW in Ellis County. Projected online: 2027-10-29. ERCOT ID 26INR0241.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Young"
+   ],
+   "text": "New ERCOT grid request: Young County Energy Storage. OTH, 104 MW in Young County. Projected online: 2028-08-01. ERCOT ID 26INR0302.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: Scorpius Solar. SOL, 600 MW in Milam County. Projected online: 2029-06-14. ERCOT ID 26INR0609.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: Betel Storage I. OTH, 500 MW in Milam County. Projected online: 2026-08-12. ERCOT ID 26INR0630.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: Betel Storage II. OTH, 500 MW in Milam County. Projected online: 2026-12-17. ERCOT ID 26INR0633.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: Aquila Solar. SOL, 500 MW in Milam County. Projected online: 2026-11-12. ERCOT ID 26INR0635.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: Sandow Lakes Energy Station. GAS, 1,292 MW in Milam County. Projected online: 2028-04-01. ERCOT ID 27INR0071.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: Champs Elysees BESS. OTH, 256 MW in Milam County. Projected online: 2027-12-15. ERCOT ID 27INR0216.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Galaxy Solar. SOL, 177 MW in Ellis County. Projected online: 2028-10-30. ERCOT ID 27INR0219.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Galaxy Storage. OTH, 155 MW in Ellis County. Projected online: 2028-10-30. ERCOT ID 27INR0220.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Hood"
+   ],
+   "text": "New ERCOT grid request: Rain Lily Storage 1. OTH, 106 MW in Hood County. Projected online: 2028-10-15. ERCOT ID 27INR0285.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Hood"
+   ],
+   "text": "New ERCOT grid request: Rain Lily Solar 1. SOL, 148 MW in Hood County. Projected online: 2028-10-15. ERCOT ID 27INR0288.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Bluebonnet Trail Solar. SOL, 151 MW in Ellis County. Projected online: 2028-09-19. ERCOT ID 27INR0417.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: Pavo Creek Storage . OTH, 154 MW in Milam County. Projected online: 2028-09-21. ERCOT ID 27INR0441.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Kickstart Energy Storage I. OTH, 1 MW in Ellis County. Projected online: 2029-09-30. ERCOT ID 27INR0469.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Kickstart Energy Storage II. OTH, 1 MW in Ellis County. Projected online: 2029-09-30. ERCOT ID 27INR0470.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Kickstart Energy Storage III. OTH, 1 MW in Ellis County. Projected online: 2029-09-30. ERCOT ID 27INR0471.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Kickstart Energy Storage IV. OTH, 1 MW in Ellis County. Projected online: 2029-09-30. ERCOT ID 27INR0472.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: Obbligato BESS. OTH, 201 MW in Milam County. Projected online: 2030-02-28. ERCOT ID 27INR0494.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Somervell"
+   ],
+   "text": "New ERCOT grid request: Black Mountain Somervell Gas Combined. GAS, 495 MW in Somervell County. Projected online: 2029-09-28. ERCOT ID 27INR0497.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Digital Ranch Gas . GAS, 378 MW in Ellis County. Projected online: 2030-04-15. ERCOT ID 28INR0100.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: San Gabriel Solar. SOL, 255 MW in Milam County. Projected online: 2028-07-01. ERCOT ID 28INR0185.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: San Gabriel Storage. OTH, 128 MW in Milam County. Projected online: 2028-07-01. ERCOT ID 28INR0191.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Galaxy I Solar. SOL, 99 MW in Ellis County. Projected online: 2028-10-30. ERCOT ID 28INR0355.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Galaxy Solar 2. SOL, 302 MW in Ellis County. Projected online: 2029-10-30. ERCOT ID 28INR0385.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Galaxy Storage 2. OTH, 202 MW in Ellis County. Projected online: 2029-10-30. ERCOT ID 28INR0387.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Old Alma Road Solar. SOL, 20 MW in Ellis County. Projected online: 2028-10-31. ERCOT ID 28INR0495.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Victory Ellis–BESS. OTH, 453 MW in Ellis County. Projected online: 2030-09-28. ERCOT ID 28INR0529.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Crape Myrtle Solar. SOL, 141 MW in Ellis County. Projected online: 2030-04-15. ERCOT ID 28INR0531.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: Brahman Renewables Solar. SOL, 101 MW in Milam County. Projected online: 2029-05-01. ERCOT ID 29INR0058.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: Brahman Renewables Storage. OTH, 207 MW in Milam County. Projected online: 2029-05-01. ERCOT ID 29INR0059.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Young"
+   ],
+   "text": "New ERCOT grid request: Jolly Rock Storage Center. OTH, 209 MW in Young County. Projected online: 2029-05-16. ERCOT ID 29INR0084.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Milam"
+   ],
+   "text": "New ERCOT grid request: MilamStation Power Secured Gas Generation. GAS, 846 MW in Milam County. Projected online: 2029-09-25. ERCOT ID 29INR0120.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Young"
+   ],
+   "text": "New ERCOT grid request: Sweetheart Solar. SOL, 301 MW in Young County. Projected online: 2029-12-01. ERCOT ID 29INR0171.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Young"
+   ],
+   "text": "New ERCOT grid request: Sweetheart BESS. OTH, 310 MW in Young County. Projected online: 2029-12-01. ERCOT ID 29INR0172.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Two Step Solar. SOL, 402 MW in Ellis County. Projected online: 2029-09-17. ERCOT ID 29INR0196.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Young"
+   ],
+   "text": "New ERCOT grid request: Miller Bend Energy Solar. SOL, 532 MW in Young County. Projected online: 2029-12-01. ERCOT ID 29INR0203.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Young"
+   ],
+   "text": "New ERCOT grid request: Miller Bend Energy BESS. OTH, 548 MW in Young County. Projected online: 2029-12-01. ERCOT ID 29INR0204.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Kickstart Energy Storage V. OTH, 999 MW in Ellis County. Projected online: 2029-12-31. ERCOT ID 29INR0217.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Kickstart Energy Storage VI. OTH, 1,026 MW in Ellis County. Projected online: 2029-12-31. ERCOT ID 29INR0218.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  },
+  {
+   "county": [
+    "Ellis"
+   ],
+   "text": "New ERCOT grid request: Victory Ellis  – Gas. GAS, 466 MW in Ellis County. Projected online: 2030-09-28. ERCOT ID 29INR0264.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-01"
+  }
+ ],
+ "updated": "2026-11-01"
 }

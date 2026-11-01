@@ -56,6 +56,28 @@
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
     {
+        "title": "ERCOT grid request: Trinity Hills Wind repower",
+        "applicant": "Trinity Hills Wind Farm LLC",
+        "bottom_line": "WIN, -27 MW in Young County. Projected online: 2026-12-31. ERCOT ID 20INR0019. Location shown at county level.",
+        "raw_volume": -540,
+        "coordinates": [
+            -98.808,
+            33.057
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Eastbell Milam Solar ",
+        "applicant": "EDP RENEWABLES NORTH AMERICA LLC",
+        "bottom_line": "SOL, 245 MW in Milam County. Projected online: 2026-11-01. ERCOT ID 21INR0203. Location shown at county level.",
+        "raw_volume": 4897,
+        "coordinates": [
+            -97.097,
+            30.666
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
         "title": "ERCOT grid request: Board Creek Wind",
         "applicant": "Limestone Wind Project, LLC",
         "bottom_line": "WIN, 299 MW in Navarro County. Projected online: 2026-10-31. ERCOT ID 21INR0324. Location shown at county level.",
@@ -63,6 +85,17 @@
         "coordinates": [
             -96.592,
             31.927
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Oystercatcher Solar",
+        "applicant": "Oystercatcher Solar, LLC",
+        "bottom_line": "SOL, 198 MW in Ellis County. Projected online: 2027-01-29. ERCOT ID 21INR0362. Location shown at county level.",
+        "raw_volume": 3968,
+        "coordinates": [
+            -96.914,
+            32.228
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
@@ -78,6 +111,39 @@
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
     {
+        "title": "ERCOT grid request: Yellow Viking Solar",
+        "applicant": "Yellow Viking Development One, LLC",
+        "bottom_line": "SOL, 171 MW in Somervell County. Projected online: 2027-07-13. ERCOT ID 21INR0520. Location shown at county level.",
+        "raw_volume": 3422,
+        "coordinates": [
+            -97.894,
+            32.102
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Hays Energy Unit 3 Repower",
+        "applicant": "HAYS ENERGY, LLC",
+        "bottom_line": "GAS, 18 MW in Hays County. Projected online: 2028-07-01. ERCOT ID 21INR0527. Location shown at county level.",
+        "raw_volume": 360,
+        "coordinates": [
+            -98.151,
+            29.938
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Midlothian Unit 2 repower",
+        "applicant": "MIDLOTHIAN ENERGY, LLC",
+        "bottom_line": "GAS, 18 MW in Ellis County. Projected online: 2028-06-03. ERCOT ID 21INR0534. Location shown at county level.",
+        "raw_volume": 360,
+        "coordinates": [
+            -96.854,
+            32.228
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
         "title": "ERCOT grid request: Brantley Branch Batt",
         "applicant": "Brantley Branch LLC",
         "bottom_line": "OTH, 302 MW in Rusk County. Projected online: 2029-02-01. ERCOT ID 22INR0332. Location shown at county level.",
@@ -85,6 +151,17 @@
         "coordinates": [
             -94.882,
             31.988
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Sandow Solar",
+        "applicant": "Sandow Lakes Ranch Solar I, LLC",
+        "bottom_line": "SOL, 287 MW in Milam County. Projected online: 2028-06-01. ERCOT ID 22INR0350. Location shown at county level.",
+        "raw_volume": 5743,
+        "coordinates": [
+            -97.037,
+            30.666
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
@@ -100,6 +177,17 @@
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
     {
+        "title": "ERCOT grid request: Midlothian 4 repower",
+        "applicant": "MIDLOTHIAN ENERGY, LLC",
+        "bottom_line": "GAS, 18 MW in Ellis County. Projected online: 2028-06-03. ERCOT ID 22INR0523. Location shown at county level.",
+        "raw_volume": 360,
+        "coordinates": [
+            -96.794,
+            32.228
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
         "title": "ERCOT grid request: ALWEST BESS",
         "applicant": "Castleman Power",
         "bottom_line": "OTH, 209 MW in Anderson County. Projected online: 2028-04-19. ERCOT ID 22INR0541. Location shown at county level.",
@@ -111,6 +199,39 @@
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
     {
+        "title": "ERCOT grid request: Midlothian Unit 3 repower",
+        "applicant": "MIDLOTHIAN ENERGY, LLC",
+        "bottom_line": "GAS, 18 MW in Ellis County. Projected online: 2028-06-03. ERCOT ID 22INR0543. Location shown at county level.",
+        "raw_volume": 360,
+        "coordinates": [
+            -96.734,
+            32.228
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Hays Energy Unit 2 Repower",
+        "applicant": "HAYS ENERGY, LLC",
+        "bottom_line": "GAS, 18 MW in Hays County. Projected online: 2028-07-01. ERCOT ID 22INR0586. Location shown at county level.",
+        "raw_volume": 360,
+        "coordinates": [
+            -98.091,
+            29.938
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Camino Santiago Solar",
+        "applicant": "Camino Solar Project, LLC",
+        "bottom_line": "SOL, 196 MW in Milam County. Projected online: 2027-09-01. ERCOT ID 22INR0605. Location shown at county level.",
+        "raw_volume": 3926,
+        "coordinates": [
+            -96.977,
+            30.666
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
         "title": "ERCOT grid request: Goodalta Solar",
         "applicant": "GoodAlta Power Center LLC",
         "bottom_line": "SOL, 221 MW in Navarro County. Projected online: 2027-09-20. ERCOT ID 23INR0171. Location shown at county level.",
@@ -118,6 +239,28 @@
         "coordinates": [
             -96.412,
             31.927
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Venus Mill Storage",
+        "applicant": "AIH Texas Acquisitions, LLC",
+        "bottom_line": "OTH, 101 MW in Ellis County. Projected online: 2027-12-31. ERCOT ID 23INR0216. Location shown at county level.",
+        "raw_volume": 2016,
+        "coordinates": [
+            -96.674,
+            32.228
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Hoyte Solar",
+        "applicant": "Milano Solar LLC",
+        "bottom_line": "SOL, 207 MW in Milam County. Projected online: 2027-04-15. ERCOT ID 23INR0235. Location shown at county level.",
+        "raw_volume": 4135,
+        "coordinates": [
+            -96.917,
+            30.666
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
@@ -177,6 +320,72 @@
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
     {
+        "title": "ERCOT grid request: Petunia Storage Project",
+        "applicant": "Petunia Storage Project LLC",
+        "bottom_line": "OTH, 232 MW in Milam County. Projected online: 2028-06-30. ERCOT ID 23INR0468. Location shown at county level.",
+        "raw_volume": 4637,
+        "coordinates": [
+            -96.857,
+            30.666
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Rhoda Storage",
+        "applicant": "Milam Energy, LLC",
+        "bottom_line": "OTH, 141 MW in Milam County. Projected online: 2028-08-01. ERCOT ID 23INR0478. Location shown at county level.",
+        "raw_volume": 2824,
+        "coordinates": [
+            -97.097,
+            30.726
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Adelite Storage",
+        "applicant": "Adelite Storage Project LLC",
+        "bottom_line": "OTH, 232 MW in Milam County. Projected online: 2028-04-20. ERCOT ID 23INR0502. Location shown at county level.",
+        "raw_volume": 4637,
+        "coordinates": [
+            -97.037,
+            30.726
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Stoneridge Solar",
+        "applicant": "Stoneridge Solar, LLC",
+        "bottom_line": "SOL, 202 MW in Milam County. Projected online: 2026-12-31. ERCOT ID 24INR0031. Location shown at county level.",
+        "raw_volume": 4032,
+        "coordinates": [
+            -96.977,
+            30.726
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Yaupon Solar SLF",
+        "applicant": "Yaupon Solar, LLC",
+        "bottom_line": "SOL, 201 MW in Milam County. Projected online: 2026-11-18. ERCOT ID 24INR0042. Location shown at county level.",
+        "raw_volume": 4015,
+        "coordinates": [
+            -96.917,
+            30.726
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Sypert Branch Solar Project",
+        "applicant": "Sypert Branch Solar LLC",
+        "bottom_line": "SOL, 261 MW in Milam County. Projected online: 2026-04-30. ERCOT ID 24INR0070. Location shown at county level.",
+        "raw_volume": 5223,
+        "coordinates": [
+            -96.857,
+            30.726
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
         "title": "ERCOT grid request: Pisgah Ridge Solar 2",
         "applicant": "Pisgah Ridge Solar 2, LLC",
         "bottom_line": "SOL, 102 MW in Navarro County. Projected online: 2029-03-31. ERCOT ID 24INR0086. Location shown at county level.",
@@ -210,6 +419,17 @@
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
     {
+        "title": "ERCOT grid request: Yaupon Storage SLF",
+        "applicant": "Yaupon Solar, LLC",
+        "bottom_line": "OTH in Milam County. Projected online: 2028-07-01. ERCOT ID 24INR0169. Location shown at county level.",
+        "raw_volume": 1000,
+        "coordinates": [
+            -97.097,
+            30.786
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
         "title": "ERCOT grid request: Solar Star North Herty Storage",
         "applicant": "Solar Star North Herty Storage, LLC",
         "bottom_line": "OTH, 126 MW in Angelina County. Projected online: 2027-08-25. ERCOT ID 24INR0174. Location shown at county level.",
@@ -217,6 +437,17 @@
         "coordinates": [
             -94.671,
             31.135
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Cumulus Grid BESS",
+        "applicant": "Cumulus Grid, LLC",
+        "bottom_line": "OTH, 211 MW in Ellis County. Projected online: 2028-01-01. ERCOT ID 24INR0178. Location shown at county level.",
+        "raw_volume": 4214,
+        "coordinates": [
+            -96.914,
+            32.288
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
@@ -265,6 +496,17 @@
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
     {
+        "title": "ERCOT grid request: Eastbell Milam Solar II",
+        "applicant": "Cattlemen Solar Park II LLC",
+        "bottom_line": "SOL, 151 MW in Milam County. Projected online: 2026-11-01. ERCOT ID 24INR0208. Location shown at county level.",
+        "raw_volume": 3012,
+        "coordinates": [
+            -97.037,
+            30.786
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
         "title": "ERCOT grid request: Kennedy Solar",
         "applicant": "Kennedy Bypass Solar LLC",
         "bottom_line": "SOL, 102 MW in Navarro County. Projected online: 2028-12-31. ERCOT ID 24INR0256. Location shown at county level.",
@@ -283,6 +525,17 @@
         "coordinates": [
             -95.913,
             32.092
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: PaleAle BESS",
+        "applicant": "Momentum Energy Storage Partners,LLC",
+        "bottom_line": "OTH, 75 MW in Hays County. Projected online: 2027-04-15. ERCOT ID 24INR0387. Location shown at county level.",
+        "raw_volume": 1507,
+        "coordinates": [
+            -98.031,
+            29.938
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
@@ -331,6 +584,28 @@
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
     {
+        "title": "ERCOT grid request: Wolf Hollow III",
+        "applicant": "Wolf Hollow II Power LLC",
+        "bottom_line": "GAS, 306 MW in Hood County. Projected online: 2027-05-31. ERCOT ID 24INR0567. Location shown at county level.",
+        "raw_volume": 6126,
+        "coordinates": [
+            -97.952,
+            32.31
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Tokyo TxHSR TPSS EW-1",
+        "applicant": "Texas Central Rail Holdings, LLC",
+        "bottom_line": "OTH, 50 MW in Ellis County. Projected online: 2028-07-15. ERCOT ID 25INR0005. Location shown at county level.",
+        "raw_volume": 1000,
+        "coordinates": [
+            -96.854,
+            32.288
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
         "title": "ERCOT grid request: Yellow Cat Wind",
         "applicant": "Yellow Cat Wind LLC",
         "bottom_line": "WIN, 262 MW in Navarro County. Projected online: 2027-03-05. ERCOT ID 25INR0018. Location shown at county level.",
@@ -349,6 +624,17 @@
         "coordinates": [
             -96.352,
             32.047
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Burgos Solar",
+        "applicant": "Twin Oaks Solar, LLC",
+        "bottom_line": "SOL, 106 MW in Milam County. Projected online: 2027-11-22. ERCOT ID 25INR0214. Location shown at county level.",
+        "raw_volume": 2110,
+        "coordinates": [
+            -96.977,
+            30.786
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
@@ -375,6 +661,17 @@
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
     {
+        "title": "ERCOT grid request: Apache Hill BESS",
+        "applicant": "APACHE HILL ENERGY CENTER",
+        "bottom_line": "OTH, 201 MW in Hood County. Projected online: 2026-10-31. ERCOT ID 25INR0231. Location shown at county level.",
+        "raw_volume": 4023,
+        "coordinates": [
+            -97.892,
+            32.31
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
         "title": "ERCOT grid request: Bluebonnet Prairie Wind",
         "applicant": "Bluebonnet Prairie Wind, LLC",
         "bottom_line": "WIN, 180 MW in Navarro County. Projected online: 2028-07-15. ERCOT ID 25INR0247. Location shown at county level.",
@@ -382,6 +679,39 @@
         "coordinates": [
             -96.472,
             32.107
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Red Top Solar I",
+        "applicant": "Cat Red Top Solar, LLC",
+        "bottom_line": "SOL, 201 MW in Young County. Projected online: 2029-04-20. ERCOT ID 25INR0306. Location shown at county level.",
+        "raw_volume": 4011,
+        "coordinates": [
+            -98.748,
+            33.057
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: HappyDogSolar",
+        "applicant": "Rosula Solar LLC",
+        "bottom_line": "SOL, 86 MW in Milam County. Projected online: 2027-08-04. ERCOT ID 25INR0382. Location shown at county level.",
+        "raw_volume": 1710,
+        "coordinates": [
+            -96.917,
+            30.786
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Stoneridge BESS",
+        "applicant": "Stoneridge Solar, LLC",
+        "bottom_line": "OTH, 102 MW in Milam County. Projected online: 2026-12-31. ERCOT ID 25INR0389. Location shown at county level.",
+        "raw_volume": 2038,
+        "coordinates": [
+            -96.857,
+            30.786
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
@@ -408,6 +738,28 @@
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
     {
+        "title": "ERCOT grid request: Happy Dog Storage",
+        "applicant": "Rosula Storage LLC",
+        "bottom_line": "OTH, 105 MW in Milam County. Projected online: 2027-08-04. ERCOT ID 25INR0442. Location shown at county level.",
+        "raw_volume": 2090,
+        "coordinates": [
+            -97.097,
+            30.846
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Dolomite Storage",
+        "applicant": "BT Wilson Storage, LLC",
+        "bottom_line": "OTH, 126 MW in Ellis County. Projected online: 2026-12-01. ERCOT ID 25INR0495. Location shown at county level.",
+        "raw_volume": 2514,
+        "coordinates": [
+            -96.794,
+            32.288
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
         "title": "ERCOT grid request: Zeus Rusk Solar",
         "applicant": "Rusk Solar, LLC",
         "bottom_line": "SOL, 27 MW in Rusk County. Projected online: 2027-09-01. ERCOT ID 25INR0590. Location shown at county level.",
@@ -426,6 +778,28 @@
         "coordinates": [
             -94.702,
             31.988
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Hays Energy Unit 1 Repower",
+        "applicant": "HAYS ENERGY, LLC",
+        "bottom_line": "GAS, 18 MW in Hays County. Projected online: 2028-07-01. ERCOT ID 25INR0694. Location shown at county level.",
+        "raw_volume": 360,
+        "coordinates": [
+            -97.971,
+            29.938
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Hays Energy Unit 4 Repower",
+        "applicant": "HAYS ENERGY, LLC",
+        "bottom_line": "GAS, 18 MW in Hays County. Projected online: 2028-07-01. ERCOT ID 25INR0695. Location shown at county level.",
+        "raw_volume": 360,
+        "coordinates": [
+            -97.911,
+            29.938
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
@@ -518,6 +892,17 @@
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
     {
+        "title": "ERCOT grid request: Sol Marina SLF Energy Center ",
+        "applicant": "Sol Marina Energy Center, LLC",
+        "bottom_line": "SOL, 171 MW in Ellis County. Projected online: 2027-10-29. ERCOT ID 26INR0241. Location shown at county level.",
+        "raw_volume": 3421,
+        "coordinates": [
+            -96.734,
+            32.288
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
         "title": "ERCOT grid request: Camino Ranch Solar 2 SLF",
         "applicant": "Camino Ranch Solar Project LLC",
         "bottom_line": "SOL, 237 MW in Houston County. Projected online: 2028-12-09. ERCOT ID 26INR0256. Location shown at county level.",
@@ -540,6 +925,17 @@
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
     {
+        "title": "ERCOT grid request: Young County Energy Storage",
+        "applicant": "Young County Energy Storage LLC",
+        "bottom_line": "OTH, 104 MW in Young County. Projected online: 2028-08-01. ERCOT ID 26INR0302. Location shown at county level.",
+        "raw_volume": 2090,
+        "coordinates": [
+            -98.688,
+            33.057
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
         "title": "ERCOT grid request: Saint Charles Energy Storage",
         "applicant": "RSN STORAGE 001, LLC",
         "bottom_line": "OTH, 203 MW in Houston County. Projected online: 2029-04-16. ERCOT ID 26INR0363. Location shown at county level.",
@@ -551,6 +947,50 @@
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
     {
+        "title": "ERCOT grid request: Scorpius Solar",
+        "applicant": "Ben Milam Solar 4",
+        "bottom_line": "SOL, 600 MW in Milam County. Projected online: 2029-06-14. ERCOT ID 26INR0609. Location shown at county level.",
+        "raw_volume": 12000,
+        "coordinates": [
+            -97.037,
+            30.846
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Betel Storage I",
+        "applicant": "BETEL STORAGE I",
+        "bottom_line": "OTH, 500 MW in Milam County. Projected online: 2026-08-12. ERCOT ID 26INR0630. Location shown at county level.",
+        "raw_volume": 10000,
+        "coordinates": [
+            -96.977,
+            30.846
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Betel Storage II",
+        "applicant": "BETEL STORAGE II",
+        "bottom_line": "OTH, 500 MW in Milam County. Projected online: 2026-12-17. ERCOT ID 26INR0633. Location shown at county level.",
+        "raw_volume": 10000,
+        "coordinates": [
+            -96.917,
+            30.846
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Aquila Solar",
+        "applicant": "Ben Milam Solar 5",
+        "bottom_line": "SOL, 500 MW in Milam County. Projected online: 2026-11-12. ERCOT ID 26INR0635. Location shown at county level.",
+        "raw_volume": 10000,
+        "coordinates": [
+            -96.857,
+            30.846
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
         "title": "ERCOT grid request: Kit Fox Storage",
         "applicant": "Kit Fox Storage, LLC",
         "bottom_line": "OTH, 154 MW in Henderson County. Projected online: 2029-07-01. ERCOT ID 27INR0014. Location shown at county level.",
@@ -558,6 +998,17 @@
         "coordinates": [
             -95.853,
             32.092
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Sandow Lakes Energy Station",
+        "applicant": "SL Energy Power Plant I, LLC",
+        "bottom_line": "GAS, 1,292 MW in Milam County. Projected online: 2028-04-01. ERCOT ID 27INR0071. Location shown at county level.",
+        "raw_volume": 25832,
+        "coordinates": [
+            -97.097,
+            30.906
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
@@ -584,6 +1035,39 @@
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
     {
+        "title": "ERCOT grid request: Champs Elysees BESS",
+        "applicant": "Champs Elysees Renewables, LLC",
+        "bottom_line": "OTH, 256 MW in Milam County. Projected online: 2027-12-15. ERCOT ID 27INR0216. Location shown at county level.",
+        "raw_volume": 5122,
+        "coordinates": [
+            -97.037,
+            30.906
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Galaxy Solar",
+        "applicant": "Galaxy Solar, LLC",
+        "bottom_line": "SOL, 177 MW in Ellis County. Projected online: 2028-10-30. ERCOT ID 27INR0219. Location shown at county level.",
+        "raw_volume": 3546,
+        "coordinates": [
+            -96.674,
+            32.288
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Galaxy Storage",
+        "applicant": "Galaxy Solar, LLC",
+        "bottom_line": "OTH, 155 MW in Ellis County. Projected online: 2028-10-30. ERCOT ID 27INR0220. Location shown at county level.",
+        "raw_volume": 3100,
+        "coordinates": [
+            -96.914,
+            32.348
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
         "title": "ERCOT grid request: Sun Angel ESS",
         "applicant": "Sun Angel ESS LLC",
         "bottom_line": "OTH, 202 MW in Angelina County. Projected online: 2028-09-21. ERCOT ID 27INR0247. Location shown at county level.",
@@ -591,6 +1075,28 @@
         "coordinates": [
             -94.551,
             31.135
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Rain Lily Storage 1",
+        "applicant": "Rain Lily Storage One, LLC",
+        "bottom_line": "OTH, 106 MW in Hood County. Projected online: 2028-10-15. ERCOT ID 27INR0285. Location shown at county level.",
+        "raw_volume": 2112,
+        "coordinates": [
+            -97.832,
+            32.31
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Rain Lily Solar 1",
+        "applicant": "Rain Lily Solar 1 LLC",
+        "bottom_line": "SOL, 148 MW in Hood County. Projected online: 2028-10-15. ERCOT ID 27INR0288. Location shown at county level.",
+        "raw_volume": 2955,
+        "coordinates": [
+            -97.772,
+            32.31
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
@@ -617,6 +1123,72 @@
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
     {
+        "title": "ERCOT grid request: Bluebonnet Trail Solar",
+        "applicant": "Bluebonnet trail solar LLC",
+        "bottom_line": "SOL, 151 MW in Ellis County. Projected online: 2028-09-19. ERCOT ID 27INR0417. Location shown at county level.",
+        "raw_volume": 3018,
+        "coordinates": [
+            -96.854,
+            32.348
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Pavo Creek Storage ",
+        "applicant": "Pavo Creek Storage, LLC",
+        "bottom_line": "OTH, 154 MW in Milam County. Projected online: 2028-09-21. ERCOT ID 27INR0441. Location shown at county level.",
+        "raw_volume": 3084,
+        "coordinates": [
+            -96.977,
+            30.906
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Kickstart Energy Storage I",
+        "applicant": "Kickstart Infrastructure LLC",
+        "bottom_line": "OTH, 1 MW in Ellis County. Projected online: 2029-09-30. ERCOT ID 27INR0469. Location shown at county level.",
+        "raw_volume": 28,
+        "coordinates": [
+            -96.794,
+            32.348
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Kickstart Energy Storage II",
+        "applicant": "Kickstart Infrastructure LLC",
+        "bottom_line": "OTH, 1 MW in Ellis County. Projected online: 2029-09-30. ERCOT ID 27INR0470. Location shown at county level.",
+        "raw_volume": 28,
+        "coordinates": [
+            -96.734,
+            32.348
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Kickstart Energy Storage III",
+        "applicant": "Kickstart Infrastructure LLC",
+        "bottom_line": "OTH, 1 MW in Ellis County. Projected online: 2029-09-30. ERCOT ID 27INR0471. Location shown at county level.",
+        "raw_volume": 28,
+        "coordinates": [
+            -96.674,
+            32.348
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Kickstart Energy Storage IV",
+        "applicant": "Kickstart Infrastructure LLC",
+        "bottom_line": "OTH, 1 MW in Ellis County. Projected online: 2029-09-30. ERCOT ID 27INR0472. Location shown at county level.",
+        "raw_volume": 28,
+        "coordinates": [
+            -96.914,
+            32.408
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
         "title": "ERCOT grid request: Dry Creek Solar II",
         "applicant": "Oak Hill Solar II LLC",
         "bottom_line": "SOL, 201 MW in Rusk County. Projected online: 2028-02-01. ERCOT ID 27INR0488. Location shown at county level.",
@@ -624,6 +1196,28 @@
         "coordinates": [
             -94.642,
             31.988
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Obbligato BESS",
+        "applicant": "Obbligato BESS, LLC",
+        "bottom_line": "OTH, 201 MW in Milam County. Projected online: 2030-02-28. ERCOT ID 27INR0494. Location shown at county level.",
+        "raw_volume": 4014,
+        "coordinates": [
+            -96.917,
+            30.906
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Black Mountain Somervell Gas Combined",
+        "applicant": "Fort Worth Power Core LLC",
+        "bottom_line": "GAS, 495 MW in Somervell County. Projected online: 2029-09-28. ERCOT ID 27INR0497. Location shown at county level.",
+        "raw_volume": 9906,
+        "coordinates": [
+            -97.834,
+            32.102
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
@@ -661,6 +1255,17 @@
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
     {
+        "title": "ERCOT grid request: Digital Ranch Gas ",
+        "applicant": "MCV 1 LLC",
+        "bottom_line": "GAS, 378 MW in Ellis County. Projected online: 2030-04-15. ERCOT ID 28INR0100. Location shown at county level.",
+        "raw_volume": 7560,
+        "coordinates": [
+            -96.854,
+            32.408
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
         "title": "ERCOT grid request: Ponferrada Solar",
         "applicant": "Karol Solar VI",
         "bottom_line": "SOL, 149 MW in Navarro County. Projected online: 2029-04-06. ERCOT ID 28INR0182. Location shown at county level.",
@@ -668,6 +1273,28 @@
         "coordinates": [
             -96.472,
             32.167
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: San Gabriel Solar",
+        "applicant": "San Gabriel Solar LLC",
+        "bottom_line": "SOL, 255 MW in Milam County. Projected online: 2028-07-01. ERCOT ID 28INR0185. Location shown at county level.",
+        "raw_volume": 5100,
+        "coordinates": [
+            -96.857,
+            30.906
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: San Gabriel Storage",
+        "applicant": "San Gabriel Solar LLC",
+        "bottom_line": "OTH, 128 MW in Milam County. Projected online: 2028-07-01. ERCOT ID 28INR0191. Location shown at county level.",
+        "raw_volume": 2550,
+        "coordinates": [
+            -97.097,
+            30.666
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
@@ -694,6 +1321,39 @@
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
     {
+        "title": "ERCOT grid request: Galaxy I Solar",
+        "applicant": "Galaxy Solar, LLC",
+        "bottom_line": "SOL, 99 MW in Ellis County. Projected online: 2028-10-30. ERCOT ID 28INR0355. Location shown at county level.",
+        "raw_volume": 1988,
+        "coordinates": [
+            -96.794,
+            32.408
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Galaxy Solar 2",
+        "applicant": "Galaxy Solar 2, LLC",
+        "bottom_line": "SOL, 302 MW in Ellis County. Projected online: 2029-10-30. ERCOT ID 28INR0385. Location shown at county level.",
+        "raw_volume": 6032,
+        "coordinates": [
+            -96.734,
+            32.408
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Galaxy Storage 2",
+        "applicant": "Galaxy Solar 2, LLC",
+        "bottom_line": "OTH, 202 MW in Ellis County. Projected online: 2029-10-30. ERCOT ID 28INR0387. Location shown at county level.",
+        "raw_volume": 4037,
+        "coordinates": [
+            -96.674,
+            32.408
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
         "title": "ERCOT grid request: Main Horn Solar",
         "applicant": "Main Horn Solar LLC",
         "bottom_line": "SOL, 100 MW in Navarro County. Projected online: 2029-09-17. ERCOT ID 28INR0467. Location shown at county level.",
@@ -701,6 +1361,171 @@
         "coordinates": [
             -96.592,
             31.927
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Old Alma Road Solar",
+        "applicant": "Wildcat Renewables, LLC",
+        "bottom_line": "SOL, 20 MW in Ellis County. Projected online: 2028-10-31. ERCOT ID 28INR0495. Location shown at county level.",
+        "raw_volume": 401,
+        "coordinates": [
+            -96.914,
+            32.468
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Victory Ellis\u2013BESS",
+        "applicant": "Victory Ellis, LLC",
+        "bottom_line": "OTH, 453 MW in Ellis County. Projected online: 2030-09-28. ERCOT ID 28INR0529. Location shown at county level.",
+        "raw_volume": 9059,
+        "coordinates": [
+            -96.854,
+            32.468
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Crape Myrtle Solar",
+        "applicant": "Crape Myrtle Solar LLC",
+        "bottom_line": "SOL, 141 MW in Ellis County. Projected online: 2030-04-15. ERCOT ID 28INR0531. Location shown at county level.",
+        "raw_volume": 2813,
+        "coordinates": [
+            -96.794,
+            32.468
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Brahman Renewables Solar",
+        "applicant": "Brahman Renewables",
+        "bottom_line": "SOL, 101 MW in Milam County. Projected online: 2029-05-01. ERCOT ID 29INR0058. Location shown at county level.",
+        "raw_volume": 2012,
+        "coordinates": [
+            -97.037,
+            30.666
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Brahman Renewables Storage",
+        "applicant": "Brahman Renewables",
+        "bottom_line": "OTH, 207 MW in Milam County. Projected online: 2029-05-01. ERCOT ID 29INR0059. Location shown at county level.",
+        "raw_volume": 4137,
+        "coordinates": [
+            -96.977,
+            30.666
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Jolly Rock Storage Center",
+        "applicant": "Jolly Rock Storage Center LLC",
+        "bottom_line": "OTH, 209 MW in Young County. Projected online: 2029-05-16. ERCOT ID 29INR0084. Location shown at county level.",
+        "raw_volume": 4171,
+        "coordinates": [
+            -98.628,
+            33.057
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: MilamStation Power Secured Gas Generation",
+        "applicant": "LCC-TX8, LLC",
+        "bottom_line": "GAS, 846 MW in Milam County. Projected online: 2029-09-25. ERCOT ID 29INR0120. Location shown at county level.",
+        "raw_volume": 16920,
+        "coordinates": [
+            -96.917,
+            30.666
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Sweetheart Solar",
+        "applicant": "Sweetheart Energy, LLC",
+        "bottom_line": "SOL, 301 MW in Young County. Projected online: 2029-12-01. ERCOT ID 29INR0171. Location shown at county level.",
+        "raw_volume": 6022,
+        "coordinates": [
+            -98.568,
+            33.057
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Sweetheart BESS",
+        "applicant": "Sweetheart Energy, LLC",
+        "bottom_line": "OTH, 310 MW in Young County. Projected online: 2029-12-01. ERCOT ID 29INR0172. Location shown at county level.",
+        "raw_volume": 6203,
+        "coordinates": [
+            -98.808,
+            33.117
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Two Step Solar",
+        "applicant": "Two Step Solar, LLC",
+        "bottom_line": "SOL, 402 MW in Ellis County. Projected online: 2029-09-17. ERCOT ID 29INR0196. Location shown at county level.",
+        "raw_volume": 8032,
+        "coordinates": [
+            -96.734,
+            32.468
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Miller Bend Energy Solar",
+        "applicant": "Miller Bend Energy, LLC",
+        "bottom_line": "SOL, 532 MW in Young County. Projected online: 2029-12-01. ERCOT ID 29INR0203. Location shown at county level.",
+        "raw_volume": 10636,
+        "coordinates": [
+            -98.748,
+            33.117
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Miller Bend Energy BESS",
+        "applicant": "Miller Bend Energy , LLC",
+        "bottom_line": "OTH, 548 MW in Young County. Projected online: 2029-12-01. ERCOT ID 29INR0204. Location shown at county level.",
+        "raw_volume": 10953,
+        "coordinates": [
+            -98.688,
+            33.117
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Kickstart Energy Storage V",
+        "applicant": "Kickstart Infrastructure LLC",
+        "bottom_line": "OTH, 999 MW in Ellis County. Projected online: 2029-12-31. ERCOT ID 29INR0217. Location shown at county level.",
+        "raw_volume": 19980,
+        "coordinates": [
+            -96.674,
+            32.468
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Kickstart Energy Storage VI",
+        "applicant": "Kickstart Infrastructure LLC",
+        "bottom_line": "OTH, 1,026 MW in Ellis County. Projected online: 2029-12-31. ERCOT ID 29INR0218. Location shown at county level.",
+        "raw_volume": 20524,
+        "coordinates": [
+            -96.914,
+            32.228
+        ],
+        "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
+    },
+    {
+        "title": "ERCOT grid request: Victory Ellis  \u2013 Gas",
+        "applicant": "Victory Ellis, LLC",
+        "bottom_line": "GAS, 466 MW in Ellis County. Projected online: 2030-09-28. ERCOT ID 29INR0264. Location shown at county level.",
+        "raw_volume": 9318,
+        "coordinates": [
+            -96.854,
+            32.228
         ],
         "source_url": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER"
     },
