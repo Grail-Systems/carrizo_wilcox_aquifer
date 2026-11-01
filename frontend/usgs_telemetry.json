@@ -65,6 +65,19 @@
         "state_well_number": "3735701"
     },
     {
+        "title": "TWDB WELL 5911703 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>225 ft</span> (measured 2026-04-17). Water level has dropped 186 ft since 1964. 78 measurements on record.",
+        "raw_volume": 16860,
+        "drop_ft": 185.8,
+        "coordinates": [
+            -96.7169,
+            30.7872
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5911703"
+    },
+    {
         "title": "TWDB WELL 3429503 (Smith County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>229 ft</span> (measured 2019-11-21). Water level has dropped 185 ft since 1960. 35 measurements on record.",
@@ -195,6 +208,19 @@
         "state_well_number": "3808105"
     },
     {
+        "title": "TWDB WELL 5925409 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>174 ft</span> (measured 2026-07-07). Water level has dropped 104 ft since 1988. 9 measurements on record.",
+        "raw_volume": 13054,
+        "drop_ft": 104.1,
+        "coordinates": [
+            -96.9952,
+            30.5609
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5925409"
+    },
+    {
         "title": "TWDB WELL 3460505 (Henderson County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>261 ft</span> (measured 2026-02-10). Water level has dropped 100 ft since 1972. 37 measurements on record.",
@@ -221,6 +247,19 @@
         "state_well_number": "3813106"
     },
     {
+        "title": "TWDB WELL 5918104 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>302 ft</span> (measured 2026-05-06). Water level has dropped 95 ft since 1974. 17 measurements on record.",
+        "raw_volume": 22629,
+        "drop_ft": 95.1,
+        "coordinates": [
+            -96.87,
+            30.7128
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5918104"
+    },
+    {
         "title": "TWDB WELL 3442403 (Henderson County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>248 ft</span> (measured 2026-02-10). Water level has dropped 82 ft since 1970. 38 measurements on record.",
@@ -234,6 +273,19 @@
         "state_well_number": "3442403"
     },
     {
+        "title": "TWDB WELL 5917803 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>208 ft</span> (measured 2026-05-05). Water level has dropped 82 ft since 1984. 7 measurements on record.",
+        "raw_volume": 15627,
+        "drop_ft": 81.8,
+        "coordinates": [
+            -96.9265,
+            30.6432
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917803"
+    },
+    {
         "title": "TWDB WELL 3733202 (Cherokee County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>209 ft</span> (measured 2026-02-11). Water level has dropped 81 ft since 1955. 37 measurements on record.",
@@ -245,6 +297,32 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3733202"
+    },
+    {
+        "title": "TWDB WELL 5917705 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>173 ft</span> (measured 2026-03-11). Water level has dropped 81 ft since 1972. 7 measurements on record.",
+        "raw_volume": 12984,
+        "drop_ft": 81.2,
+        "coordinates": [
+            -96.9781,
+            30.6515
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917705"
+    },
+    {
+        "title": "TWDB WELL 5918101 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>323 ft</span> (measured 2026-05-06). Water level has dropped 81 ft since 1965. 14 measurements on record.",
+        "raw_volume": 24225,
+        "drop_ft": 81.0,
+        "coordinates": [
+            -96.8633,
+            30.7161
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5918101"
     },
     {
         "title": "TWDB WELL 3430907 (Smith County)",
@@ -273,6 +351,19 @@
         "state_well_number": "3448203"
     },
     {
+        "title": "TWDB WELL 5910907 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>164 ft</span> (measured 2026-04-14). Water level has dropped 79 ft since 1986. 34 measurements on record.",
+        "raw_volume": 12280,
+        "drop_ft": 78.7,
+        "coordinates": [
+            -96.785,
+            30.7809
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5910907"
+    },
+    {
         "title": "TWDB WELL 3456207 (Smith County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, industrial. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>275 ft</span> (measured 2026-02-23). Water level has dropped 75 ft since 1965. 30 measurements on record.",
@@ -297,6 +388,19 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3703201"
+    },
+    {
+        "title": "TWDB WELL 5917505 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>113 ft</span> (measured 2026-03-19). Water level has dropped 71 ft since 1972. 7 measurements on record.",
+        "raw_volume": 8480,
+        "drop_ft": 70.7,
+        "coordinates": [
+            -96.948,
+            30.6811
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917505"
     },
     {
         "title": "TWDB WELL 3812502 (Anderson County)",
@@ -338,6 +442,19 @@
         "state_well_number": "3547502"
     },
     {
+        "title": "TWDB WELL 5918108 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>319 ft</span> (measured 2026-04-07). Water level has dropped 60 ft since 2012. 10 measurements on record.",
+        "raw_volume": 23940,
+        "drop_ft": 60.2,
+        "coordinates": [
+            -96.8625,
+            30.7115
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5918108"
+    },
+    {
         "title": "TWDB WELL 3712804 (Nacogdoches County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>220 ft</span> (measured 2025-12-28). Water level has dropped 58 ft since 1971. 48 measurements on record.",
@@ -364,6 +481,19 @@
         "state_well_number": "3810111"
     },
     {
+        "title": "TWDB WELL 5832704 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>97 ft</span> (measured 2026-04-16). Water level has dropped 56 ft since 1989. 10 measurements on record.",
+        "raw_volume": 7282,
+        "drop_ft": 56.1,
+        "coordinates": [
+            -97.1186,
+            30.5065
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5832704"
+    },
+    {
         "title": "TWDB WELL 3558408 (Rusk County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>139 ft</span> (measured 2020-06-05). Water level has dropped 54 ft since 2009. 42 measurements on record.",
@@ -375,6 +505,19 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3558408"
+    },
+    {
+        "title": "TWDB WELL 5917409 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>174 ft</span> (measured 2026-03-11). Water level has dropped 54 ft since 1980. 16 measurements on record.",
+        "raw_volume": 13046,
+        "drop_ft": 53.9,
+        "coordinates": [
+            -96.9869,
+            30.6685
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917409"
     },
     {
         "title": "TWDB WELL 3441406 (Henderson County)",
@@ -403,6 +546,19 @@
         "state_well_number": "3550706"
     },
     {
+        "title": "TWDB WELL 5917716 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>142 ft</span> (measured 2026-04-07). Water level has dropped 52 ft since 1998. 6 measurements on record.",
+        "raw_volume": 10612,
+        "drop_ft": 51.5,
+        "coordinates": [
+            -96.9895,
+            30.6448
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917716"
+    },
+    {
         "title": "TWDB WELL 3463501 (Cherokee County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>148 ft</span> (measured 2026-02-11). Water level has dropped 48 ft since 1982. 36 measurements on record.",
@@ -416,6 +572,71 @@
         "state_well_number": "3463501"
     },
     {
+        "title": "TWDB WELL 5910908 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>298 ft</span> (measured 2026-04-16). Water level has dropped 48 ft since 2007. 8 measurements on record.",
+        "raw_volume": 22380,
+        "drop_ft": 48.4,
+        "coordinates": [
+            -96.7631,
+            30.7899
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5910908"
+    },
+    {
+        "title": "TWDB WELL 5910705 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>176 ft</span> (measured 2026-03-20). Water level has dropped 48 ft since 2009. 12 measurements on record.",
+        "raw_volume": 13237,
+        "drop_ft": 48.0,
+        "coordinates": [
+            -96.8624,
+            30.7799
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5910705"
+    },
+    {
+        "title": "TWDB WELL 5832601 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>204 ft</span> (measured 2026-04-20). Water level has dropped 48 ft since 2022. 5 measurements on record.",
+        "raw_volume": 15298,
+        "drop_ft": 47.5,
+        "coordinates": [
+            -97.037925,
+            30.54275
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5832601"
+    },
+    {
+        "title": "TWDB WELL 5824610 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>147 ft</span> (measured 2026-05-05). Water level has dropped 47 ft since 1977. 28 measurements on record.",
+        "raw_volume": 11000,
+        "drop_ft": 46.7,
+        "coordinates": [
+            -97.004,
+            30.6716
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5824610"
+    },
+    {
+        "title": "TWDB WELL 5917606 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>244 ft</span> (measured 2025-04-29). Water level has dropped 46 ft since 2002. 6 measurements on record.",
+        "raw_volume": 18307,
+        "drop_ft": 46.1,
+        "coordinates": [
+            -96.8999,
+            30.6913
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917606"
+    },
+    {
         "title": "TWDB WELL 3802402 (Anderson County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, plugged or destroyed. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>200 ft</span> (measured 2020-11-03). Water level has dropped 45 ft since 1969. 45 measurements on record.",
@@ -427,6 +648,45 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3802402"
+    },
+    {
+        "title": "TWDB WELL 5910909 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>226 ft</span> (measured 2024-04-24). Water level has dropped 41 ft since 2006. 5 measurements on record.",
+        "raw_volume": 16920,
+        "drop_ft": 40.6,
+        "coordinates": [
+            -96.7650167,
+            30.7875278
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5910909"
+    },
+    {
+        "title": "TWDB WELL 5925512 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>154 ft</span> (measured 2026-03-17). Water level has dropped 40 ft since 2017. 3 measurements on record.",
+        "raw_volume": 11550,
+        "drop_ft": 39.7,
+        "coordinates": [
+            -96.9491,
+            30.5693
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5925512"
+    },
+    {
+        "title": "TWDB WELL 5909901 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, stock. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>127 ft</span> (measured 2026-07-21). Water level has dropped 39 ft since 1960. 45 measurements on record.",
+        "raw_volume": 9558,
+        "drop_ft": 38.9,
+        "coordinates": [
+            -96.8955,
+            30.7841
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5909901"
     },
     {
         "title": "TWDB WELL 3823406 (Cherokee County)",
@@ -468,6 +728,45 @@
         "state_well_number": "3709102"
     },
     {
+        "title": "TWDB WELL 5909605 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, test well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>149 ft</span> (measured 2026-03-05). Water level has dropped 36 ft since 2008. 15 measurements on record.",
+        "raw_volume": 11182,
+        "drop_ft": 36.2,
+        "coordinates": [
+            -96.8898,
+            30.8244
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5909605"
+    },
+    {
+        "title": "TWDB WELL 5824611 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>148 ft</span> (measured 2026-05-05). Water level has dropped 36 ft since 2003. 11 measurements on record.",
+        "raw_volume": 11097,
+        "drop_ft": 36.0,
+        "coordinates": [
+            -97.004,
+            30.6713
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5824611"
+    },
+    {
+        "title": "TWDB WELL 5911403 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>247 ft</span> (measured 2026-04-14). Water level has dropped 35 ft since 2017. 6 measurements on record.",
+        "raw_volume": 18542,
+        "drop_ft": 34.5,
+        "coordinates": [
+            -96.7489,
+            30.7985
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5911403"
+    },
+    {
         "title": "TWDB WELL 3542704 (Rusk County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>53 ft</span> (measured 2020-06-03). Water level has dropped 34 ft since 2009. 44 measurements on record.",
@@ -479,6 +778,45 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3542704"
+    },
+    {
+        "title": "TWDB WELL 5824914 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, irrigation. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>125 ft</span> (measured 2025-04-01). Water level has dropped 34 ft since 1998. 15 measurements on record.",
+        "raw_volume": 9339,
+        "drop_ft": 34.2,
+        "coordinates": [
+            -97.0166,
+            30.6585
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5824914"
+    },
+    {
+        "title": "TWDB WELL 5917713 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>149 ft</span> (measured 2026-04-24). Water level has dropped 34 ft since 1998. 16 measurements on record.",
+        "raw_volume": 11186,
+        "drop_ft": 34.2,
+        "coordinates": [
+            -96.996,
+            30.6664
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917713"
+    },
+    {
+        "title": "TWDB WELL 5832801 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, industrial. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>153 ft</span> (measured 2026-03-19). Water level has dropped 32 ft since 2022. 4 measurements on record.",
+        "raw_volume": 11458,
+        "drop_ft": 32.4,
+        "coordinates": [
+            -97.0544472,
+            30.5175306
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5832801"
     },
     {
         "title": "TWDB WELL 3730801 (Nacogdoches County)",
@@ -507,6 +845,19 @@
         "state_well_number": "3819802"
     },
     {
+        "title": "TWDB WELL 5832602 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>195 ft</span> (measured 2026-04-07). Water level has dropped 31 ft since 2024. 3 measurements on record.",
+        "raw_volume": 14623,
+        "drop_ft": 30.7,
+        "coordinates": [
+            -97.0376056,
+            30.5445556
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5832602"
+    },
+    {
         "title": "TWDB WELL 3547503 (Panola County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>87 ft</span> (measured 2025-12-02). Water level has dropped 30 ft since 2001. 26 measurements on record.",
@@ -518,6 +869,71 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3547503"
+    },
+    {
+        "title": "TWDB WELL 5910914 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>267 ft</span> (measured 2026-04-15). Water level has dropped 29 ft since 2024. 4 measurements on record.",
+        "raw_volume": 20035,
+        "drop_ft": 29.2,
+        "coordinates": [
+            -96.754675,
+            30.7875667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5910914"
+    },
+    {
+        "title": "TWDB WELL 5831907 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>127 ft</span> (measured 2026-04-06). Water level has dropped 27 ft since 1988. 4 measurements on record.",
+        "raw_volume": 9561,
+        "drop_ft": 27.5,
+        "coordinates": [
+            -97.128775,
+            30.5197361
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5831907"
+    },
+    {
+        "title": "TWDB WELL 5911404 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>200 ft</span> (measured 2025-03-13). Water level has dropped 27 ft since 2022. 4 measurements on record.",
+        "raw_volume": 15037,
+        "drop_ft": 27.3,
+        "coordinates": [
+            -96.7450111,
+            30.8000222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5911404"
+    },
+    {
+        "title": "TWDB WELL 5925408 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, irrigation. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>117 ft</span> (measured 2026-03-12). Water level has dropped 27 ft since 2011. 11 measurements on record.",
+        "raw_volume": 8791,
+        "drop_ft": 27.1,
+        "coordinates": [
+            -96.9622,
+            30.5631
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5925408"
+    },
+    {
+        "title": "TWDB WELL 5917711 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>152 ft</span> (measured 2026-03-05). Water level has dropped 27 ft since 1995. 12 measurements on record.",
+        "raw_volume": 11402,
+        "drop_ft": 27.0,
+        "coordinates": [
+            -96.991,
+            30.6349
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917711"
     },
     {
         "title": "TWDB WELL 3429902 (Smith County)",
@@ -533,6 +949,19 @@
         "state_well_number": "3429902"
     },
     {
+        "title": "TWDB WELL 5917103 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>82 ft</span> (measured 2026-03-19). Water level has dropped 26 ft since 1972. 46 measurements on record.",
+        "raw_volume": 6157,
+        "drop_ft": 26.1,
+        "coordinates": [
+            -96.983,
+            30.7238
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917103"
+    },
+    {
         "title": "TWDB WELL 3815607 (Cherokee County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>505 ft</span> (measured 2024-11-07). Water level has dropped 26 ft since 1969. 30 measurements on record.",
@@ -546,6 +975,19 @@
         "state_well_number": "3815607"
     },
     {
+        "title": "TWDB WELL 5840103 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unknown. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>154 ft</span> (measured 2026-07-07). Water level has dropped 26 ft since 2022. 9 measurements on record.",
+        "raw_volume": 11577,
+        "drop_ft": 26.0,
+        "coordinates": [
+            -97.0914389,
+            30.4921028
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5840103"
+    },
+    {
         "title": "TWDB WELL 3820106 (Anderson County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>365 ft</span> (measured 2026-02-13). Water level has dropped 25 ft since 1999. 2 measurements on record.",
@@ -557,6 +999,19 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3820106"
+    },
+    {
+        "title": "TWDB WELL 5917510 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>167 ft</span> (measured 2026-03-19). Water level has dropped 25 ft since 2017. 6 measurements on record.",
+        "raw_volume": 12495,
+        "drop_ft": 25.0,
+        "coordinates": [
+            -96.9180278,
+            30.6960833
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917510"
     },
     {
         "title": "TWDB WELL 3735504 (Angelina County)",
@@ -585,6 +1040,19 @@
         "state_well_number": "3719301"
     },
     {
+        "title": "TWDB WELL 5910510 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>295 ft</span> (measured 2026-04-14). Water level has dropped 23 ft since 2022. 4 measurements on record.",
+        "raw_volume": 22108,
+        "drop_ft": 23.1,
+        "coordinates": [
+            -96.7616667,
+            30.7880556
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5910510"
+    },
+    {
         "title": "TWDB WELL 3559902 (Rusk County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>201 ft</span> (measured 2026-03-04). Water level has dropped 23 ft since 1972. 33 measurements on record.",
@@ -609,6 +1077,32 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3735702"
+    },
+    {
+        "title": "TWDB WELL 5910604 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>227 ft</span> (measured 2026-04-14). Water level has dropped 23 ft since 2022. 4 measurements on record.",
+        "raw_volume": 17010,
+        "drop_ft": 22.7,
+        "coordinates": [
+            -96.7519167,
+            30.7994389
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5910604"
+    },
+    {
+        "title": "TWDB WELL 5925410 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>170 ft</span> (measured 2025-04-15). Water level has dropped 22 ft since 2017. 4 measurements on record.",
+        "raw_volume": 12729,
+        "drop_ft": 22.4,
+        "coordinates": [
+            -96.9951,
+            30.5436
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5925410"
     },
     {
         "title": "TWDB WELL 3816803 (Cherokee County)",
@@ -650,6 +1144,58 @@
         "state_well_number": "3721701"
     },
     {
+        "title": "TWDB WELL 5910913 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unknown. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>243 ft</span> (measured 2026-04-16). Water level has dropped 21 ft since 2022. 6 measurements on record.",
+        "raw_volume": 18191,
+        "drop_ft": 21.1,
+        "coordinates": [
+            -96.7528139,
+            30.7904778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5910913"
+    },
+    {
+        "title": "TWDB WELL 5910602 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>221 ft</span> (measured 2026-04-17). Water level has dropped 20 ft since 2022. 4 measurements on record.",
+        "raw_volume": 16542,
+        "drop_ft": 20.4,
+        "coordinates": [
+            -96.7585889,
+            30.8017472
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5910602"
+    },
+    {
+        "title": "TWDB WELL 5918109 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>67 ft</span> (measured 2026-04-07). Water level has dropped 20 ft since 2012. 10 measurements on record.",
+        "raw_volume": 5044,
+        "drop_ft": 20.3,
+        "coordinates": [
+            -96.8625,
+            30.7115
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5918109"
+    },
+    {
+        "title": "TWDB WELL 5925104 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>176 ft</span> (measured 2026-05-05). Water level has dropped 20 ft since 2022. 6 measurements on record.",
+        "raw_volume": 13233,
+        "drop_ft": 20.3,
+        "coordinates": [
+            -96.9672222,
+            30.5933333
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5925104"
+    },
+    {
         "title": "TWDB WELL 3717909 (Nacogdoches County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>233 ft</span> (measured 2024-01-23). Water level has dropped 20 ft since 2008. 2 measurements on record.",
@@ -661,6 +1207,32 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3717909"
+    },
+    {
+        "title": "TWDB WELL 5910707 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>155 ft</span> (measured 2017-03-17). Water level has dropped 20 ft since 2003. 6 measurements on record.",
+        "raw_volume": 11610,
+        "drop_ft": 19.8,
+        "coordinates": [
+            -96.846389,
+            30.771389
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5910707"
+    },
+    {
+        "title": "TWDB WELL 5917902 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>172 ft</span> (measured 2026-04-16). Water level has dropped 20 ft since 2022. 4 measurements on record.",
+        "raw_volume": 12909,
+        "drop_ft": 19.7,
+        "coordinates": [
+            -96.9070444,
+            30.6327528
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917902"
     },
     {
         "title": "TWDB WELL 3732709 (San Augustine County)",
@@ -676,6 +1248,19 @@
         "state_well_number": "3732709"
     },
     {
+        "title": "TWDB WELL 5840102 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unknown. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>182 ft</span> (measured 2024-05-22). Water level has dropped 19 ft since 2022. 9 measurements on record.",
+        "raw_volume": 13651,
+        "drop_ft": 18.7,
+        "coordinates": [
+            -97.0883806,
+            30.4988417
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5840102"
+    },
+    {
         "title": "TWDB WELL 3544601 (Rusk County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>58 ft</span> (measured 2026-03-03). Water level has dropped 19 ft since 1939. 39 measurements on record.",
@@ -689,6 +1274,19 @@
         "state_well_number": "3544601"
     },
     {
+        "title": "TWDB WELL 5917714 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>139 ft</span> (measured 2026-05-06). Water level has dropped 18 ft since 2001. 14 measurements on record.",
+        "raw_volume": 10432,
+        "drop_ft": 18.1,
+        "coordinates": [
+            -96.9959,
+            30.6636
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917714"
+    },
+    {
         "title": "TWDB WELL 3735403 (Angelina County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, industrial. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>327 ft</span> (measured 2026-04-05). Water level has dropped 18 ft since 2014. 9 measurements on record.",
@@ -700,6 +1298,45 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3735403"
+    },
+    {
+        "title": "TWDB WELL 5910912 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>250 ft</span> (measured 2026-04-15). Water level has dropped 18 ft since 2022. 5 measurements on record.",
+        "raw_volume": 18721,
+        "drop_ft": 18.0,
+        "coordinates": [
+            -96.7607861,
+            30.7812389
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5910912"
+    },
+    {
+        "title": "TWDB WELL 5911406 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unknown. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>204 ft</span> (measured 2026-04-15). Water level has dropped 18 ft since 2022. 5 measurements on record.",
+        "raw_volume": 15300,
+        "drop_ft": 17.9,
+        "coordinates": [
+            -96.74635,
+            30.7987083
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5911406"
+    },
+    {
+        "title": "TWDB WELL 5910911 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>248 ft</span> (measured 2026-04-14). Water level has dropped 17 ft since 2022. 5 measurements on record.",
+        "raw_volume": 18570,
+        "drop_ft": 17.5,
+        "coordinates": [
+            -96.7571111,
+            30.786375
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5910911"
     },
     {
         "title": "TWDB WELL 3443108 (Henderson County)",
@@ -728,6 +1365,19 @@
         "state_well_number": "3544204"
     },
     {
+        "title": "TWDB WELL 5917511 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unknown. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>177 ft</span> (measured 2026-04-16). Water level has dropped 16 ft since 2022. 5 measurements on record.",
+        "raw_volume": 13297,
+        "drop_ft": 16.3,
+        "coordinates": [
+            -96.9307972,
+            30.6672389
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917511"
+    },
+    {
         "title": "TWDB WELL 3457405 (Henderson County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, irrigation. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>115 ft</span> (measured 2026-02-12). Water level has dropped 16 ft since 1989. 36 measurements on record.",
@@ -752,6 +1402,71 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3801102"
+    },
+    {
+        "title": "TWDB WELL 5917805 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>221 ft</span> (measured 2026-05-05). Water level has dropped 16 ft since 2022. 7 measurements on record.",
+        "raw_volume": 16610,
+        "drop_ft": 15.7,
+        "coordinates": [
+            -96.9364833,
+            30.6537194
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917805"
+    },
+    {
+        "title": "TWDB WELL 5910603 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>234 ft</span> (measured 2026-04-14). Water level has dropped 15 ft since 2022. 6 measurements on record.",
+        "raw_volume": 17566,
+        "drop_ft": 15.1,
+        "coordinates": [
+            -96.7546417,
+            30.7985722
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5910603"
+    },
+    {
+        "title": "TWDB WELL 5911405 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>202 ft</span> (measured 2026-04-14). Water level has dropped 15 ft since 2022. 5 measurements on record.",
+        "raw_volume": 15141,
+        "drop_ft": 15.0,
+        "coordinates": [
+            -96.7462667,
+            30.8027389
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5911405"
+    },
+    {
+        "title": "TWDB WELL 5831908 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>103 ft</span> (measured 2026-04-06). Water level has dropped 15 ft since 2022. 4 measurements on record.",
+        "raw_volume": 7689,
+        "drop_ft": 14.9,
+        "coordinates": [
+            -97.15375,
+            30.509
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5831908"
+    },
+    {
+        "title": "TWDB WELL 5911709 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>144 ft</span> (measured 2025-04-02). Water level has dropped 14 ft since 2022. 4 measurements on record.",
+        "raw_volume": 10815,
+        "drop_ft": 14.5,
+        "coordinates": [
+            -96.7399194,
+            30.7622861
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5911709"
     },
     {
         "title": "TWDB WELL 3553702 (Panola County)",
@@ -780,6 +1495,19 @@
         "state_well_number": "3820104"
     },
     {
+        "title": "TWDB WELL 5901904 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>44 ft</span> (measured 2026-03-05). Water level has dropped 14 ft since 2002. 11 measurements on record.",
+        "raw_volume": 3318,
+        "drop_ft": 14.2,
+        "coordinates": [
+            -96.8862,
+            30.9131
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5901904"
+    },
+    {
         "title": "TWDB WELL 3348615 (Henderson County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>85 ft</span> (measured 2018-11-12). Water level has dropped 13 ft since 1976. 23 measurements on record.",
@@ -791,6 +1519,45 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3348615"
+    },
+    {
+        "title": "TWDB WELL 5902309 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>42 ft</span> (measured 2026-03-05). Water level has dropped 13 ft since 1981. 595 measurements on record.",
+        "raw_volume": 3165,
+        "drop_ft": 12.6,
+        "coordinates": [
+            -96.7576,
+            30.9882
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5902309"
+    },
+    {
+        "title": "TWDB WELL 5832804 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>70 ft</span> (measured 2026-04-15). Water level has dropped 12 ft since 2024. 3 measurements on record.",
+        "raw_volume": 5274,
+        "drop_ft": 12.4,
+        "coordinates": [
+            -97.0570972,
+            30.5114167
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5832804"
+    },
+    {
+        "title": "TWDB WELL 5902307 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>128 ft</span> (measured 2026-03-23). Water level has dropped 12 ft since 1978. 57 measurements on record.",
+        "raw_volume": 9622,
+        "drop_ft": 12.2,
+        "coordinates": [
+            -96.7907,
+            30.9642
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5902307"
     },
     {
         "title": "TWDB WELL 3542209 (Rusk County)",
@@ -806,6 +1573,19 @@
         "state_well_number": "3542209"
     },
     {
+        "title": "TWDB WELL 5839303 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>116 ft</span> (measured 2026-04-06). Water level has dropped 12 ft since 2017. 6 measurements on record.",
+        "raw_volume": 8688,
+        "drop_ft": 12.0,
+        "coordinates": [
+            -97.1260278,
+            30.4829444
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5839303"
+    },
+    {
         "title": "TWDB WELL 3727808 (Nacogdoches County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>273 ft</span> (measured 2024-12-30). Water level has dropped 12 ft since 2021. 8 measurements on record.",
@@ -817,6 +1597,19 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3727808"
+    },
+    {
+        "title": "TWDB WELL 5917712 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>139 ft</span> (measured 2024-07-05). Water level has dropped 12 ft since 1997. 10 measurements on record.",
+        "raw_volume": 10389,
+        "drop_ft": 11.5,
+        "coordinates": [
+            -96.99,
+            30.631389
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917712"
     },
     {
         "title": "TWDB WELL 3542208 (Rusk County)",
@@ -858,6 +1651,19 @@
         "state_well_number": "3560502"
     },
     {
+        "title": "TWDB WELL 5910706 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, stock. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>184 ft</span> (measured 2017-03-17). Water level has dropped 10 ft since 2010. 8 measurements on record.",
+        "raw_volume": 13785,
+        "drop_ft": 9.8,
+        "coordinates": [
+            -96.8429,
+            30.7732
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5910706"
+    },
+    {
         "title": "TWDB WELL 3559601 (Rusk County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>102 ft</span> (measured 2024-11-20). Water level has dropped 10 ft since 1977. 37 measurements on record.",
@@ -869,6 +1675,45 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3559601"
+    },
+    {
+        "title": "TWDB WELL 5831906 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>116 ft</span> (measured 2026-04-06). Water level has dropped 10 ft since 2022. 5 measurements on record.",
+        "raw_volume": 8694,
+        "drop_ft": 9.5,
+        "coordinates": [
+            -97.1285,
+            30.5193
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5831906"
+    },
+    {
+        "title": "TWDB WELL 5917806 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>239 ft</span> (measured 2026-05-22). Water level has dropped 9 ft since 2024. 3 measurements on record.",
+        "raw_volume": 17940,
+        "drop_ft": 9.4,
+        "coordinates": [
+            -96.9329361,
+            30.6486722
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917806"
+    },
+    {
+        "title": "TWDB WELL 5902311 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>90 ft</span> (measured 2026-03-05). Water level has dropped 9 ft since 2017. 5 measurements on record.",
+        "raw_volume": 6742,
+        "drop_ft": 9.2,
+        "coordinates": [
+            -96.7769444,
+            30.9666667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5902311"
     },
     {
         "title": "TWDB WELL 3728203 (Nacogdoches County)",
@@ -884,6 +1729,19 @@
         "state_well_number": "3728203"
     },
     {
+        "title": "TWDB WELL 5926105 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>194 ft</span> (measured 2026-03-19). Water level has dropped 9 ft since 2024. 3 measurements on record.",
+        "raw_volume": 14531,
+        "drop_ft": 8.9,
+        "coordinates": [
+            -96.87125,
+            30.6069333
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5926105"
+    },
+    {
         "title": "TWDB WELL 3541907 (Rusk County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>154 ft</span> (measured 2024-12-01). Water level has dropped 9 ft since 2010. 64 measurements on record.",
@@ -895,6 +1753,19 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3541907"
+    },
+    {
+        "title": "TWDB WELL 5919106 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>109 ft</span> (measured 2026-03-06). Water level has dropped 9 ft since 2022. 4 measurements on record.",
+        "raw_volume": 8138,
+        "drop_ft": 8.7,
+        "coordinates": [
+            -96.72345,
+            30.7425361
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5919106"
     },
     {
         "title": "TWDB WELL 3541604 (Rusk County)",
@@ -910,6 +1781,32 @@
         "state_well_number": "3541604"
     },
     {
+        "title": "TWDB WELL 5901905 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>37 ft</span> (measured 2026-03-05). Water level has dropped 9 ft since 2017. 6 measurements on record.",
+        "raw_volume": 2790,
+        "drop_ft": 8.5,
+        "coordinates": [
+            -96.8888,
+            30.9066
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5901905"
+    },
+    {
+        "title": "TWDB WELL 5903706 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>190 ft</span> (measured 2026-03-16). Water level has dropped 8 ft since 2024. 3 measurements on record.",
+        "raw_volume": 14269,
+        "drop_ft": 8.5,
+        "coordinates": [
+            -96.7249889,
+            30.8889389
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5903706"
+    },
+    {
         "title": "TWDB WELL 3542805 (Rusk County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>116 ft</span> (measured 2020-06-03). Water level has dropped 8 ft since 2009. 44 measurements on record.",
@@ -921,6 +1818,32 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3542805"
+    },
+    {
+        "title": "TWDB WELL 5902901 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>123 ft</span> (measured 2026-04-17). Water level has dropped 8 ft since 1967. 45 measurements on record.",
+        "raw_volume": 9247,
+        "drop_ft": 8.3,
+        "coordinates": [
+            -96.7783,
+            30.8849
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5902901"
+    },
+    {
+        "title": "TWDB WELL 5902904 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>124 ft</span> (measured 2026-04-22). Water level has dropped 8 ft since 2010. 10 measurements on record.",
+        "raw_volume": 9315,
+        "drop_ft": 8.3,
+        "coordinates": [
+            -96.7781,
+            30.906
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5902904"
     },
     {
         "title": "TWDB WELL 3839701 (Houston County)",
@@ -936,6 +1859,32 @@
         "state_well_number": "3839701"
     },
     {
+        "title": "TWDB WELL 5917411 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>66 ft</span> (measured 2026-03-19). Water level has dropped 8 ft since 2017. 6 measurements on record.",
+        "raw_volume": 4929,
+        "drop_ft": 8.2,
+        "coordinates": [
+            -96.9728611,
+            30.6989722
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917411"
+    },
+    {
+        "title": "TWDB WELL 5917807 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, stock. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>206 ft</span> (measured 2026-04-01). Water level has dropped 8 ft since 2024. 3 measurements on record.",
+        "raw_volume": 15472,
+        "drop_ft": 8.1,
+        "coordinates": [
+            -96.9511667,
+            30.6505278
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917807"
+    },
+    {
         "title": "TWDB WELL 3727805 (Nacogdoches County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>249 ft</span> (measured 2026-06-23). Water level has dropped 8 ft since 2021. 9 measurements on record.",
@@ -947,6 +1896,19 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3727805"
+    },
+    {
+        "title": "TWDB WELL 5918705 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>230 ft</span> (measured 2026-05-06). Water level has dropped 8 ft since 2008. 14 measurements on record.",
+        "raw_volume": 17220,
+        "drop_ft": 8.0,
+        "coordinates": [
+            -96.8546,
+            30.6481
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5918705"
     },
     {
         "title": "TWDB WELL 3704301 (Panola County)",
@@ -986,6 +1948,19 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3541605"
+    },
+    {
+        "title": "TWDB WELL 5910606 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>240 ft</span> (measured 2026-04-15). Water level has dropped 7 ft since 2024. 3 measurements on record.",
+        "raw_volume": 17979,
+        "drop_ft": 7.2,
+        "coordinates": [
+            -96.7531389,
+            30.7960806
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5910606"
     },
     {
         "title": "TWDB WELL 3706401 (Shelby County)",
@@ -1040,6 +2015,19 @@
         "state_well_number": "3702301"
     },
     {
+        "title": "TWDB WELL 5910605 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>268 ft</span> (measured 2026-04-16). Water level has dropped 7 ft since 2024. 3 measurements on record.",
+        "raw_volume": 20136,
+        "drop_ft": 6.5,
+        "coordinates": [
+            -96.7555556,
+            30.7958333
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5910605"
+    },
+    {
         "title": "TWDB WELL 3543203 (Rusk County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>108 ft</span> (measured 2020-12-17). Water level has dropped 6 ft since 2010. 45 measurements on record.",
@@ -1051,6 +2039,19 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3543203"
+    },
+    {
+        "title": "TWDB WELL 5824805 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>132 ft</span> (measured 2026-05-14). Water level has dropped 6 ft since 2022. 5 measurements on record.",
+        "raw_volume": 9862,
+        "drop_ft": 6.3,
+        "coordinates": [
+            -97.0480528,
+            30.6314444
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5824805"
     },
     {
         "title": "TWDB WELL 3625802 (Sabine County)",
@@ -1077,6 +2078,19 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3557311"
+    },
+    {
+        "title": "TWDB WELL 5925203 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, irrigation. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>109 ft</span> (measured 2025-04-07). Water level has dropped 6 ft since 2024. 2 measurements on record.",
+        "raw_volume": 8183,
+        "drop_ft": 6.1,
+        "coordinates": [
+            -96.9463889,
+            30.6022222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5925203"
     },
     {
         "title": "TWDB WELL 3713105 (Rusk County)",
@@ -1157,6 +2171,19 @@
         "state_well_number": "3625504"
     },
     {
+        "title": "TWDB WELL 5832203 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>108 ft</span> (measured 2026-04-07). Water level has dropped 6 ft since 2024. 3 measurements on record.",
+        "raw_volume": 8109,
+        "drop_ft": 5.5,
+        "coordinates": [
+            -97.0486528,
+            30.6240667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5832203"
+    },
+    {
         "title": "TWDB WELL 3557512 (Rusk County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>151 ft</span> (measured 2024-12-01). Water level has dropped 5 ft since 2010. 121 measurements on record.",
@@ -1196,6 +2223,19 @@
         "state_well_number": "3557308"
     },
     {
+        "title": "TWDB WELL 5824804 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>151 ft</span> (measured 2026-05-14). Water level has dropped 5 ft since 2022. 5 measurements on record.",
+        "raw_volume": 11295,
+        "drop_ft": 5.0,
+        "coordinates": [
+            -97.0474056,
+            30.6371556
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5824804"
+    },
+    {
         "title": "TWDB WELL 3542503 (Rusk County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>179 ft</span> (measured 2020-06-03). Water level has dropped 5 ft since 2010. 41 measurements on record.",
@@ -1222,6 +2262,71 @@
         "state_well_number": "3558405"
     },
     {
+        "title": "TWDB WELL 5824806 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>27 ft</span> (measured 2026-04-07). Water level has dropped 5 ft since 2022. 5 measurements on record.",
+        "raw_volume": 2011,
+        "drop_ft": 4.8,
+        "coordinates": [
+            -97.0617472,
+            30.6519167
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5824806"
+    },
+    {
+        "title": "TWDB WELL 5824917 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>116 ft</span> (measured 2026-03-11). Water level has dropped 5 ft since 2022. 5 measurements on record.",
+        "raw_volume": 8664,
+        "drop_ft": 4.8,
+        "coordinates": [
+            -97.0025694,
+            30.6607194
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5824917"
+    },
+    {
+        "title": "TWDB WELL 5824918 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>117 ft</span> (measured 2026-04-07). Water level has dropped 5 ft since 2022. 5 measurements on record.",
+        "raw_volume": 8767,
+        "drop_ft": 4.8,
+        "coordinates": [
+            -97.0391167,
+            30.6620222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5824918"
+    },
+    {
+        "title": "TWDB WELL 5824919 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unknown. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>97 ft</span> (measured 2026-03-11). Water level has dropped 5 ft since 2022. 5 measurements on record.",
+        "raw_volume": 7297,
+        "drop_ft": 4.8,
+        "coordinates": [
+            -97.0082778,
+            30.6577
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5824919"
+    },
+    {
+        "title": "TWDB WELL 5902706 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>41 ft</span> (measured 2026-04-17). Water level has dropped 5 ft since 1976. 35 measurements on record.",
+        "raw_volume": 3060,
+        "drop_ft": 4.8,
+        "coordinates": [
+            -96.852,
+            30.8976
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5902706"
+    },
+    {
         "title": "TWDB WELL 3742102 (Angelina County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, test well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>244 ft</span> (measured 2026-09-30). Water level has dropped 5 ft since 2025. 594 measurements on record.",
@@ -1233,6 +2338,19 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3742102"
+    },
+    {
+        "title": "TWDB WELL 5917204 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, monitor. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>96 ft</span> (measured 2026-03-05). Water level has dropped 5 ft since 2024. 4 measurements on record.",
+        "raw_volume": 7164,
+        "drop_ft": 4.7,
+        "coordinates": [
+            -96.9221278,
+            30.7421306
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917204"
     },
     {
         "title": "TWDB WELL 3555901 (Panola County)",
@@ -1261,6 +2379,19 @@
         "state_well_number": "3704601"
     },
     {
+        "title": "TWDB WELL 5831904 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>113 ft</span> (measured 2026-04-06). Water level has dropped 5 ft since 2017. 4 measurements on record.",
+        "raw_volume": 8463,
+        "drop_ft": 4.5,
+        "coordinates": [
+            -97.1645,
+            30.5138
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5831904"
+    },
+    {
         "title": "TWDB WELL 3558407 (Rusk County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>188 ft</span> (measured 2024-12-01). Water level has dropped 4 ft since 2017. 31 measurements on record.",
@@ -1274,6 +2405,45 @@
         "state_well_number": "3558407"
     },
     {
+        "title": "TWDB WELL 5902806 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unknown. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>54 ft</span> (measured 2026-04-21). Water level has dropped 4 ft since 2022. 4 measurements on record.",
+        "raw_volume": 4085,
+        "drop_ft": 4.0,
+        "coordinates": [
+            -96.8304694,
+            30.910475
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5902806"
+    },
+    {
+        "title": "TWDB WELL 5832705 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>108 ft</span> (measured 2026-06-12). Water level has dropped 4 ft since 2017. 4 measurements on record.",
+        "raw_volume": 8093,
+        "drop_ft": 3.9,
+        "coordinates": [
+            -97.1200556,
+            30.5095833
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5832705"
+    },
+    {
+        "title": "TWDB WELL 5925105 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>151 ft</span> (measured 2026-05-06). Water level has dropped 4 ft since 2025. 2 measurements on record.",
+        "raw_volume": 11325,
+        "drop_ft": 3.9,
+        "coordinates": [
+            -96.9705556,
+            30.5922222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5925105"
+    },
+    {
         "title": "TWDB WELL 3546703 (Panola County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, irrigation. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>56 ft</span> (measured 2025-11-19). Water level has dropped 4 ft since 2001. 23 measurements on record.",
@@ -1285,6 +2455,19 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3546703"
+    },
+    {
+        "title": "TWDB WELL 5832405 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>68 ft</span> (measured 2026-04-01). Water level has dropped 4 ft since 2022. 4 measurements on record.",
+        "raw_volume": 5089,
+        "drop_ft": 3.6,
+        "coordinates": [
+            -97.1196833,
+            30.5831
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5832405"
     },
     {
         "title": "TWDB WELL 3557602 (Rusk County)",
@@ -1350,6 +2533,45 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3559404"
+    },
+    {
+        "title": "TWDB WELL 5910915 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>243 ft</span> (measured 2026-04-16). Water level has dropped 3 ft since 2025. 2 measurements on record.",
+        "raw_volume": 18245,
+        "drop_ft": 3.1,
+        "coordinates": [
+            -96.7550833,
+            30.7905806
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5910915"
+    },
+    {
+        "title": "TWDB WELL 5911621 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>49 ft</span> (measured 2025-09-29). Water level has dropped 3 ft since 1981. 3287 measurements on record.",
+        "raw_volume": 3655,
+        "drop_ft": 3.1,
+        "coordinates": [
+            -96.6536111,
+            30.8252778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5911621"
+    },
+    {
+        "title": "TWDB WELL 5911402 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>161 ft</span> (measured 2026-04-14). Water level has dropped 3 ft since 1978. 47 measurements on record.",
+        "raw_volume": 12062,
+        "drop_ft": 2.8,
+        "coordinates": [
+            -96.7347,
+            30.7971
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5911402"
     },
     {
         "title": "TWDB WELL 3702905 (Rusk County)",
@@ -1430,6 +2652,32 @@
         "state_well_number": "3713108"
     },
     {
+        "title": "TWDB WELL 5902312 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, irrigation. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>98 ft</span> (measured 2026-03-05). Water level has dropped 2 ft since 2024. 3 measurements on record.",
+        "raw_volume": 7326,
+        "drop_ft": 2.3,
+        "coordinates": [
+            -96.7805806,
+            30.9690611
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5902312"
+    },
+    {
+        "title": "TWDB WELL 5902402 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, irrigation. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>36 ft</span> (measured 2026-03-16). Water level has dropped 2 ft since 2022. 5 measurements on record.",
+        "raw_volume": 2691,
+        "drop_ft": 2.2,
+        "coordinates": [
+            -96.8405222,
+            30.9368972
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5902402"
+    },
+    {
         "title": "TWDB WELL 3550606 (Rusk County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>237 ft</span> (measured 2019-06-13). Water level has dropped 2 ft since 2010. 36 measurements on record.",
@@ -1508,6 +2756,32 @@
         "state_well_number": "3802403"
     },
     {
+        "title": "TWDB WELL 5917717 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>146 ft</span> (measured 2023-04-03). Water level has dropped 2 ft since 2022. 2 measurements on record.",
+        "raw_volume": 10921,
+        "drop_ft": 1.8,
+        "coordinates": [
+            -96.9805833,
+            30.6609444
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917717"
+    },
+    {
+        "title": "TWDB WELL 5832802 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, stock. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>25 ft</span> (measured 2026-04-15). Water level has dropped 2 ft since 2024. 3 measurements on record.",
+        "raw_volume": 1872,
+        "drop_ft": 1.7,
+        "coordinates": [
+            -97.0520556,
+            30.5148667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5832802"
+    },
+    {
         "title": "TWDB WELL 3731605 (San Augustine County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>11 ft</span> (measured 2024-11-06). Water level has dropped 2 ft since 2022. 2 measurements on record.",
@@ -1519,6 +2793,19 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3731605"
+    },
+    {
+        "title": "TWDB WELL 5902206 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unknown. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>116 ft</span> (measured 2025-03-06). Water level has dropped 2 ft since 2022. 4 measurements on record.",
+        "raw_volume": 8669,
+        "drop_ft": 1.5,
+        "coordinates": [
+            -96.8102139,
+            30.9659556
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5902206"
     },
     {
         "title": "TWDB WELL 3552701 (Rusk County)",
@@ -1573,6 +2860,58 @@
         "state_well_number": "3558106"
     },
     {
+        "title": "TWDB WELL 5824807 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>128 ft</span> (measured 2026-04-07). Water level has dropped 1 ft since 2025. 2 measurements on record.",
+        "raw_volume": 9615,
+        "drop_ft": 1.2,
+        "coordinates": [
+            -97.0453056,
+            30.6293611
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5824807"
+    },
+    {
+        "title": "TWDB WELL 5831905 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>109 ft</span> (measured 2026-04-06). Water level has dropped 1 ft since 2017. 6 measurements on record.",
+        "raw_volume": 8183,
+        "drop_ft": 1.2,
+        "coordinates": [
+            -97.1579806,
+            30.5079528
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5831905"
+    },
+    {
+        "title": "TWDB WELL 5917105 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, monitor. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>55 ft</span> (measured 2026-03-05). Water level has dropped 1 ft since 2024. 5 measurements on record.",
+        "raw_volume": 4107,
+        "drop_ft": 1.2,
+        "coordinates": [
+            -96.9740639,
+            30.7496472
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917105"
+    },
+    {
+        "title": "TWDB WELL 5918808 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>228 ft</span> (measured 2026-05-13). Water level has dropped 1 ft since 2022. 2 measurements on record.",
+        "raw_volume": 17091,
+        "drop_ft": 1.1,
+        "coordinates": [
+            -96.82815,
+            30.6649472
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5918808"
+    },
+    {
         "title": "TWDB WELL 3721403 (Nacogdoches County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>135 ft</span> (measured 2026-03-16). Water level has dropped 1 ft since 2021. 8 measurements on record.",
@@ -1584,6 +2923,32 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3721403"
+    },
+    {
+        "title": "TWDB WELL 5832107 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unknown. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>109 ft</span> (measured 2026-05-05). Water level has dropped 1 ft since 2022. 4 measurements on record.",
+        "raw_volume": 8175,
+        "drop_ft": 1.0,
+        "coordinates": [
+            -97.0867,
+            30.6107583
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5832107"
+    },
+    {
+        "title": "TWDB WELL 5902406 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, irrigation. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>27 ft</span> (measured 2026-03-16). Water level has dropped 1 ft since 2024. 3 measurements on record.",
+        "raw_volume": 1999,
+        "drop_ft": 0.9,
+        "coordinates": [
+            -96.8438889,
+            30.9366667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5902406"
     },
     {
         "title": "TWDB WELL 3709104 (Cherokee County)",
@@ -1664,6 +3029,32 @@
         "state_well_number": "3552602"
     },
     {
+        "title": "TWDB WELL 5832204 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>89 ft</span> (measured 2026-05-05). Water level has dropped 1 ft since 2025. 2 measurements on record.",
+        "raw_volume": 6677,
+        "drop_ft": 0.5,
+        "coordinates": [
+            -97.0820889,
+            30.6119222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5832204"
+    },
+    {
+        "title": "TWDB WELL 5902501 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>57 ft</span> (measured 2026-03-16). Water level roughly unchanged since 2024. 3 measurements on record.",
+        "raw_volume": 4249,
+        "drop_ft": 0.5,
+        "coordinates": [
+            -96.8304083,
+            30.9174056
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5902501"
+    },
+    {
         "title": "TWDB WELL 3724601 (Shelby County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>31 ft</span> (measured 2026-03-05). Water level roughly unchanged since 1972. 53 measurements on record.",
@@ -1675,6 +3066,32 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3724601"
+    },
+    {
+        "title": "TWDB WELL 5909606 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, monitor. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>64 ft</span> (measured 2026-03-05). Water level roughly unchanged since 2024. 4 measurements on record.",
+        "raw_volume": 4795,
+        "drop_ft": 0.3,
+        "coordinates": [
+            -96.915625,
+            30.8137583
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5909606"
+    },
+    {
+        "title": "TWDB WELL 5918603 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>58 ft</span> (measured 2026-05-07). Only one measurement on record. 2 measurements on record.",
+        "raw_volume": 4372,
+        "drop_ft": 0.3,
+        "coordinates": [
+            -96.778275,
+            30.6953167
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5918603"
     },
     {
         "title": "TWDB WELL 3543703 (Rusk County)",
@@ -1701,6 +3118,19 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3738202"
+    },
+    {
+        "title": "TWDB WELL 5917106 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, monitor. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>66 ft</span> (measured 2024-07-01). Only one measurement on record. 2 measurements on record.",
+        "raw_volume": 4977,
+        "drop_ft": 0.2,
+        "coordinates": [
+            -96.9740639,
+            30.7496472
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917106"
     },
     {
         "title": "TWDB WELL 3549306 (Rusk County)",
@@ -1781,6 +3211,201 @@
         "state_well_number": "3815506"
     },
     {
+        "title": "TWDB WELL 5824703 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>12 ft</span> (measured 2026-06-22). Only one measurement on record. 1 measurements on record.",
+        "raw_volume": 1000,
+        "drop_ft": 0.0,
+        "coordinates": [
+            -97.0853944,
+            30.6390028
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5824703"
+    },
+    {
+        "title": "TWDB WELL 5824808 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>72 ft</span> (measured 2026-05-29). Only one measurement on record. 1 measurements on record.",
+        "raw_volume": 5437,
+        "drop_ft": 0.0,
+        "coordinates": [
+            -97.0526167,
+            30.6482778
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5824808"
+    },
+    {
+        "title": "TWDB WELL 5824920 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>107 ft</span> (measured 2026-03-20). Only one measurement on record. 1 measurements on record.",
+        "raw_volume": 8036,
+        "drop_ft": 0.0,
+        "coordinates": [
+            -97.0389722,
+            30.6330361
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5824920"
+    },
+    {
+        "title": "TWDB WELL 5824921 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>132 ft</span> (measured 2026-03-20). Only one measurement on record. 1 measurements on record.",
+        "raw_volume": 9937,
+        "drop_ft": 0.0,
+        "coordinates": [
+            -97.0410944,
+            30.6352667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5824921"
+    },
+    {
+        "title": "TWDB WELL 5831909 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>67 ft</span> (measured 2024-04-04). Only one measurement on record. 1 measurements on record.",
+        "raw_volume": 5058,
+        "drop_ft": 0.0,
+        "coordinates": [
+            -97.1656528,
+            30.5401222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5831909"
+    },
+    {
+        "title": "TWDB WELL 5832808 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>9 ft</span> (measured 2026-04-15). Only one measurement on record. 1 measurements on record.",
+        "raw_volume": 1000,
+        "drop_ft": 0.0,
+        "coordinates": [
+            -97.0431833,
+            30.5185694
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5832808"
+    },
+    {
+        "title": "TWDB WELL 5910609 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>257 ft</span> (measured 2026-04-15). Only one measurement on record. 1 measurements on record.",
+        "raw_volume": 19246,
+        "drop_ft": 0.0,
+        "coordinates": [
+            -96.7532361,
+            30.792275
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5910609"
+    },
+    {
+        "title": "TWDB WELL 5911708 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>238 ft</span> (measured 2026-04-17). Only one measurement on record. 1 measurements on record.",
+        "raw_volume": 17887,
+        "drop_ft": 0.0,
+        "coordinates": [
+            -96.7144444,
+            30.7816667
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5911708"
+    },
+    {
+        "title": "TWDB WELL 5911803 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>107 ft</span> (measured 2026-04-01). Only one measurement on record. 1 measurements on record.",
+        "raw_volume": 8013,
+        "drop_ft": 0.0,
+        "coordinates": [
+            -96.6953583,
+            30.78495
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5911803"
+    },
+    {
+        "title": "TWDB WELL 5917412 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>99 ft</span> (measured 2026-03-19). Only one measurement on record. 1 measurements on record.",
+        "raw_volume": 7432,
+        "drop_ft": 0.0,
+        "coordinates": [
+            -96.9711111,
+            30.6905556
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917412"
+    },
+    {
+        "title": "TWDB WELL 5917808 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, stock. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>192 ft</span> (measured 2018-07-05). Only one measurement on record. 1 measurements on record.",
+        "raw_volume": 14400,
+        "drop_ft": 0.0,
+        "coordinates": [
+            -96.9527222,
+            30.6504167
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917808"
+    },
+    {
+        "title": "TWDB WELL 5918110 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>273 ft</span> (measured 2024-03-14). Only one measurement on record. 1 measurements on record.",
+        "raw_volume": 20497,
+        "drop_ft": 0.0,
+        "coordinates": [
+            -96.8486,
+            30.7419389
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5918110"
+    },
+    {
+        "title": "TWDB WELL 5918706 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>421 ft</span> (measured 2024-04-10). Only one measurement on record. 1 measurements on record.",
+        "raw_volume": 31590,
+        "drop_ft": 0.0,
+        "coordinates": [
+            -96.8547222,
+            30.6480556
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5918706"
+    },
+    {
+        "title": "TWDB WELL 5919108 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>158 ft</span> (measured 2025-03-25). Only one measurement on record. 1 measurements on record.",
+        "raw_volume": 11836,
+        "drop_ft": 0.0,
+        "coordinates": [
+            -96.70975,
+            30.7130611
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5919108"
+    },
+    {
+        "title": "TWDB WELL 5925106 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>153 ft</span> (measured 2026-05-06). Only one measurement on record. 1 measurements on record.",
+        "raw_volume": 11467,
+        "drop_ft": 0.0,
+        "coordinates": [
+            -96.9708944,
+            30.5919083
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5925106"
+    },
+    {
         "title": "TWDB WELL 3559707 (Rusk County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>232 ft</span> (measured 2020-06-08). Water level roughly unchanged since 2018. 10 measurements on record.",
@@ -1820,6 +3445,45 @@
         "state_well_number": "3707202"
     },
     {
+        "title": "TWDB WELL 5832706 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>92 ft</span> (measured 2026-04-16). Water level roughly unchanged since 2017. 6 measurements on record.",
+        "raw_volume": 6909,
+        "drop_ft": -0.2,
+        "coordinates": [
+            -97.1082,
+            30.5186
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5832706"
+    },
+    {
+        "title": "TWDB WELL 5919107 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>112 ft</span> (measured 2026-03-18). Water level roughly unchanged since 2024. 2 measurements on record.",
+        "raw_volume": 8389,
+        "drop_ft": -0.2,
+        "coordinates": [
+            -96.7202778,
+            30.7405556
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5919107"
+    },
+    {
+        "title": "TWDB WELL 5902405 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, irrigation. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>32 ft</span> (measured 2026-03-16). Water level roughly unchanged since 2024. 3 measurements on record.",
+        "raw_volume": 2379,
+        "drop_ft": -0.3,
+        "coordinates": [
+            -96.8413139,
+            30.9393417
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5902405"
+    },
+    {
         "title": "TWDB WELL 3543402 (Rusk County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>36 ft</span> (measured 2020-06-04). Water level roughly unchanged since 2010. 42 measurements on record.",
@@ -1831,6 +3495,19 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3543402"
+    },
+    {
+        "title": "TWDB WELL 5902103 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>51 ft</span> (measured 2026-03-25). Water level roughly unchanged since 2022. 5 measurements on record.",
+        "raw_volume": 3817,
+        "drop_ft": -0.4,
+        "coordinates": [
+            -96.8426306,
+            30.9610111
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5902103"
     },
     {
         "title": "TWDB WELL 3563601 (Panola County)",
@@ -1924,6 +3601,19 @@
         "state_well_number": "3634303"
     },
     {
+        "title": "TWDB WELL 5911907 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>61 ft</span> (measured 2026-03-02). Water level has risen 1 ft since 2024. 3 measurements on record.",
+        "raw_volume": 4545,
+        "drop_ft": -0.9,
+        "coordinates": [
+            -96.6514639,
+            30.7601722
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5911907"
+    },
+    {
         "title": "TWDB WELL 3557208 (Rusk County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>54 ft</span> (measured 2020-06-05). Water level has risen 1 ft since 2017. 16 measurements on record.",
@@ -1974,6 +3664,19 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3716201"
+    },
+    {
+        "title": "TWDB WELL 5911624 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, industrial. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>47 ft</span> (measured 2026-03-02). Water level has risen 1 ft since 2024. 3 measurements on record.",
+        "raw_volume": 3496,
+        "drop_ft": -1.0,
+        "coordinates": [
+            -96.6521167,
+            30.8253722
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5911624"
     },
     {
         "title": "TWDB WELL 3552901 (Panola County)",
@@ -2119,6 +3822,45 @@
         "state_well_number": "3701204"
     },
     {
+        "title": "TWDB WELL 5902403 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>40 ft</span> (measured 2026-03-16). Water level has risen 2 ft since 2022. 5 measurements on record.",
+        "raw_volume": 2976,
+        "drop_ft": -1.7,
+        "coordinates": [
+            -96.8427806,
+            30.9348583
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5902403"
+    },
+    {
+        "title": "TWDB WELL 5902404 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>65 ft</span> (measured 2026-03-16). Water level has risen 2 ft since 2024. 3 measurements on record.",
+        "raw_volume": 4886,
+        "drop_ft": -1.7,
+        "coordinates": [
+            -96.844775,
+            30.9348861
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5902404"
+    },
+    {
+        "title": "TWDB WELL 5917715 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>144 ft</span> (measured 2026-04-07). Water level has risen 2 ft since 2008. 10 measurements on record.",
+        "raw_volume": 10830,
+        "drop_ft": -1.9,
+        "coordinates": [
+            -96.9898,
+            30.6448
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917715"
+    },
+    {
         "title": "TWDB WELL 3708304 (Shelby County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>24 ft</span> (measured 2024-11-21). Water level has risen 2 ft since 2020. 5 measurements on record.",
@@ -2169,6 +3911,19 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3553107"
+    },
+    {
+        "title": "TWDB WELL 5909701 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>110 ft</span> (measured 2024-07-05). Water level has risen 3 ft since 2002. 5 measurements on record.",
+        "raw_volume": 8283,
+        "drop_ft": -2.8,
+        "coordinates": [
+            -96.9853,
+            30.7588
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5909701"
     },
     {
         "title": "TWDB WELL 3557210 (Rusk County)",
@@ -2301,6 +4056,19 @@
         "state_well_number": "3544507"
     },
     {
+        "title": "TWDB WELL 5824916 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>121 ft</span> (measured 2026-03-05). Water level has risen 4 ft since 2017. 6 measurements on record.",
+        "raw_volume": 9093,
+        "drop_ft": -4.5,
+        "coordinates": [
+            -97.0361,
+            30.634
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5824916"
+    },
+    {
         "title": "TWDB WELL 3558304 (Rusk County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>218 ft</span> (measured 2020-06-08). Water level has risen 5 ft since 2009. 46 measurements on record.",
@@ -2392,6 +4160,19 @@
         "state_well_number": "3543605"
     },
     {
+        "title": "TWDB WELL 5917804 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>58 ft</span> (measured 2026-03-11). Water level has risen 5 ft since 2017. 6 measurements on record.",
+        "raw_volume": 4383,
+        "drop_ft": -4.9,
+        "coordinates": [
+            -96.9429,
+            30.6434
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5917804"
+    },
+    {
         "title": "TWDB WELL 3559206 (Rusk County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>234 ft</span> (measured 2024-12-01). Water level has risen 5 ft since 2009. 47 measurements on record.",
@@ -2416,6 +4197,19 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3732111"
+    },
+    {
+        "title": "TWDB WELL 5824612 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>58 ft</span> (measured 2026-04-01). Water level has risen 5 ft since 2003. 10 measurements on record.",
+        "raw_volume": 4341,
+        "drop_ft": -5.1,
+        "coordinates": [
+            -97.0401,
+            30.6846
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5824612"
     },
     {
         "title": "TWDB WELL 3550406 (Rusk County)",
@@ -2652,6 +4446,19 @@
         "state_well_number": "3732301"
     },
     {
+        "title": "TWDB WELL 5832803 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>60 ft</span> (measured 2026-04-15). Water level has risen 9 ft since 2024. 3 measurements on record.",
+        "raw_volume": 4469,
+        "drop_ft": -8.8,
+        "coordinates": [
+            -97.0561111,
+            30.5091611
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5832803"
+    },
+    {
         "title": "TWDB WELL 3544205 (Rusk County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>41 ft</span> (measured 2020-06-04). Water level has risen 9 ft since 2009. 41 measurements on record.",
@@ -2795,6 +4602,19 @@
         "state_well_number": "3559205"
     },
     {
+        "title": "TWDB WELL 5832101 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>9 ft</span> (measured 2025-04-09). Water level has risen 10 ft since 1967. 40 measurements on record.",
+        "raw_volume": 1000,
+        "drop_ft": -9.6,
+        "coordinates": [
+            -97.088,
+            30.6234
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5832101"
+    },
+    {
         "title": "TWDB WELL 3559705 (Rusk County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>161 ft</span> (measured 2020-06-08). Water level has risen 10 ft since 2009. 42 measurements on record.",
@@ -2847,6 +4667,32 @@
         "state_well_number": "3544208"
     },
     {
+        "title": "TWDB WELL 5824915 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>125 ft</span> (measured 2026-07-07). Water level has risen 10 ft since 2017. 7 measurements on record.",
+        "raw_volume": 9345,
+        "drop_ft": -10.1,
+        "coordinates": [
+            -97.0084,
+            30.6341
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5824915"
+    },
+    {
+        "title": "TWDB WELL 5832404 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>85 ft</span> (measured 2026-04-16). Water level has risen 10 ft since 2017. 6 measurements on record.",
+        "raw_volume": 6369,
+        "drop_ft": -10.1,
+        "coordinates": [
+            -97.0885,
+            30.5566
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5832404"
+    },
+    {
         "title": "TWDB WELL 3559806 (Rusk County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, rig supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>172 ft</span> (measured 2022-06-17). Water level has risen 10 ft since 2010. 47 measurements on record.",
@@ -2871,6 +4717,19 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3544705"
+    },
+    {
+        "title": "TWDB WELL 5832304 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>108 ft</span> (measured 2026-07-07). Water level has risen 11 ft since 2017. 7 measurements on record.",
+        "raw_volume": 8131,
+        "drop_ft": -10.7,
+        "coordinates": [
+            -97.0074,
+            30.6085
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5832304"
     },
     {
         "title": "TWDB WELL 3544113 (Rusk County)",
@@ -2977,6 +4836,19 @@
         "state_well_number": "3550605"
     },
     {
+        "title": "TWDB WELL 5832908 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, stock. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>10 ft</span> (measured 2026-03-17). Water level has risen 17 ft since 2013. 9 measurements on record.",
+        "raw_volume": 1000,
+        "drop_ft": -16.7,
+        "coordinates": [
+            -97.0268,
+            30.5313
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5832908"
+    },
+    {
         "title": "TWDB WELL 3356611 (Henderson County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>259 ft</span> (measured 2024-11-04). Water level has risen 17 ft since 2002. 10 measurements on record.",
@@ -3027,6 +4899,19 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3559906"
+    },
+    {
+        "title": "TWDB WELL 5925508 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>72 ft</span> (measured 2026-03-12). Water level has risen 18 ft since 1973. 43 measurements on record.",
+        "raw_volume": 5427,
+        "drop_ft": -17.6,
+        "coordinates": [
+            -96.9477,
+            30.5692
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5925508"
     },
     {
         "title": "TWDB WELL 3727104 (Nacogdoches County)",
@@ -3211,6 +5096,19 @@
         "state_well_number": "3735505"
     },
     {
+        "title": "TWDB WELL 5925103 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>99 ft</span> (measured 2025-04-07). Water level has risen 27 ft since 2010. 12 measurements on record.",
+        "raw_volume": 7427,
+        "drop_ft": -27.0,
+        "coordinates": [
+            -96.9826,
+            30.6009
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5925103"
+    },
+    {
         "title": "TWDB WELL 3734604 (Angelina County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, public supply. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>280 ft</span> (measured 2026-04-05). Water level has risen 28 ft since 2008. 23 measurements on record.",
@@ -3263,6 +5161,19 @@
         "state_well_number": "3431902"
     },
     {
+        "title": "TWDB WELL 5925102 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>122 ft</span> (measured 2025-04-07). Water level has risen 34 ft since 2007. 16 measurements on record.",
+        "raw_volume": 9154,
+        "drop_ft": -34.2,
+        "coordinates": [
+            -96.9825,
+            30.6009
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5925102"
+    },
+    {
         "title": "TWDB WELL 3457309 (Henderson County)",
         "applicant": "Texas Water Development Board",
         "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>102 ft</span> (measured 2026-02-12). Water level has risen 35 ft since 2011. 10 measurements on record.",
@@ -3313,6 +5224,19 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3726201"
+    },
+    {
+        "title": "TWDB WELL 5824613 (Milam County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>83 ft</span> (measured 2026-03-19). Water level has risen 50 ft since 2022. 6 measurements on record.",
+        "raw_volume": 6219,
+        "drop_ft": -50.4,
+        "coordinates": [
+            -97.0183556,
+            30.6965222
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "5824613"
     },
     {
         "title": "TWDB WELL 3541601 (Rusk County)",
