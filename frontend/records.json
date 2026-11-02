@@ -410,6 +410,69 @@
       "found": [
         "Nothing yet."
       ]
+    },
+    {
+      "agency": "Texas Water Development Board",
+      "number": "PIR-2026-324",
+      "filed": "2026-11-02",
+      "status": "Open: waiting for records",
+      "state": "waiting",
+      "asked": "The City of Lufkin's 2026 water supply grant application, including the Form 0208 affidavit signed by the City Manager; TWDB correspondence with the City about it; and TWDB's review, scoring and funding recommendation.",
+      "events": [
+        {
+          "date": "2026-10-31",
+          "text": "Request emailed to TWDB."
+        },
+        {
+          "date": "2026-11-02",
+          "text": "TWDB entered the request in its portal as PIR-2026-324. ETLC agreed to redactions under mandatory exceptions and declined redactions under discretionary exceptions."
+        }
+      ],
+      "waiting": "Waiting for the agency to release records.",
+      "found": [],
+      "clock": {}
+    },
+    {
+      "agency": "City of Lufkin",
+      "number": "CRR-2026-360",
+      "filed": "2026-11-02",
+      "status": "Open: waiting for records",
+      "state": "waiting",
+      "asked": "Any water supply agreement, letter of intent, term sheet or rate quote with Amp Z, EPG Champion, HyperDataGrid, Long Leaf Generating, WattBridge or 1606 Corp; records on which water source would serve the former paper mill site; and rates for selling raw or reclaimed water to industry.",
+      "events": [
+        {
+          "date": "2026-10-30",
+          "text": "Request emailed to the City."
+        },
+        {
+          "date": "2026-11-02",
+          "text": "The City logged it as CRR-2026-360."
+        }
+      ],
+      "waiting": "Waiting for the agency to release records.",
+      "found": [],
+      "clock": {}
+    },
+    {
+      "agency": "City of Lufkin",
+      "number": "CRR-2026-362",
+      "filed": "2026-11-02",
+      "status": "Open: waiting for records",
+      "state": "waiting",
+      "asked": "Records on the 5 million gallon per day water reservation in the City's 2009 purchase from Abitibi-Consolidated: notices of maximum water requirement, any assignment of the reservation, whether it was ended or renewed, and yearly water billed to the mill property.",
+      "events": [
+        {
+          "date": "2026-10-30",
+          "text": "Asked as a follow-up to CRR-2026-315."
+        },
+        {
+          "date": "2026-11-02",
+          "text": "The City treated it as a new request, CRR-2026-362."
+        }
+      ],
+      "waiting": "Waiting for the agency to release records.",
+      "found": [],
+      "clock": {}
     }
   ]
 }
