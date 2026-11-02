@@ -374,11 +374,6 @@
           "pages": 2
         },
         {
-          "href": "records/crr-2026-348/2026-02-23_pz-sign-in-sheet.pdf",
-          "title": "Feb. 23 sign-in sheet",
-          "pages": 1
-        },
-        {
           "href": "audio.html",
           "title": "Recordings of the Feb. 9 and Feb. 23 meetings",
           "pages": null
@@ -388,6 +383,9 @@
           "title": "Checksums proving these are the City’s files, unchanged",
           "pages": null
         }
+      ],
+      "privacy_notes": [
+        "Feb. 23 sign-in sheet: held privately because it lists residents' names and contact details."
       ]
     },
     {
