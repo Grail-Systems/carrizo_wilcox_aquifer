@@ -3,6 +3,510 @@
  "changes": [
   {
    "county": [
+    "Bexar"
+   ],
+   "text": "Added to the map: USAA San Antonio Main (Bexar County), under construction.",
+   "link": "/texas#usaa-san-antonio-main",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Bell"
+   ],
+   "text": "Added to the map: ONMINE Data Center (South Fort Hood Street) (Bell County), withdrawn or stopped.",
+   "link": "/texas#onmine-data-center-south-fort-hood-street",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Bexar"
+   ],
+   "text": "Added to the map: Amazon AWS Bitter Blue Campus - Building B (Bexar County), under construction.",
+   "link": "/texas#amazon-aws-bitter-blue-campus-building-b",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Briscoe"
+   ],
+   "text": "Added to the map: Project Dorothy 3 (Briscoe County), announced or reported.",
+   "link": "/texas#project-dorothy-3",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Caldwell"
+   ],
+   "text": "Added to the map: Edged Energy Campus (Caldwell County), under construction.",
+   "link": "/texas#edged-energy-campus",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Caldwell"
+   ],
+   "text": "Added to the map: Prime Data Centers AUS Campus (AUS01/AUS02/AUS03) (Caldwell County), under construction.",
+   "link": "/texas#prime-data-centers-aus-campus-aus01-aus02-aus03",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Cameron"
+   ],
+   "text": "Added to the map: Project Hedy (Soluna Holdings) (Cameron County), announced or reported.",
+   "link": "/texas#project-hedy-soluna-holdings",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Carson"
+   ],
+   "text": "Added to the map: Fermi America HyperGrid Campus (Carson County), under construction.",
+   "link": "/texas#fermi-america-hypergrid-campus",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Collin"
+   ],
+   "text": "Added to the map: CyrusOne Allen Texas Campus (Collin County), under construction.",
+   "link": "/texas#cyrusone-allen-texas-campus",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Tom Green"
+   ],
+   "text": "Added to the map: Skybox/Emergent San Angelo Data Center Campus (Tom Green County), announced or reported.",
+   "link": "/texas#skybox-emergent-san-angelo-data-center-campus",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Dallas"
+   ],
+   "text": "Added to the map: Digital Realty Garland Data Center Campus (Dallas County), under construction.",
+   "link": "/texas#digital-realty-garland-data-center-campus",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Collin"
+   ],
+   "text": "Added to the map: BT Aycock Data Center (CR-561 site) (Collin County), announced or reported.",
+   "link": "/texas#bt-aycock-data-center-cr-561-site",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Medina"
+   ],
+   "text": "Added to the map: Microsoft Castroville Colocation Facility (Medina County), under construction.",
+   "link": "/texas#microsoft-castroville-colocation-facility",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Ector"
+   ],
+   "text": "Added to the map: Midland Basin Solar-Compute Campus (Ector County), under construction.",
+   "link": "/texas#midland-basin-solar-compute-campus",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Dallas"
+   ],
+   "text": "Added to the map: Blackstone Real Estate Dallas Campus (Dallas County), under construction.",
+   "link": "/texas#blackstone-real-estate-dallas-campus",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Dallas"
+   ],
+   "text": "Added to the map: Crow Holdings 245MW Flagship Data Center Campus (Stemmons Corridor) (Dallas County), announced or reported.",
+   "link": "/texas#crow-holdings-245mw-flagship-data-center-campus-stemmons-corridor",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Dallas"
+   ],
+   "text": "Added to the map: Marquis Data Center (3350 Marquis Drive site) (Dallas County), announced or reported.",
+   "link": "/texas#marquis-data-center-3350-marquis-drive-site",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Collin"
+   ],
+   "text": "Added to the map: Lincoln Rackhouse Dallas Plano (Collin County), under construction.",
+   "link": "/texas#lincoln-rackhouse-dallas-plano",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Potter"
+   ],
+   "text": "Added to the map: Duos Edge AI Amarillo Data Center (Potter County), under construction.",
+   "link": "/texas#duos-edge-ai-amarillo-data-center",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Denton"
+   ],
+   "text": "Added to the map: Colovore DFW02 Data Center (AllianceTexas, Fort Worth) (Denton County), announced or reported.",
+   "link": "/texas#colovore-dfw02-data-center-alliancetexas-fort-worth",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Guadalupe"
+   ],
+   "text": "Added to the map: Legacy Investing Data Center (1000 Bolton Rd, Marion) (Guadalupe County), under construction.",
+   "link": "/texas#legacy-investing-data-center-1000-bolton-rd-marion",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Harris"
+   ],
+   "text": "Added to the map: NASA Johnson Space Center IT (Harris County), announced or reported.",
+   "link": "/texas#nasa-johnson-space-center-it",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Harris"
+   ],
+   "text": "Added to the map: TRG Datacenters Houston HOU2 (Harris County), under construction.",
+   "link": "/texas#trg-datacenters-houston-hou2",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Dallas"
+   ],
+   "text": "Added to the map: PowerHouse Irving (Dallas County), under construction.",
+   "link": "/texas#powerhouse-irving",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Jones"
+   ],
+   "text": "Added to the map: THM1A Data Center (Lueders, Jones County) (Jones County), under construction.",
+   "link": "/texas#thm1a-data-center-lueders-jones-county",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Lubbock"
+   ],
+   "text": "Added to the map: Corva Data Center (Northeast Lubbock) (Lubbock County), withdrawn or stopped.",
+   "link": "/texas#corva-data-center-northeast-lubbock",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Dallas"
+   ],
+   "text": "Added to the map: AWS DFW Metroplex Campus (Dallas County), under construction.",
+   "link": "/texas#aws-dfw-metroplex-campus",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Harris"
+   ],
+   "text": "Added to the map: Cipher Digital Milsing Site (Harris County), announced or reported.",
+   "link": "/texas#cipher-digital-milsing-site",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Navarro"
+   ],
+   "text": "Added to the map: EG AI Rice Data Center (Navarro County), announced or reported.",
+   "link": "/texas#eg-ai-rice-data-center",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Newton"
+   ],
+   "text": "Added to the map: East Texas Energy Campus (Clean Holding Company) (Newton County), announced or reported.",
+   "link": "/texas#east-texas-energy-campus-clean-holding-company",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Nueces"
+   ],
+   "text": "Added to the map: Peak Mining Texas 2 (Nueces County), under construction.",
+   "link": "/texas#peak-mining-texas-2",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Roberts"
+   ],
+   "text": "Added to the map: Project Pumpkin 2A (Intersect Power, Miami) (Roberts County), announced or reported.",
+   "link": "/texas#project-pumpkin-2a-intersect-power-miami",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Williamson"
+   ],
+   "text": "Added to the map: Skybox Round Rock (Williamson County), announced or reported.",
+   "link": "/texas#skybox-round-rock",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Scurry"
+   ],
+   "text": "Added to the map: Snyder AI Data Center Campus (Energy Vault / Crusoe) (Scurry County), under construction.",
+   "link": "/texas#snyder-ai-data-center-campus-energy-vault-crusoe",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Tarrant"
+   ],
+   "text": "Added to the map: ACS Group Data Center Campus (Hicks Field Road) (Tarrant County), under construction.",
+   "link": "/texas#acs-group-data-center-campus-hicks-field-road",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Tarrant"
+   ],
+   "text": "Added to the map: Provident Data Center (Rufe Snow Drive) (Tarrant County), announced or reported.",
+   "link": "/texas#provident-data-center-rufe-snow-drive",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Tarrant"
+   ],
+   "text": "Added to the map: Tarrant County West Campus (Tarrant County), under construction.",
+   "link": "/texas#tarrant-county-west-campus",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Tom Green"
+   ],
+   "text": "Added to the map: Beacon Data Centers Dove Creek (Tom Green County) (Tom Green County), announced or reported.",
+   "link": "/texas#beacon-data-centers-dove-creek-tom-green-county",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Travis"
+   ],
+   "text": "Added to the map: Cosmos Technology Campus (SB Energy, former 3M site) (Travis County), under construction.",
+   "link": "/texas#cosmos-technology-campus-sb-energy-former-3m-site",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Washington"
+   ],
+   "text": "Added to the map: Viridien US HPC Hub Brenham (Washington County), announced or reported.",
+   "link": "/texas#viridien-us-hpc-hub-brenham",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Wilson"
+   ],
+   "text": "Added to the map: Misae Energy Hub (Mojo Ranch Project) (Wilson County), under construction.",
+   "link": "/texas#misae-energy-hub-mojo-ranch-project",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Collin"
+   ],
+   "text": "Added to the map: CoreWeave Dallas GPU Cloud Campus (Collin County), under construction.",
+   "link": "/texas#coreweave-dallas-gpu-cloud-campus",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Dallas"
+   ],
+   "text": "Added to the map: Yondr Group Dallas Campus (Dallas County), announced or reported.",
+   "link": "/texas#yondr-group-dallas-campus",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Dallas"
+   ],
+   "text": "Added to the map: CoreSite Irving Data Center Campus (2701 E. Grauwyler) (Dallas County), announced or reported.",
+   "link": "/texas#coresite-irving-data-center-campus-2701-e-grauwyler",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Dallas"
+   ],
+   "text": "Added to the map: CyrusOne Dallas Skyline Campus II (Dallas County), under construction.",
+   "link": "/texas#cyrusone-dallas-skyline-campus-ii",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Dallas"
+   ],
+   "text": "Added to the map: Project Orange and Project Labrador Data Center Campus (WHL Dallas 45 / Prime45, Lancaster) (Dallas County), announced or reported.",
+   "link": "/texas#project-orange-and-project-labrador-data-center-campus-whl-dallas-45-prime45-lancaster",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Dallas"
+   ],
+   "text": "Added to the map: Rack Asset Realty Data Center (Former T-Mobile Switch Site, Reading Street) (Dallas County), under construction.",
+   "link": "/texas#rack-asset-realty-data-center-former-t-mobile-switch-site-reading-street",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Dallas"
+   ],
+   "text": "Added to the map: Stack Infrastructure Dallas South (Dallas County), announced or reported.",
+   "link": "/texas#stack-infrastructure-dallas-south",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Denton"
+   ],
+   "text": "Added to the map: Qumulus AI Denton Data Center (Denton County), announced or reported.",
+   "link": "/texas#qumulus-ai-denton-data-center",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Smith"
+   ],
+   "text": "Added to the map: Vulcan Core Tyler Downtown Data Center (Smith County), withdrawn or stopped.",
+   "link": "/texas#vulcan-core-tyler-downtown-data-center",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Dallas"
+   ],
+   "text": "Added to the map: Vapor IO Kinetic Edge Dallas (Dallas County), under construction.",
+   "link": "/texas#vapor-io-kinetic-edge-dallas",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "El Paso"
+   ],
+   "text": "Added to the map: Connect El Paso Data Center (Oppidan) (El Paso County), under construction.",
+   "link": "/texas#connect-el-paso-data-center-oppidan",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Dallas"
+   ],
+   "text": "Added to the map: SAP Dallas Enterprise Cloud (Dallas County), under construction.",
+   "link": "/texas#sap-dallas-enterprise-cloud",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Hill"
+   ],
+   "text": "Added to the map: Provident Data Center Hillsboro (Hill County) (Hill County), announced or reported.",
+   "link": "/texas#provident-data-center-hillsboro-hill-county",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Harris"
+   ],
+   "text": "Added to the map: Serverfarm CTX2 Houston (Harris County), under construction.",
+   "link": "/texas#serverfarm-ctx2-houston",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Harris"
+   ],
+   "text": "Added to the map: Iozera Houston (Harris County), under construction.",
+   "link": "/texas#iozera-houston",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Matagorda"
+   ],
+   "text": "Added to the map: Barrio Energy Project Blue Beam (Matagorda County) (Matagorda County), under construction.",
+   "link": "/texas#barrio-energy-project-blue-beam-matagorda-county",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Dallas"
+   ],
+   "text": "Added to the map: Microsoft Dallas Metro Campus (Dallas County), under construction.",
+   "link": "/texas#microsoft-dallas-metro-campus",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Bowie"
+   ],
+   "text": "Added to the map: Black Mountain Power Bowie County Data Center (Bowie County), under construction.",
+   "link": "/texas#black-mountain-power-bowie-county-data-center",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Bell"
+   ],
+   "text": "Added to the map: Oppidan Temple (Bell County), under construction.",
+   "link": "/texas#oppidan-temple",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Tarrant"
+   ],
+   "text": "Added to the map: DFW-03 (Aligned Data Centers, Mansfield) (Tarrant County), under construction.",
+   "link": "/texas#dfw-03-aligned-data-centers-mansfield",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Collin"
+   ],
+   "text": "Added to the map: Lambda Labs Dallas AI Training Center (Collin County), under construction.",
+   "link": "/texas#lambda-labs-dallas-ai-training-center",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
+    "Dallas"
+   ],
+   "text": "Added to the map: QTS Dallas-Fort Worth Mega (Dallas County), under construction.",
+   "link": "/texas#qts-dallas-fort-worth-mega",
+   "date": "2026-11-02"
+  },
+  {
+   "county": [
     "Gray"
    ],
    "text": "Google, Gray County now has a Texas Comptroller tax-break record.",
@@ -810,5 +1314,5 @@
    "date": "2026-11-01"
   }
  ],
- "updated": "2026-11-01"
+ "updated": "2026-11-02"
 }
