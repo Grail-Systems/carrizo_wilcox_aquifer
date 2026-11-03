@@ -3,6 +3,22 @@
  "changes": [
   {
    "county": [
+    "Hood"
+   ],
+   "text": "New ERCOT grid request: Rain Lily Storage 1. OTH, 106 MW in Hood County. Projected online: 2029-05-31. ERCOT ID 27INR0285.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-03"
+  },
+  {
+   "county": [
+    "Henderson"
+   ],
+   "text": "New ERCOT grid request: Malakoff BESS. OTH, 204 MW in Henderson County. Projected online: 2028-08-31. ERCOT ID 28INR0553.",
+   "link": "https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER",
+   "date": "2026-11-03"
+  },
+  {
+   "county": [
     "Bexar"
    ],
    "text": "Added to the map: USAA San Antonio Main (Bexar County), under construction.",
@@ -1314,5 +1330,5 @@
    "date": "2026-11-01"
   }
  ],
- "updated": "2026-11-02"
+ "updated": "2026-11-03"
 }
