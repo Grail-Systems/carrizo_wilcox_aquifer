@@ -1,10 +1,10 @@
 {
-  "checked": "2026-11-03T16:00:30+00:00",
+  "checked": "2026-11-04T16:03:09+00:00",
   "feeds": [
     {
       "file": "frontend/mega_permits.json",
       "label": "Permits and ERCOT grid requests",
-      "state": "updated",
+      "state": "unchanged",
       "records": 141,
       "last_good": "2026-11-03T16:00:30+00:00",
       "note": ""
