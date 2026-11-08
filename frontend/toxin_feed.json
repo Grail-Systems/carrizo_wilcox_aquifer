@@ -1892,6 +1892,17 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110001867132"
     },
     {
+        "facility": "DLUBAK GLASS",
+        "status": "Violation",
+        "bottom_line": "WAXAHACHIE, Ellis County. EPA status: Violation. Quarters out of compliance (last 3 yrs): 12.",
+        "coordinates": [
+            -96.840866,
+            32.448452
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=TXR000087869"
+    },
+    {
         "facility": "CITY OF NEWTON",
         "status": "Violation Identified",
         "bottom_line": "None, Newton County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
@@ -5445,6 +5456,17 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013213744"
     },
     {
+        "facility": "BLAIRE LAKE ADDITION",
+        "status": "Violation Identified",
+        "bottom_line": "TYLER, Smith County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
+        "coordinates": [
+            -95.37717,
+            32.36425
+        ],
+        "severity": 1,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071662252"
+    },
+    {
         "facility": "EAST TEXAS MUD OF SMITH COUNTY WWTF",
         "status": "Violation Identified",
         "bottom_line": "TYLER, Smith County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
@@ -5555,7 +5577,7 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071894914"
     },
     {
-        "facility": "TRINIDAD STEAM ELECTRIC STATION",
+        "facility": "TRINIDAD",
         "status": "No Violation Identified",
         "bottom_line": "TRINIDAD, Henderson County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
         "coordinates": [
