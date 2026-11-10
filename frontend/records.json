@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31",
+  "updated": "2026-11-10",
   "requests": [
     {
       "agency": "City of Lufkin",
@@ -89,6 +89,10 @@
         {
           "date": "2026-11-02",
           "text": "The City said it could not locate Exhibit D-1 (the Pineywoods well permits) to the 2009 Water Addendum, has no policy on use of City letterhead, and does not search officials' private email itself but asks them to search and provide responsive records. ETLC's questions on the 5 million gallon per day reservation became a new request, CRR-2026-362."
+        },
+        {
+          "date": "2026-11-04",
+          "text": "ETLC asked the City for a written statement of the time spent on this request, because the City's charges included labor (Gov't Code 552.261(b))."
         }
       ],
       "waiting": "The Attorney General's ruling on the withheld records, due by about mid-December 2026, and the rest of the City's release.",
@@ -162,6 +166,10 @@
         {
           "date": "2026-11-02",
           "text": "The City answered ETLC's follow-up: no water or wastewater master plan beyond the conservation and drought contingency plans; no capacity or impact studies for data centers or large industrial users; no will-serve letters besides the Sept. 25, 2025 Amp Z letter. It sent historical water usage records for the mill (1976-1998) and the December 2008 CDM water rights report. It could not locate Exhibit B (the permits) to the 2009 groundwater bill of sale."
+        },
+        {
+          "date": "2026-11-04",
+          "text": "ETLC asked the City for a written statement of the time spent on this request, because the City's charges included labor (Gov't Code 552.261(b))."
         }
       ],
       "waiting": "ETLC is reviewing the City's answers.",
@@ -248,9 +256,13 @@
         {
           "date": "2026-11-03",
           "text": "The District said it is struggling to meet Nov. 9 because of unexpected public comments for its Nov. 9 rules hearing, and that records may come a piece at a time because its email cannot send large or multiple attachments. ETLC replied the same day asking for whatever is ready now, offering a zip file, a share link or smaller emails, and promising to confirm receipt by file name."
+        },
+        {
+          "date": "2026-11-10",
+          "text": "The District's Nov. 9 date passed with no records sent. ETLC sent a written past-due notice asking for the records, or a written date and hour they will be available, by Nov. 13, and said it will file a complaint with the Nacogdoches County prosecutor under Gov't Code 552.3215 if nothing comes."
         }
       ],
-      "waiting": "The rest of the records, including information on the Hudson well. The District expects to send them by Nov. 9.",
+      "waiting": "The remaining records, or the District's written date for them, by Nov. 13.",
       "clock": {
         "start": "2026-10-22",
         "kind": "expected",
@@ -296,9 +308,13 @@
         {
           "date": "2026-11-03",
           "text": "The District said this request may not be in its next batch of records. ETLC replied that the request is past its legal deadline and that it is holding Nov. 9 as the final date."
+        },
+        {
+          "date": "2026-11-10",
+          "text": "The District's Nov. 9 date passed with no records sent. ETLC sent a written past-due notice asking for the records, or a written date and hour they will be available, by Nov. 13, and said it will file a complaint with the Nacogdoches County prosecutor under Gov't Code 552.3215 if nothing comes."
         }
       ],
-      "waiting": "The remaining well, permit and correspondence records. The District expects to send them by Nov. 9.",
+      "waiting": "The remaining records, or the District's written date for them, by Nov. 13.",
       "clock": {
         "start": "2026-10-12",
         "kind": "legal",
@@ -408,29 +424,6 @@
       ]
     },
     {
-      "agency": "City of Lufkin",
-      "number": "",
-      "filed": "2026-10-30",
-      "status": "Request sent",
-      "state": "waiting",
-      "asked": "Water supply agreements, letters of intent, rate quotes and correspondence with Amp Z, EPG Champion, HyperDataGrid, Long Leaf Generating, WattBridge or 1606 Corp; records discussing which water source would serve a data center or power plant at the former mill or near Lake Kurth; and the City's rates for selling raw or reclaimed water to industry. Covers Sept. 25, 2026 to the present.",
-      "events": [
-        {
-          "date": "2026-10-30",
-          "text": "Request emailed to the City's public information address."
-        }
-      ],
-      "waiting": "The City's response or cost estimate.",
-      "clock": {
-        "start": "2026-10-30",
-        "kind": "legal",
-        "start_note": "the request was sent"
-      },
-      "found": [
-        "Nothing yet."
-      ]
-    },
-    {
       "agency": "Texas Water Development Board",
       "number": "PIR-2026-324",
       "filed": "2026-11-02",
@@ -445,6 +438,10 @@
         {
           "date": "2026-11-02",
           "text": "TWDB entered the request in its portal as PIR-2026-324. ETLC agreed to redactions under mandatory exceptions and declined redactions under discretionary exceptions."
+        },
+        {
+          "date": "2026-11-03",
+          "text": "TWDB said its portal shows 'yes' to both redaction questions by default, and that it updated the record to match ETLC's answers."
         }
       ],
       "waiting": "Waiting for the agency to release records.",
@@ -470,6 +467,10 @@
         {
           "date": "2026-11-02",
           "text": "The City logged it as CRR-2026-360."
+        },
+        {
+          "date": "2026-11-02",
+          "text": "ETLC asked the City to correct its redaction answers in the portal, which showed them reversed. The City corrected them the same day."
         }
       ],
       "waiting": "Waiting for the agency to release records.",
@@ -520,9 +521,13 @@
         {
           "date": "2026-11-03",
           "text": "The District said it may send these records sooner because it recently emailed the Lufkin permit information to another party. ETLC asked who received it and on what date."
+        },
+        {
+          "date": "2026-11-10",
+          "text": "ETLC included this request in its Nov. 10 past-due notice and again asked who the District had already sent the Lufkin permit information to, and when."
         }
       ],
-      "waiting": "Waiting for the District to release records.",
+      "waiting": "The permit records, and an answer on who already received them and when.",
       "found": [],
       "clock": {
         "start": "2026-11-02",
@@ -547,6 +552,27 @@
       "found": [],
       "clock": {
         "start": "2026-11-02",
+        "kind": "legal",
+        "start_note": "ETLC emailed the request"
+      }
+    },
+    {
+      "agency": "Pineywoods Groundwater Conservation District",
+      "number": "",
+      "filed": "2026-11-10",
+      "status": "Open: waiting for records",
+      "state": "waiting",
+      "asked": "Records of the Nov. 9, 2026 board meeting: both posted agendas and when each was posted; the rulemaking notice; minutes; the full recording; the vote record and how each director voted; the adopted rule text; sign-in sheets and written comments; communications with Pitman Farms or R.W. Harden & Associates about the Rule 5.15 amendments or Pitman's well permits since Jan. 1, 2026; and Pitman's permit applications and hydrogeological report.",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "text": "Request emailed to the District's general manager."
+        }
+      ],
+      "waiting": "Waiting for the District to release records.",
+      "found": [],
+      "clock": {
+        "start": "2026-11-10",
         "kind": "legal",
         "start_note": "ETLC emailed the request"
       }
