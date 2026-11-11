@@ -1,5 +1,5 @@
 {
-  "computed": "2026-11-10",
+  "computed": "2026-11-11",
   "note": "Deadlines are estimates. They skip weekends and Texas state holidays; local agencies may observe different holidays.",
   "requests": [
     {
@@ -65,16 +65,6 @@
       "filed": "2026-10-23"
     },
     {
-      "key": "City of Lufkin|2026-10-30|",
-      "agency": "City of Lufkin",
-      "number": "",
-      "filed": "2026-10-30",
-      "type": "legal",
-      "due": "2026-11-16",
-      "start": "2026-10-30",
-      "text": "Response due Mon., Nov. 16: 10 business days after the request was sent."
-    },
-    {
       "key": "Texas Water Development Board|2026-11-02|PIR-2026-324",
       "agency": "Texas Water Development Board",
       "number": "PIR-2026-324",
@@ -123,6 +113,16 @@
       "due": "2026-11-17",
       "start": "2026-11-02",
       "text": "Response due Tue., Nov. 17: 10 business days after ETLC emailed the request."
+    },
+    {
+      "key": "Pineywoods Groundwater Conservation District|2026-11-10|",
+      "agency": "Pineywoods Groundwater Conservation District",
+      "number": "",
+      "filed": "2026-11-10",
+      "type": "legal",
+      "due": "2026-11-25",
+      "start": "2026-11-10",
+      "text": "Response due Wed., Nov. 25: 10 business days after ETLC emailed the request."
     }
   ]
 }
