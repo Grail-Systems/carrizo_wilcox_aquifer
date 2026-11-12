@@ -264,6 +264,10 @@
         {
           "date": "2026-11-10",
           "text": "No records arrived by Nov. 9. ETLC sent a written past-due notice asking for everything ready by end of day Nov. 13, and for anything not ready, a written date and hour under Gov't Code 552.221. The District replied the same day that it will send as much as it can by Nov. 13 and say when to expect the rest. ETLC confirmed it will expect the records by Nov. 13 and asked the District to confirm the notice was shared with its Board."
+        },
+        {
+          "date": "2026-11-10",
+          "text": "The District said it has shared ETLC's past-due notice with its Board of Directors."
         }
       ],
       "waiting": "The remaining records, or the District's written date for them, by Nov. 13.",
@@ -320,6 +324,10 @@
         {
           "date": "2026-11-10",
           "text": "No records arrived by Nov. 9. ETLC sent a written past-due notice asking for everything ready by end of day Nov. 13, and for anything not ready, a written date and hour under Gov't Code 552.221. The District replied the same day that it will send as much as it can by Nov. 13 and say when to expect the rest. ETLC confirmed it will expect the records by Nov. 13 and asked the District to confirm the notice was shared with its Board."
+        },
+        {
+          "date": "2026-11-10",
+          "text": "The District said it has shared ETLC's past-due notice with its Board of Directors."
         }
       ],
       "waiting": "The remaining records, or the District's written date for them, by Nov. 13.",
@@ -541,6 +549,14 @@
         {
           "date": "2026-11-10",
           "text": "ETLC asked a second time who received the Lufkin permit records and when. The District's reply did not answer."
+        },
+        {
+          "date": "2026-11-10",
+          "text": "The District said it has shared ETLC's past-due notice with its Board of Directors."
+        },
+        {
+          "date": "2026-11-10",
+          "text": "The District said the Lufkin permit records went to someone at the city, and that it will say who later this week."
         }
       ],
       "waiting": "The permit records, and an answer on who already received them and when.",
@@ -583,12 +599,37 @@
         {
           "date": "2026-11-10",
           "text": "Request emailed to the District's general manager."
+        },
+        {
+          "date": "2026-11-10",
+          "text": "The District replied that it will advise a date when it expects to provide the records."
         }
       ],
       "waiting": "Waiting for the District to release records.",
       "found": [],
       "clock": {
         "start": "2026-11-10",
+        "kind": "legal",
+        "start_note": "ETLC emailed the request"
+      }
+    },
+    {
+      "agency": "Pineywoods Groundwater Conservation District",
+      "number": "",
+      "filed": "2026-11-11",
+      "status": "Open: waiting for records",
+      "state": "waiting",
+      "asked": "Any modeling runs, analyses, presentations or memos the Board considered for its Nov. 9, 2026 discussion of GMA 11 desired future conditions comparing Scenario 26.1 (and 26-2 through 26-6) with Scenario 33, including which version of Scenario 33 was used; and any document stating the District's recommendation or position for the Nov. 18, 2026 GMA 11 meeting.",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "text": "Request emailed to the District's general manager."
+        }
+      ],
+      "waiting": "Waiting for the District to release records.",
+      "found": [],
+      "clock": {
+        "start": "2026-11-11",
         "kind": "legal",
         "start_note": "ETLC emailed the request"
       }
