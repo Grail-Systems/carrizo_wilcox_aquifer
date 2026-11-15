@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-14T14:54:10+00:00",
+  "checked": "2026-11-15T15:30:36+00:00",
   "feeds": [
     {
       "file": "frontend/mega_permits.json",
@@ -12,9 +12,9 @@
     {
       "file": "frontend/toxin_feed.json",
       "label": "EPA ECHO violations",
-      "state": "unchanged",
-      "records": 527,
-      "last_good": "2026-11-08T14:54:14+00:00",
+      "state": "updated",
+      "records": 528,
+      "last_good": "2026-11-15T15:30:36+00:00",
       "note": ""
     },
     {

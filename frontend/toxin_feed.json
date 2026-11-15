@@ -231,7 +231,7 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013220941"
     },
     {
-        "facility": "CITY OF GARRISON",
+        "facility": "CITY OF GARRISON WWTP",
         "status": "Significant Violation",
         "bottom_line": "GARRISON, Nacogdoches County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 12. Flagged as significant violator.",
         "coordinates": [
@@ -726,7 +726,7 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012901976"
     },
     {
-        "facility": "CITY OF TATUM",
+        "facility": "CITY OF TATUM WWTP",
         "status": "Violation Identified",
         "bottom_line": "TATUM, Rusk County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 12.",
         "coordinates": [
@@ -2035,7 +2035,7 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013213708"
     },
     {
-        "facility": "CITY OF BULLARD-PLANT 7 - 23455 FM 2137",
+        "facility": "CITY OF BULLARD WWTP",
         "status": "Violation Identified",
         "bottom_line": "BULLARD, Smith County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 9.",
         "coordinates": [
@@ -2046,7 +2046,7 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009778268"
     },
     {
-        "facility": "CITY OF WINONA-CHLORINATOR",
+        "facility": "CITY OF WINONA WWTF",
         "status": "Violation Identified",
         "bottom_line": "WINONA, Smith County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 9.",
         "coordinates": [
@@ -2882,17 +2882,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071848040"
     },
     {
-        "facility": "WODEN ISD WWTP",
-        "status": "Violation Identified",
-        "bottom_line": "WODEN, Nacogdoches County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 6.",
-        "coordinates": [
-            -94.523055,
-            31.50444
-        ],
-        "severity": 6,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110062645927"
-    },
-    {
         "facility": "MCCLELLAND WSC-PLANT 1 - HWY 87",
         "status": "No Violation Identified",
         "bottom_line": "SHELBYVILLE, Shelby County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 6.",
@@ -3058,7 +3047,7 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013247307"
     },
     {
-        "facility": "TOOL WATER TREATMENT FACILITY",
+        "facility": "TOOL WTP",
         "status": "Significant Violation",
         "bottom_line": "TOOL, Henderson County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 2. Flagged as significant violator.",
         "coordinates": [
@@ -3133,6 +3122,17 @@
         ],
         "severity": 6,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219882"
+    },
+    {
+        "facility": "PELICAN ISLE WWTP",
+        "status": "Violation Identified",
+        "bottom_line": "KERENS, Navarro County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 6.",
+        "coordinates": [
+            -96.171932,
+            31.994621
+        ],
+        "severity": 6,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009774137"
     },
     {
         "facility": "PURDON WATER",
@@ -3221,6 +3221,17 @@
         ],
         "severity": 5,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110070602081"
+    },
+    {
+        "facility": "WODEN ISD WWTP",
+        "status": "Violation Identified",
+        "bottom_line": "WODEN, Nacogdoches County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 5.",
+        "coordinates": [
+            -94.523055,
+            31.50444
+        ],
+        "severity": 5,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110062645927"
     },
     {
         "facility": "EAST LAMAR WSC",
@@ -3388,7 +3399,7 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013245933"
     },
     {
-        "facility": "CONTRACTORS SUPPLIES ATHENS PLANT",
+        "facility": "CONTRACTORS SUPPLIES",
         "status": "No Violation Identified",
         "bottom_line": "ATHENS, Henderson County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 5.",
         "coordinates": [
@@ -3421,17 +3432,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071427589"
     },
     {
-        "facility": "PURTIS CREEK STATE PARK WWTP",
-        "status": "Violation Identified",
-        "bottom_line": "EUSTACE, Henderson County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 5.",
-        "coordinates": [
-            -95.995237,
-            32.351829
-        ],
-        "severity": 5,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009777152"
-    },
-    {
         "facility": "CITY OF CARTHAGE WTR & SWR",
         "status": "Violation Identified",
         "bottom_line": "CARTHAGE, Panola County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 5.",
@@ -3452,17 +3452,6 @@
         ],
         "severity": 5,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013217937"
-    },
-    {
-        "facility": "PELICAN ISLE WWTP",
-        "status": "No Violation Identified",
-        "bottom_line": "KERENS, Navarro County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 5.",
-        "coordinates": [
-            -96.171932,
-            31.994621
-        ],
-        "severity": 5,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009774137"
     },
     {
         "facility": "CITY OF WAXAHACHIE WASTEWATER TREATMENT PLANT",
@@ -3993,6 +3982,17 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013245229"
     },
     {
+        "facility": "PURTIS CREEK STATE PARK WWTP",
+        "status": "Violation Identified",
+        "bottom_line": "EUSTACE, Henderson County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
+        "coordinates": [
+            -95.995237,
+            32.351829
+        ],
+        "severity": 4,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009777152"
+    },
+    {
         "facility": "FAIRPLAY WSC-PLANT 2 - 2096 FM 1251",
         "status": "No Violation Identified",
         "bottom_line": "BECKVILLE, Panola County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
@@ -4167,6 +4167,17 @@
         ],
         "severity": 3,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219409"
+    },
+    {
+        "facility": "AIKEN SURFACE WTP",
+        "status": "Violation Identified",
+        "bottom_line": "SHELBY COUNTY, Shelby County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
+        "coordinates": [
+            -94.333868,
+            31.695108
+        ],
+        "severity": 3,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110064605066"
     },
     {
         "facility": "FEW READY MIX CONCRETE CENTER PLANT",
@@ -4378,7 +4389,7 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012837216"
     },
     {
-        "facility": "SANDERSON FARMS PROCESSING DIVISION PALESTINE FACILITY",
+        "facility": "SANDERSON FARMS PROCESSING DIVISION PALESTINE",
         "status": "No Violation Identified",
         "bottom_line": "PALESTINE, Anderson County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
         "coordinates": [
@@ -4422,7 +4433,7 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071505239"
     },
     {
-        "facility": "CAMP OLYMPIA WWTP",
+        "facility": "CAMP OLYMPIA",
         "status": "Violation Identified",
         "bottom_line": "TRINITY, Trinity County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
         "coordinates": [
@@ -4488,7 +4499,7 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110048903157"
     },
     {
-        "facility": "GEORGIA-PACIFIC WOOD PRODUCTS SOUTH",
+        "facility": "CORRIGAN PLYWOOD FACILITY",
         "status": "Violation Identified",
         "bottom_line": "CORRIGAN, Polk County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
         "coordinates": [
@@ -4827,17 +4838,6 @@
         ],
         "severity": 2,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013221085"
-    },
-    {
-        "facility": "AIKEN SURFACE WTP",
-        "status": "Violation Identified",
-        "bottom_line": "SHELBY COUNTY, Shelby County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 2.",
-        "coordinates": [
-            -94.333868,
-            31.695108
-        ],
-        "severity": 2,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110064605066"
     },
     {
         "facility": "CITY OF CENTER MILL CREEK WTP",
@@ -5522,6 +5522,17 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071157154"
     },
     {
+        "facility": "JUDS C-STORE",
+        "status": "Violation Identified",
+        "bottom_line": "ATHENS, Henderson County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
+        "coordinates": [
+            -95.878047,
+            32.22212
+        ],
+        "severity": 1,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071865779"
+    },
+    {
         "facility": "LAPOYNER ISD WWTF",
         "status": "Violation Identified",
         "bottom_line": "LARUE, Henderson County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
@@ -5577,7 +5588,7 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071894914"
     },
     {
-        "facility": "TRINIDAD",
+        "facility": "TRINIDAD STEAM ELECTRIC STATION",
         "status": "No Violation Identified",
         "bottom_line": "TRINIDAD, Henderson County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
         "coordinates": [
