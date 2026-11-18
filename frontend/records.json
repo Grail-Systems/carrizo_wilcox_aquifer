@@ -485,7 +485,7 @@
       "agency": "City of Lufkin",
       "number": "CRR-2026-360",
       "filed": "2026-11-02",
-      "status": "Open: waiting for records",
+      "status": "Closed: records released Nov. 17; City confirmed in writing Nov. 18 that nothing was withheld",
       "state": "done",
       "asked": "Any water supply agreement, letter of intent, term sheet or rate quote with Amp Z, EPG Champion, HyperDataGrid, Long Leaf Generating, WattBridge or 1606 Corp; records on which water source would serve the former paper mill site; and rates for selling raw or reclaimed water to industry.",
       "events": [
@@ -508,10 +508,18 @@
         {
           "date": "2026-11-18",
           "text": "ETLC asked the City in writing to confirm whether any records exist from Sept. 25, 2026 to the present, whether any records were found on which water source would serve the site, and whether the City has any policy for selling reclaimed water."
+        },
+        {
+          "date": "2026-11-18",
+          "text": "The City (Johna Childers) answered in writing: no responsive records were found from Sept. 25, 2026 to the present; no responsive records were found on which water source would serve the former paper mill site; the only reclaimed-water information is in the City's Water Conservation Plan, provided earlier; and no records were withheld."
         }
       ],
-      "waiting": "Waiting for the agency to release records.",
-      "found": [],
+      "waiting": "",
+      "found": [
+        "The six records the City released are from Sept. and Nov. 2025. The City says it found nothing responsive from Sept. 25, 2026 to the present.",
+        "For the request's date range, the City says it found no records on which water source would serve a data center or power plant at the former paper mill site. (Kevin Gee's Sept. 25, 2025 water availability letter, released in this request, predates that range.)",
+        "The City says it has no reclaimed-water rate or policy beyond its Water Conservation Plan."
+      ],
       "clock": {
         "start": "2026-11-02",
         "kind": "legal",
