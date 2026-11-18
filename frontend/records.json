@@ -690,6 +690,27 @@
         "kind": "legal",
         "start_note": "ETLC emailed the request"
       }
+    },
+    {
+      "agency": "Pineywoods Groundwater Conservation District",
+      "number": "",
+      "filed": "2026-11-18",
+      "status": "Open: waiting for records",
+      "state": "waiting",
+      "asked": "The Board's 2026 terms document and Kevin Gee's status as a director and Board President; any conflict-of-interest or recusal records since Jan. 1, 2025 about the City of Lufkin's mill wells, Amp Z or Pitman Family Farms; the District's transmittal of Lufkin well permit information to the City; and District communications since Jan. 1, 2025 with Amp Z and related companies about water at the former paper mill site or Lake Kurth.",
+      "waiting": "Waiting for the District to release records or certify a date.",
+      "found": [],
+      "events": [
+        {
+          "date": "2026-11-18",
+          "text": "Request emailed to the District's general manager."
+        }
+      ],
+      "clock": {
+        "start": "2026-11-18",
+        "kind": "legal",
+        "start_note": "ETLC emailed the request"
+      }
     }
   ]
 }
