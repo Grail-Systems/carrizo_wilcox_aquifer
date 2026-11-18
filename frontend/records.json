@@ -458,6 +458,10 @@
         {
           "date": "2026-11-03",
           "text": "TWDB said its portal shows 'yes' to both redaction questions by default, and that it updated the record to match ETLC's answers."
+        },
+        {
+          "date": "2026-11-18",
+          "text": "TWDB said it needs more time and expects the records to be ready by close of business Tue., Nov. 24."
         }
       ],
       "waiting": "Waiting for the agency to release records.",
@@ -465,7 +469,8 @@
       "clock": {
         "start": "2026-11-02",
         "kind": "legal",
-        "start_note": "TWDB logged the request"
+        "start_note": "TWDB logged the request",
+        "certified": "2026-11-24"
       }
     },
     {
@@ -473,7 +478,7 @@
       "number": "CRR-2026-360",
       "filed": "2026-11-02",
       "status": "Open: waiting for records",
-      "state": "waiting",
+      "state": "done",
       "asked": "Any water supply agreement, letter of intent, term sheet or rate quote with Amp Z, EPG Champion, HyperDataGrid, Long Leaf Generating, WattBridge or 1606 Corp; records on which water source would serve the former paper mill site; and rates for selling raw or reclaimed water to industry.",
       "events": [
         {
@@ -577,7 +582,7 @@
     },
     {
       "agency": "City of Lufkin",
-      "number": "",
+      "number": "CRR-2026-397",
       "filed": "2026-11-02",
       "status": "Open: waiting for records",
       "state": "waiting",
@@ -586,6 +591,10 @@
         {
           "date": "2026-11-02",
           "text": "Request emailed to the City Secretary with the CRR-2026-348 follow-up."
+        },
+        {
+          "date": "2026-11-15",
+          "text": "The City said it found this Nov. 2 request in its spam folder, entered it as CRR-2026-397, and would have the records to ETLC this week."
         }
       ],
       "waiting": "Waiting for the City to assign a request number and release records.",
