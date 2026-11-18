@@ -1965,7 +1965,7 @@
     {
         "title": "TWDB WELL 3706401 (Shelby County)",
         "applicant": "Texas Water Development Board",
-        "bottom_line": "Carrizo-Wilcox well, stock. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>52 ft</span> (measured 2026-03-05). Water level has dropped 7 ft since 1972. 49 measurements on record.",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>52 ft</span> (measured 2026-03-05). Water level has dropped 7 ft since 1972. 49 measurements on record.",
         "raw_volume": 3889,
         "drop_ft": 7.0,
         "coordinates": [
@@ -2355,7 +2355,7 @@
     {
         "title": "TWDB WELL 3704601 (Rusk County)",
         "applicant": "Texas Water Development Board",
-        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>34 ft</span> (measured 2026-03-04). Water level has dropped 4 ft since 1976. 43 measurements on record.",
+        "bottom_line": "Carrizo-Wilcox well, domestic. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>34 ft</span> (measured 2026-03-04). Water level has dropped 4 ft since 1976. 43 measurements on record.",
         "raw_volume": 2516,
         "drop_ft": 4.5,
         "coordinates": [
@@ -2992,7 +2992,7 @@
     {
         "title": "TWDB WELL 3748306 (Sabine County)",
         "applicant": "Texas Water Development Board",
-        "bottom_line": "Carrizo-Wilcox well, industrial. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>6 ft</span> (measured 2025-11-13). Water level has dropped 1 ft since 2021. 5 measurements on record.",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>6 ft</span> (measured 2025-11-13). Water level has dropped 1 ft since 2021. 5 measurements on record.",
         "raw_volume": 1000,
         "drop_ft": 0.7,
         "coordinates": [
@@ -3053,19 +3053,6 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3552602"
-    },
-    {
-        "title": "TWDB WELL 3724601 (Shelby County)",
-        "applicant": "Texas Water Development Board",
-        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>31 ft</span> (measured 2026-03-05). Water level roughly unchanged since 1972. 53 measurements on record.",
-        "raw_volume": 2324,
-        "drop_ft": 0.3,
-        "coordinates": [
-            -94.0333333,
-            31.6694444
-        ],
-        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
-        "state_well_number": "3724601"
     },
     {
         "title": "TWDB WELL 5909606 (Milam County)",
@@ -3144,6 +3131,19 @@
         ],
         "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
         "state_well_number": "3549306"
+    },
+    {
+        "title": "TWDB WELL 3724601 (Shelby County)",
+        "applicant": "Texas Water Development Board",
+        "bottom_line": "Carrizo-Wilcox well, unused. Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>31 ft</span> (measured 2026-03-05). Water level roughly unchanged since 1972. 53 measurements on record.",
+        "raw_volume": 2309,
+        "drop_ft": 0.1,
+        "coordinates": [
+            -94.0333333,
+            31.6694444
+        ],
+        "source_url": "https://www3.twdb.texas.gov/apps/reports/GWDB/WaterLevelsByWell",
+        "state_well_number": "3724601"
     },
     {
         "title": "TWDB WELL 3702802 (Rusk County)",

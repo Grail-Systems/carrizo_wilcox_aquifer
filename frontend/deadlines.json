@@ -1,5 +1,5 @@
 {
-  "computed": "2026-11-17",
+  "computed": "2026-11-18",
   "note": "Deadlines are estimates. They skip weekends and Texas state holidays; local agencies may observe different holidays.",
   "requests": [
     {
@@ -40,7 +40,7 @@
       "type": "certified",
       "due": "2026-11-09",
       "text": "The agency said the records would be ready by Mon., Nov. 9.",
-      "overdue_bd": 5
+      "overdue_bd": 6
     },
     {
       "key": "Pineywoods Groundwater Conservation District|2026-09-25|",
@@ -50,7 +50,7 @@
       "type": "certified",
       "due": "2026-11-09",
       "text": "The agency said the records would be ready by Mon., Nov. 9.",
-      "overdue_bd": 5
+      "overdue_bd": 6
     },
     {
       "key": "Angelina County|2026-09-25|",
@@ -72,7 +72,8 @@
       "type": "legal",
       "due": "2026-11-17",
       "start": "2026-11-02",
-      "text": "Response due Tue., Nov. 17: 10 business days after TWDB logged the request."
+      "text": "Response was due Tue., Nov. 17 (10 business days after TWDB logged the request). Past due by 1 business day.",
+      "overdue_bd": 1
     },
     {
       "key": "City of Lufkin|2026-11-02|CRR-2026-360",
@@ -82,7 +83,8 @@
       "type": "legal",
       "due": "2026-11-17",
       "start": "2026-11-02",
-      "text": "Response due Tue., Nov. 17: 10 business days after the City logged the request."
+      "text": "Response was due Tue., Nov. 17 (10 business days after the City logged the request). Past due by 1 business day.",
+      "overdue_bd": 1
     },
     {
       "key": "City of Lufkin|2026-11-02|CRR-2026-362",
@@ -92,7 +94,8 @@
       "type": "legal",
       "due": "2026-11-17",
       "start": "2026-11-02",
-      "text": "Response due Tue., Nov. 17: 10 business days after the City logged the request."
+      "text": "Response was due Tue., Nov. 17 (10 business days after the City logged the request). Past due by 1 business day.",
+      "overdue_bd": 1
     },
     {
       "key": "Pineywoods Groundwater Conservation District|2026-11-02|",
@@ -102,7 +105,8 @@
       "type": "legal",
       "due": "2026-11-17",
       "start": "2026-11-02",
-      "text": "Response due Tue., Nov. 17: 10 business days after ETLC emailed the request."
+      "text": "Response was due Tue., Nov. 17 (10 business days after ETLC emailed the request). Past due by 1 business day.",
+      "overdue_bd": 1
     },
     {
       "key": "City of Lufkin|2026-11-02|",
@@ -112,7 +116,8 @@
       "type": "legal",
       "due": "2026-11-17",
       "start": "2026-11-02",
-      "text": "Response due Tue., Nov. 17: 10 business days after ETLC emailed the request."
+      "text": "Response was due Tue., Nov. 17 (10 business days after ETLC emailed the request). Past due by 1 business day.",
+      "overdue_bd": 1
     },
     {
       "key": "Pineywoods Groundwater Conservation District|2026-11-10|",
