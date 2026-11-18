@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Landowner Sign-Up | East Texas Legacy Coalition</title>
+<meta name="description" content="Landowners in the Pineywoods Groundwater Conservation District (Angelina and Nacogdoches counties): sign up to join the rule petition and get hearing updates.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%F0%9F%8C%B2%3C/text%3E%3C/svg%3E">
+<style>
+:root{--bg:#0e0d0c;--panel:#171513;--line:#2c2824;--text:#e8e2d9;--dim:#a39a8f;--amber:#e0a43a;--red:#d9483b;--green:#5a9e6f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Georgia,'Times New Roman',serif;line-height:1.65;font-size:1.06rem}
+a{color:var(--amber)}
+.wrap{max-width:720px;margin:0 auto;padding:0 22px 80px}
+nav.top{display:flex;gap:20px;flex-wrap:wrap;padding:18px 0;font-family:system-ui,sans-serif;font-size:.9rem;border-bottom:1px solid var(--line)}
+h1{font-size:clamp(2rem,5.5vw,3.2rem);line-height:1.06;margin:42px 0 14px;font-weight:normal;letter-spacing:-.015em}
+h2{font-size:1.45rem;font-weight:normal;margin:44px 0 12px}
+.lede{color:var(--dim);margin:0 0 8px}
+.sans,label,legend,input,select,textarea,button,.note{font-family:system-ui,sans-serif}
+form{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:24px;margin-top:26px}
+.field{margin-bottom:20px}
+label,legend{display:block;font-size:.95rem;margin-bottom:6px}
+.hint{display:block;color:var(--dim);font-size:.82rem;margin-top:2px}
+input[type=text],input[type=email],input[type=tel],select,textarea{width:100%;padding:12px;font-size:1rem;background:var(--bg);color:var(--text);border:1px solid var(--line);border-radius:6px}
+textarea{min-height:90px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--amber);outline-offset:1px}
+fieldset{border:0;padding:0;margin:0 0 20px}
+.choices label{display:flex;align-items:center;gap:10px;margin:6px 0;font-size:1rem;cursor:pointer}
+.choices input{width:20px;height:20px;accent-color:var(--amber)}
+.req{color:var(--amber)}
+button{background:var(--amber);color:#1a1408;border:0;border-radius:6px;padding:14px 22px;font-size:1.05rem;font-weight:600;cursor:pointer;width:100%}
+button.secondary{background:transparent;color:var(--amber);border:1px solid var(--amber);margin-top:10px}
+.note{font-size:.85rem;color:var(--dim);margin-top:14px}
+.error{color:var(--red);font-size:.9rem;margin-top:8px;min-height:1.2em}
+#done{display:none;background:var(--panel);border:1px solid var(--green);border-radius:10px;padding:22px;margin-top:26px}
+#done pre{white-space:pre-wrap;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:12px;font-size:.9rem}
+.box{border-left:4px solid var(--amber);padding:2px 0 2px 18px;margin:18px 0}
+.template{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px;font-family:system-ui,sans-serif;font-size:.92rem;white-space:pre-wrap}
+footer{margin-top:60px;border-top:1px solid var(--line);padding-top:18px;font-family:system-ui,sans-serif;font-size:.85rem;color:var(--dim)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="top" aria-label="Site">
+  <a href="index.html">Aquifer Defense Grid</a>
+  <a href="founder.html">Founder</a>
+</nav>
+
+<h1>Landowners: stand up for the water under your land</h1>
+<p class="lede">For landowners in the Pineywoods Groundwater Conservation District, which covers Angelina and Nacogdoches counties.</p>
+
+<p>Texas law lets anyone with a real property interest in groundwater in the district petition it to adopt or change a rule. The East Texas Legacy Coalition is gathering landowners so our petitions carry more weight together.</p>
+
+<p>Sign up below. We'll check that the petition fits your land, send it to you to read, and keep you posted on hearing dates. <strong>Nothing is ever filed with your name on it without your OK.</strong></p>
+
+<form id="signup" novalidate>
+  <div class="field">
+    <label for="name">Your name(s) <span class="req">*</span></label>
+    <input type="text" id="name" autocomplete="name" required>
+    <span class="hint">Everyone on the deed who wants to sign, for example "Jane and John Smith".</span>
+  </div>
+
+  <div class="field">
+    <label for="email">Email <span class="req">*</span></label>
+    <input type="email" id="email" autocomplete="email" required>
+  </div>
+
+  <div class="field">
+    <label for="phone">Phone (optional)</label>
+    <input type="tel" id="phone" autocomplete="tel">
+  </div>
+
+  <div class="field">
+    <label for="county">County your land is in <span class="req">*</span></label>
+    <select id="county" required>
+      <option value="">Choose one</option>
+      <option>Nacogdoches</option>
+      <option>Angelina</option>
+      <option>Not sure</option>
+    </select>
+  </div>
+
+  <div class="field">
+    <label for="location">General location (optional)</label>
+    <input type="text" id="location" placeholder="Community or nearest road, e.g. Alazan, off FM 225">
+    <span class="hint">No street address needed.</span>
+  </div>
+
+  <fieldset class="choices">
+    <legend>Do you have a water well on the property? <span class="req">*</span></legend>
+    <label><input type="radio" name="well" value="Yes"> Yes</label>
+    <label><input type="radio" name="well" value="No"> No</label>
+    <label><input type="radio" name="well" value="Not sure"> Not sure</label>
+  </fieldset>
+
+  <fieldset class="choices">
+    <legend>Were the water or mineral rights ever sold separately from the land? <span class="req">*</span></legend>
+    <label><input type="radio" name="rights" value="No, never sold (as far as I know)"> No, never sold (as far as I know)</label>
+    <label><input type="radio" name="rights" value="Yes, sold separately"> Yes, sold separately</label>
+    <label><input type="radio" name="rights" value="Not sure"> Not sure</label>
+  </fieldset>
+
+  <div class="field">
+    <label for="notes">Anything you want us to know (optional)</label>
+    <textarea id="notes" placeholder="For example: a creek or well that's dropped, how long your family has been on the land, questions you have."></textarea>
+  </div>
+
+  <fieldset class="choices">
+    <label><input type="checkbox" id="updates" checked> Yes, email me hearing dates and petition updates.</label>
+  </fieldset>
+
+  <button type="submit">Send my sign-up</button>
+  <div class="error" id="err" role="alert"></div>
+  <p class="note">Pressing the button opens your email app with your answers filled in, addressed to contact@grailsystems.io. Just press send. Your answers go only to the East Texas Legacy Coalition. We don't share or sell them.</p>
+</form>
+
+<div id="done" role="status" tabindex="-1">
+  <h2 style="margin-top:0">Almost done: press send in your email app</h2>
+  <p class="sans">If your email app didn't open, copy the text below and email it to <a href="mailto:contact@grailsystems.io">contact@grailsystems.io</a>.</p>
+  <pre id="copytext"></pre>
+  <button type="button" class="secondary" id="copybtn">Copy text</button>
+</div>
+
+<h2>What filing a petition takes</h2>
+<p>Under District Rule 16.1(b)(5), a petition must:</p>
+<ul>
+  <li>be made on the district's own <em>Petition to Adopt or Modify Rules</em> form;</li>
+  <li>include the proposed rule text and a written explanation of its purpose;</li>
+  <li>include proof that you have a real property interest in groundwater inside the district; and</li>
+  <li>give your full name, phone, physical and mailing address, and email.</li>
+</ul>
+<p>The board must act within 90 days: deny it with an explanation, or start rulemaking. The rule also says the petitioner reimburses the district for the cost of giving notice of a rulemaking hearing. We'll walk through all of this with you before anything is filed.</p>
+
+<h2>Ask the district to notify you directly</h2>
+<p>Under District Rule 16.2(d), anyone with an interest can ask the district in writing for notice of a hearing. The request lasts one year. Email this to <a href="mailto:gm@pgcd.org">gm@pgcd.org</a> from your own email, with your name at the bottom:</p>
+<div class="template" id="noticeText">Mr. Blough,
+
+Under District Rule 16.2(d) and Texas Water Code §36.404(d), I request written notice, by email to [your email], of any hearing, prehearing conference, preliminary hearing, or continued setting on the Pitman Family Farms well permit applications, and of any other permit hearing the District schedules.
+
+Thank you,
+[your name]
+[county]</div>
+<button type="button" class="secondary" id="copynotice">Copy this request</button>
+
+<div class="box">
+  <p><strong>Know the contest deadline.</strong> Under District Rule 16.4(a), anyone who intends to contest a permit application must give the district written notice of that intent at least five calendar days before the hearing. If no one does, the hearing is canceled and the board considers the permit at its next regular meeting.</p>
+</div>
+<p class="note">We're not attorneys, and this page isn't legal advice. Source: Pineywoods Groundwater Conservation District Rules, revised March 23, 2026, posted at pgcd.org.</p>
+
+<footer>East Texas Legacy Coalition · Fawn Elizabeth Zion, Founder · <a href="mailto:contact@grailsystems.io">contact@grailsystems.io</a> · Built by Grail Systems</footer>
+</div>
+
+<script>
+(function(){
+  var TO = "contact@grailsystems.io";
+  var form = document.getElementById("signup");
+  var err = document.getElementById("err");
+  function val(id){ return document.getElementById(id).value.trim(); }
+  function radio(n){ var r = form.querySelector('input[name="'+n+'"]:checked'); return r ? r.value : ""; }
+  function copy(text, btn){
+    var done = function(){ var t = btn.textContent; btn.textContent = "Copied"; setTimeout(function(){ btn.textContent = t; }, 1800); };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, function(){ fallback(text); done(); });
+    } else { fallback(text); done(); }
+  }
+  function fallback(text){
+    var ta = document.createElement("textarea"); ta.value = text; document.body.appendChild(ta);
+    ta.select(); try { document.execCommand("copy"); } catch(e) {} document.body.removeChild(ta);
+  }
+  form.addEventListener("submit", function(e){
+    e.preventDefault();
+    var name = val("name"), email = val("email"), county = val("county"), well = radio("well"), rights = radio("rights");
+    var missing = [];
+    if (!name) missing.push("name");
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) missing.push("a valid email");
+    if (!county) missing.push("county");
+    if (!well) missing.push("well");
+    if (!rights) missing.push("water/mineral rights");
+    if (missing.length) { err.textContent = "Please fill in: " + missing.join(", ") + "."; return; }
+    err.textContent = "";
+    var body = [
+      "LANDOWNER SIGN-UP",
+      "Name: " + name,
+      "Email: " + email,
+      "Phone: " + (val("phone") || "-"),
+      "County: " + county,
+      "Location: " + (val("location") || "-"),
+      "Well on property: " + well,
+      "Water/mineral rights sold separately: " + rights,
+      "Email me updates: " + (document.getElementById("updates").checked ? "Yes" : "No"),
+      "Notes: " + (val("notes") || "-"),
+      "",
+      "I understand nothing will be filed in my name without my OK."
+    ].join("\n");
+    var subject = "Landowner sign-up: " + name + " (" + county + ")";
+    document.getElementById("copytext").textContent = "Subject: " + subject + "\n\n" + body;
+    var d = document.getElementById("done"); d.style.display = "block"; d.focus();
+    window.location.href = "mailto:" + TO + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+  });
+  document.getElementById("copybtn").addEventListener("click", function(){ copy(document.getElementById("copytext").textContent, this); });
+  document.getElementById("copynotice").addEventListener("click", function(){ copy(document.getElementById("noticeText").textContent, this); });
+})();
+</script>
+</body>
+</html>
