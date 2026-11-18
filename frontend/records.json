@@ -600,8 +600,8 @@
       "agency": "City of Lufkin",
       "number": "CRR-2026-397",
       "filed": "2026-11-02",
-      "status": "Records released Nov. 18; ETLC reviewing",
-      "state": "done",
+      "status": "Open: marked completed Nov. 18 with no records provided",
+      "state": "waiting",
       "asked": "The posted meeting notices for the Planning and Zoning Commission meetings of Feb. 9 and Feb. 23, 2026, including records showing when and where each was posted.",
       "events": [
         {
@@ -614,10 +614,10 @@
         },
         {
           "date": "2026-11-18",
-          "text": "ETLC asked for a written ready date under Gov't Code 552.221(d). The same afternoon the City marked the request completed in its records portal and released records. ETLC is reviewing them."
+          "text": "ETLC asked for a written ready date under Gov't Code 552.221(d). The same afternoon the City marked the request completed in its records portal, but no files were posted there. ETLC asked the City to send the records or state in writing that none exist."
         }
       ],
-      "waiting": "ETLC is reviewing the released records.",
+      "waiting": "Waiting for the City to send the records or state in writing that none exist.",
       "found": [],
       "clock": {
         "start": "2026-11-02",
