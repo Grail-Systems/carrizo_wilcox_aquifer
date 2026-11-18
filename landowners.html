@@ -87,6 +87,18 @@ footer{margin-top:60px;border-top:1px solid var(--line);padding-top:18px;font-fa
   </div>
 
   <fieldset class="choices">
+    <legend>Do you own the land? <span class="req">*</span></legend>
+    <label><input type="radio" name="owner" value="Yes, my name is on the deed"> Yes, my name is on the deed</label>
+    <label><input type="radio" name="owner" value="It's family land (deed in a relative's name or an estate)"> It's family land (deed in a relative's name or an estate)</label>
+    <label><input type="radio" name="owner" value="I rent or lease"> I rent or lease</label>
+  </fieldset>
+
+  <div class="field">
+    <label for="acres">About how many acres? (optional)</label>
+    <input type="text" id="acres" inputmode="decimal">
+  </div>
+
+  <fieldset class="choices">
     <legend>Do you have a water well on the property? <span class="req">*</span></legend>
     <label><input type="radio" name="well" value="Yes"> Yes</label>
     <label><input type="radio" name="well" value="No"> No</label>
@@ -105,19 +117,30 @@ footer{margin-top:60px;border-top:1px solid var(--line);padding-top:18px;font-fa
     <textarea id="notes" placeholder="For example: a creek or well that's dropped, how long your family has been on the land, questions you have."></textarea>
   </div>
 
+  <div class="field">
+    <label for="heard">How did you hear about us? (optional)</label>
+    <input type="text" id="heard" placeholder="A neighbor, Facebook, a meeting…">
+  </div>
+
   <fieldset class="choices">
     <label><input type="checkbox" id="updates" checked> Yes, email me hearing dates and petition updates.</label>
   </fieldset>
 
-  <button type="submit">Send my sign-up</button>
+  <div style="position:absolute;left:-9999px" aria-hidden="true"><label for="website">Leave this empty</label><input type="text" id="website" tabindex="-1" autocomplete="off"></div>
+  <button type="submit" id="sendbtn">Send my sign-up</button>
   <div class="error" id="err" role="alert"></div>
-  <p class="note">Pressing the button opens your email app with your answers filled in, addressed to contact@grailsystems.io. Just press send. Your answers go only to the East Texas Legacy Coalition. We don't share or sell them.</p>
+  <p class="note">Your answers go only to the East Texas Legacy Coalition. We don't share or sell them.</p>
 </form>
 
 <div id="done" role="status" tabindex="-1">
-  <h2 style="margin-top:0">Almost done: press send in your email app</h2>
-  <p class="sans">If your email app didn't open, copy the text below and email it to <a href="mailto:contact@grailsystems.io">contact@grailsystems.io</a>.</p>
-  <pre id="copytext"></pre>
+  <h2 style="margin-top:0">Thank you. You're signed up.</h2>
+  <p class="sans">We'll be in touch by email. Nothing will be filed in your name without your OK.</p>
+</div>
+
+<div id="fallback" role="alert" tabindex="-1" style="display:none;background:var(--panel);border:1px solid var(--red);border-radius:10px;padding:22px;margin-top:26px">
+  <h2 style="margin-top:0">Your sign-up didn't go through</h2>
+  <p class="sans">Please copy the text below and email it to <a href="mailto:contact@grailsystems.io">contact@grailsystems.io</a>, or try again in a few minutes.</p>
+  <pre id="copytext" style="white-space:pre-wrap;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:12px;font-size:.9rem"></pre>
   <button type="button" class="secondary" id="copybtn">Copy text</button>
 </div>
 
@@ -152,7 +175,7 @@ Thank you,
 
 <script>
 (function(){
-  var TO = "contact@grailsystems.io";
+  var ENDPOINT = "https://script.google.com/macros/s/AKfycbydX-XwqHkyVx2f_ibpMWXMun0r1wIXslZBs4IzJpGhn5ZNzipGvJU5DbN7FaEVX-IL/exec";
   var form = document.getElementById("signup");
   var err = document.getElementById("err");
   function val(id){ return document.getElementById(id).value.trim(); }
@@ -169,15 +192,21 @@ Thank you,
   }
   form.addEventListener("submit", function(e){
     e.preventDefault();
-    var name = val("name"), email = val("email"), county = val("county"), well = radio("well"), rights = radio("rights");
+    var name = val("name"), email = val("email"), county = val("county"), owner = radio("owner"), well = radio("well"), rights = radio("rights");
     var missing = [];
     if (!name) missing.push("name");
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) missing.push("a valid email");
     if (!county) missing.push("county");
+    if (!owner) missing.push("whether you own the land");
     if (!well) missing.push("well");
     if (!rights) missing.push("water/mineral rights");
     if (missing.length) { err.textContent = "Please fill in: " + missing.join(", ") + "."; return; }
     err.textContent = "";
+    var data = {
+      name: name, email: email, phone: val("phone"), county: county, location: val("location"),
+      owner: owner, acres: val("acres"), well: well, rights: rights, updates: document.getElementById("updates").checked ? "Yes" : "No",
+      notes: val("notes"), heard: val("heard"), website: val("website")
+    };
     var body = [
       "LANDOWNER SIGN-UP",
       "Name: " + name,
@@ -185,17 +214,25 @@ Thank you,
       "Phone: " + (val("phone") || "-"),
       "County: " + county,
       "Location: " + (val("location") || "-"),
+      "Owns the land: " + owner,
+      "Acres: " + (val("acres") || "-"),
       "Well on property: " + well,
       "Water/mineral rights sold separately: " + rights,
       "Email me updates: " + (document.getElementById("updates").checked ? "Yes" : "No"),
       "Notes: " + (val("notes") || "-"),
+      "Heard about us: " + (val("heard") || "-"),
       "",
       "I understand nothing will be filed in my name without my OK."
     ].join("\n");
     var subject = "Landowner sign-up: " + name + " (" + county + ")";
     document.getElementById("copytext").textContent = "Subject: " + subject + "\n\n" + body;
-    var d = document.getElementById("done"); d.style.display = "block"; d.focus();
-    window.location.href = "mailto:" + TO + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+    var btn = document.getElementById("sendbtn");
+    btn.disabled = true; btn.textContent = "Sending…";
+    function show(id){ form.style.display = "none"; var el = document.getElementById(id); el.style.display = "block"; el.focus(); }
+    var params = new URLSearchParams(data);
+    fetch(ENDPOINT, { method: "POST", mode: "no-cors", body: params })
+      .then(function(){ show("done"); })
+      .catch(function(){ btn.disabled = false; btn.textContent = "Send my sign-up"; show("fallback"); form.style.display = "block"; });
   });
   document.getElementById("copybtn").addEventListener("click", function(){ copy(document.getElementById("copytext").textContent, this); });
   document.getElementById("copynotice").addEventListener("click", function(){ copy(document.getElementById("noticeText").textContent, this); });
