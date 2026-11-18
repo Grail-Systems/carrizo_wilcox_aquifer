@@ -533,6 +533,10 @@
         {
           "date": "2026-11-02",
           "text": "The City treated it as a new request, CRR-2026-362."
+        },
+        {
+          "date": "2026-11-18",
+          "text": "ETLC wrote that the 10-business-day mark passed Nov. 17 and asked for a written ready date under Gov't Code 552.221(d). The City's reply addressed only CRR-2026-397."
         }
       ],
       "waiting": "Waiting for the agency to release records.",
@@ -596,8 +600,8 @@
       "agency": "City of Lufkin",
       "number": "CRR-2026-397",
       "filed": "2026-11-02",
-      "status": "Open: waiting for records",
-      "state": "waiting",
+      "status": "Records released Nov. 18; ETLC reviewing",
+      "state": "done",
       "asked": "The posted meeting notices for the Planning and Zoning Commission meetings of Feb. 9 and Feb. 23, 2026, including records showing when and where each was posted.",
       "events": [
         {
@@ -607,9 +611,13 @@
         {
           "date": "2026-11-15",
           "text": "The City said it found this Nov. 2 request in its spam folder, entered it as CRR-2026-397, and would have the records to ETLC this week."
+        },
+        {
+          "date": "2026-11-18",
+          "text": "ETLC asked for a written ready date under Gov't Code 552.221(d). The same afternoon the City marked the request completed in its records portal and released records. ETLC is reviewing them."
         }
       ],
-      "waiting": "Waiting for the City to assign a request number and release records.",
+      "waiting": "ETLC is reviewing the released records.",
       "found": [],
       "clock": {
         "start": "2026-11-02",
