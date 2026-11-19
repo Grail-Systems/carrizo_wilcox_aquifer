@@ -78,6 +78,8 @@
         <div class="legend-item"><div class="color-box" style="background: rgba(255, 0, 0, 1);"></div> Permit / Grid Request</div>
         <div class="legend-item"><div class="color-box" style="background: rgba(255, 170, 0, 1);"></div> Aquifer Water Levels (TWDB)</div>
         <div class="legend-item"><div class="color-box" style="background: rgba(57, 255, 20, 0.4); border: 2px solid #39FF14; border-radius: 50%;"></div> EPA Violation</div>
+        <div class="legend-item"><div class="color-box" style="background: transparent; border: 3px solid #0070ff; border-radius: 50%;"></div> Pitman modeled drawdown, Middle Wilcox (traced ±1 mi)</div>
+        <div class="legend-item"><div class="color-box" style="background: transparent; border: 2px solid #be5aff; border-radius: 50%;"></div> Pitman modeled drawdown, Upper Wilcox (traced ±1 mi)</div>
         
         <div style="margin-top: 15px; border-top: 1px solid #444; padding-top: 15px;">
             <strong style="color: #fff; font-size: 0.95rem;">FILTERS</strong><br>
@@ -116,7 +118,9 @@
     <div id="map"></div>
 
 <script>
-        const { DeckGL, GeoJsonLayer, ColumnLayer, ScatterplotLayer, HexagonLayer } = deck;
+        const { DeckGL, GeoJsonLayer, ColumnLayer, ScatterplotLayer, HexagonLayer, TextLayer } = deck;
+        let globalPFF = [];
+        const PITMAN_VIEW = new URLSearchParams(location.search).get('view') === 'pitman';
         let globalPermits = []; let globalUSGS = []; let globalToxins = []; let globalWells = []; 
         const darkMapStyle = 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json';
         const satelliteMapStyle = { "version": 8, "sources": { "esri": { "type": "raster", "tiles": ["https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"], "tileSize": 256 } }, "layers": [{ "id": "esri-satellite", "type": "raster", "source": "esri", "minzoom": 0, "maxzoom": 22 }] };
@@ -152,6 +156,7 @@
         function esc(v){ return String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
         function safe(v){ return esc(v).replace(/&lt;br\s*\/?&gt;/g,'<br>').replace(/&lt;(\/?)(b|strong)&gt;/g,'<$1$2>').replace(/&lt;span style=&#39;color:#(?:ffaa00|ff3232); font-weight:bold;&#39;&gt;/g, m => '<span style="color:#ffaa00; font-weight:bold;">').replace(/&lt;\/span&gt;/g,'</span>').replace(/&lt;a href=&quot;(https:\/\/[^&"<>\s]+)&quot;(?: target=&quot;_blank&quot;)?(?: rel=&quot;noopener&quot;)?&gt;/g, '<a href="$1" target="_blank" rel="noopener" style="color:#00ffff; text-decoration:underline;">').replace(/&lt;\/a&gt;/g,'</a>'); }
         function srcUrl(u){ u = String(u || ''); return /^(https?:\/\/|docs\/)/.test(u) ? esc(u) : ''; }
+        function pffClick(info) { if (!info || !info.object) return; const p = info.object.properties || {}; lockTarget({ object: { title: `${p.drawdown_ft}-ft modeled drawdown · ${p.layer} · ${p.years} years`, bottom_line: `${p.caveat} ${p.credit}` } }); }
         function lockTarget(info) {
             if (!info || !info.object) return; const obj = info.object;
             document.getElementById('target-lock').style.display = 'block';
@@ -161,7 +166,7 @@
         }
 
         const deckgl = new DeckGL({
-            container: 'map', initialViewState: { longitude: -94.730, latitude: 31.338, zoom: 6.5, pitch: 45, bearing: 10 }, controller: {dragRotate: true, dragPan: true, scrollZoom: true, doubleClickZoom: true}, mapStyle: currentStyle,
+            container: 'map', initialViewState: PITMAN_VIEW ? { longitude: -94.78, latitude: 31.52, zoom: (window.matchMedia('(max-width: 768px)').matches ? 8.2 : 8.9), pitch: 0, bearing: 0 } : { longitude: -94.730, latitude: 31.338, zoom: 6.5, pitch: 45, bearing: 10 }, controller: {dragRotate: true, dragPan: true, scrollZoom: true, doubleClickZoom: true}, mapStyle: currentStyle,
             onViewStateChange: ({viewState}) => { const newStyle = viewState.zoom >= 10.5 ? satelliteMapStyle : darkMapStyle; if (currentStyle !== newStyle) { currentStyle = newStyle; deckgl.setProps({ mapStyle: currentStyle }); } },
             
             getTooltip: ({object}) => {
@@ -199,7 +204,12 @@
             document.getElementById('feed-content').innerHTML = html || '<p style="color: #4CAF50;">Nothing matches these filters. Enjoy it while it lasts.</p>';
 
             const activeLayers = [new GeoJsonLayer({ id: 'aquifer-layer', data: 'frontend/wilcox_aquifer.json', filled: true, getFillColor: [0, 150, 255, 60], pickable: false })];
-            if (document.getElementById('toggle-pff').checked || document.getElementById('toggle-pff-upper').checked) activeLayers.push(new GeoJsonLayer({ id: 'pff-drawdown', data: 'frontend/pitman_drawdown_contours.json', updateTriggers: { getLineColor: [document.getElementById('toggle-pff').checked, document.getElementById('toggle-pff-upper').checked] }, stroked: true, filled: false, getLineColor: d => d.properties.layer === 'Upper Wilcox' ? (document.getElementById('toggle-pff-upper').checked ? [190, 90, 255, 230] : [0, 0, 0, 0]) : (document.getElementById('toggle-pff').checked ? (d.properties.drawdown_ft === 100 ? [0, 112, 255, 255] : [74, 163, 255, 220]) : [0, 0, 0, 0]), getLineWidth: 3, lineWidthUnits: 'pixels', pickable: true }));
+            const pffOn = { 'Middle Wilcox': document.getElementById('toggle-pff').checked, 'Upper Wilcox': document.getElementById('toggle-pff-upper').checked };
+            const pffData = globalPFF.filter(f => pffOn[f.properties.layer]);
+            if (pffData.length > 0) {
+                activeLayers.push(new GeoJsonLayer({ id: 'pff-drawdown', data: pffData, stroked: true, filled: false, getLineColor: d => d.properties.layer === 'Upper Wilcox' ? [190, 90, 255, 235] : (d.properties.drawdown_ft === 100 ? [0, 112, 255, 255] : [74, 163, 255, 235]), getLineWidth: d => d.properties.layer === 'Upper Wilcox' ? 2 : 4, lineWidthUnits: 'pixels', pickable: true, onClick: pffClick }));
+                activeLayers.push(new TextLayer({ id: 'pff-labels', data: pffData.filter(f => f.properties.label_lon), getPosition: d => [d.properties.label_lon, d.properties.label_lat], getText: d => d.properties.label, getSize: 13, getColor: d => d.properties.layer === 'Upper Wilcox' ? [225, 190, 255, 255] : [170, 210, 255, 255], background: true, getBackgroundColor: [15, 15, 15, 220], backgroundPadding: [4, 2], fontWeight: 'bold', getTextAnchor: 'middle', getAlignmentBaseline: 'center', pickable: false }));
+            }
             if (activeWells.length > 0) activeLayers.push(new ScatterplotLayer({ id: 'threat-wells', data: activeWells, getPosition: d => d.geometry ? d.geometry.coordinates : d.coordinates, getFillColor: [255, 50, 50, 180], getRadius: 5, radiusUnits: 'pixels', pickable: true, onClick: lockTarget }));
             if (activePermits.length > 0) activeLayers.push(new ColumnLayer({ id: 'threat-permits', data: activePermits, diskResolution: 6, radius: 2500, extruded: true, pickable: true, elevationScale: 5, getPosition: d => d.coordinates, getFillColor: [255, 0, 0, 255], getElevation: d => d.raw_volume || 1000, onClick: lockTarget }));
             if (activeUSGS.length > 0) activeLayers.push(new ColumnLayer({ id: 'usgs-spikes', data: activeUSGS, diskResolution: 12, radius: 800, extruded: true, pickable: true, elevationScale: 2, getPosition: d => d.coordinates, getFillColor: [255, 170, 0, 255], getElevation: d => d.raw_volume || 1000, onClick: lockTarget }));
@@ -208,6 +218,8 @@
         }
         
         const nocache = '?v=' + new Date().getTime();
+        if (PITMAN_VIEW) { ['toggle-permits','toggle-toxins','toggle-existing'].forEach(id => { document.getElementById(id).checked = false; }); ['toggle-usgs','toggle-pff','toggle-pff-upper'].forEach(id => { document.getElementById(id).checked = true; }); }
+        fetch('frontend/pitman_drawdown_contours.json' + '?v=' + Date.now()).then(r => r.json()).then(g => { globalPFF = g.features || []; updateGrid(); }).catch(() => {});
         Promise.all([fetch('frontend/mega_permits.json' + nocache).then(res => res.json()).catch(() => []), fetch('frontend/usgs_telemetry.json' + nocache).then(res => res.json()).catch(() => []), fetch('frontend/toxin_feed.json' + nocache).then(res => res.json()).catch(() => []), fetch('frontend/threat_wells.json' + nocache).then(res => res.json()).then(data => data.features || []).catch(() => [])]).then(([permitData, usgsData, toxinData, wellData]) => {
             globalPermits = permitData; globalUSGS = usgsData; globalToxins = toxinData; globalWells = wellData; updateGrid(); 
         });
