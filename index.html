@@ -92,6 +92,7 @@
             <div class="slider-container"><label style="font-size: 0.75rem; color: #39FF14; display: flex; justify-content: space-between;"><span title="Quarters out of compliance in recent EPA records, plus 4 for significant violators (max 10)">Min. EPA score:</span><span id="toxin-val">1+</span></label><input type="range" id="toxin-slider" min="1" max="10" step="1" value="1" oninput="updateLabels(); scheduleGrid();"></div>
             
             <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;"><input type="checkbox" id="toggle-existing" checked onchange="updateGrid()"> 💧 Show Wells on File (TWDB)</label>
+            <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;" title="Traced by ETLC/Grail Systems, about ±1 mile, from maps labeled for Pitman Family Farms (Scenario 33, 5 wells, 3 MGD). Middle Wilcox layer only; no Carrizo map has been shared. Maps provided by Protect Our Piney Woods (protectourpineywoods.com)."><input type="checkbox" id="toggle-pff" onchange="updateGrid()"> 🔵 Pitman modeled drawdown, Middle Wilcox, 50 yr (traced, ±1 mi)</label>
         </div>
 
 
@@ -167,6 +168,7 @@
                 if (object.feed_type === 'permit') return { html: `<div style="padding: 12px; max-width: 360px; border-left: 4px solid #ff3232; background: rgba(15,15,15,0.95);"><strong style="color: #ff3232;">💧 PERMIT / GRID REQUEST</strong><br/>${esc(object.title)}<br/>${safe(object.bottom_line)}</div>` };
                 if (object.feed_type === 'toxin') return { html: `<div style="padding: 12px; border-left: 4px solid #39FF14; background: rgba(15,15,15,0.95);"><strong style="color: #39FF14;">☣️ EPA VIOLATION (score ${esc(object.severity)}/10)</strong><br/>${esc(object.facility)}<br/>${safe(object.bottom_line)}</div>` };
                 if (object.feed_type === 'usgs') return { html: `<div style="padding: 12px; border-left: 4px solid #ffaa00; background: rgba(15,15,15,0.95);"><strong style="color: #ffaa00;">💧 AQUIFER WATER LEVEL</strong><br/>${esc(object.title)}<br/>${safe(object.bottom_line)}</div>` };
+                if (object.properties && object.properties.drawdown_ft) { const p = object.properties; return { html: `<div style="padding: 12px; max-width: 360px; border-left: 4px solid #0070ff; background: rgba(15,15,15,0.95);"><strong style="color: #4aa3ff;">🔵 ${esc(p.drawdown_ft)}-FT MODELED DRAWDOWN · ${esc(p.layer)} · ${esc(p.years)} YEARS</strong><br/>${esc(p.caveat)}<br/>${esc(p.credit)}</div>` }; }
                 if (object.feed_type === 'well') { const p = object.properties || {}; return { html: `<div style="padding: 12px; max-width: 360px; border-left: 4px solid #555; background: rgba(15,15,15,0.95);"><strong style="color: #ccc;">💧 WELL ON FILE (TWDB)</strong><br/>State well ${esc(p.StateWellN)}, ${esc(p.CountyName)} County<br/>Use: ${esc(p.PrimaryWat || 'unknown')} · Depth: ${p.WellDepth ? esc(p.WellDepth) + ' ft' : 'unknown'}<br/>${esc(p.AquiferCod)}</div>` }; }
                 return null;
             }, 
@@ -196,6 +198,7 @@
             document.getElementById('feed-content').innerHTML = html || '<p style="color: #4CAF50;">Nothing matches these filters. Enjoy it while it lasts.</p>';
 
             const activeLayers = [new GeoJsonLayer({ id: 'aquifer-layer', data: 'frontend/wilcox_aquifer.json', filled: true, getFillColor: [0, 150, 255, 60], pickable: false })];
+            if (document.getElementById('toggle-pff').checked) activeLayers.push(new GeoJsonLayer({ id: 'pff-drawdown', data: 'frontend/pitman_drawdown_contours.json', stroked: true, filled: false, getLineColor: d => d.properties.drawdown_ft === 100 ? [0, 112, 255, 255] : [74, 163, 255, 220], getLineWidth: 3, lineWidthUnits: 'pixels', pickable: true }));
             if (activeWells.length > 0) activeLayers.push(new ScatterplotLayer({ id: 'threat-wells', data: activeWells, getPosition: d => d.geometry ? d.geometry.coordinates : d.coordinates, getFillColor: [255, 50, 50, 180], getRadius: 5, radiusUnits: 'pixels', pickable: true, onClick: lockTarget }));
             if (activePermits.length > 0) activeLayers.push(new ColumnLayer({ id: 'threat-permits', data: activePermits, diskResolution: 6, radius: 2500, extruded: true, pickable: true, elevationScale: 5, getPosition: d => d.coordinates, getFillColor: [255, 0, 0, 255], getElevation: d => d.raw_volume || 1000, onClick: lockTarget }));
             if (activeUSGS.length > 0) activeLayers.push(new ColumnLayer({ id: 'usgs-spikes', data: activeUSGS, diskResolution: 12, radius: 800, extruded: true, pickable: true, elevationScale: 2, getPosition: d => d.coordinates, getFillColor: [255, 170, 0, 255], getElevation: d => d.raw_volume || 1000, onClick: lockTarget }));
