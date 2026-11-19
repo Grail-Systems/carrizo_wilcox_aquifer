@@ -1,7 +1,5 @@
 - **Pineywoods Groundwater Conservation District (filed 2026-09-18)**: agency's own ready date (2026-11-09) has passed.
 - **Pineywoods Groundwater Conservation District (filed 2026-09-25)**: agency's own ready date (2026-11-09) has passed.
-- **Texas Water Development Board PIR-2026-324**: business day 10 passed (deadline was 2026-11-17). Contact the agency and ask for a written ready date (Gov't Code 552.221(d)).
-- **City of Lufkin CRR-2026-360**: business day 10 passed (deadline was 2026-11-17). Contact the agency and ask for a written ready date (Gov't Code 552.221(d)).
 - **City of Lufkin CRR-2026-362**: business day 10 passed (deadline was 2026-11-17). Contact the agency and ask for a written ready date (Gov't Code 552.221(d)).
 - **Pineywoods Groundwater Conservation District (filed 2026-11-02)**: business day 10 passed (deadline was 2026-11-17). Contact the agency and ask for a written ready date (Gov't Code 552.221(d)).
-- **City of Lufkin (filed 2026-11-02)**: business day 10 passed (deadline was 2026-11-17). Contact the agency and ask for a written ready date (Gov't Code 552.221(d)).
+- **City of Lufkin CRR-2026-397**: business day 10 passed (deadline was 2026-11-17). Contact the agency and ask for a written ready date (Gov't Code 552.221(d)).
