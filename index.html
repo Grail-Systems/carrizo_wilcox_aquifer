@@ -150,7 +150,7 @@
         }
         
         function esc(v){ return String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
-        function safe(v){ return esc(v).replace(/&lt;br\s*\/?&gt;/g,'<br>').replace(/&lt;(\/?)(b|strong)&gt;/g,'<$1$2>').replace(/&lt;span style=&#39;color:#(?:ffaa00|ff3232); font-weight:bold;&#39;&gt;/g, m => '<span style="color:#ffaa00; font-weight:bold;">').replace(/&lt;\/span&gt;/g,'</span>'); }
+        function safe(v){ return esc(v).replace(/&lt;br\s*\/?&gt;/g,'<br>').replace(/&lt;(\/?)(b|strong)&gt;/g,'<$1$2>').replace(/&lt;span style=&#39;color:#(?:ffaa00|ff3232); font-weight:bold;&#39;&gt;/g, m => '<span style="color:#ffaa00; font-weight:bold;">').replace(/&lt;\/span&gt;/g,'</span>').replace(/&lt;a href=&quot;(https:\/\/[^&"<>\s]+)&quot;(?: target=&quot;_blank&quot;)?(?: rel=&quot;noopener&quot;)?&gt;/g, '<a href="$1" target="_blank" rel="noopener" style="color:#00ffff; text-decoration:underline;">').replace(/&lt;\/a&gt;/g,'</a>'); }
         function srcUrl(u){ u = String(u || ''); return /^(https?:\/\/|docs\/)/.test(u) ? esc(u) : ''; }
         function lockTarget(info) {
             if (!info || !info.object) return; const obj = info.object;
