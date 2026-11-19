@@ -714,21 +714,107 @@
     },
     {
       "agency": "City of Lufkin",
-      "number": "",
+      "number": "CRR-2026-403",
       "filed": "2026-11-18",
       "status": "Open: waiting for records",
       "state": "waiting",
       "asked": "The recorded March 19, 2009 Special Warranty Deed from Abitibi-Consolidated Corp. to the City (Angelina County Instrument No. 2009-00254060) with all exhibits; any 2009 document conveying groundwater rights, wells, well sites or Pineywoods well permits to the City; and any record of the permits for Wells 1-6 and 8-14 being transferred to the City at the Pineywoods District.",
-      "waiting": "Waiting for the City to assign a request number and release records.",
+      "waiting": "Waiting for the City to release records.",
       "found": [],
       "events": [
         {
           "date": "2026-11-18",
           "text": "Request emailed to the City Secretary. ETLC found the 2009 conveyance documents in the Angelina County Clerk's records, including an Assignment and Assumption of Utility Easements (Instrument No. 2009-00254063) transferring 29 easements from Abitibi to the City."
+        },
+        {
+          "date": "2026-11-19",
+          "text": "The City logged the request as CRR-2026-403."
         }
       ],
       "clock": {
         "start": "2026-11-18",
+        "kind": "legal",
+        "start_note": "ETLC emailed the request"
+      }
+    },
+    {
+      "agency": "City of Lufkin",
+      "number": "CRR-2026-372",
+      "filed": "2026-11-04",
+      "status": "Records released Nov. 10 and Nov. 16; ETLC asked for missing items",
+      "state": "partial",
+      "asked": "Kevin Gee's hiring and employment records: the 2018 job posting for Director of Engineering Services/City Engineer; his application and resume; his 2018 offer letter, signed acceptance and hiring approval; the number of applicants and the selection panel; his starting salary; his 2021 promotion to Assistant City Manager; and any agreement for his service as interim City Manager and City Manager, with amendments and his current salary.",
+      "found": [],
+      "events": [
+        {
+          "date": "2026-11-04",
+          "text": "Request emailed to the City Secretary."
+        },
+        {
+          "date": "2026-11-06",
+          "text": "The City logged the request as CRR-2026-372."
+        },
+        {
+          "date": "2026-11-10",
+          "text": "The City released 15 pages: the 2018 hiring form (starting salary $110,000), the 2021 promotion form ($125,486.69 to $135,000), the Aug. 2, 2022 City Manager Agreement ($185,000), a 2024 addendum changing the residence requirement, and a Sept. 2026 pay form ($222,014.40 after a $10,000 merit raise approved Sept. 1, 2026). The City said the 2018 job posting, application and selection records were past their retention period."
+        },
+        {
+          "date": "2026-11-16",
+          "text": "The City released Mr. Gee's 2018 job application (4 pages), which it had earlier said was past its retention period."
+        },
+        {
+          "date": "2026-11-17",
+          "text": "The City marked the request complete."
+        },
+        {
+          "date": "2026-11-19",
+          "text": "ETLC asked the City to search again for the 2018 job posting and selection records, and for the offer letter, the signed acceptance and any interim City Manager record."
+        }
+      ],
+      "clock": {
+        "start": "2026-11-04",
+        "kind": "legal",
+        "start_note": "ETLC emailed the request"
+      }
+    },
+    {
+      "agency": "City of Lufkin",
+      "number": "",
+      "filed": "2026-11-19",
+      "status": "Open: waiting for records",
+      "state": "waiting",
+      "asked": "The Oct. 13, 2026 email or other transmittal from the Pineywoods Groundwater Conservation District to City employee Mike Jones, with all attachments, and any record forwarding, replying to or discussing it.",
+      "waiting": "Waiting for the City to assign a request number and release records.",
+      "found": [],
+      "events": [
+        {
+          "date": "2026-11-19",
+          "text": "Request emailed to the City Secretary after the Pineywoods District's general manager wrote that the District sent permits for the Lufkin wells to Mr. Jones on Oct. 13. The City had written on Nov. 2 that it could not locate those permits (Exhibit D-1)."
+        }
+      ],
+      "clock": {
+        "start": "2026-11-19",
+        "kind": "legal",
+        "start_note": "ETLC emailed the request"
+      }
+    },
+    {
+      "agency": "City of Lufkin",
+      "number": "",
+      "filed": "2026-11-19",
+      "status": "Open: waiting for records",
+      "state": "waiting",
+      "asked": "Every record of a change to City Manager Kevin Gee's pay from Aug. 2, 2022 to the present; the agenda and minutes of any 2024 City Council meeting that considered the addendum to his agreement; and any record of the residence period the Council approved under Section 16.1 of that agreement.",
+      "waiting": "Waiting for the City to assign a request number and release records.",
+      "found": [],
+      "events": [
+        {
+          "date": "2026-11-19",
+          "text": "Request emailed to the City Secretary with the CRR-2026-372 follow-up. ETLC tried the City's online minutes archive first; it failed three times that afternoon."
+        }
+      ],
+      "clock": {
+        "start": "2026-11-19",
         "kind": "legal",
         "start_note": "ETLC emailed the request"
       }
