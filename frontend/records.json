@@ -711,6 +711,27 @@
         "kind": "legal",
         "start_note": "ETLC emailed the request"
       }
+    },
+    {
+      "agency": "City of Lufkin",
+      "number": "",
+      "filed": "2026-11-18",
+      "status": "Open: waiting for records",
+      "state": "waiting",
+      "asked": "The recorded March 19, 2009 Special Warranty Deed from Abitibi-Consolidated Corp. to the City (Angelina County Instrument No. 2009-00254060) with all exhibits; any 2009 document conveying groundwater rights, wells, well sites or Pineywoods well permits to the City; and any record of the permits for Wells 1-6 and 8-14 being transferred to the City at the Pineywoods District.",
+      "waiting": "Waiting for the City to assign a request number and release records.",
+      "found": [],
+      "events": [
+        {
+          "date": "2026-11-18",
+          "text": "Request emailed to the City Secretary. ETLC found the 2009 conveyance documents in the Angelina County Clerk's records, including an Assignment and Assumption of Utility Easements (Instrument No. 2009-00254063) transferring 29 easements from Abitibi to the City."
+        }
+      ],
+      "clock": {
+        "start": "2026-11-18",
+        "kind": "legal",
+        "start_note": "ETLC emailed the request"
+      }
     }
   ]
 }
