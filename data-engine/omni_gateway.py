@@ -142,7 +142,7 @@ def compile_twdb_levels():
             "applicant": "Texas Water Development Board",
             "bottom_line": (f"Carrizo-Wilcox well{', ' + info['use'].lower() if info['use'] else ''}. "
                             f"Latest depth to water: <span style='color:#ffaa00; font-weight:bold;'>{last_depth:.0f} ft</span> "
-                            f"(measured {str(last_date)[:10]}). {trend} {len(pts)} measurements on record."),
+                            f"(measured {str(last_date)[:10]}). {trend}" + (f" {len(pts)} measurements on record." if len(pts) > 1 else "")),
             "raw_volume": max(1000, int(last_depth * 75)),
             "drop_ft": round(change, 1),
             "coordinates": [info['lon'], info['lat']],
