@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-19",
   "requests": [
     {
       "agency": "City of Lufkin",
@@ -530,8 +530,8 @@
       "agency": "City of Lufkin",
       "number": "CRR-2026-362",
       "filed": "2026-11-02",
-      "status": "Open: waiting for records",
-      "state": "waiting",
+      "status": "At the Attorney General (City missed its 10-day deadline); $18 paid Nov. 19 for the rest",
+      "state": "ag",
       "asked": "Records on the 5 million gallon per day water reservation in the City's 2009 purchase from Abitibi-Consolidated: notices of maximum water requirement, any assignment of the reservation, whether it was ended or renewed, and yearly water billed to the mill property.",
       "events": [
         {
@@ -545,14 +545,23 @@
         {
           "date": "2026-11-18",
           "text": "ETLC wrote that the 10-business-day mark passed Nov. 17 and asked for a written ready date under Gov't Code 552.221(d). The City's reply addressed only CRR-2026-397."
+        },
+        {
+          "date": "2026-11-19",
+          "text": "The City asked the Attorney General for a ruling to withhold parts of a water consumption history report for Verdant Industries, LLC's utility account at 3868 Hwy 103 E, citing Government Code 552.1331 (advanced meter data). In its letter, the City acknowledged it did not request a ruling within the 10-business-day deadline. The City said the rest of the records are ready once an $18 balance is paid, due by Dec. 4."
+        },
+        {
+          "date": "2026-11-19",
+          "text": "ETLC paid the $18 balance in cash at the City Secretary's Office (receipt no. 19513). The invoice billed one hour of staff time at $15 an hour plus a 20% overhead charge."
         }
       ],
-      "waiting": "Waiting for the agency to release records.",
+      "waiting": "Waiting for the City to release the paid records, and for the Attorney General ruling on the water consumption report.",
       "found": [],
       "clock": {
         "start": "2026-11-02",
         "kind": "legal",
-        "start_note": "the City logged the request"
+        "start_note": "the City logged the request",
+        "ag_requested": "2026-11-19"
       }
     },
     {
@@ -594,6 +603,10 @@
         {
           "date": "2026-11-18",
           "text": "ETLC wrote that no records or written date had arrived after the District's Nov. 10 promise to send what it could by Nov. 13. ETLC set a final date of Nov. 25 to send the records or certify a date and hour for each, and said it will file a complaint under Gov't Code 552.3215 if neither arrives."
+        },
+        {
+          "date": "2026-11-19",
+          "text": "The District said the Lufkin well permits were sent to City employee Mike Jones on Oct. 13, 2026. ETLC asked the City for that transmittal the same day. The permits themselves still haven't been sent to ETLC."
         }
       ],
       "waiting": "The permit records, and an answer on who already received them and when.",
@@ -608,7 +621,7 @@
       "agency": "City of Lufkin",
       "number": "CRR-2026-397",
       "filed": "2026-11-02",
-      "status": "Notices released Nov. 18; ETLC asked for the posted Feb. 9 original and posting records",
+      "status": "Partly answered Nov. 18; follow-up sent the same day",
       "state": "partial",
       "asked": "The posted meeting notices for the Planning and Zoning Commission meetings of Feb. 9 and Feb. 23, 2026, including records showing when and where each was posted.",
       "events": [
@@ -631,9 +644,17 @@
         {
           "date": "2026-11-18",
           "text": "ETLC asked for the Feb. 9 notice as it was actually posted, any record of when and where each notice was posted (such as website posting times), or a written statement that no such record exists."
+        },
+        {
+          "date": "2026-11-18",
+          "text": "The City marked the request completed and posted two notices: a signed notice for the Feb. 23, 2026 Planning and Zoning meeting, and a typed, unsigned copy of the Feb. 9 notice created Nov. 17, 2026."
+        },
+        {
+          "date": "2026-11-18",
+          "text": "ETLC asked in writing for the Feb. 9 notice as actually posted and for any record of the date, time and place each notice was posted."
         }
       ],
-      "waiting": "The Feb. 9 notice as posted, and any record of when and where each notice was posted, or a written statement that none exists.",
+      "waiting": "Waiting for the Feb. 9 notice as posted and any posting record, or a written statement that none exists.",
       "found": [
         "Both notices certify they were posted six days ahead: Feb. 3 for the Feb. 9 meeting and Feb. 17 for the Feb. 23 meeting.",
         "The Feb. 9 notice the City released is a typed file with no signature; its file data shows it was created Nov. 17, 2026, rather than scanned from the notice as posted. The Feb. 23 notice is a scanned page.",
@@ -817,6 +838,32 @@
         "start": "2026-11-19",
         "kind": "legal",
         "start_note": "ETLC emailed the request"
+      }
+    },
+    {
+      "agency": "City of Lufkin",
+      "number": "CRR-2026-366",
+      "filed": "2026-11-03",
+      "state": "waiting",
+      "status": "Open: waiting for records",
+      "asked": "Since Jan. 1, 2021: the City's current software and hosted-system contracts (finance, utility billing, permitting, court, records, public information requests, public safety) with purchase orders, invoices and renewals; vendor contracts and invoices for the SCADA or control systems serving water production, wells and wastewater (vendor names, terms and amounts only, nothing security-sensitive); network, internet, email, website and managed IT contracts and invoices; and any IT asset, software or vendor list.",
+      "events": [
+        {
+          "date": "2026-11-03",
+          "text": "Request emailed to the City Secretary."
+        },
+        {
+          "date": "2026-11-04",
+          "text": "The City logged the request as CRR-2026-366."
+        }
+      ],
+      "found": [],
+      "documents": [],
+      "waiting": "Waiting for records or a cost estimate.",
+      "clock": {
+        "start": "2026-11-04",
+        "kind": "legal",
+        "start_note": "the City logged the request"
       }
     }
   ]
