@@ -530,7 +530,7 @@
       "agency": "City of Lufkin",
       "number": "CRR-2026-362",
       "filed": "2026-11-02",
-      "status": "At the Attorney General (City missed its 10-day deadline); $18 paid Nov. 19 for the rest",
+      "status": "At the Attorney General (City missed its 10-day deadline); partial release Nov. 19; ETLC comments filed Nov. 19",
       "state": "ag",
       "asked": "Records on the 5 million gallon per day water reservation in the City's 2009 purchase from Abitibi-Consolidated: notices of maximum water requirement, any assignment of the reservation, whether it was ended or renewed, and yearly water billed to the mill property.",
       "events": [
@@ -553,9 +553,17 @@
         {
           "date": "2026-11-19",
           "text": "ETLC paid the $18 balance in cash at the City Secretary's Office (receipt no. 19513). The invoice billed one hour of staff time at $15 an hour plus a 20% overhead charge."
+        },
+        {
+          "date": "2026-11-19",
+          "text": "The City released the records it isn't withholding to the request portal after the $18 payment. It called this a partial release; the parts of the water consumption report it wants to withhold are still with the Attorney General."
+        },
+        {
+          "date": "2026-11-19",
+          "text": "ETLC filed written comments with the Attorney General under Government Code 552.304 (Texas.gov Request ID 66489184): the City's own portal shows it received the request Nov. 2, not Nov. 17, so its request for a ruling was late and the information is presumed public; and the law the City cites covers only data the advanced meter collected (installed March 6, 2012). ETLC sent the City a copy the same evening, as the law requires."
         }
       ],
-      "waiting": "Waiting for the City to release the paid records, and for the Attorney General ruling on the water consumption report.",
+      "waiting": "Waiting for the Attorney General's ruling on the water consumption report.",
       "found": [],
       "clock": {
         "start": "2026-11-02",
@@ -793,9 +801,9 @@
         }
       ],
       "clock": {
-        "start": "2026-11-04",
-        "kind": "legal",
-        "start_note": "ETLC emailed the request"
+        "start": "2026-11-19",
+        "kind": "expected",
+        "start_note": "ETLC's Nov. 19 follow-up asking the City to search again (the City answered the original request on time, Nov. 17)"
       }
     },
     {
@@ -845,7 +853,7 @@
       "number": "CRR-2026-366",
       "filed": "2026-11-03",
       "state": "waiting",
-      "status": "Open: waiting for records",
+      "status": "Cost estimate received Nov. 19: $464.94; $232.47 deposit due by Dec. 4",
       "asked": "Since Jan. 1, 2021: the City's current software and hosted-system contracts (finance, utility billing, permitting, court, records, public information requests, public safety) with purchase orders, invoices and renewals; vendor contracts and invoices for the SCADA or control systems serving water production, wells and wastewater (vendor names, terms and amounts only, nothing security-sensitive); network, internet, email, website and managed IT contracts and invoices; and any IT asset, software or vendor list.",
       "events": [
         {
@@ -855,15 +863,27 @@
         {
           "date": "2026-11-04",
           "text": "The City logged the request as CRR-2026-366."
+        },
+        {
+          "date": "2026-11-19",
+          "text": "The City sent a cost estimate of $464.94 (25.83 hours of staff time at $15 an hour plus 20% overhead) and asked for a $232.47 deposit within 10 business days, by Dec. 4. The estimate includes 1.5 hours of City Secretary time for \"review and redaction.\""
         }
       ],
       "found": [],
       "documents": [],
-      "waiting": "Waiting for records or a cost estimate.",
+      "waiting": "Waiting on ETLC: pay the deposit, narrow the request, or challenge the charges by Dec. 4.",
       "clock": {
-        "start": "2026-11-04",
         "kind": "legal",
-        "start_note": "the City logged the request"
+        "start_note": "the City logged the request Nov. 4; it answered with a cost estimate Nov. 19, and the clock restarts when the deposit is paid (Gov't Code 552.263(e))",
+        "estimate_sent": "2026-11-19",
+        "ours": [
+          {
+            "what": "answer the CRR-2026-366 cost estimate (pay the $232.47 deposit, narrow the request, or challenge the charges; the City set Dec. 4)",
+            "from": "2026-11-18",
+            "rule": "10bd",
+            "done": false
+          }
+        ]
       }
     }
   ]

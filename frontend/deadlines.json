@@ -155,10 +155,10 @@
       "agency": "City of Lufkin",
       "number": "CRR-2026-372",
       "filed": "2026-11-04",
-      "type": "legal",
-      "due": "2026-11-19",
-      "start": "2026-11-04",
-      "text": "Response due Thu., Nov. 19: 10 business days after ETLC emailed the request."
+      "type": "expected",
+      "due": "2026-12-07",
+      "start": "2026-11-19",
+      "text": "Expected around Mon., Dec. 7 (10 business days after ETLC's Nov. 19 follow-up asking the City to search again (the City answered the original request on time, Nov. 17); no fixed legal deadline)."
     },
     {
       "key": "City of Lufkin|2026-11-19|",
@@ -184,11 +184,7 @@
       "key": "City of Lufkin|2026-11-03|CRR-2026-366",
       "agency": "City of Lufkin",
       "number": "CRR-2026-366",
-      "filed": "2026-11-03",
-      "type": "legal",
-      "due": "2026-11-19",
-      "start": "2026-11-04",
-      "text": "Response due Thu., Nov. 19: 10 business days after the City logged the request."
+      "filed": "2026-11-03"
     }
   ]
 }
