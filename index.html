@@ -193,6 +193,7 @@
             let activeWells = document.getElementById('toggle-existing').checked ? globalWells.map(w => ({...w, feed_type: 'well'})) : [];
 
             let combinedFeed = [...activePermits, ...activeUSGS, ...activeToxins];
+            if (PITMAN_VIEW) { const d2 = c => { const q = c.coordinates || [0, 0]; return ((q[0] + 94.815) * 0.853) ** 2 + (q[1] - 31.570) ** 2; }; combinedFeed.sort((a, b) => d2(a) - d2(b)); }
             
             let html = `<div style="background: #ff3232; color: white; padding: 10px; text-align: center; font-weight: bold; margin-bottom: 15px; border-radius: 4px;">${combinedFeed.length.toLocaleString()} sites on the map right now</div>`;
             combinedFeed.slice(0, 30).forEach(item => {
@@ -212,7 +213,8 @@
             }
             if (activeWells.length > 0) activeLayers.push(new ScatterplotLayer({ id: 'threat-wells', data: activeWells, getPosition: d => d.geometry ? d.geometry.coordinates : d.coordinates, getFillColor: [255, 50, 50, 180], getRadius: 5, radiusUnits: 'pixels', pickable: true, onClick: lockTarget }));
             if (activePermits.length > 0) activeLayers.push(new ColumnLayer({ id: 'threat-permits', data: activePermits, diskResolution: 6, radius: 2500, extruded: true, pickable: true, elevationScale: 5, getPosition: d => d.coordinates, getFillColor: [255, 0, 0, 255], getElevation: d => d.raw_volume || 1000, onClick: lockTarget }));
-            if (activeUSGS.length > 0) activeLayers.push(new ColumnLayer({ id: 'usgs-spikes', data: activeUSGS, diskResolution: 12, radius: 800, extruded: true, pickable: true, elevationScale: 2, getPosition: d => d.coordinates, getFillColor: [255, 170, 0, 255], getElevation: d => d.raw_volume || 1000, onClick: lockTarget }));
+            if (activeUSGS.length > 0 && PITMAN_VIEW) activeLayers.push(new ScatterplotLayer({ id: 'usgs-dots', data: activeUSGS, getPosition: d => d.coordinates, getFillColor: [255, 170, 0, 235], getLineColor: [20, 20, 20, 255], stroked: true, lineWidthMinPixels: 1, getRadius: 6, radiusUnits: 'pixels', pickable: true, onClick: lockTarget }));
+            else if (activeUSGS.length > 0) activeLayers.push(new ColumnLayer({ id: 'usgs-spikes', data: activeUSGS, diskResolution: 12, radius: 800, extruded: true, pickable: true, elevationScale: 2, getPosition: d => d.coordinates, getFillColor: [255, 170, 0, 255], getElevation: d => d.raw_volume || 1000, onClick: lockTarget }));
             if (activeToxins.length > 0) activeLayers.push(new ScatterplotLayer({ id: 'toxins', data: activeToxins, pickable: true, opacity: 0.8, stroked: true, filled: true, lineWidthMinPixels: 2, radiusUnits: 'pixels', getPosition: d => d.coordinates, getFillColor: [57, 255, 20, 150], getLineColor: [57, 255, 20, 255], getRadius: 15, onClick: lockTarget }));
             deckgl.setProps({ layers: activeLayers });
         }
