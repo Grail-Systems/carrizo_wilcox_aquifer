@@ -853,7 +853,7 @@
       "number": "CRR-2026-366",
       "filed": "2026-11-03",
       "state": "waiting",
-      "status": "Cost estimate received Nov. 19: $464.94; $232.47 deposit due by Dec. 4",
+      "status": "ETLC answered the $464.94 estimate Nov. 19 with a narrower request and a fee-waiver request; waiting for a revised estimate",
       "asked": "Since Jan. 1, 2021: the City's current software and hosted-system contracts (finance, utility billing, permitting, court, records, public information requests, public safety) with purchase orders, invoices and renewals; vendor contracts and invoices for the SCADA or control systems serving water production, wells and wastewater (vendor names, terms and amounts only, nothing security-sensitive); network, internet, email, website and managed IT contracts and invoices; and any IT asset, software or vendor list.",
       "events": [
         {
@@ -867,11 +867,15 @@
         {
           "date": "2026-11-19",
           "text": "The City sent a cost estimate of $464.94 (25.83 hours of staff time at $15 an hour plus 20% overhead) and asked for a $232.47 deposit within 10 business days, by Dec. 4. The estimate includes 1.5 hours of City Secretary time for \"review and redaction.\""
+        },
+        {
+          "date": "2026-11-19",
+          "text": "ETLC answered the cost estimate in writing the same evening (Gov't Code 552.2615(b)): it modified the request to take records the City already keeps electronically and a vendor payment history instead of scanned paper invoices, asked the City to drop the 1.5 hours of \"review\" time (1 TAC 70.3(d)(3) bars charging for deciding what to withhold), and asked for a public-interest fee waiver under 552.267. ETLC asked for a revised estimate."
         }
       ],
       "found": [],
       "documents": [],
-      "waiting": "Waiting on ETLC: pay the deposit, narrow the request, or challenge the charges by Dec. 4.",
+      "waiting": "Waiting for the City to send a revised itemized estimate.",
       "clock": {
         "kind": "legal",
         "start_note": "the City logged the request Nov. 4; it answered with a cost estimate Nov. 19, and the clock restarts when the deposit is paid (Gov't Code 552.263(e))",
@@ -881,7 +885,7 @@
             "what": "answer the CRR-2026-366 cost estimate (pay the $232.47 deposit, narrow the request, or challenge the charges; the City set Dec. 4)",
             "from": "2026-11-18",
             "rule": "10bd",
-            "done": false
+            "done": true
           }
         ]
       }
