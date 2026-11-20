@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "requests": [
     {
       "agency": "City of Lufkin",
@@ -561,6 +561,10 @@
         {
           "date": "2026-11-19",
           "text": "ETLC filed written comments with the Attorney General under Government Code 552.304 (Texas.gov Request ID 66489184): the City's own portal shows it received the request Nov. 2, not Nov. 17, so its request for a ruling was late and the information is presumed public; and the law the City cites covers only data the advanced meter collected (installed March 6, 2012). ETLC sent the City a copy the same evening, as the law requires."
+        },
+        {
+          "date": "2026-11-20",
+          "text": "The City sent the Attorney General a correction: it received the request on Nov. 2, 2026, and its deadline to ask for a ruling was Nov. 17. Its Nov. 19 letter had listed Nov. 17 as the date it received the request."
         }
       ],
       "waiting": "Waiting for the Attorney General's ruling on the water consumption report.",
