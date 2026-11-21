@@ -3,6 +3,54 @@
  "changes": [
   {
    "county": [
+    "Lubbock"
+   ],
+   "text": "Added to the map: Lubbock AI data center rezoning (Lubbock County), withdrawn or stopped.",
+   "link": "/texas#lubbock-ai-data-center-rezoning",
+   "date": "2026-11-21"
+  },
+  {
+   "county": [
+    "Nacogdoches"
+   ],
+   "text": "Added to the map: Pitman Family Farms wells near Lake Nacogdoches (Nacogdoches County), filed with a government.",
+   "link": "/texas#pitman-family-farms-wells-near-lake-nacogdoches",
+   "date": "2026-11-21"
+  },
+  {
+   "county": [
+    "Jefferson"
+   ],
+   "text": "Added to the map: Energy Transfer ethane cracker, Nederland (Jefferson County), withdrawn or stopped.",
+   "link": "/texas#energy-transfer-ethane-cracker-nederland",
+   "date": "2026-11-21"
+  },
+  {
+   "county": [
+    "Jefferson"
+   ],
+   "text": "Added to the map: Beaumont New Ammonia (Woodside) (Jefferson County), operating.",
+   "link": "/texas#beaumont-new-ammonia-woodside",
+   "date": "2026-11-21"
+  },
+  {
+   "county": [
+    "San Patricio"
+   ],
+   "text": "Added to the map: Project YaREN blue ammonia, Ingleside (San Patricio County), filed with a government.",
+   "link": "/texas#project-yaren-blue-ammonia-ingleside",
+   "date": "2026-11-21"
+  },
+  {
+   "county": [
+    "Calhoun"
+   ],
+   "text": "Added to the map: ExxonMobil Coastal Plains plastics plant (Calhoun County), announced or reported.",
+   "link": "/texas#exxonmobil-coastal-plains-plastics-plant",
+   "date": "2026-11-21"
+  },
+  {
+   "county": [
     "Angelina",
     "Nacogdoches"
    ],
@@ -1339,5 +1387,5 @@
    "date": "2026-11-01"
   }
  ],
- "updated": "2026-11-20"
+ "updated": "2026-11-21"
 }
