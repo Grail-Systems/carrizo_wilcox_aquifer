@@ -275,138 +275,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110000458790"
     },
     {
-        "facility": "BUENA VISTA WSC-PLANT - FM 1645",
-        "status": "No Violation Identified",
-        "bottom_line": "TIMPSON, Shelby County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -94.418619,
-            31.890537
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013211826"
-    },
-    {
-        "facility": "CITY OF HUXLEY WTP",
-        "status": "No Violation Identified",
-        "bottom_line": "SHELBYVILLE, Shelby County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -93.842253,
-            31.762881
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009747738"
-    },
-    {
-        "facility": "CITY OF JOAQUIN",
-        "status": "Significant Violation",
-        "bottom_line": "None, Shelby County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 11. Flagged as significant violator.",
-        "coordinates": [
-            -94.142579,
-            31.790139
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110048848967"
-    },
-    {
-        "facility": "CITY OF JOAQUIN WWTP",
-        "status": "Significant Violation",
-        "bottom_line": "JOAQUIN, Shelby County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 12. Flagged as significant violator.",
-        "coordinates": [
-            -94.047138,
-            31.969534
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071075474"
-    },
-    {
-        "facility": "CITY OF TENAHA",
-        "status": "Significant Violation",
-        "bottom_line": "None, Shelby County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 8. Flagged as significant violator.",
-        "coordinates": [
-            -94.142579,
-            31.790139
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013213245"
-    },
-    {
-        "facility": "CITY OF TENAHA WWTP",
-        "status": "Significant Violation",
-        "bottom_line": "TENAHA, Shelby County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 12. Flagged as significant violator.",
-        "coordinates": [
-            -94.231403,
-            31.94271
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110010922813"
-    },
-    {
-        "facility": "CITY OF TIMPSON",
-        "status": "Significant Violation",
-        "bottom_line": "None, Shelby County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 11. Flagged as significant violator.",
-        "coordinates": [
-            -94.142579,
-            31.790139
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013213263"
-    },
-    {
-        "facility": "SAND HILLS WSC",
-        "status": "Violation Identified",
-        "bottom_line": "None, Shelby County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -94.142579,
-            31.790139
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013211700"
-    },
-    {
-        "facility": "SHELBY WATER-PLANT - 774 CR 2050",
-        "status": "Significant Violation",
-        "bottom_line": "COLLINSVILLE, Shelby County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 11. Flagged as significant violator.",
-        "coordinates": [
-            -96.894849,
-            33.542725
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110048973562"
-    },
-    {
-        "facility": "SHELBYVILLE WSC-PLANT 2 - CEDAR LN",
-        "status": "Violation Identified",
-        "bottom_line": "SHELBYVILLE, Shelby County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -93.942853,
-            31.711317
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013211728"
-    },
-    {
-        "facility": "TYSON FARMS",
-        "status": "Significant Violation",
-        "bottom_line": "CENTER, Shelby County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 12. Flagged as significant violator.",
-        "coordinates": [
-            -94.167863,
-            31.792676
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110000458683"
-    },
-    {
-        "facility": "WOODLAND SHORES SUBDIVISION-PLANT - CR 3423",
-        "status": "Significant Violation",
-        "bottom_line": "JOAQUIN, Shelby County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 11. Flagged as significant violator.",
-        "coordinates": [
-            -93.94936,
-            31.88369
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110016807482"
-    },
-    {
         "facility": "ANTHONY HARBOR SUBDIVISION-PLANT - 0.2 MI E OF HWY 705",
         "status": "Significant Violation",
         "bottom_line": "HUNTINGTON, San Augustine County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 11. Flagged as significant violator.",
@@ -493,171 +361,6 @@
         ],
         "severity": 10,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110010130759"
-    },
-    {
-        "facility": "ALTO RURAL WSC BRADFORD MT PLANT",
-        "status": "Violation Identified",
-        "bottom_line": "None, Cherokee County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -95.156343,
-            31.843881
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013281304"
-    },
-    {
-        "facility": "ALTO RURAL WSC CENTRAL HIGH PLANT",
-        "status": "Violation Identified",
-        "bottom_line": "None, Cherokee County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -95.156343,
-            31.843881
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013281297"
-    },
-    {
-        "facility": "ALTO RURAL WSC COLDSPRINGS PLANT",
-        "status": "Violation Identified",
-        "bottom_line": "None, Cherokee County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -95.156343,
-            31.843881
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013281983"
-    },
-    {
-        "facility": "CITY OF ALTO",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Cherokee County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -95.156343,
-            31.843881
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013281947"
-    },
-    {
-        "facility": "CITY OF ALTO WWTP",
-        "status": "Significant Violation",
-        "bottom_line": "ALTO, Cherokee County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 12. Flagged as significant violator.",
-        "coordinates": [
-            -95.059694,
-            31.646667
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071297305"
-    },
-    {
-        "facility": "CITY OF CUNEY WWTP",
-        "status": "Significant Violation",
-        "bottom_line": "CUNEY, Cherokee County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 12. Flagged as significant violator.",
-        "coordinates": [
-            -95.419166,
-            32.025
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110070016277"
-    },
-    {
-        "facility": "CITY OF NEW SUMMERFIELD",
-        "status": "Violation Identified",
-        "bottom_line": "None, Cherokee County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -95.156343,
-            31.843881
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013281215"
-    },
-    {
-        "facility": "CITY OF RUSK-PLANT 1 - E COPELAND ST GOLF COURSE",
-        "status": "Violation Identified",
-        "bottom_line": "RUSK, Cherokee County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -95.15004,
-            31.79502
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013281956"
-    },
-    {
-        "facility": "CITY OF WELLS",
-        "status": "Violation Identified",
-        "bottom_line": "None, Cherokee County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -95.156343,
-            31.843881
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013281965"
-    },
-    {
-        "facility": "CUNEY RURAL WATER SUPPLY",
-        "status": "Significant Violation",
-        "bottom_line": "None, Cherokee County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 11. Flagged as significant violator.",
-        "coordinates": [
-            -95.156343,
-            31.843881
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012936225"
-    },
-    {
-        "facility": "DOUBLE CREEK WASTEWATER TREATMENT PLANT",
-        "status": "Violation Identified",
-        "bottom_line": "JACKSONVILLE, Cherokee County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 12.",
-        "coordinates": [
-            -95.20214,
-            31.93473
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110000722898"
-    },
-    {
-        "facility": "FOREST WSC-PLANT 1 - FM 1911",
-        "status": "Significant Violation",
-        "bottom_line": "WELLS, Cherokee County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 11. Flagged as significant violator.",
-        "coordinates": [
-            -94.950427,
-            31.519361
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013282027"
-    },
-    {
-        "facility": "LUVATA ELECTROFIN TEXAS",
-        "status": "Violation",
-        "bottom_line": "JACKSONVILLE, Cherokee County. EPA status: Violation. Quarters out of compliance (last 3 yrs): 12.",
-        "coordinates": [
-            -95.264851,
-            31.940913
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110069285767"
-    },
-    {
-        "facility": "MAYDELLE WSC",
-        "status": "Violation Identified",
-        "bottom_line": "None, Cherokee County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -95.156343,
-            31.843881
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013281199"
-    },
-    {
-        "facility": "STRYKER LAKE WSC-PLANT 1 - CR 4504 E OF FM 2274",
-        "status": "Violation Identified",
-        "bottom_line": "NEW SUMMERFIELD, Cherokee County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 10.",
-        "coordinates": [
-            -95.091218,
-            31.989107
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013281242"
     },
     {
         "facility": "CHURCH HILL WSC-PLANT 2",
@@ -1617,116 +1320,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110052747131"
     },
     {
-        "facility": "CITY OF BECKVILLE WWTF",
-        "status": "Significant Violation",
-        "bottom_line": "BECKVILLE, Panola County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 6. Flagged as significant violator.",
-        "coordinates": [
-            -94.449716,
-            32.232146
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110008153283"
-    },
-    {
-        "facility": "CITY OF CARTHAGE",
-        "status": "Violation Identified",
-        "bottom_line": "CARTHAGE, Panola County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -94.34101,
-            32.16133
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012492855"
-    },
-    {
-        "facility": "CLAYTON WSC PLANT 1",
-        "status": "Violation Identified",
-        "bottom_line": "None, Panola County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -94.305156,
-            32.163978
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013217795"
-    },
-    {
-        "facility": "CLAYTON WSC PLANT 3 AND 7",
-        "status": "Violation Identified",
-        "bottom_line": "None, Panola County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -94.305156,
-            32.163978
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013218035"
-    },
-    {
-        "facility": "COUNTRY LAKES WATER SUPPLY",
-        "status": "Significant Violation",
-        "bottom_line": "None, Panola County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 11. Flagged as significant violator.",
-        "coordinates": [
-            -94.305156,
-            32.163978
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110022992519"
-    },
-    {
-        "facility": "DEADWOOD WSC",
-        "status": "Violation Identified",
-        "bottom_line": "None, Panola County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -94.305156,
-            32.163978
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013217991"
-    },
-    {
-        "facility": "DEBERRY WSC-PLANT - FM 31",
-        "status": "Violation Identified",
-        "bottom_line": "DE BERRY, Panola County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -94.168956,
-            32.278637
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013217811"
-    },
-    {
-        "facility": "EAST TEXAS GAS PLANT",
-        "status": "Violation Identified",
-        "bottom_line": "None, Panola County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -94.305156,
-            32.163978
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110052897558"
-    },
-    {
-        "facility": "GARY WSC",
-        "status": "Significant Violation",
-        "bottom_line": "None, Panola County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 11. Flagged as significant violator.",
-        "coordinates": [
-            -94.305156,
-            32.163978
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013217839"
-    },
-    {
-        "facility": "RIDERVILLE WSC-PLANT - 1422 SH 149",
-        "status": "No Violation Identified",
-        "bottom_line": "CARTHAGE, Panola County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 10.",
-        "coordinates": [
-            -94.274156,
-            32.138496
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013217973"
-    },
-    {
         "facility": "B & B WSC",
         "status": "No Violation Identified",
         "bottom_line": "None, Navarro County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
@@ -1837,94 +1430,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110052877455"
     },
     {
-        "facility": "AVALON WSC",
-        "status": "Significant Violation",
-        "bottom_line": "None, Ellis County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 11. Flagged as significant violator.",
-        "coordinates": [
-            -96.79694,
-            32.346878
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013278354"
-    },
-    {
-        "facility": "CITY OF MAYPEARL",
-        "status": "Violation Identified",
-        "bottom_line": "None, Ellis County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -96.79694,
-            32.346878
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013278336"
-    },
-    {
-        "facility": "CITY OF PALMER WWTP",
-        "status": "Significant Violation",
-        "bottom_line": "PALMER, Ellis County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 11. Flagged as significant violator.",
-        "coordinates": [
-            -96.660833,
-            32.428055
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071221376"
-    },
-    {
-        "facility": "COMING OF CHRIST FULL GOSPEL CHURCH",
-        "status": "Violation Identified",
-        "bottom_line": "None, Ellis County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -96.79694,
-            32.346878
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110022987838"
-    },
-    {
-        "facility": "DARTCO OF TEXAS WAXAHACHIE SITE",
-        "status": "Significant Violation",
-        "bottom_line": "WAXAHACHIE, Ellis County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 12. Flagged as significant violator.",
-        "coordinates": [
-            -96.85,
-            32.426944
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110001867132"
-    },
-    {
-        "facility": "DLUBAK GLASS",
-        "status": "Violation",
-        "bottom_line": "WAXAHACHIE, Ellis County. EPA status: Violation. Quarters out of compliance (last 3 yrs): 12.",
-        "coordinates": [
-            -96.840866,
-            32.448452
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=TXR000087869"
-    },
-    {
-        "facility": "CITY OF NEWTON",
-        "status": "Violation Identified",
-        "bottom_line": "None, Newton County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -93.73925,
-            30.786718
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219908"
-    },
-    {
-        "facility": "TALL TIMBERS WSC",
-        "status": "Violation Identified",
-        "bottom_line": "None, Newton County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
-        "coordinates": [
-            -93.73925,
-            30.786718
-        ],
-        "severity": 10,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219980"
-    },
-    {
         "facility": "LIBBY WSC",
         "status": "Violation Identified",
         "bottom_line": "None, Nacogdoches County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 9.",
@@ -1934,28 +1439,6 @@
         ],
         "severity": 9,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013221067"
-    },
-    {
-        "facility": "CITY OF CENTER - MILL CREEK WATER TREATMENT PLANT",
-        "status": "Violation Identified",
-        "bottom_line": "CENTER, Shelby County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 9.",
-        "coordinates": [
-            -94.159901,
-            31.73902
-        ],
-        "severity": 9,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110001880331"
-    },
-    {
-        "facility": "PAXTON WSC-PLANT - HWY 84",
-        "status": "No Violation Identified",
-        "bottom_line": "JOAQUIN, Shelby County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 9.",
-        "coordinates": [
-            -94.048094,
-            31.904341
-        ],
-        "severity": 9,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013213423"
     },
     {
         "facility": "SAN AUGUSTINE WATER TREATMENT PLANT",
@@ -2101,28 +1584,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219560"
     },
     {
-        "facility": "AVALON WWTP",
-        "status": "No Violation Identified",
-        "bottom_line": "AVALON, Ellis County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 9.",
-        "coordinates": [
-            -96.79248,
-            32.199799
-        ],
-        "severity": 9,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009781904"
-    },
-    {
-        "facility": "CITY OF ITALY-PLANT - 108 SIMMS ST",
-        "status": "Violation Identified",
-        "bottom_line": "ITALY, Ellis County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 9.",
-        "coordinates": [
-            -96.86912,
-            32.173226
-        ],
-        "severity": 9,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009770523"
-    },
-    {
         "facility": "CITY OF LUFKIN WASTEWATER TREATMENT PLANT",
         "status": "Violation Identified",
         "bottom_line": "LUFKIN, Angelina County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 8.",
@@ -2165,39 +1626,6 @@
         ],
         "severity": 8,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013221101"
-    },
-    {
-        "facility": "PAXTON WSC JACKSON PLANT-PLANT - HWY 7",
-        "status": "No Violation Identified",
-        "bottom_line": "JOAQUIN, Shelby County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 8.",
-        "coordinates": [
-            -94.048094,
-            31.904341
-        ],
-        "severity": 8,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013211808"
-    },
-    {
-        "facility": "TENNESSEE WSC",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Shelby County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 8.",
-        "coordinates": [
-            -94.142579,
-            31.790139
-        ],
-        "severity": 8,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013211764"
-    },
-    {
-        "facility": "TIMPSON RURAL WATER SUPPLY",
-        "status": "No Violation Identified",
-        "bottom_line": "TIMPSON, Shelby County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 8.",
-        "coordinates": [
-            -94.418619,
-            31.890537
-        ],
-        "severity": 8,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013211746"
     },
     {
         "facility": "PARKWAY WATER SYSTEM-PLANT - CR 439 W",
@@ -2453,28 +1881,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110006801327"
     },
     {
-        "facility": "SOUTH MURVAUL WSC-PLANT - CR 194 / CR 175",
-        "status": "Violation Identified",
-        "bottom_line": "GARY, Panola County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 8.",
-        "coordinates": [
-            -94.45713,
-            32.02642
-        ],
-        "severity": 8,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013750093"
-    },
-    {
-        "facility": "SOUTHERN PETROLEUM LABORATORIES",
-        "status": "Violation",
-        "bottom_line": "CARTHAGE, Panola County. EPA status: Violation. Quarters out of compliance (last 3 yrs): 8.",
-        "coordinates": [
-            -94.39504,
-            32.16311
-        ],
-        "severity": 8,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110061058796"
-    },
-    {
         "facility": "GOODALTA POWER CENTER PLANT",
         "status": "Violation Identified",
         "bottom_line": "KERENS, Navarro County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 8.",
@@ -2486,17 +1892,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110070563175"
     },
     {
-        "facility": "CITY OF FERRIS",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Ellis County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 8.",
-        "coordinates": [
-            -96.79694,
-            32.346878
-        ],
-        "severity": 8,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012934888"
-    },
-    {
         "facility": "WOODLAWN WSC-PLANT - HWY 103 WEST",
         "status": "Violation Identified",
         "bottom_line": "LUFKIN, Angelina County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 7.",
@@ -2506,50 +1901,6 @@
         ],
         "severity": 7,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012837699"
-    },
-    {
-        "facility": "HUBER WSC",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Shelby County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 7.",
-        "coordinates": [
-            -94.142579,
-            31.790139
-        ],
-        "severity": 7,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013213361"
-    },
-    {
-        "facility": "BLACKJACK WSC-PLANT 2 - FM 2750",
-        "status": "No Violation Identified",
-        "bottom_line": "TROUP, Cherokee County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 7.",
-        "coordinates": [
-            -95.150976,
-            32.056855
-        ],
-        "severity": 7,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013281224"
-    },
-    {
-        "facility": "CITY OF NEW SUMMERFIELD WWTP",
-        "status": "Violation Identified",
-        "bottom_line": "NEW SUMMERFIELD, Cherokee County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 7.",
-        "coordinates": [
-            -95.0889,
-            31.9975
-        ],
-        "severity": 7,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009747756"
-    },
-    {
-        "facility": "NEW CONCORD WSC-PLANT - CR 4705 .2 MILES W OF FM 856",
-        "status": "No Violation Identified",
-        "bottom_line": "TROUP, Cherokee County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 7.",
-        "coordinates": [
-            -95.043581,
-            32.069562
-        ],
-        "severity": 7,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013281206"
     },
     {
         "facility": "LANEVILLE WSC PLANT 2-PLANT - FM 225",
@@ -2750,39 +2101,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013245602"
     },
     {
-        "facility": "CITY OF BECKVILLE-PLANT 3 - HWY 149",
-        "status": "No Violation Identified",
-        "bottom_line": "BECKVILLE, Panola County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 7.",
-        "coordinates": [
-            -94.449852,
-            32.26159
-        ],
-        "severity": 7,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013217777"
-    },
-    {
-        "facility": "HOLLANDS QUARTER WSC",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Panola County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 7.",
-        "coordinates": [
-            -94.305156,
-            32.163978
-        ],
-        "severity": 7,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013217857"
-    },
-    {
-        "facility": "REHOBETH WSC",
-        "status": "Violation Identified",
-        "bottom_line": "None, Panola County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 7.",
-        "coordinates": [
-            -94.305156,
-            32.163978
-        ],
-        "severity": 7,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013217919"
-    },
-    {
         "facility": "CITY OF FROST-PLANT - NAVARRO MILLS",
         "status": "Violation Identified",
         "bottom_line": "FROST, Navarro County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 7.",
@@ -2814,17 +2132,6 @@
         ],
         "severity": 7,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110070502765"
-    },
-    {
-        "facility": "BON WIER WSC",
-        "status": "Violation Identified",
-        "bottom_line": "None, Newton County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 7.",
-        "coordinates": [
-            -93.73925,
-            30.786718
-        ],
-        "severity": 7,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219962"
     },
     {
         "facility": "CITY OF DIBOLL WWTP",
@@ -2882,17 +2189,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071848040"
     },
     {
-        "facility": "MCCLELLAND WSC-PLANT 1 - HWY 87",
-        "status": "No Violation Identified",
-        "bottom_line": "SHELBYVILLE, Shelby County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 6.",
-        "coordinates": [
-            -93.942853,
-            31.711317
-        ],
-        "severity": 6,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013213405"
-    },
-    {
         "facility": "DENNING WSC",
         "status": "No Violation Identified",
         "bottom_line": "None, San Augustine County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 6.",
@@ -2902,17 +2198,6 @@
         ],
         "severity": 6,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013213806"
-    },
-    {
-        "facility": "STRYKER CREEK STEAM ELECTRIC STATION",
-        "status": "No Violation Identified",
-        "bottom_line": "JACKSONVILLE, Cherokee County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 6.",
-        "coordinates": [
-            -94.989939,
-            31.939826
-        ],
-        "severity": 6,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110008147665"
     },
     {
         "facility": "SOUTH RUSK COUNTY WSC",
@@ -3058,17 +2343,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110064612254"
     },
     {
-        "facility": "CLAYTON WSC PLANT 2",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Panola County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 6.",
-        "coordinates": [
-            -94.305156,
-            32.163978
-        ],
-        "severity": 6,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013218017"
-    },
-    {
         "facility": "CITY OF BLOOMING GROVE  WWTP",
         "status": "No Violation Identified",
         "bottom_line": "BLOOMING GROVE, Navarro County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 6.",
@@ -3146,39 +2420,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219702"
     },
     {
-        "facility": "ARTESIAN SPRINGS",
-        "status": "Inactive",
-        "bottom_line": "None, Newton County. EPA status: Inactive. Quarters out of compliance (last 3 yrs): 6.",
-        "coordinates": [
-            -93.73925,
-            30.786718
-        ],
-        "severity": 6,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110052897424"
-    },
-    {
-        "facility": "SOUTH NEWTON WSC-PLANT 4 - 429 CR 4212",
-        "status": "No Violation Identified",
-        "bottom_line": "DEWEYVILLE, Newton County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 6.",
-        "coordinates": [
-            -93.747906,
-            30.306015
-        ],
-        "severity": 6,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013220004"
-    },
-    {
-        "facility": "SOUTHERN FOREST PRODUCTS",
-        "status": "Violation Identified",
-        "bottom_line": "NEWTON, Newton County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 6.",
-        "coordinates": [
-            -93.644515,
-            30.784188
-        ],
-        "severity": 6,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009748666"
-    },
-    {
         "facility": "HHSC LUFKIN STATE SUPPORTED LIVING CENT",
         "status": "No Violation Identified",
         "bottom_line": "None, Angelina County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 5.",
@@ -3234,17 +2475,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110062645927"
     },
     {
-        "facility": "EAST LAMAR WSC",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Shelby County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 5.",
-        "coordinates": [
-            -94.142579,
-            31.790139
-        ],
-        "severity": 5,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013213307"
-    },
-    {
         "facility": "GLEN OAKS WATER SYSTEM-PLANT - CR 428 / CR 429",
         "status": "No Violation Identified",
         "bottom_line": "HUNTINGTON, San Augustine County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 5.",
@@ -3254,39 +2484,6 @@
         ],
         "severity": 5,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012902449"
-    },
-    {
-        "facility": "AFTON GROVE WSC-PLANT 2",
-        "status": "Violation Identified",
-        "bottom_line": "JACKSONVILLE, Cherokee County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 5.",
-        "coordinates": [
-            -95.25187,
-            31.9463
-        ],
-        "severity": 5,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110049761619"
-    },
-    {
-        "facility": "CITY OF TROUP WWTP",
-        "status": "Violation Identified",
-        "bottom_line": "TROUP, Cherokee County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 5.",
-        "coordinates": [
-            -95.115069,
-            32.133564
-        ],
-        "severity": 5,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009779980"
-    },
-    {
-        "facility": "RUSK WASTEWATER TREATMENT PLANT",
-        "status": "Violation Identified",
-        "bottom_line": "RUSK, Cherokee County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 5.",
-        "coordinates": [
-            -95.152473,
-            31.774139
-        ],
-        "severity": 5,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110001880377"
     },
     {
         "facility": "KENNEDY ROAD WSC",
@@ -3432,39 +2629,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071427589"
     },
     {
-        "facility": "CITY OF CARTHAGE WTR & SWR",
-        "status": "Violation Identified",
-        "bottom_line": "CARTHAGE, Panola County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 5.",
-        "coordinates": [
-            -94.314092,
-            32.15205
-        ],
-        "severity": 5,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110005147858"
-    },
-    {
-        "facility": "ROCK HILL WSC",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Panola County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 5.",
-        "coordinates": [
-            -94.305156,
-            32.163978
-        ],
-        "severity": 5,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013217937"
-    },
-    {
-        "facility": "CITY OF WAXAHACHIE WASTEWATER TREATMENT PLANT",
-        "status": "Violation Identified",
-        "bottom_line": "WAXAHACHIE, Ellis County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 5.",
-        "coordinates": [
-            -96.84138,
-            32.36546
-        ],
-        "severity": 5,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110000504954"
-    },
-    {
         "facility": "CENTRAL WCID OF ANGELINA COUNTY",
         "status": "No Violation Identified",
         "bottom_line": "None, Angelina County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
@@ -3520,39 +2684,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110070602023"
     },
     {
-        "facility": "CHOICE WSC",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Shelby County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
-        "coordinates": [
-            -94.142579,
-            31.790139
-        ],
-        "severity": 4,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013213281"
-    },
-    {
-        "facility": "CITY OF TIMPSON",
-        "status": "Violation Identified",
-        "bottom_line": "TIMPSON, Shelby County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
-        "coordinates": [
-            -94.398521,
-            31.906007
-        ],
-        "severity": 4,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110034654504"
-    },
-    {
-        "facility": "SCREENING OP NO 1",
-        "status": "No Violation Identified",
-        "bottom_line": "SHELBYVILLE, Shelby County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
-        "coordinates": [
-            -93.951384,
-            31.698635
-        ],
-        "severity": 4,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071658660"
-    },
-    {
         "facility": "JACKSON HILL PARK & MARINA-0012294 - JACKSON HILL PARK",
         "status": "Violation Identified",
         "bottom_line": "BROADDUS, San Augustine County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
@@ -3573,50 +2704,6 @@
         ],
         "severity": 4,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110048452768"
-    },
-    {
-        "facility": "CITY OF JACKSONVILLE",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Cherokee County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
-        "coordinates": [
-            -95.156343,
-            31.843881
-        ],
-        "severity": 4,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110064387104"
-    },
-    {
-        "facility": "DIALVILLE OAKLAND WSC",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Cherokee County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
-        "coordinates": [
-            -95.156343,
-            31.843881
-        ],
-        "severity": 4,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013282009"
-    },
-    {
-        "facility": "ETSM",
-        "status": "Violation",
-        "bottom_line": "BULLARD, Cherokee County. EPA status: Violation. Quarters out of compliance (last 3 yrs): 4.",
-        "coordinates": [
-            -95.299899,
-            32.130101
-        ],
-        "severity": 4,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071408763"
-    },
-    {
-        "facility": "RUSK RURAL WSC US 69 PLANT-PLANT - HWY 69",
-        "status": "No Violation Identified",
-        "bottom_line": "RUSK, Cherokee County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
-        "coordinates": [
-            -95.176209,
-            31.75786
-        ],
-        "severity": 4,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013281288"
     },
     {
         "facility": "CROSS ROADS SUD GREENWOOD RANCH ME",
@@ -3993,39 +3080,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009777152"
     },
     {
-        "facility": "FAIRPLAY WSC-PLANT 2 - 2096 FM 1251",
-        "status": "No Violation Identified",
-        "bottom_line": "BECKVILLE, Panola County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
-        "coordinates": [
-            -94.39463,
-            32.23695
-        ],
-        "severity": 4,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012903803"
-    },
-    {
-        "facility": "MURVAUL WSC",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Panola County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
-        "coordinates": [
-            -94.305156,
-            32.163978
-        ],
-        "severity": 4,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013217875"
-    },
-    {
-        "facility": "SHARPS ENVIRONMENTAL SERVICE",
-        "status": "No Violation Identified",
-        "bottom_line": "CARTHAGE, Panola County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
-        "coordinates": [
-            -94.32,
-            32.17
-        ],
-        "severity": 4,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110024420606"
-    },
-    {
         "facility": "CHATFIELD WSC-BOOSTER PLANT 3 - 452 W HWY 31, POWELL",
         "status": "No Violation Identified",
         "bottom_line": "POWELL, Navarro County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
@@ -4057,61 +3111,6 @@
         ],
         "severity": 4,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009748103"
-    },
-    {
-        "facility": "CITY OF PALMER",
-        "status": "Violation Identified",
-        "bottom_line": "None, Ellis County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
-        "coordinates": [
-            -96.79694,
-            32.346878
-        ],
-        "severity": 4,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012934995"
-    },
-    {
-        "facility": "BURKEVILLE WSC",
-        "status": "Violation Identified",
-        "bottom_line": "None, Newton County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
-        "coordinates": [
-            -93.73925,
-            30.786718
-        ],
-        "severity": 4,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219944"
-    },
-    {
-        "facility": "EAST TEXAS BAPTIST ENCAMPMENT",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Newton County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
-        "coordinates": [
-            -93.73925,
-            30.786718
-        ],
-        "severity": 4,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110052843599"
-    },
-    {
-        "facility": "JAMESTOWN WSC",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Newton County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
-        "coordinates": [
-            -93.73925,
-            30.786718
-        ],
-        "severity": 4,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012908096"
-    },
-    {
-        "facility": "TOLEDO VILLAGE WSC",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Newton County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
-        "coordinates": [
-            -93.73925,
-            30.786718
-        ],
-        "severity": 4,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219926"
     },
     {
         "facility": "NORTH ANGELINA COUNTY REGIONAL WASTEWATER",
@@ -4169,39 +3168,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219409"
     },
     {
-        "facility": "AIKEN SURFACE WTP",
-        "status": "Violation Identified",
-        "bottom_line": "SHELBY COUNTY, Shelby County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
-        "coordinates": [
-            -94.333868,
-            31.695108
-        ],
-        "severity": 3,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110064605066"
-    },
-    {
-        "facility": "FEW READY MIX CONCRETE CENTER PLANT",
-        "status": "Violation",
-        "bottom_line": "CENTER, Shelby County. EPA status: Violation. Quarters out of compliance (last 3 yrs): 3.",
-        "coordinates": [
-            -94.161012,
-            31.777773
-        ],
-        "severity": 3,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012295293"
-    },
-    {
-        "facility": "SHELBYVILLE ISD WWTP",
-        "status": "No Violation Identified",
-        "bottom_line": "SHELBYVILLE, Shelby County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
-        "coordinates": [
-            -94.074001,
-            31.752757
-        ],
-        "severity": 3,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009774645"
-    },
-    {
         "facility": "CITY OF BROADDUS WWTP",
         "status": "Violation Identified",
         "bottom_line": "BROADDUS, San Augustine County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
@@ -4211,94 +3177,6 @@
         ],
         "severity": 3,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110006801149"
-    },
-    {
-        "facility": "CITY OF REKLAW",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Cherokee County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
-        "coordinates": [
-            -95.156343,
-            31.843881
-        ],
-        "severity": 3,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013281260"
-    },
-    {
-        "facility": "COVIA TROUP FACILITY",
-        "status": "Violation Identified",
-        "bottom_line": "TROUP, Cherokee County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
-        "coordinates": [
-            -95.056333,
-            32.096944
-        ],
-        "severity": 3,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071711097"
-    },
-    {
-        "facility": "CRAFT TURNEY WSC MAIN",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Cherokee County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
-        "coordinates": [
-            -95.156343,
-            31.843881
-        ],
-        "severity": 3,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013281992"
-    },
-    {
-        "facility": "GALLATIN WSC",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Cherokee County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
-        "coordinates": [
-            -95.156343,
-            31.843881
-        ],
-        "severity": 3,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013281162"
-    },
-    {
-        "facility": "GUM CREEK WSC",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Cherokee County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
-        "coordinates": [
-            -95.156343,
-            31.843881
-        ],
-        "severity": 3,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013281171"
-    },
-    {
-        "facility": "RUSK RURAL WSC IRON HILL-N SIDE OF FIRE TOWER RD",
-        "status": "No Violation Identified",
-        "bottom_line": "RUSK, Cherokee County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
-        "coordinates": [
-            -95.176209,
-            31.75786
-        ],
-        "severity": 3,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013281180"
-    },
-    {
-        "facility": "RUSK STATE HOSPITAL",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Cherokee County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
-        "coordinates": [
-            -95.156343,
-            31.843881
-        ],
-        "severity": 3,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110053034006"
-    },
-    {
-        "facility": "WEST JACKSONVILLE WSC",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Cherokee County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
-        "coordinates": [
-            -95.156343,
-            31.843881
-        ],
-        "severity": 3,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013281251"
     },
     {
         "facility": "CARLISLE ISD WWTP",
@@ -4697,17 +3575,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110063355587"
     },
     {
-        "facility": "PANOLA-BETHANY WSC",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Panola County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
-        "coordinates": [
-            -94.305156,
-            32.163978
-        ],
-        "severity": 3,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013217893"
-    },
-    {
         "facility": "CORSICANA 262",
         "status": "No Violation Identified",
         "bottom_line": "CORSICANA, Navarro County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
@@ -4739,61 +3606,6 @@
         ],
         "severity": 3,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110031275055"
-    },
-    {
-        "facility": "BUFFALO HILLS WATER SYSTEM",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Ellis County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
-        "coordinates": [
-            -96.79694,
-            32.346878
-        ],
-        "severity": 3,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013278522"
-    },
-    {
-        "facility": "CITY OF ENNIS WASTEWATER TREATMENT PLANT",
-        "status": "No Violation Identified",
-        "bottom_line": "ENNIS, Ellis County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
-        "coordinates": [
-            -96.615,
-            32.303889
-        ],
-        "severity": 3,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110000751801"
-    },
-    {
-        "facility": "FORRESTON SEWER SERVICE WWTP",
-        "status": "Violation Identified",
-        "bottom_line": "FORRESTON, Ellis County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
-        "coordinates": [
-            -96.861704,
-            32.251946
-        ],
-        "severity": 3,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009781762"
-    },
-    {
-        "facility": "GARRETT COMMUNITY WATER COMPANY",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Ellis County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
-        "coordinates": [
-            -96.79694,
-            32.346878
-        ],
-        "severity": 3,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012935084"
-    },
-    {
-        "facility": "CITY OF NEWTON WWTP",
-        "status": "Violation Identified",
-        "bottom_line": "NEWTON, Newton County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
-        "coordinates": [
-            -93.737777,
-            30.833888
-        ],
-        "severity": 3,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110064649091"
     },
     {
         "facility": "ANGELINA COUNTY FWSD NO 1 WWTP",
@@ -4838,50 +3650,6 @@
         ],
         "severity": 2,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013221085"
-    },
-    {
-        "facility": "CITY OF CENTER MILL CREEK WTP",
-        "status": "No Violation Identified",
-        "bottom_line": "CENTER, Shelby County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 2.",
-        "coordinates": [
-            -94.158957,
-            31.738909
-        ],
-        "severity": 2,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110010923037"
-    },
-    {
-        "facility": "CITY OF ALTO WWTP",
-        "status": "No Violation Identified",
-        "bottom_line": "ALTO, Cherokee County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 2.",
-        "coordinates": [
-            -95.059111,
-            31.64625
-        ],
-        "severity": 2,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009781110"
-    },
-    {
-        "facility": "RUSK RURAL WSC CROCKETT ST PLANT-CHLORINATOR",
-        "status": "No Violation Identified",
-        "bottom_line": "RUSK, Cherokee County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 2.",
-        "coordinates": [
-            -95.176209,
-            31.75786
-        ],
-        "severity": 2,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013281233"
-    },
-    {
-        "facility": "RUSK RURAL WSC LOOP 343 PLANT-PLANT - LOOP 343",
-        "status": "No Violation Identified",
-        "bottom_line": "RUSK, Cherokee County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 2.",
-        "coordinates": [
-            -95.176209,
-            31.75786
-        ],
-        "severity": 2,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012936289"
     },
     {
         "facility": "ANDERSON COUNTY CEDAR CREEK WSC",
@@ -5005,17 +3773,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110000598951"
     },
     {
-        "facility": "PIRTLE SCOUT RESERVATION WATER SYSTEM",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Panola County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 2.",
-        "coordinates": [
-            -94.305156,
-            32.163978
-        ],
-        "severity": 2,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110052883607"
-    },
-    {
         "facility": "CITY OF KERENS WWTP",
         "status": "No Violation Identified",
         "bottom_line": "KERENS, Navarro County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 2.",
@@ -5069,17 +3826,6 @@
         ],
         "severity": 2,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110070865101"
-    },
-    {
-        "facility": "CITY OF PALMER WWTP",
-        "status": "No Violation Identified",
-        "bottom_line": "PALMER, Ellis County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 2.",
-        "coordinates": [
-            -96.661083,
-            32.428472
-        ],
-        "severity": 2,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110029526724"
     },
     {
         "facility": "BORDEN CHEMICAL INC",
@@ -5181,17 +3927,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110043814744"
     },
     {
-        "facility": "TEXAS MATERIALS DBA FEW READY MIX - CENTER PLANT",
-        "status": "No Violation Identified",
-        "bottom_line": "CENTER, Shelby County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
-        "coordinates": [
-            -94.163333,
-            31.777777
-        ],
-        "severity": 1,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071848649"
-    },
-    {
         "facility": "PLANT 1",
         "status": "Violation Identified",
         "bottom_line": "SAN AUGUSTINE, San Augustine County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
@@ -5201,17 +3936,6 @@
         ],
         "severity": 1,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110064779351"
-    },
-    {
-        "facility": "CITY OF WELLS WWTP",
-        "status": "Violation Identified",
-        "bottom_line": "WELLS, Cherokee County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
-        "coordinates": [
-            -94.94025,
-            31.48845
-        ],
-        "severity": 1,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009778231"
     },
     {
         "facility": "7-ELEVEN STORE 41032",
@@ -5610,83 +4334,6 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110033243014"
     },
     {
-        "facility": "A & P WSC PUMP 1",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Panola County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
-        "coordinates": [
-            -94.305156,
-            32.163978
-        ],
-        "severity": 1,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110048751702"
-    },
-    {
-        "facility": "BAKER PETROLITE",
-        "status": "No Violation Identified",
-        "bottom_line": "CARTHAGE, Panola County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
-        "coordinates": [
-            -94.337727,
-            32.130852
-        ],
-        "severity": 1,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110046248306"
-    },
-    {
-        "facility": "BECKVILLE GAS PROCESSING PLANT",
-        "status": "No Violation Identified",
-        "bottom_line": "BECKVILLE, Panola County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
-        "coordinates": [
-            -94.474166,
-            32.228055
-        ],
-        "severity": 1,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110069572279"
-    },
-    {
-        "facility": "BULLDOG GAS PLANT",
-        "status": "No Violation Identified",
-        "bottom_line": "CARTHAGE, Panola County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
-        "coordinates": [
-            -94.268793,
-            32.145628
-        ],
-        "severity": 1,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110070671360"
-    },
-    {
-        "facility": "DANIEL SPRINGS BAPTIST CAMP",
-        "status": "No Violation Identified",
-        "bottom_line": "None, Panola County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
-        "coordinates": [
-            -94.305156,
-            32.163978
-        ],
-        "severity": 1,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110052883581"
-    },
-    {
-        "facility": "GENPAK-CARTHAGE",
-        "status": "Violation Identified",
-        "bottom_line": "CARTHAGE, Panola County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
-        "coordinates": [
-            -94.33174,
-            32.15435
-        ],
-        "severity": 1,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110070376944"
-    },
-    {
-        "facility": "PANOLA-BETHANY WSC PLANT 1 WWTF",
-        "status": "No Violation Identified",
-        "bottom_line": "PANOLA, Panola County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
-        "coordinates": [
-            -94.0525,
-            32.370555
-        ],
-        "severity": 1,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110064640811"
-    },
-    {
         "facility": "ANGUS WSC-PLANT - 212 FM 739",
         "status": "No Violation Identified",
         "bottom_line": "CORSICANA, Navarro County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
@@ -5729,82 +4376,5 @@
         ],
         "severity": 1,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110008060187"
-    },
-    {
-        "facility": "CHEMICAL RECLAMATION SERVICES - AVALON FACILITY",
-        "status": "No Violation Identified",
-        "bottom_line": "ITALY, Ellis County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
-        "coordinates": [
-            -96.792923,
-            32.211517
-        ],
-        "severity": 1,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110000619475"
-    },
-    {
-        "facility": "CITY OF ENNIS WATER TREATMENT PLANT",
-        "status": "Violation Identified",
-        "bottom_line": "ENNIS, Ellis County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
-        "coordinates": [
-            -96.641944,
-            32.271944
-        ],
-        "severity": 1,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110000502073"
-    },
-    {
-        "facility": "CITY OF FERRIS MS4",
-        "status": "Violation Identified",
-        "bottom_line": "CITY OF FERRIS, Ellis County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
-        "coordinates": [
-            -96.66491,
-            32.53419
-        ],
-        "severity": 1,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110067236226"
-    },
-    {
-        "facility": "ENNIS ASPHALT STORAGE FACILITY",
-        "status": "No Violation Identified",
-        "bottom_line": "ENNIS, Ellis County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
-        "coordinates": [
-            -96.63518,
-            32.36265
-        ],
-        "severity": 1,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071644580"
-    },
-    {
-        "facility": "GLOBE PRODUCTS",
-        "status": "No Violation Identified",
-        "bottom_line": "ENNIS, Ellis County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
-        "coordinates": [
-            -96.621239,
-            32.315529
-        ],
-        "severity": 1,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110000824458"
-    },
-    {
-        "facility": "MINERALTECH DEWEYVILLE PLANT",
-        "status": "Violation Identified",
-        "bottom_line": "DEWEYVILLE, Newton County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
-        "coordinates": [
-            -93.75979,
-            30.3159
-        ],
-        "severity": 1,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071363087"
-    },
-    {
-        "facility": "TOLEDO BEND DAM",
-        "status": "Violation Identified",
-        "bottom_line": "BURKEVILLE, Newton County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
-        "coordinates": [
-            -93.566403,
-            31.17334
-        ],
-        "severity": 1,
-        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110033175481"
     }
 ]
