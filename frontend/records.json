@@ -237,8 +237,8 @@
       "agency": "Pineywoods Groundwater Conservation District",
       "number": "",
       "filed": "2026-09-18",
-      "status": "Partly answered",
-      "state": "partial",
+      "status": "Answered Nov. 23",
+      "state": "done",
       "asked": "Well permit applications for Amp Z, Verdant Industries or anyone seeking groundwater at the former Southland Paper Mill site; correspondence with those companies since 2024; any well application in Angelina County since 2024 for more than 25,000 gallons a day; and board agendas and minutes discussing them.",
       "events": [
         {
@@ -284,9 +284,13 @@
         {
           "date": "2026-11-23",
           "text": "The District sent 35 files: permits A0046-A0048 issued to Paluxy LandCo for three wells at 3641 Ben Dunn Road (13 million gallons a year combined), the application and email records for that site, the original WattBridge applications, the Feb. 10, 2025 board agenda and minutes, and District well and pumping data. ETLC is reviewing what is still missing."
+        },
+        {
+          "date": "2026-11-23",
+          "text": "The District sent the remaining records and answered every open item in writing, including that the 2026 WattBridge request was handled by phone with nothing written, and that no call logs or site-visit notes exist. Its general manager wrote: \"I think we have everything covered.\""
         }
       ],
-      "waiting": "The remaining records, or the District's written date for them, by Nov. 13.",
+      "waiting": "",
       "clock": {
         "start": "2026-10-22",
         "kind": "expected",
@@ -305,8 +309,8 @@
       "agency": "Pineywoods Groundwater Conservation District",
       "number": "",
       "filed": "2026-09-25",
-      "status": "Partly answered",
-      "state": "partial",
+      "status": "Answered Nov. 23",
+      "state": "done",
       "asked": "District rules and management plan; well permits and applications for wells on or serving either site; production records; any permit to export groundwater; board minutes and agendas mentioning data centers or the companies; and correspondence with the companies.",
       "events": [
         {
@@ -356,9 +360,13 @@
         {
           "date": "2026-11-23",
           "text": "The District sent 35 files: permits A0046-A0048 issued to Paluxy LandCo for three wells at 3641 Ben Dunn Road (13 million gallons a year combined), the application and email records for that site, the original WattBridge applications, the Feb. 10, 2025 board agenda and minutes, and District well and pumping data. ETLC is reviewing what is still missing."
+        },
+        {
+          "date": "2026-11-23",
+          "text": "The District sent the remaining records and answered every open item in writing, including that the 2026 WattBridge request was handled by phone with nothing written, and that no call logs or site-visit notes exist. Its general manager wrote: \"I think we have everything covered.\""
         }
       ],
-      "waiting": "The remaining records, or the District's written date for them, by Nov. 13.",
+      "waiting": "",
       "clock": {
         "start": "2026-10-12",
         "kind": "legal",
@@ -956,7 +964,7 @@
       "clock": {
         "start": "2026-11-24",
         "kind": "legal",
-        "start_note": "Emailed Nov. 23 at 10:21 PM, after hours, so received Nov. 24 (the City logged it Nov. 24)"
+        "start_note": "receipt on Nov. 24 (emailed Nov. 23 at 10:21 PM, after business hours)"
       }
     },
     {

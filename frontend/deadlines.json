@@ -36,21 +36,13 @@
       "key": "Pineywoods Groundwater Conservation District|2026-09-18|",
       "agency": "Pineywoods Groundwater Conservation District",
       "number": "",
-      "filed": "2026-09-18",
-      "type": "certified",
-      "due": "2026-11-09",
-      "text": "The agency said the records would be ready by Mon., Nov. 9.",
-      "overdue_bd": 10
+      "filed": "2026-09-18"
     },
     {
       "key": "Pineywoods Groundwater Conservation District|2026-09-25|",
       "agency": "Pineywoods Groundwater Conservation District",
       "number": "",
-      "filed": "2026-09-25",
-      "type": "certified",
-      "due": "2026-11-09",
-      "text": "The agency said the records would be ready by Mon., Nov. 9.",
-      "overdue_bd": 10
+      "filed": "2026-09-25"
     },
     {
       "key": "Angelina County|2026-09-25|",
@@ -193,7 +185,7 @@
       "type": "legal",
       "due": "2026-12-11",
       "start": "2026-11-24",
-      "text": "Response due Fri., Dec. 11: 10 business days after Emailed Nov. 23 at 10:21 PM, after hours, so received Nov. 24 (the City logged it Nov. 24)."
+      "text": "Response due Fri., Dec. 11: 10 business days after receipt on Nov. 24 (emailed Nov. 23 at 10:21 PM, after business hours)."
     },
     {
       "key": "Pineywoods Groundwater Conservation District|2026-11-19|",
