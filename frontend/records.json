@@ -901,6 +901,48 @@
           }
         ]
       }
+    },
+    {
+      "agency": "City of Lufkin",
+      "number": "",
+      "filed": "2026-11-23",
+      "status": "Waiting on the City",
+      "state": "waiting",
+      "asked": "Mayor Mark Hicks's emails about the Amp Z / EPG data center project from July 1, 2025 on, including messages sent from or received at his company address (mark@hicks-co.com); the City's requests asking him to search; a list of his City-account sent mail on the project; and the records retention schedule that applies.",
+      "events": [
+        {
+          "date": "2026-11-23",
+          "text": "Request emailed to the City Secretary, with a copy to the City's public information address."
+        }
+      ],
+      "waiting": "A CRR number and the City's response.",
+      "found": [],
+      "clock": {
+        "start": "2026-11-23",
+        "kind": "legal",
+        "start_note": "ETLC emailed the request"
+      }
+    },
+    {
+      "agency": "Pineywoods Groundwater Conservation District",
+      "number": "",
+      "filed": "2026-11-19",
+      "status": "Waiting on the District",
+      "state": "waiting",
+      "asked": "The production and pumping reports, and any annual water-use reports, for City of Lufkin Wells 1-6 and 8-14.",
+      "events": [
+        {
+          "date": "2026-11-19",
+          "text": "Request emailed to the District's general manager, with a copy to District staff."
+        }
+      ],
+      "waiting": "The District's response.",
+      "found": [],
+      "clock": {
+        "start": "2026-11-19",
+        "kind": "legal",
+        "start_note": "ETLC emailed the request"
+      }
     }
   ]
 }
