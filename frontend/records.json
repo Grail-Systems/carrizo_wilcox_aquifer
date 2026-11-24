@@ -93,6 +93,10 @@
         {
           "date": "2026-11-04",
           "text": "ETLC asked the City for a written statement of the time spent on this request, because the City's charges included labor (Gov't Code 552.261(b))."
+        },
+        {
+          "date": "2026-11-15",
+          "text": "The City said its written statements of staff time were included in the Oct. 13 cost estimate invoices."
         }
       ],
       "waiting": "The Attorney General's ruling on the withheld records, due by about mid-December 2026, and the rest of the City's release.",
@@ -170,6 +174,10 @@
         {
           "date": "2026-11-04",
           "text": "ETLC asked the City for a written statement of the time spent on this request, because the City's charges included labor (Gov't Code 552.261(b))."
+        },
+        {
+          "date": "2026-11-15",
+          "text": "The City said its written statements of staff time were included in the Oct. 13 cost estimate invoices."
         }
       ],
       "waiting": "ETLC is reviewing the City's answers.",
@@ -272,6 +280,10 @@
         {
           "date": "2026-11-18",
           "text": "ETLC wrote that no records or written date had arrived after the District's Nov. 10 promise to send what it could by Nov. 13. ETLC set a final date of Nov. 25 to send the records or certify a date and hour for each, and said it will file a complaint under Gov't Code 552.3215 if neither arrives."
+        },
+        {
+          "date": "2026-11-23",
+          "text": "The District sent 35 files: permits A0046-A0048 issued to Paluxy LandCo for three wells at 3641 Ben Dunn Road (13 million gallons a year combined), the application and email records for that site, the original WattBridge applications, the Feb. 10, 2025 board agenda and minutes, and District well and pumping data. ETLC is reviewing what is still missing."
         }
       ],
       "waiting": "The remaining records, or the District's written date for them, by Nov. 13.",
@@ -340,6 +352,10 @@
         {
           "date": "2026-11-20",
           "text": "The City of Lufkin had logged a copy of the Pineywoods request in its own records portal as CRR-2026-318. The City's portal shows CRR-2026-318 as Cancelled with no documents, because the City does not hold these records. This request is tracked here, with Pineywoods Groundwater Conservation District."
+        },
+        {
+          "date": "2026-11-23",
+          "text": "The District sent 35 files: permits A0046-A0048 issued to Paluxy LandCo for three wells at 3641 Ben Dunn Road (13 million gallons a year combined), the application and email records for that site, the original WattBridge applications, the Feb. 10, 2025 board agenda and minutes, and District well and pumping data. ETLC is reviewing what is still missing."
         }
       ],
       "waiting": "The remaining records, or the District's written date for them, by Nov. 13.",
@@ -410,6 +426,10 @@
         {
           "date": "2026-11-02",
           "text": "ETLC asked the City to produce the Feb. 9, 2026 sign-in sheet, which the request named but the release did not include, or to state in writing that it no longer exists and under what retention schedule."
+        },
+        {
+          "date": "2026-11-16",
+          "text": "The City wrote that the Planning and Zoning Department has no sign-in sheet for the Feb. 9, 2026 meeting, possibly because nobody signed it."
         }
       ],
       "waiting": "The Feb. 9, 2026 sign-in sheet, or a written statement that it no longer exists.",
@@ -573,6 +593,10 @@
         {
           "date": "2026-11-20",
           "text": "The City sent the Attorney General a correction: it received the request on Nov. 2, 2026, and its deadline to ask for a ruling was Nov. 17. Its Nov. 19 letter had listed Nov. 17 as the date it received the request."
+        },
+        {
+          "date": "2026-11-19",
+          "text": "ETLC wrote the City listing the files received in the Nov. 19 release and asked for the parts of the water consumption report not under review, the other requested items or a written statement that none exist, and billing records from March 2009 to March 5, 2012, before the advanced meter was installed."
         }
       ],
       "waiting": "Waiting for the Attorney General's ruling on the water consumption report.",
@@ -865,7 +889,7 @@
       "number": "CRR-2026-366",
       "filed": "2026-11-03",
       "state": "waiting",
-      "status": "ETLC answered the $464.94 estimate Nov. 19 with a narrower request and a fee-waiver request; waiting for a revised estimate",
+      "status": "Revised estimate Nov. 20: $328.14 ($164.07 deposit); ETLC's answer due within 10 business days",
       "asked": "Since Jan. 1, 2021: the City's current software and hosted-system contracts (finance, utility billing, permitting, court, records, public information requests, public safety) with purchase orders, invoices and renewals; vendor contracts and invoices for the SCADA or control systems serving water production, wells and wastewater (vendor names, terms and amounts only, nothing security-sensitive); network, internet, email, website and managed IT contracts and invoices; and any IT asset, software or vendor list.",
       "events": [
         {
@@ -883,11 +907,15 @@
         {
           "date": "2026-11-19",
           "text": "ETLC answered the cost estimate in writing the same evening (Gov't Code 552.2615(b)): it modified the request to take records the City already keeps electronically and a vendor payment history instead of scanned paper invoices, asked the City to drop the 1.5 hours of \"review\" time (1 TAC 70.3(d)(3) bars charging for deciding what to withhold), and asked for a public-interest fee waiver under 552.267. ETLC asked for a revised estimate."
+        },
+        {
+          "date": "2026-11-20",
+          "text": "The City sent a revised estimate of $328.14 and asked for a $164.07 deposit within 10 business days. It said staff found about 55 contracts that may be responsive and would print payment histories for about 51 vendors instead of copying paper invoices."
         }
       ],
       "found": [],
       "documents": [],
-      "waiting": "Waiting for the City to send a revised itemized estimate.",
+      "waiting": "ETLC's decision on the revised estimate.",
       "clock": {
         "kind": "legal",
         "start_note": "the City logged the request Nov. 4; it answered with a cost estimate Nov. 19, and the clock restarts when the deposit is paid (Gov't Code 552.263(e))",
