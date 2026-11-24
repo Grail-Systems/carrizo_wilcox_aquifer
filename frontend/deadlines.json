@@ -1,5 +1,5 @@
 {
-  "computed": "2026-11-23",
+  "computed": "2026-11-24",
   "note": "Deadlines are estimates. They skip weekends and Texas state holidays; local agencies may observe different holidays.",
   "requests": [
     {
@@ -40,7 +40,7 @@
       "type": "certified",
       "due": "2026-11-09",
       "text": "The agency said the records would be ready by Mon., Nov. 9.",
-      "overdue_bd": 9
+      "overdue_bd": 10
     },
     {
       "key": "Pineywoods Groundwater Conservation District|2026-09-25|",
@@ -50,7 +50,7 @@
       "type": "certified",
       "due": "2026-11-09",
       "text": "The agency said the records would be ready by Mon., Nov. 9.",
-      "overdue_bd": 9
+      "overdue_bd": 10
     },
     {
       "key": "Angelina County|2026-09-25|",
@@ -96,8 +96,8 @@
       "type": "legal",
       "due": "2026-11-17",
       "start": "2026-11-02",
-      "text": "Response was due Tue., Nov. 17 (10 business days after ETLC emailed the request). Past due by 4 business days.",
-      "overdue_bd": 4
+      "text": "Response was due Tue., Nov. 17 (10 business days after ETLC emailed the request). Past due by 5 business days.",
+      "overdue_bd": 5
     },
     {
       "key": "City of Lufkin|2026-11-02|CRR-2026-397",
@@ -184,6 +184,26 @@
       "agency": "City of Lufkin",
       "number": "CRR-2026-366",
       "filed": "2026-11-03"
+    },
+    {
+      "key": "City of Lufkin|2026-11-23|",
+      "agency": "City of Lufkin",
+      "number": "",
+      "filed": "2026-11-23",
+      "type": "legal",
+      "due": "2026-12-09",
+      "start": "2026-11-23",
+      "text": "Response due Wed., Dec. 9: 10 business days after ETLC emailed the request."
+    },
+    {
+      "key": "Pineywoods Groundwater Conservation District|2026-11-19|",
+      "agency": "Pineywoods Groundwater Conservation District",
+      "number": "",
+      "filed": "2026-11-19",
+      "type": "legal",
+      "due": "2026-12-07",
+      "start": "2026-11-19",
+      "text": "Response due Mon., Dec. 7: 10 business days after ETLC emailed the request."
     }
   ]
 }
