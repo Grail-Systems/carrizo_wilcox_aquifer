@@ -951,12 +951,12 @@
           "text": "The City logged this request as CRR-2026-413 (received Nov. 24) and asked ETLC to answer two yes/no questions on redactions."
         }
       ],
-      "waiting": "A CRR number and the City's response.",
+      "waiting": "The City's records, or a copy of any request to the Attorney General. ETLC asked for them by Dec. 11.",
       "found": [],
       "clock": {
-        "start": "2026-11-23",
+        "start": "2026-11-24",
         "kind": "legal",
-        "start_note": "ETLC emailed the request"
+        "start_note": "Emailed Nov. 23 at 10:21 PM, after hours, so received Nov. 24 (the City logged it Nov. 24)"
       }
     },
     {
