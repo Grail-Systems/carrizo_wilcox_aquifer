@@ -1,6 +1,6 @@
 {
   "computed": "2026-11-24",
-  "note": "Deadlines are estimates. They skip weekends and Texas state holidays; local agencies may observe different holidays.",
+  "note": "Deadlines are estimates. They skip weekends, Texas state holidays and closures an agency posts on its own site; other local holidays may differ.",
   "requests": [
     {
       "key": "City of Lufkin|2026-02-12|",
@@ -14,8 +14,8 @@
       "number": "CRR-2026-315",
       "filed": "2026-09-25",
       "type": "ag",
-      "due": "2026-12-16",
-      "text": "Attorney General ruling due about Wed., Dec. 16, 2026 (45 business days after the City of Lufkin request of Oct. 9; the AG may extend it 10 business days)."
+      "due": "2026-12-17",
+      "text": "Attorney General ruling due about Thu., Dec. 17, 2026 (45 business days after the City of Lufkin request of Oct. 9; the AG may extend it 10 business days)."
     },
     {
       "key": "City of Lufkin|2026-09-25|CRR-2026-316",
@@ -85,8 +85,8 @@
       "number": "CRR-2026-362",
       "filed": "2026-11-02",
       "type": "ag",
-      "due": "2027-01-29",
-      "text": "Attorney General ruling due about Fri., Jan. 29, 2027 (45 business days after the City of Lufkin request of Nov. 19; the AG may extend it 10 business days)."
+      "due": "2027-02-01",
+      "text": "Attorney General ruling due about Mon., Feb. 1, 2027 (45 business days after the City of Lufkin request of Nov. 19; the AG may extend it 10 business days)."
     },
     {
       "key": "Pineywoods Groundwater Conservation District|2026-11-02|",
@@ -105,9 +105,9 @@
       "number": "CRR-2026-397",
       "filed": "2026-11-02",
       "type": "expected",
-      "due": "2026-12-04",
+      "due": "2026-12-07",
       "start": "2026-11-18",
-      "text": "Expected around Fri., Dec. 4 (10 business days after ETLC's Nov. 18 follow-up asking for the Feb. 9 notice as posted and any posting record. The City first answered Nov. 18, one business day after the 10-business-day mark (Nov. 17).; no fixed legal deadline)."
+      "text": "Expected around Mon., Dec. 7 (10 business days after ETLC's Nov. 18 follow-up asking for the Feb. 9 notice as posted and any posting record. The City first answered Nov. 18, one business day after the 10-business-day mark (Nov. 17).; no fixed legal deadline)."
     },
     {
       "key": "Pineywoods Groundwater Conservation District|2026-11-10|",
@@ -145,9 +145,9 @@
       "number": "CRR-2026-403",
       "filed": "2026-11-18",
       "type": "legal",
-      "due": "2026-12-04",
+      "due": "2026-12-07",
       "start": "2026-11-18",
-      "text": "Response due Fri., Dec. 4: 10 business days after ETLC emailed the request."
+      "text": "Response due Mon., Dec. 7: 10 business days after ETLC emailed the request."
     },
     {
       "key": "City of Lufkin|2026-11-04|CRR-2026-372",
@@ -155,9 +155,9 @@
       "number": "CRR-2026-372",
       "filed": "2026-11-04",
       "type": "expected",
-      "due": "2026-12-07",
+      "due": "2026-12-08",
       "start": "2026-11-19",
-      "text": "Expected around Mon., Dec. 7 (10 business days after ETLC's Nov. 19 follow-up asking the City to search again (the City answered the original request on time, Nov. 17); no fixed legal deadline)."
+      "text": "Expected around Tue., Dec. 8 (10 business days after ETLC's Nov. 19 follow-up asking the City to search again (the City answered the original request on time, Nov. 17); no fixed legal deadline)."
     },
     {
       "key": "City of Lufkin|2026-11-19|",
@@ -165,9 +165,9 @@
       "number": "",
       "filed": "2026-11-19",
       "type": "legal",
-      "due": "2026-12-07",
+      "due": "2026-12-08",
       "start": "2026-11-19",
-      "text": "Response due Mon., Dec. 7: 10 business days after ETLC emailed the request."
+      "text": "Response due Tue., Dec. 8: 10 business days after ETLC emailed the request."
     },
     {
       "key": "City of Lufkin|2026-11-19|",
@@ -175,9 +175,9 @@
       "number": "",
       "filed": "2026-11-19",
       "type": "legal",
-      "due": "2026-12-07",
+      "due": "2026-12-08",
       "start": "2026-11-19",
-      "text": "Response due Mon., Dec. 7: 10 business days after ETLC emailed the request."
+      "text": "Response due Tue., Dec. 8: 10 business days after ETLC emailed the request."
     },
     {
       "key": "City of Lufkin|2026-11-03|CRR-2026-366",
@@ -186,14 +186,14 @@
       "filed": "2026-11-03"
     },
     {
-      "key": "City of Lufkin|2026-11-23|",
+      "key": "City of Lufkin|2026-11-23|CRR-2026-413",
       "agency": "City of Lufkin",
-      "number": "",
+      "number": "CRR-2026-413",
       "filed": "2026-11-23",
       "type": "legal",
-      "due": "2026-12-09",
-      "start": "2026-11-23",
-      "text": "Response due Wed., Dec. 9: 10 business days after ETLC emailed the request."
+      "due": "2026-12-11",
+      "start": "2026-11-24",
+      "text": "Response due Fri., Dec. 11: 10 business days after Emailed Nov. 23 at 10:21 PM, after hours, so received Nov. 24 (the City logged it Nov. 24)."
     },
     {
       "key": "Pineywoods Groundwater Conservation District|2026-11-19|",
