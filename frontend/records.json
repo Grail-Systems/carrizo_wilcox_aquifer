@@ -491,8 +491,8 @@
       "agency": "Texas Water Development Board",
       "number": "PIR-2026-324",
       "filed": "2026-11-02",
-      "status": "Open: waiting for records",
-      "state": "waiting",
+      "status": "Released: records posted Nov. 24; ETLC review pending",
+      "state": "done",
       "asked": "The City of Lufkin's 2026 water supply grant application, including the Form 0208 affidavit signed by the City Manager; TWDB correspondence with the City about it; and TWDB's review, scoring and funding recommendation.",
       "events": [
         {
@@ -510,9 +510,13 @@
         {
           "date": "2026-11-18",
           "text": "TWDB said it needs more time and expects the records to be ready by close of business Tue., Nov. 24."
+        },
+        {
+          "date": "2026-11-24",
+          "text": "TWDB completed the request on time at 3:22 PM and posted the records to its portal for download. ETLC has not reviewed them yet."
         }
       ],
-      "waiting": "Waiting for the agency to release records.",
+      "waiting": "Nothing from TWDB. ETLC still needs to download and read the records.",
       "found": [],
       "clock": {
         "start": "2026-11-02",
