@@ -1,5 +1,5 @@
 {
-  "computed": "2026-11-24",
+  "computed": "2026-11-25",
   "note": "Deadlines are estimates. They skip weekends, Texas state holidays and closures an agency posts on its own site; other local holidays may differ.",
   "requests": [
     {
@@ -63,7 +63,8 @@
       "filed": "2026-11-02",
       "type": "certified",
       "due": "2026-11-24",
-      "text": "The agency said the records would be ready by Tue., Nov. 24."
+      "text": "The agency said the records would be ready by Tue., Nov. 24.",
+      "overdue_bd": 1
     },
     {
       "key": "City of Lufkin|2026-11-02|CRR-2026-360",
@@ -88,8 +89,8 @@
       "type": "legal",
       "due": "2026-11-17",
       "start": "2026-11-02",
-      "text": "Response was due Tue., Nov. 17 (10 business days after ETLC emailed the request). Past due by 5 business days.",
-      "overdue_bd": 5
+      "text": "Response was due Tue., Nov. 17 (10 business days after ETLC emailed the request). Past due by 6 business days.",
+      "overdue_bd": 6
     },
     {
       "key": "City of Lufkin|2026-11-02|CRR-2026-397",

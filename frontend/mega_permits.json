@@ -13,22 +13,22 @@
     {
         "title": "HyperDataGrid data center, Ben Dunn Road",
         "applicant": "HyperDataGrid (tract bought through Paluxy LandCo)",
-        "bottom_line": "Ben Dunn Road off Hwy 103 West, Angelina County. The developer told the groundwater district it would use about 500 gallons a day, then asked for a combined 13 million gallons a year, just under the 15-million-gallon line that would require a public hearing for all five wells on the property. Three are old sawmill wells whose permits (A0046-A0048, held by Temple-Inland) expired in 2018; the District says the other two were drilled to supply gas-well rigs and are not licensed for the landowner's use. As of Sept. 29, 2026, the District had taken no action. Source: Pineywoods GCD emails, Aug.-Sept. 2026. Location approximate; exact site not yet mapped.",
+        "bottom_line": "Ben Dunn Road off Hwy 103 West, Angelina County. The developer told the groundwater district it would use about 500 gallons a day, then asked for a combined 13 million gallons a year, just under the 15-million-gallon line that would require a public hearing for all five wells on the property. Three are old sawmill wells whose earlier permits (held by Temple-Inland) expired in 2018. The District then issued new permits A0046, A0047 and A0048 to Paluxy LandCo for 3, 5 and 5 million gallons a year (13 million in all), dated Oct. 12, 2026, approved at the staff level with no board vote or hearing (General Manager Wil Blough, Nov. 23, 2026). The District says the other two wells were drilled to supply gas-well rigs and are not licensed for the landowner's use. Sources: Pineywoods GCD permits and emails, Aug.-Nov. 2026. Map point: the middle of the three permitted well locations.",
         "raw_volume": 1000,
         "coordinates": [
-            -94.8,
-            31.33
+            -94.8715,
+            31.3781
         ],
         "source_url": "docs/powered_land.pdf"
     },
     {
         "title": "Longleaf Power Station (WattBridge), north of Lufkin",
         "applicant": "Long Leaf Generating LLC / WattBridge Texas Holdings, LLC",
-        "bottom_line": "A 600 MW natural gas peaking plant in ERCOT's interconnection queue (project 26INR0294), connecting at the Redland Substation near Kurth Lake, north of Lufkin.<br><br><b>Tax break:</b> Angelina County approved a 10-year tax abatement for Long Leaf Generating LLC in May 2025: 100% for the first three years, then stepping down. The company must invest at least $350 million and create nine full-time jobs, and the county attorney said it must operate as a peaking plant, supplying power when demand is high (<a href=\"https://lufkindailynews.com/news/local/commissioners-approve-10-year-tax-abatement-for-long-leaf-generating-llc/article_952e0e31-4270-50a7-8633-aa3d2c1f6446.html\" target=\"_blank\" rel=\"noopener\">Lufkin Daily News</a>).<br><br><b>Water:</b> Approved for 80 million gallons a year in late 2024 or early 2025 (never drilled). In March 2026 it switched to 24/7 operation and requested 1.5 billion gallons a year, about 4.1 million gallons a day. On hold since July 2026 at the company's request. Source: Pineywoods GCD general manager. A 24/7 plant is not a peaking plant, so this change may conflict with the abatement terms.<br><br>Location approximate, near Kurth Lake.",
+        "bottom_line": "A 600 MW natural gas peaking plant in ERCOT's interconnection queue (project 26INR0294), connecting at the Redland Substation near Kurth Lake, north of Lufkin.<br><br><b>Tax break:</b> Angelina County approved a 10-year tax abatement for Long Leaf Generating LLC in May 2025: 100% for the first three years, then stepping down. The company must invest at least $350 million and create nine full-time jobs, and the county attorney said it must operate as a peaking plant, supplying power when demand is high (<a href=\"https://lufkindailynews.com/news/local/commissioners-approve-10-year-tax-abatement-for-long-leaf-generating-llc/article_952e0e31-4270-50a7-8633-aa3d2c1f6446.html\" target=\"_blank\" rel=\"noopener\">Lufkin Daily News</a>).<br><br><b>Water:</b> Approved for 80 million gallons a year in late 2024 or early 2025 (never drilled). In March 2026 it switched to 24/7 operation and requested 1.5 billion gallons a year, about 4.1 million gallons a day. On hold since July 2026 at the company's request. Source: Pineywoods GCD general manager. A 24/7 plant is not a peaking plant, so this change may conflict with the abatement terms.<br><br><b>Second plant:</b> ERCOT's October 2026 report lists Longleaf II (project 30INR0114, WattBridge Texas Holdings), another 600 MW gas plant in Angelina County, planned for July 2030. Project 26INR0294 does not appear in the rows we pull from that report; why is not yet confirmed.<br><br>Map point: WattBridge's own location in its Pineywoods GCD well application.",
         "raw_volume": 4603,
         "coordinates": [
-            -94.73,
-            31.42
+            -94.661777,
+            31.415961
         ],
         "source_url": "docs/powered_land.pdf",
         "ercot_inr": "26INR0294"

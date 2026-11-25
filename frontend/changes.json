@@ -2,6 +2,12 @@
  "since": "2026-10-31",
  "changes": [
   {
+   "county": [],
+   "text": "New in the records library: Powered land.",
+   "link": "https://grailsystems.io/carrizo_wilcox_aquifer/docs/powered_land.pdf",
+   "date": "2026-11-25"
+  },
+  {
    "county": [
     "Lubbock"
    ],
@@ -1387,5 +1393,5 @@
    "date": "2026-11-01"
   }
  ],
- "updated": "2026-11-24"
+ "updated": "2026-11-25"
 }
