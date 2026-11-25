@@ -987,6 +987,27 @@
         "kind": "legal",
         "start_note": "ETLC emailed the request"
       }
+    },
+    {
+      "agency": "Pineywoods Groundwater Conservation District",
+      "number": "",
+      "filed": "2026-11-25",
+      "status": "Waiting on the District",
+      "state": "waiting",
+      "asked": "All correspondence and attachments (maps, images, spreadsheets, model files) between the District and its hydrogeologic consultant about the Pitman Family Farms / 4G Poultry, LLC well permit applications since Sept. 1, 2026, and any report the consultant gave the District on them.",
+      "events": [
+        {
+          "date": "2026-11-25",
+          "text": "Request emailed to the District's general manager at 2:17 PM, asking for the records by Fri., Dec. 11, 2026 (10 business days, with the District closed Nov. 26–27)."
+        }
+      ],
+      "waiting": "The District's response, due Dec. 11.",
+      "found": [],
+      "clock": {
+        "start": "2026-11-25",
+        "kind": "legal",
+        "start_note": "ETLC emailed the request"
+      }
     }
   ]
 }
