@@ -1,5 +1,203 @@
 [
     {
+        "facility": "BEULAH WSC-PLANT - FM 58",
+        "status": "Violation Identified",
+        "bottom_line": "LUFKIN, Angelina County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
+        "coordinates": [
+            -94.668355,
+            31.184429
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012837519"
+    },
+    {
+        "facility": "CITY OF DIBOLL",
+        "status": "Significant Violation",
+        "bottom_line": "DIBOLL, Angelina County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 8. Flagged as significant violator.",
+        "coordinates": [
+            -94.78142,
+            31.18806
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110005027381"
+    },
+    {
+        "facility": "CITY OF HUNTINGTON WASTE WATER PLANT",
+        "status": "Violation Identified",
+        "bottom_line": "HUNTINGTON, Angelina County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 12.",
+        "coordinates": [
+            -94.558217,
+            31.26881
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110061540934"
+    },
+    {
+        "facility": "CITY OF HUNTINGTON-FM 2109 PLANT 2 - 1211 N 8TH ST",
+        "status": "Violation Identified",
+        "bottom_line": "HUNTINGTON, Angelina County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
+        "coordinates": [
+            -94.5661,
+            31.2756
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110010842785"
+    },
+    {
+        "facility": "CITY OF LUFKIN WATER PLANT",
+        "status": "Violation Identified",
+        "bottom_line": "LUFKIN, Angelina County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
+        "coordinates": [
+            -94.723991,
+            31.375103
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110000503919"
+    },
+    {
+        "facility": "CITY OF ZAVALLA-GUITP - HWY 147 NORTH",
+        "status": "Significant Violation",
+        "bottom_line": "ZAVALLA, Angelina County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 12. Flagged as significant violator.",
+        "coordinates": [
+            -94.433685,
+            31.148286
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009115527"
+    },
+    {
+        "facility": "HUDSON WSC",
+        "status": "Significant Violation",
+        "bottom_line": "None, Angelina County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 11. Flagged as significant violator.",
+        "coordinates": [
+            -94.611134,
+            31.251896
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012944840"
+    },
+    {
+        "facility": "LUFKIN GENERATING PLANT",
+        "status": "Significant Violation",
+        "bottom_line": "LUFKIN, Angelina County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 12. Flagged as significant violator.",
+        "coordinates": [
+            -94.74555,
+            31.36603
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110060333553"
+    },
+    {
+        "facility": "M & M WSC",
+        "status": "Violation Identified",
+        "bottom_line": "None, Angelina County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
+        "coordinates": [
+            -94.611134,
+            31.251896
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012837635"
+    },
+    {
+        "facility": "MOFFETT TWIN OAKS MHP",
+        "status": "Significant Violation",
+        "bottom_line": "LUFKIN, Angelina County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 12. Flagged as significant violator.",
+        "coordinates": [
+            -94.661749,
+            31.376724
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009779445"
+    },
+    {
+        "facility": "PLEASURE POINT-PLANT - PAUL ST",
+        "status": "Significant Violation",
+        "bottom_line": "BARKER, Angelina County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 11. Flagged as significant violator.",
+        "coordinates": [
+            -94.375656,
+            30.769295
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012837430"
+    },
+    {
+        "facility": "PRAIRIE GROVE-PLANT - FM 1818",
+        "status": "Violation Identified",
+        "bottom_line": "LUFKIN, Angelina County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
+        "coordinates": [
+            -94.75894,
+            31.36398
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012837653"
+    },
+    {
+        "facility": "QG PRINTING II",
+        "status": "Violation",
+        "bottom_line": "LUFKIN, Angelina County. EPA status: Violation. Quarters out of compliance (last 3 yrs): 12.",
+        "coordinates": [
+            -94.686918,
+            31.356129
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110017353335"
+    },
+    {
+        "facility": "RAYLAKE WSC",
+        "status": "Significant Violation",
+        "bottom_line": "None, Angelina County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 10. Flagged as significant violator.",
+        "coordinates": [
+            -94.611134,
+            31.251896
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110048032400"
+    },
+    {
+        "facility": "SUN N FUN WATER SUPPLY-TX AIRSTREAM HARBOR",
+        "status": "Significant Violation",
+        "bottom_line": "ZAVALLA, Angelina County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 10. Flagged as significant violator.",
+        "coordinates": [
+            -94.350197,
+            31.094487
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110047929042"
+    },
+    {
+        "facility": "TEXAS AIRSTREAM HARBOR WWTP",
+        "status": "Significant Violation",
+        "bottom_line": "ZAVALLA, Angelina County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 6. Flagged as significant violator.",
+        "coordinates": [
+            -94.361661,
+            31.193114
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110010121563"
+    },
+    {
+        "facility": "TX AIRSTREAM HARBOR WATER-PLANT - 714 ANGELINA",
+        "status": "Violation Identified",
+        "bottom_line": "ZAVALLA, Angelina County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 10.",
+        "coordinates": [
+            -94.254843,
+            31.133765
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110047620231"
+    },
+    {
+        "facility": "WALNUT RIDGE ESTATES WATER SYSTEM-PLANT - LAKE RD / CEDAR",
+        "status": "Violation Identified",
+        "bottom_line": "HUNTINGTON, Angelina County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 11.",
+        "coordinates": [
+            -94.509183,
+            31.229843
+        ],
+        "severity": 10,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012837412"
+    },
+    {
         "facility": "CARO WSC-PLANT 5 - CR 140",
         "status": "Significant Violation",
         "bottom_line": "NACOGDOCHES, Nacogdoches County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 11. Flagged as significant violator.",
@@ -1936,6 +2134,28 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009770523"
     },
     {
+        "facility": "CITY OF LUFKIN WASTEWATER TREATMENT PLANT",
+        "status": "Violation Identified",
+        "bottom_line": "LUFKIN, Angelina County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 8.",
+        "coordinates": [
+            -94.749667,
+            31.287699
+        ],
+        "severity": 8,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110000504026"
+    },
+    {
+        "facility": "CYBERSHIELD OF TEXAS INC",
+        "status": "Violation",
+        "bottom_line": "LUFKIN, Angelina County. EPA status: Violation. Quarters out of compliance (last 3 yrs): 8.",
+        "coordinates": [
+            -94.71575,
+            31.37391
+        ],
+        "severity": 8,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110000458656"
+    },
+    {
         "facility": "CITY OF NACOGDOCHES",
         "status": "No Violation Identified",
         "bottom_line": "None, Nacogdoches County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 8.",
@@ -2288,6 +2508,17 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012934888"
     },
     {
+        "facility": "WOODLAWN WSC-PLANT - HWY 103 WEST",
+        "status": "Violation Identified",
+        "bottom_line": "LUFKIN, Angelina County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 7.",
+        "coordinates": [
+            -94.75894,
+            31.36398
+        ],
+        "severity": 7,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012837699"
+    },
+    {
         "facility": "HUBER WSC",
         "status": "No Violation Identified",
         "bottom_line": "None, Shelby County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 7.",
@@ -2594,6 +2825,39 @@
         ],
         "severity": 7,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219962"
+    },
+    {
+        "facility": "CITY OF DIBOLL WWTP",
+        "status": "Violation Identified",
+        "bottom_line": "DIBOLL, Angelina County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 6.",
+        "coordinates": [
+            -94.797446,
+            31.16659
+        ],
+        "severity": 6,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110064622234"
+    },
+    {
+        "facility": "LAKEVIEW GROCERY-PLANT - 5896 HWY 147",
+        "status": "No Violation Identified",
+        "bottom_line": "ZAVALLA, Angelina County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 6.",
+        "coordinates": [
+            -94.33801,
+            31.20409
+        ],
+        "severity": 6,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110051864808"
+    },
+    {
+        "facility": "STRICKLAND SEPTIC",
+        "status": "Significant Violation",
+        "bottom_line": "LUFKIN, Angelina County. EPA status: Significant Violation. Quarters out of compliance (last 3 yrs): 2. Flagged as significant violator.",
+        "coordinates": [
+            -94.670067,
+            31.352726
+        ],
+        "severity": 6,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110072143873"
     },
     {
         "facility": "NACOGDOCHES PLANT 2A WWTP",
@@ -2926,6 +3190,39 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009748666"
     },
     {
+        "facility": "HHSC LUFKIN STATE SUPPORTED LIVING CENT",
+        "status": "No Violation Identified",
+        "bottom_line": "None, Angelina County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 5.",
+        "coordinates": [
+            -94.611134,
+            31.251896
+        ],
+        "severity": 5,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110022985402"
+    },
+    {
+        "facility": "TRI-LAKES OUTDOORS-PLANT",
+        "status": "Inactive",
+        "bottom_line": "ZAVALLA, Angelina County. EPA status: Inactive. Quarters out of compliance (last 3 yrs): 5.",
+        "coordinates": [
+            -94.33574,
+            31.19991
+        ],
+        "severity": 5,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110047929113"
+    },
+    {
+        "facility": "WATER PLANT 4",
+        "status": "Violation Identified",
+        "bottom_line": "LUFKIN, Angelina County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 5.",
+        "coordinates": [
+            -94.636861,
+            31.264333
+        ],
+        "severity": 5,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110009748513"
+    },
+    {
         "facility": "CONTRACTORS SUPPLIES",
         "status": "Violation Identified",
         "bottom_line": "NACOGDOCHES, Nacogdoches County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 5.",
@@ -3166,6 +3463,39 @@
         ],
         "severity": 5,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110000504954"
+    },
+    {
+        "facility": "CENTRAL WCID OF ANGELINA COUNTY",
+        "status": "No Violation Identified",
+        "bottom_line": "None, Angelina County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
+        "coordinates": [
+            -94.611134,
+            31.251896
+        ],
+        "severity": 4,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012837555"
+    },
+    {
+        "facility": "CONTRACTORS SUPPLIES LUFKIN PLANT",
+        "status": "Violation",
+        "bottom_line": "LUFKIN, Angelina County. EPA status: Violation. Quarters out of compliance (last 3 yrs): 4.",
+        "coordinates": [
+            -94.75564,
+            31.33574
+        ],
+        "severity": 4,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110006688147"
+    },
+    {
+        "facility": "JEWELL HUDGENS MACHINE",
+        "status": "No Violation Identified",
+        "bottom_line": "LUFKIN, Angelina County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 4.",
+        "coordinates": [
+            -94.73929,
+            31.34795
+        ],
+        "severity": 4,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110005037245"
     },
     {
         "facility": "SWIFT WSC-PLANT 2 - HWY 7 / 1 MI W OF PLANT 1",
@@ -3771,6 +4101,17 @@
         ],
         "severity": 4,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110013219926"
+    },
+    {
+        "facility": "NORTH ANGELINA COUNTY REGIONAL WASTEWATER",
+        "status": "No Violation Identified",
+        "bottom_line": "LUFKIN, Angelina County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 3.",
+        "coordinates": [
+            -94.762702,
+            31.389898
+        ],
+        "severity": 3,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110011385811"
     },
     {
         "facility": "BAILEY BARK MATERIALS FACILITY",
@@ -4466,6 +4807,28 @@
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110064649091"
     },
     {
+        "facility": "ANGELINA COUNTY FWSD NO 1 WWTP",
+        "status": "No Violation Identified",
+        "bottom_line": "LUFKIN, Angelina County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 2.",
+        "coordinates": [
+            -94.6501,
+            31.43884
+        ],
+        "severity": 2,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110064620085"
+    },
+    {
+        "facility": "LAKEVIEW RV PARK & AMP MOTEL WWTP",
+        "status": "No Violation Identified",
+        "bottom_line": "ZAVALLA, Angelina County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 2.",
+        "coordinates": [
+            -94.336666,
+            31.203333
+        ],
+        "severity": 2,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110064647413"
+    },
+    {
         "facility": "LILBERT LOONEYVILLE WSC",
         "status": "No Violation Identified",
         "bottom_line": "None, Nacogdoches County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 2.",
@@ -4695,6 +5058,83 @@
         ],
         "severity": 2,
         "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110029526724"
+    },
+    {
+        "facility": "BORDEN CHEMICAL INC",
+        "status": "No Violation Identified",
+        "bottom_line": "DIBOLL, Angelina County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
+        "coordinates": [
+            -94.783056,
+            31.196944
+        ],
+        "severity": 1,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110000458692"
+    },
+    {
+        "facility": "CASSELS BOYKIN COUNTY PARK",
+        "status": "No Violation Identified",
+        "bottom_line": "None, Angelina County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
+        "coordinates": [
+            -94.611134,
+            31.251896
+        ],
+        "severity": 1,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110052539268"
+    },
+    {
+        "facility": "CITY OF HUDSON WWTP",
+        "status": "No Violation Identified",
+        "bottom_line": "HUDSON, Angelina County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
+        "coordinates": [
+            -94.80655,
+            31.31183
+        ],
+        "severity": 1,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071157453"
+    },
+    {
+        "facility": "DURRETT READY MIX",
+        "status": "Violation Identified",
+        "bottom_line": "LUFKIN, Angelina County. EPA status: Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
+        "coordinates": [
+            -94.6544,
+            31.2961
+        ],
+        "severity": 1,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110071668312"
+    },
+    {
+        "facility": "PILGRIMS PRIDE LUFKIN SHOP AND STAGING AREA",
+        "status": "No Violation Identified",
+        "bottom_line": "LUFKIN, Angelina County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
+        "coordinates": [
+            -94.759848,
+            31.34441
+        ],
+        "severity": 1,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110070368730"
+    },
+    {
+        "facility": "POLLOK-REDTOWN WSC",
+        "status": "No Violation Identified",
+        "bottom_line": "None, Angelina County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
+        "coordinates": [
+            -94.611134,
+            31.251896
+        ],
+        "severity": 1,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012945037"
+    },
+    {
+        "facility": "REDLAND WSC",
+        "status": "No Violation Identified",
+        "bottom_line": "None, Angelina County. EPA status: No Violation Identified. Quarters out of compliance (last 3 yrs): 1.",
+        "coordinates": [
+            -94.611134,
+            31.251896
+        ],
+        "severity": 1,
+        "source_url": "https://echo.epa.gov/detailed-facility-report?fid=110012944975"
     },
     {
         "facility": "MARTINSVILLE ISD WWTP",
