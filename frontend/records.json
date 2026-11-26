@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-26",
   "requests": [
     {
       "agency": "City of Lufkin",
@@ -491,7 +491,7 @@
       "agency": "Texas Water Development Board",
       "number": "PIR-2026-324",
       "filed": "2026-11-02",
-      "status": "Released: records posted Nov. 24; ETLC review pending",
+      "status": "Released Nov. 24; ETLC read all 24 files Nov. 25",
       "state": "done",
       "asked": "The City of Lufkin's 2026 water supply grant application, including the Form 0208 affidavit signed by the City Manager; TWDB correspondence with the City about it; and TWDB's review, scoring and funding recommendation.",
       "events": [
@@ -514,10 +514,20 @@
         {
           "date": "2026-11-24",
           "text": "TWDB completed the request on time at 3:22 PM and posted the records to its portal for download. ETLC has not reviewed them yet."
+        },
+        {
+          "date": "2026-11-25",
+          "text": "ETLC downloaded and read all 24 released files. TWDB produced no review, scoring or funding decision on the application."
         }
       ],
-      "waiting": "Nothing from TWDB. ETLC still needs to download and read the records.",
-      "found": [],
+      "waiting": "Nothing from TWDB. ETLC follow-up questions pending.",
+      "found": [
+        "The City asked for a $21 million Water Supply and Infrastructure Grant. Council approved Resolution 2026-0010 on July 21, 2026, 5-0.",
+        "The main project is to rehab or redrill nine existing wells that the application says were 'initially drilled for industrial use' and 'have never been used for potable drinking water,' with a combined 4,590 acre-feet a year.",
+        "The City's water rights affidavit lists the nine wells with their Pineywoods permit numbers. Those permits add up to about 4,590.7 acre-feet a year (ETLC's math).",
+        "The City's site certificate attaches the land and well-site descriptions from its 2009 purchase of Abitibi's water system.",
+        "The application answered 'No' to enforcement actions in the past three years. The same release includes a 2024 TCEQ Agreed Order (Docket 2020-1536-MWD-E) and a March 2026 TCEQ notice of violation. ETLC is asking how the question was meant to be answered."
+      ],
       "clock": {
         "start": "2026-11-02",
         "kind": "legal",
