@@ -81,6 +81,15 @@
         <div class="legend-item"><div class="color-box" style="background: transparent; border: 3px solid #0070ff; border-radius: 50%;"></div> Pitman modeled drawdown, Middle Wilcox (traced ±1 mi)</div>
         <div class="legend-item"><div class="color-box" style="background: transparent; border: 2px solid #be5aff; border-radius: 50%;"></div> Pitman modeled drawdown, Upper Wilcox (traced ±1 mi)</div>
         
+        <div id="pitman-facts" style="display:none; margin-top:12px; padding:10px; border-left:4px solid #0070ff; background:rgba(0,112,255,0.08); font-size:0.8rem; line-height:1.45; color:#ddd;">
+            <strong style="color:#4aa3ff;">Pitman wells: what the records show</strong><br>
+            Pitman Family Farms asks for 3,363 acre-feet a year (about 1.1 billion gallons) from five deep wells on FM 225.<br>
+            The District's own consultant models the deep (Middle Wilcox) layer dropping about <b>445 ft</b> at the wellfield, <b>233 ft</b> two miles east and <b>96 ft</b> under Nacogdoches.<br>
+            Protect Our Piney Woods counts <b>283 wells</b> inside the 100-ft line and about <b>1,150</b> inside the 50-ft line.<br>
+            D&amp;M Water Supply's Alazan well is about a third of a mile from the site. The site is about 0.2 miles from Lake Nacogdoches.<br>
+            <span style="color:#aaa;">Lines on this map are traced by hand, about ±1 mile. Not an official map. Sources: the District consultant's model results; Protect Our Piney Woods' analysis (protectourpineywoods.com).</span><br>
+            <a href="/carrizo_wilcox_aquifer/landowners.html" style="color:#4aa3ff;">Live near the site? Sign up here.</a>
+        </div>
         <div style="margin-top: 15px; border-top: 1px solid #444; padding-top: 15px;">
             <strong style="color: #fff; font-size: 0.95rem;">FILTERS</strong><br>
             
@@ -94,8 +103,8 @@
             <div class="slider-container"><label style="font-size: 0.75rem; color: #39FF14; display: flex; justify-content: space-between;"><span title="Quarters out of compliance in recent EPA records, plus 4 for significant violators (max 10)">Min. EPA score:</span><span id="toxin-val">1+</span></label><input type="range" id="toxin-slider" min="1" max="10" step="1" value="1" oninput="updateLabels(); scheduleGrid();"></div>
             
             <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;"><input type="checkbox" id="toggle-existing" checked onchange="updateGrid()"> 💧 Show Wells on File (TWDB)</label>
-            <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;" title="Traced by ETLC/Grail Systems, about ±1 mile, from maps labeled for Pitman Family Farms (Scenario 33, 5 wells, 3 MGD). Middle Wilcox layer only; no Carrizo map has been shared. Maps provided by Protect Our Piney Woods (protectourpineywoods.com)."><input type="checkbox" id="toggle-pff" onchange="updateGrid()"> 🔵 Pitman modeled drawdown, Middle Wilcox, 50 yr (traced, ±1 mi)</label>
-            <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;" title="Traced by ETLC/Grail Systems, about ±1 mile, from maps labeled for Pitman Family Farms (Scenario 33, 5 wells, 3 MGD). Upper Wilcox layer; no Carrizo map has been shared. Maps provided by Protect Our Piney Woods (protectourpineywoods.com)."><input type="checkbox" id="toggle-pff-upper" onchange="updateGrid()"> 🟣 Pitman modeled drawdown, Upper Wilcox, 50 yr (traced, ±1 mi)</label>
+            <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;" title="Traced by ETLC/Grail Systems, about ±1 mile, from the Pineywoods District consultant's drawdown maps labeled for Pitman Family Farms (Scenario 33, 5 wells, 3 MGD). Middle Wilcox layer only; no Carrizo map has been shared. Maps provided by Protect Our Piney Woods (protectourpineywoods.com)."><input type="checkbox" id="toggle-pff" onchange="updateGrid()"> 🔵 Pitman modeled drawdown, Middle Wilcox, 50 yr (traced, ±1 mi)</label>
+            <label style="font-size: 0.85rem; display: block; margin-top: 10px; cursor: pointer;" title="Traced by ETLC/Grail Systems, about ±1 mile, from the Pineywoods District consultant's drawdown maps labeled for Pitman Family Farms (Scenario 33, 5 wells, 3 MGD). Upper Wilcox layer; no Carrizo map has been shared. Maps provided by Protect Our Piney Woods (protectourpineywoods.com)."><input type="checkbox" id="toggle-pff-upper" onchange="updateGrid()"> 🟣 Pitman modeled drawdown, Upper Wilcox, 50 yr (traced, ±1 mi)</label>
         </div>
 
 
@@ -222,7 +231,7 @@
         }
         
         const nocache = '?v=' + new Date().getTime();
-        if (PITMAN_VIEW) { document.getElementById('feed-title').textContent = 'Measured water wells'; document.getElementById('feed-tab-label').textContent = 'Water wells'; }
+        if (PITMAN_VIEW) { document.getElementById('feed-title').textContent = 'Measured water wells'; document.getElementById('feed-tab-label').textContent = 'Water wells'; } if (PITMAN_VIEW) { const pf = document.getElementById('pitman-facts'); if (pf) pf.style.display = 'block'; }
         if (PITMAN_VIEW) { ['toggle-permits','toggle-toxins','toggle-existing'].forEach(id => { document.getElementById(id).checked = false; }); ['toggle-usgs','toggle-pff','toggle-pff-upper'].forEach(id => { document.getElementById(id).checked = true; }); }
         fetch('frontend/pitman_drawdown_contours.json' + '?v=' + Date.now()).then(r => r.json()).then(g => { globalPFF = g.features || []; updateGrid(); }).catch(() => {});
         Promise.all([fetch('frontend/mega_permits.json' + nocache).then(res => res.json()).catch(() => []), fetch('frontend/usgs_telemetry.json' + nocache).then(res => res.json()).catch(() => []), fetch('frontend/toxin_feed.json' + nocache).then(res => res.json()).catch(() => []), fetch('frontend/threat_wells.json' + nocache).then(res => res.json()).then(data => data.features || []).catch(() => [])]).then(([permitData, usgsData, toxinData, wellData]) => {
