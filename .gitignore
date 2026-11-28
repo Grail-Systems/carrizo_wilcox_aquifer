@@ -7,12 +7,5 @@ raw-data/
 __pycache__/
 *.pyc
 node_modules/
-data-engine/land_matches.json
 *.bak
-.feed_guard/
-P2A/
-redaction_review/
-*.review.tsv
 data-engine/
-current_schema.txt
-sweeper.py
