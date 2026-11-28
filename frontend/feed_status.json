@@ -1,60 +1,60 @@
 {
-  "checked": "2026-11-28T06:41:01+00:00",
+  "checked": "2026-11-28T16:36:19+00:00",
   "feeds": [
     {
       "label": "Permits and ERCOT grid requests",
       "state": "unchanged",
       "records": 141,
-      "last_good": "2026-11-03T16:00:30+00:00",
+      "last_good": "2026-11-28T16:36:19+00:00",
       "note": ""
     },
     {
       "label": "EPA ECHO violations",
       "state": "unchanged",
       "records": 527,
-      "last_good": "2026-11-26T18:15:05+00:00",
+      "last_good": "2026-11-28T16:36:19+00:00",
       "note": ""
     },
     {
       "label": "TWDB well water levels",
       "state": "unchanged",
       "records": 422,
-      "last_good": "2026-11-01T14:53:05+00:00",
+      "last_good": "2026-11-28T16:36:19+00:00",
       "note": ""
     },
     {
       "label": "Threat feed",
       "state": "unchanged",
       "records": 43,
-      "last_good": "2026-10-21T22:07:04+00:00",
+      "last_good": "2026-11-28T16:36:19+00:00",
       "note": ""
     },
     {
       "label": "Wells on file (TWDB)",
       "state": "unchanged",
       "records": 2530,
-      "last_good": "2026-10-21T22:07:04+00:00",
+      "last_good": "2026-11-28T16:36:19+00:00",
       "note": ""
     },
     {
       "label": "Follow the Money officials",
       "state": "unchanged",
       "records": 4,
-      "last_good": "2026-10-21T23:07:02+00:00",
+      "last_good": "2026-11-28T16:36:19+00:00",
       "note": ""
     },
     {
       "label": "Legislative votes (LegiScan)",
       "state": "unchanged",
       "records": 2237,
-      "last_good": "2026-10-21T22:06:52+00:00",
+      "last_good": "2026-11-28T16:36:00+00:00",
       "note": ""
     },
     {
       "label": "Campaign donations (TEC)",
       "state": "unchanged",
       "records": 300,
-      "last_good": "2026-10-21T22:06:52+00:00",
+      "last_good": "2026-11-28T16:36:00+00:00",
       "note": ""
     }
   ]
